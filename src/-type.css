@@ -1,0 +1,55 @@
+.al { text-align: left; }
+.ar { text-align: right; }
+.ac { text-align: center; }
+
+.uc { text-transform: uppercase; }
+.lc { text-transform: lowercase; }
+.cc { text-transform: capitalize; }
+.nc { text-transform: none; }
+
+.h1 { font-size: 2.5rem; }
+.h2 { font-size: 2.0rem; }
+.h3 { font-size: 1.5rem; }
+.h4 { font-size: 1.25rem; }
+.h5 { font-size: 1.125rem; }
+.h6 { font-size: 1.0625rem; }
+
+.f0 { font-size: 1rem; } /* 16 */
+.f1 { font-size: 0.9375rem; } /* 15 */
+.f2 { font-size: 0.875rem; } /* 14 */
+.f3 { font-size: 0.8125rem; } /* 13 */
+.f4 { font-size: 0.75rem; } /* 12 */
+
+.lh0 { line-height: 1; } /* 16 */
+.lh1 { line-height: 1.125 } /* 18 */
+.lh2 { line-height: 1.1875; } /* 19 */
+.lh3 { line-height: 1.375; } /* 22 */
+.lh4 { line-height: 1.5; } /* 25 */
+
+.normal { font-weight: normal; }
+.b      { font-weight: bold; }
+.fw100  { font-weight: 100; }
+.fw200  { font-weight: 200; }
+.fw300  { font-weight: 300; }
+.fw400  { font-weight: 400; }
+.fw500  { font-weight: 500; }
+.fw600  { font-weight: 600; }
+.fw700  { font-weight: 700; }
+.fw800  { font-weight: 800; }
+.fw900  { font-weight: 900; }
+
+.code {
+  font-family: var(--code-font-family, monospace);
+}
+
+@media (--view-sd) {
+  .sd- {}
+}
+
+@media (--view-md) {
+  .md- {}
+}
+
+@media (--view-ld) {
+  .ld- {}
+}

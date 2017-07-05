@@ -1,0 +1,23 @@
+:root {
+
+  --font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+
+  --text-color: var(--black, black);
+  --link-color: var(--blue, blue);
+
+  --code-font-family: 'Menlo', 'Andale Mono', monospace;
+
+}
+
+@custom-media --view-sd (width >=  480px);
+@custom-media --view-md (width >=  768px);
+@custom-media --view-ld (width >= 1024px);
+
+@custom-media --view-sd-less (width <  480px);
+@custom-media --view-md-less (width <  768px);
+@custom-media --view-ld-less (width < 1024px);
+
+@custom-media --ie screen and (-ms-high-contrast: active), (-ms-high-contrast: none);

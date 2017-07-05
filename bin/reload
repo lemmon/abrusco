@@ -1,0 +1,8 @@
+#!/bin/sh
+BASE_DIR=`cd $(dirname $0)/..; pwd`
+cd $BASE_DIR
+
+rm -rfv node_modules
+rm -v package-lock.json
+
+npm i

@@ -12,15 +12,22 @@ const fileExists = require('file-exists')
 const cli = meow(`
   Usage
     $ abrusco <input.css>
+
+  Options
+    -o, --output Output file
+
   Example
-    $ abrusco src/master.css > dist/bundle.css
+    $ abrusco src/master.css -o dist/bundle.css
+    $ abrusco src/master.css -o dist/bundle.css --minify
 `, {
   alias: {
     h: 'help',
+    o: 'output',
   }
 })
 
 const inputFile = cli.input[0]
+const outputFile = cli.flags.output
 
 if (isBlank(inputFile)) {
   console.error(chalk.red('Please provide an input stylesheet'))
@@ -30,6 +37,14 @@ if (isBlank(inputFile)) {
   console.error(chalk.red('File does not exist ' + inputFile))
   console.log(cli.help)
   process.exit(1)
+}
+
+if (outputFile) {
+  if (typeof outputFile !== 'string') {
+    console.error(chalk.red('Invalid output file provided'))
+    console.log(cli.help)
+    process.exit(1)
+  }
 }
 
 const postcss = require('postcss')
@@ -47,8 +62,19 @@ const options = {
   from: inputFile,
 }
 
+if (outputFile) {
+  options.to = outputFile
+}
+
 fs.readFile(inputFile, 'utf8', (err, css) => {
   postcss(plugins).process(css, options).then(res => {
-    console.log(res.css)
+    if (outputFile) {
+      fs.writeFile(outputFile, res.css, (err) => {
+        if (err) throw err
+        console.log('Okay')
+      })
+    } else {
+      process.stdout.write(res.css)
+    }
   })
 })

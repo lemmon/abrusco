@@ -20,7 +20,7 @@ const cli = meow(`
   }
 })
 
-const inputFile = cli.input[0]//path.join(process.cwd(), )
+const inputFile = cli.input[0]
 
 if (isBlank(inputFile)) {
   console.error(chalk.red('Please provide an input stylesheet'))
@@ -33,16 +33,22 @@ if (isBlank(inputFile)) {
 }
 
 const postcss = require('postcss')
-const postcssCssnext = require('postcss-cssnext')
-const postcssImport = require('postcss-import')
+const plugins = [
+  require('postcss-import'),
+  require('postcss-assets')({
+    loadPaths: [
+      path.join(__dirname, 'src'),
+    ],
+  }),
+  require('postcss-cssnext'),
+  //require('postcss-reporter'),
+]
+const options = {
+  from: inputFile,
+}
 
 fs.readFile(inputFile, 'utf8', (err, css) => {
-  postcss([
-    postcssImport,
-    postcssCssnext,
-  ]).process(css, {
-    from: inputFile,
-  }).then(res => {
+  postcss(plugins).process(css, options).then(res => {
     console.log(res.css)
   })
 })

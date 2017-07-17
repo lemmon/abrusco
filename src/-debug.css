@@ -1,0 +1,29 @@
+.-d * { box-shadow: 0 0 0 1px var(--gold, gold); }
+.-d .-d { outline: 1px dashed var(--purple, purple) !important; }
+
+.--view {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: var(--yellow);
+  color: #000;
+  line-height: 1;
+  font-size: 12px;
+  padding: 4px;
+  z-index: 9999;
+  &::before {
+    content: '-'
+  }
+}
+
+@media (--view-sd) {
+  .--view::before { content: 'SD'; }
+}
+
+@media (--view-md) {
+  .--view::before { content: 'MD'; }
+}
+
+@media (--view-ld) {
+  .--view::before { content: 'LD'; }
+}

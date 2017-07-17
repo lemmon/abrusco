@@ -1,0 +1,23 @@
+.bg {
+  &-cover {
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  &-contain {
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  &-black { background-color: var(--black, black); }
+  &-white { background-color: var(--white, white); }
+  &-red { background-color: var(--red, red); }
+  &-orange { background-color: var(--orange, orange); }
+  &-gold { background-color: var(--gold, gold); }
+  &-yellow { background-color: var(--yellow, yellow); }
+  &-purple { background-color: var(--purple, purple); }
+  &-pink { background-color: var(--pink, pink); }
+  &-green { background-color: var(--green, green); }
+  &-navy { background-color: var(--navy, navy); }
+  &-blue { background-color: var(--blue, blue); }
+}

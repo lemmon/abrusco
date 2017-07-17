@@ -1,3 +1,14 @@
+:root {
+
+  --h1: 2.5rem;     /* 40 */
+  --h2: 2.0rem;     /* 32 */
+  --h3: 1.5rem;     /* 24 */
+  --h4: 1.25rem;    /* 20 */
+  --h5: 1.125rem;   /* 18 */
+  --h6: 1.0625rem;  /* 17 */
+
+}
+
 .al { text-align: left; }
 .ar { text-align: right; }
 .ac { text-align: center; }
@@ -7,12 +18,12 @@
 .cc { text-transform: capitalize; }
 .nc { text-transform: none; }
 
-.h1 { font-size: 2.5rem; }
-.h2 { font-size: 2.0rem; }
-.h3 { font-size: 1.5rem; }
-.h4 { font-size: 1.25rem; }
-.h5 { font-size: 1.125rem; }
-.h6 { font-size: 1.0625rem; }
+.h1 { font-size: var(--h1); }
+.h2 { font-size: var(--h2); }
+.h3 { font-size: var(--h3); }
+.h4 { font-size: var(--h4); }
+.h5 { font-size: var(--h5); }
+.h6 { font-size: var(--h6); }
 
 .f0 { font-size: 1rem; } /* 16 */
 .f1 { font-size: 0.9375rem; } /* 15 */

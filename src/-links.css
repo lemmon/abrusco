@@ -2,15 +2,4 @@
   &-anchor {
     display: block;
   }
-  &-link {
-    box-shadow: inset 0 -1px color(var(--link-color, blue) alpha(50%));
-  }
-  &-shade {
-    box-shadow: inset 0 -1px color(var(--text-color, black) alpha(20%));
-  }
-  &-hover:hover,
-  &-anchor:hover &-hover {
-    box-shadow: inset 0 -2px color(var(--link-color, blue) alpha(50%));
-    color: var(--text-color-accent, black);
-  }
 }

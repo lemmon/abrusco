@@ -69,6 +69,12 @@
     &p2   { padding:   2rem; }
     &p3   { padding:   3rem; }
     &p4   { padding:   4rem; }
+
+    &px1   { padding-left:   1rem; padding-right:   1rem; }
+    &px2   { padding-left:   2rem; padding-right:   2rem; }
+
+    &py1   { padding-top:   1rem; padding-bottom:   1rem; }
+    &py2   { padding-top:   2rem; padding-bottom:   2rem; }
   }
 }
 
@@ -80,6 +86,12 @@
     &p2   { padding:   2rem; }
     &p3   { padding:   3rem; }
     &p4   { padding:   4rem; }
+
+    &px1   { padding-left:   1rem; padding-right:   1rem; }
+    &px2   { padding-left:   2rem; padding-right:   2rem; }
+
+    &py1   { padding-top:   1rem; padding-bottom:   1rem; }
+    &py2   { padding-top:   2rem; padding-bottom:   2rem; }
   }
 }
 
@@ -91,5 +103,11 @@
     &p2   { padding:   2rem; }
     &p3   { padding:   3rem; }
     &p4   { padding:   4rem; }
+
+    &px1   { padding-left:   1rem; padding-right:   1rem; }
+    &px2   { padding-left:   2rem; padding-right:   2rem; }
+
+    &py1   { padding-top:   1rem; padding-bottom:   1rem; }
+    &py2   { padding-top:   2rem; padding-bottom:   2rem; }
   }
 }

@@ -17,3 +17,8 @@ a {
   background-color: transparent;
   outline: 0;
 }
+
+hr {
+  margin: 0;
+  border: 0;
+}

@@ -15,6 +15,7 @@ const cli = meow(`
 
   Options
     -o, --output Output file
+    -m, --minify Minify the output stylesheet
 
   Example
     $ abrusco src/master.css -o dist/bundle.css
@@ -22,6 +23,7 @@ const cli = meow(`
 `, {
   alias: {
     h: 'help',
+    m: 'minify',
     o: 'output',
   }
 })
@@ -64,6 +66,10 @@ const options = {
 
 if (outputFile) {
   options.to = outputFile
+}
+
+if (cli.flags.minify) {
+  plugins.push(require('cssnano'))
 }
 
 fs.readFile(inputFile, 'utf8', (err, css) => {

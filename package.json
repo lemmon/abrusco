@@ -8,10 +8,12 @@
     "abrusco": "cli.js"
   },
   "scripts": {
-    "build:css": "node cli.js src/master.css -o css/master.css"
+    "build:css": "node cli.js src/master.css -o css/master.css",
+    "build:minify": "node cli.js src/master.css -o css/master.min.css --minify"
   },
   "dependencies": {
     "chalk": "^2.0.1",
+    "cssnano": "^3.10.0",
     "file-exists": "^4.0.0",
     "is-blank": "^2.1.0",
     "meow": "^3.7.0",

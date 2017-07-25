@@ -18,6 +18,15 @@
 .color {
   &-inherit { color: inherit; }
   &-black { color: var(--black); }
+  &-black-90 { color: color(var(--black) alpha(90%)); }
+  &-black-80 { color: color(var(--black) alpha(80%)); }
+  &-black-70 { color: color(var(--black) alpha(70%)); }
+  &-black-60 { color: color(var(--black) alpha(60%)); }
+  &-black-50 { color: color(var(--black) alpha(50%)); }
+  &-black-40 { color: color(var(--black) alpha(40%)); }
+  &-black-30 { color: color(var(--black) alpha(30%)); }
+  &-black-20 { color: color(var(--black) alpha(20%)); }
+  &-black-10 { color: color(var(--black) alpha(10%)); }
   &-white { color: var(--white); }
   &-red { color: var(--red); }
   &-orange { color: var(--orange); }

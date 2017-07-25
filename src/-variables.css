@@ -6,6 +6,7 @@
     'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 
+  --background-color: var(--white, white);
   --text-color: var(--black, black);
   --link-color: var(--blue, blue);
 

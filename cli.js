@@ -58,7 +58,7 @@ const plugins = [
     ],
   }),
   require('postcss-cssnext'),
-  //require('postcss-reporter'),
+  require('postcss-reporter'),
 ]
 const options = {
   from: inputFile,

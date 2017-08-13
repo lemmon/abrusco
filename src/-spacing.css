@@ -56,10 +56,20 @@
 .mt1   { margin-top:   1rem; }
 .mt2   { margin-top:   2rem; }
 
+.mr025 { margin-right: .25rem; }
+.mr05  { margin-right:  .5rem; }
+.mr1   { margin-right:   1rem; }
+.mr2   { margin-right:   2rem; }
+
 .mb025 { margin-bottom: .25rem; }
 .mb05  { margin-bottom:  .5rem; }
 .mb1   { margin-bottom:   1rem; }
 .mb2   { margin-bottom:   2rem; }
+
+.ml025 { margin-left: .25rem; }
+.ml05  { margin-left:  .5rem; }
+.ml1   { margin-left:   1rem; }
+.ml2   { margin-left:   2rem; }
 
 @media (--view-sd) {
   .sd- {

@@ -20,6 +20,7 @@
     "postcss": "^5.2.12",
     "postcss-assets": "^4.1.0",
     "postcss-cssnext": "^2.9.0",
+    "postcss-discard-comments": "^2.0.4",
     "postcss-import": "^9.1.0",
     "postcss-reporter": "^3.0.0"
   },

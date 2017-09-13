@@ -58,6 +58,7 @@ const plugins = [
     ],
   }),
   require('postcss-cssnext'),
+  require('postcss-discard-comments'),
   require('postcss-reporter'),
 ]
 const options = {

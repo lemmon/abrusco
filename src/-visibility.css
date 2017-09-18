@@ -22,21 +22,21 @@
   }
 }
 
-@media (--view-sd-less) {
+@media (--view-ltsd) {
   .ltsd- {
     &show { display: block; }
     &hide { display: none; }
   }
 }
 
-@media (--view-md-less) {
+@media (--view-ltmd) {
   .ltmd- {
     &show { display: block; }
     &hide { display: none; }
   }
 }
 
-@media (--view-ld-less) {
+@media (--view-ltld) {
   .ltld- {
     &show { display: block; }
     &hide { display: none; }

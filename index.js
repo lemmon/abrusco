@@ -1,3 +1,4 @@
+const path = require('path')
 const postcss = require('postcss')
 
 const getPlugins = (options) => {

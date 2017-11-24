@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const fs = require('fs')
-const path = require('path')
 const meow = require('meow')
 const chalk = require('chalk')
 //const mkdirp = require('mkdirp')
@@ -52,7 +51,7 @@ if (outputFile) {
 const options = {
   from: inputFile,
   plugins: [
-    require('postcss-reporter'),    
+    require('postcss-reporter'),
   ],
 }
 

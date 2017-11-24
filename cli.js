@@ -63,6 +63,8 @@ if (cli.flags.minify) {
   options.minify = true
 }
 
+const abrusco = require('./index')
+
 fs.readFile(inputFile, 'utf8', (err, css) => {
   abrusco(css, options).then(res => {
     if (outputFile) {

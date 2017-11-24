@@ -49,20 +49,11 @@ if (outputFile) {
   }
 }
 
-const postcss = require('postcss')
-const plugins = [
-  require('postcss-import'),
-  require('postcss-assets')({
-    loadPaths: [
-      path.join(__dirname, 'src'),
-    ],
-  }),
-  require('postcss-cssnext'),
-  require('postcss-discard-comments'),
-  require('postcss-reporter'),
-]
 const options = {
   from: inputFile,
+  plugins: [
+    require('postcss-reporter'),    
+  ],
 }
 
 if (outputFile) {
@@ -70,11 +61,11 @@ if (outputFile) {
 }
 
 if (cli.flags.minify) {
-  plugins.push(require('cssnano'))
+  options.minify = true
 }
 
 fs.readFile(inputFile, 'utf8', (err, css) => {
-  postcss(plugins).process(css, options).then(res => {
+  abrusco(css, options).then(res => {
     if (outputFile) {
       fs.writeFile(outputFile, res.css, (err) => {
         if (err) throw err

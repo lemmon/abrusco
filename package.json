@@ -2,16 +2,14 @@
   "name": "abrusco",
   "description": "Hackable CSS toolbox",
   "version": "0.0.1",
+  "author": "lemmon",
+  "license": "MIT",
   "main": "index.js",
   "style": "src/master.css",
   "bin": {
     "abrusco": "cli.js"
   },
-  "scripts": {
-    "build:css": "node cli.js src/master.css -o css/master.css",
-    "build:minify": "node cli.js src/master.css -o css/master.min.css --minify"
-  },
-  "dependencies": {
+  "devDependencies": {
     "chalk": "^2.0.1",
     "cssnano": "^3.10.0",
     "file-exists": "^4.0.0",
@@ -24,5 +22,23 @@
     "postcss-import": "^9.1.0",
     "postcss-reporter": "^3.0.0"
   },
-  "license": "MIT"
+  "scripts": {
+    "build:css": "node cli.js src/master.css -o css/master.css",
+    "build:minify": "node cli.js src/master.css -o css/master.min.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemmon/abrusco.git"
+  },
+  "keywords": [
+    "css",
+    "oocss",
+    "postcss",
+    "design",
+    "responsive"
+  ],
+  "bugs": {
+    "url": "https://github.com/lemmon/abrusco/issues"
+  },
+  "homepage": "https://github.com/lemmon/abrusco#readme"
 }

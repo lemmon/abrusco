@@ -1,7 +1,7 @@
 {
   "name": "abrusco",
   "description": "Hackable CSS toolbox",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "lemmon",
   "license": "MIT",
   "main": "index.js",
@@ -23,8 +23,9 @@
     "postcss-reporter": "^3.0.0"
   },
   "scripts": {
-    "build:css": "node cli.js src/master.css -o css/master.css",
-    "build:minify": "node cli.js src/master.css -o css/master.min.css --minify"
+    "build:css": "node cli.js src/master.css -o css/abrusco.css",
+    "build:minify": "node cli.js css/abrusco.css -o css/abrusco.min.css --minify",
+    "build": "npm run build:css && npm run build:minify"
   },
   "repository": {
     "type": "git",

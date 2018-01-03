@@ -64,13 +64,16 @@ if (cli.flags.minify) {
 }
 
 const abrusco = require('./index')
+const t0 = Date.now()
 
 fs.readFile(inputFile, 'utf8', (err, css) => {
   abrusco(css, options).then(res => {
     if (outputFile) {
       fs.writeFile(outputFile, res.css, (err) => {
         if (err) throw err
-        console.log('Okay')
+        const t1 = new Date()
+        const ts = (t1.valueOf() - t0) / 1000
+        console.log(`${res.css.length} bytes written to ${outputFile} (${ts.toFixed(2)} seconds) at ${t1.toLocaleTimeString()}`)
       })
     } else {
       process.stdout.write(res.css)

@@ -15,7 +15,9 @@ const getPlugins = (options) => {
   ]
   // minify
   if (options.minify) {
-    plugins.push(require('cssnano'))
+    plugins.push(require('cssnano')({
+      autoprefixer: false
+    }))
   }
   // plugins
   if (Array.isArray(options.plugins)) {

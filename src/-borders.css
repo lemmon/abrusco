@@ -1,7 +1,7 @@
 .b {
-  &a { border: 1px solid; }
-  &l { border-left: 1px solid; }
-  &r { border-right: 1px solid; }
-  &t { border-top: 1px solid; }
-  &b { border-bottom: 1px solid; }
+  &a { border-style: solid; border-width: 1px; }
+  &l { border-left-style: solid; border-left-width: 1px; }
+  &r { border-right-style: solid; border-right-width: 1px; }
+  &t { border-top-style: solid; border-top-width: 1px; }
+  &b { border-bottom-style: solid; border-bottom-width: 1px; }
 }

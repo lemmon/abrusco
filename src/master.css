@@ -11,6 +11,7 @@
 @import '-grid';
 @import '-spacing';
 @import '-colors';
-@import '-backgrounds';
+@import '-borders';
+@import '-background';
 
 @import '-debug';

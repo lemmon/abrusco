@@ -1,4 +1,4 @@
-.-d * { box-shadow: 0 0 0 1px var(--gold, gold); }
+.-d * { box-shadow: 0 0 0 1px var(--lime, lime); }
 .-d .-d { outline: 1px dashed var(--purple, purple) !important; }
 
 .--view {

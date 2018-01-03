@@ -1431,23 +1431,28 @@ hr{
 }
 
 .ba{
-	border:1px solid;
+	border-style:solid;
+	border-width:1px;
 }
 
 .bl{
-	border-left:1px solid;
+	border-left-style:solid;
+	border-left-width:1px;
 }
 
 .br{
-	border-right:1px solid;
+	border-right-style:solid;
+	border-right-width:1px;
 }
 
 .bt{
-	border-top:1px solid;
+	border-top-style:solid;
+	border-top-width:1px;
 }
 
 .bb{
-	border-bottom:1px solid;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
 }
 
 .bg{

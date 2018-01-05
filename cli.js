@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const fs = require('fs')
+const path = require('path')
 const meow = require('meow')
 const chalk = require('chalk')
 //const mkdirp = require('mkdirp')
@@ -15,15 +16,18 @@ const cli = meow(`
   Options
     -o, --output Output file
     -m, --minify Minify the output stylesheet
+    -w, --watch Watch CSS source direcotry for changes
 
   Example
     $ abrusco src/master.css -o dist/bundle.css
     $ abrusco src/master.css -o dist/bundle.css --minify
+    $ abrusco src/master.css -o dist/bundle.css --watch
 `, {
   alias: {
     h: 'help',
     m: 'minify',
     o: 'output',
+    w: 'watch',
   }
 })
 
@@ -66,17 +70,28 @@ if (cli.flags.minify) {
 const abrusco = require('./index')
 const t0 = Date.now()
 
-fs.readFile(inputFile, 'utf8', (err, css) => {
-  abrusco(css, options).then(res => {
-    if (outputFile) {
-      fs.writeFile(outputFile, res.css, (err) => {
-        if (err) throw err
-        const t1 = new Date()
-        const ts = (t1.valueOf() - t0) / 1000
-        console.log(`${res.css.length} bytes written to ${outputFile} (${ts.toFixed(2)} seconds) at ${t1.toLocaleTimeString()}`)
-      })
-    } else {
-      process.stdout.write(res.css)
-    }
+buildCSS(options)
+
+if (cli.flags.watch) {
+  const chokidar = require('chokidar')
+  chokidar.watch(path.dirname(inputFile)).on('change', () => {
+    buildCSS(options)
   })
-})
+}
+
+function buildCSS(options) {
+  fs.readFile(options.from, 'utf8', (err, css) => {
+    abrusco(css, options).then(res => {
+      if (options.to) {
+        fs.writeFile(options.to, res.css, (err) => {
+          if (err) throw err
+          const t1 = new Date()
+          const ts = (t1.valueOf() - t0) / 1000
+          console.log(`${res.css.length} bytes written to ${options.to} (${ts.toFixed(2)} seconds) at ${t1.toLocaleTimeString()}`)
+        })
+      } else {
+        process.stdout.write(res.css)
+      }
+    })
+  })
+}

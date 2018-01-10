@@ -9,4 +9,8 @@
   @media (--ie) {
     height: 100%;
   }
+  &-main {
+    flex-grow: 1;
+    flex-basis: auto;
+  }
 }

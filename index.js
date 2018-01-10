@@ -10,7 +10,13 @@ const getPlugins = (options) => {
         path.join(__dirname, 'src'),
       ],
     }),
-    require('postcss-cssnext'),
+    require('postcss-cssnext')({
+      features: {
+        autoprefixer: {
+          supports: false,
+        },
+      },
+    }),
     require('postcss-discard-comments'),
   ]
   // minify

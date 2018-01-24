@@ -16,7 +16,7 @@ const cli = meow(`
   Options
     -o, --output Output file
     -m, --minify Minify the output stylesheet
-    -w, --watch Watch CSS source direcotry for changes
+    -w, --watch Watch CSS source directory for changes
 
   Example
     $ abrusco src/master.css -o dist/bundle.css

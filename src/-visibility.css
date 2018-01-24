@@ -1,6 +1,9 @@
 .show { display: block; }
 .hide { display: none; }
 
+.visible { visibility: visible; }
+.invisible { visibility: hidden; }
+
 @media (--view-sd) {
   .sd- {
     &show { display: block; }

@@ -1,0 +1,8 @@
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  &-fill {
+    width: 100%;
+  }
+}

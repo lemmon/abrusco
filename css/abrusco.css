@@ -64,6 +64,17 @@ html{
   box-sizing:border-box;
 }
 
+body{
+  min-height:100vh
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+
+	body{
+		height:100vh;
+	}
+  }
+
 *,
 *::before,
 *::after{
@@ -82,37 +93,21 @@ hr{
   border:0;
 }
 
-.page{
-  min-height:100vh;
-  display:-webkit-box;
-  display:-ms-flexbox;
-  display:flex;
-  -webkit-box-orient:vertical;
-  -webkit-box-direction:normal;
-      -ms-flex-direction:column;
-          flex-direction:column;
-  -webkit-box-pack:justify;
-      -ms-flex-pack:justify;
-          justify-content:space-between
-}
-
-.page > *{
-	-ms-flex-negative:0;
-	    flex-shrink:0;
-}
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
-
-	.page{
-		height:100%;
-	}
-  }
-
 .a{
 }
 
 .a-anchor{
 	display:block;
+}
+
+.image{
+  display:block;
+  max-width:100%;
+  height:auto
+}
+
+.image-fill{
+	width:100%;
 }
 
 :root{
@@ -229,6 +224,10 @@ hr{
 
 .hide{ display:none; }
 
+.visible{ visibility:visible; }
+
+.invisible{ visibility:hidden; }
+
 @media (min-width: 480px){
   .sd-{
   }
@@ -296,6 +295,12 @@ hr{
 }
 
 .max{ max-width:none; }
+
+.max4{ max-width:64px; max-width:4rem; }
+
+.max6{ max-width:96px; max-width:6rem; }
+
+.max8{ max-width:128px; max-width:8rem; }
 
 .max10{ max-width:160px; max-width:10rem; }
 
@@ -367,7 +372,7 @@ hr{
 	width:16.66667%;
 }
 
-@supports ((display: -ms-grid) or (display: grid)){
+@supports (display: grid){
 
 	.grid{
 		display:-ms-grid;
@@ -438,21 +443,28 @@ hr{
 
 .justify-around{ -ms-flex-pack:distribute; justify-content:space-around; }
 
-.span1{ -webkit-box-flex:1; -ms-flex:1; flex:1; }
+.span1{ -webkit-box-flex:1; -ms-flex:1; flex:1; min-width:0; min-height:0; }
 
-.span2{ -webkit-box-flex:2; -ms-flex:2; flex:2; }
+.span2{ -webkit-box-flex:2; -ms-flex:2; flex:2; min-width:0; min-height:0; }
 
-.span3{ -webkit-box-flex:3; -ms-flex:3; flex:3; }
+.span3{ -webkit-box-flex:3; -ms-flex:3; flex:3; min-width:0; min-height:0; }
 
-.span4{ -webkit-box-flex:4; -ms-flex:4; flex:4; }
+.span4{ -webkit-box-flex:4; -ms-flex:4; flex:4; min-width:0; min-height:0; }
 
-.span5{ -webkit-box-flex:5; -ms-flex:5; flex:5; }
+.span5{ -webkit-box-flex:5; -ms-flex:5; flex:5; min-width:0; min-height:0; }
 
-.span6{ -webkit-box-flex:6; -ms-flex:6; flex:6; }
+.span6{ -webkit-box-flex:6; -ms-flex:6; flex:6; min-width:0; min-height:0; }
 
-.span7{ -webkit-box-flex:7; -ms-flex:7; flex:7; }
+.span7{ -webkit-box-flex:7; -ms-flex:7; flex:7; min-width:0; min-height:0; }
 
-.span8{ -webkit-box-flex:8; -ms-flex:8; flex:8; }
+.span8{ -webkit-box-flex:8; -ms-flex:8; flex:8; min-width:0; min-height:0; }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+  .col > *{
+    -ms-flex-preferred-size:auto;
+        flex-basis:auto;
+  }
+}
 
 .order0{ -webkit-box-ordinal-group:1; -ms-flex-order:0; order:0; }
 
@@ -517,7 +529,7 @@ hr{
   .sd-grid6 > *{
 		width:16.66667%;
 	}
-  @supports ((display: -ms-grid) or (display: grid)){
+  @supports (display: grid){
 
 		.sd-grid{
 			display:-ms-grid;
@@ -602,7 +614,7 @@ hr{
   .md-grid6 > *{
 		width:16.66667%;
 	}
-  @supports ((display: -ms-grid) or (display: grid)){
+  @supports (display: grid){
 
 		.md-grid{
 			display:-ms-grid;
@@ -687,7 +699,7 @@ hr{
   .ld-grid6 > *{
 		width:16.66667%;
 	}
-  @supports ((display: -ms-grid) or (display: grid)){
+  @supports (display: grid){
 
 		.ld-grid{
 			display:-ms-grid;

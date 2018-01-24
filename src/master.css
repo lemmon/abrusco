@@ -1,11 +1,8 @@
 @import '-reset';
 @import '-normalize';
-
 @import '-variables';
 
-@import '-page';
 @import '-links';
-
 @import '-type';
 @import '-visibility';
 @import '-grid';

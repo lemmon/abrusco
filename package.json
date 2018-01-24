@@ -26,7 +26,8 @@
   "scripts": {
     "build:css": "node cli.js src/master.css -o css/abrusco.css",
     "build:minify": "node cli.js css/abrusco.css -o css/abrusco.min.css --minify",
-    "build": "npm run build:css && npm run build:minify"
+    "build": "npm run build:css && npm run build:minify",
+    "w": "node cli.js src/master.css -o css/abrusco.css --watch"
   },
   "repository": {
     "type": "git",

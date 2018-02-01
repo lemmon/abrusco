@@ -1,6 +1,7 @@
 .p0   { padding:   0;    }
 .p025 { padding: .25rem; }
 .p05  { padding:  .5rem; }
+.p075 { padding: .75rem; }
 .p1   { padding:   1rem; }
 .p2   { padding:   2rem; }
 .p3   { padding:   3rem; }
@@ -21,6 +22,7 @@
 .px0   { padding-left:   0;    padding-right:   0;    }
 .px025 { padding-left: .25rem; padding-right: .25rem; }
 .px05  { padding-left:  .5rem; padding-right:  .5rem; }
+.px075 { padding-left: .75rem; padding-right: .75rem; }
 .px1   { padding-left:   1rem; padding-right:   1rem; }
 .px2   { padding-left:   2rem; padding-right:   2rem; }
 .px3   { padding-left:   3rem; padding-right:   3rem; }
@@ -29,6 +31,7 @@
 .py0   { padding-top:   0;    padding-bottom:   0; }
 .py025 { padding-top: .25rem; padding-bottom: .25rem; }
 .py05  { padding-top:  .5rem; padding-bottom:  .5rem; }
+.py075 { padding-top: .75rem; padding-bottom: .75rem; }
 .py1   { padding-top:   1rem; padding-bottom:   1rem; }
 .py2   { padding-top:   2rem; padding-bottom:   2rem; }
 .py3   { padding-top:   3rem; padding-bottom:   3rem; }
@@ -75,6 +78,7 @@
   .sd- {
     &p025 { padding: .25rem; }
     &p05  { padding:  .5rem; }
+    &p075 { padding: .75rem; }
     &p1   { padding:   1rem; }
     &p2   { padding:   2rem; }
     &p3   { padding:   3rem; }
@@ -92,6 +96,7 @@
   .md- {
     &p025 { padding: .25rem; }
     &p05  { padding:  .5rem; }
+    &p075 { padding: .75rem; }
     &p1   { padding:   1rem; }
     &p2   { padding:   2rem; }
     &p3   { padding:   3rem; }
@@ -109,6 +114,7 @@
   .ld- {
     &p025 { padding: .25rem; }
     &p05  { padding:  .5rem; }
+    &p075 { padding: .75rem; }
     &p1   { padding:   1rem; }
     &p2   { padding:   2rem; }
     &p3   { padding:   3rem; }

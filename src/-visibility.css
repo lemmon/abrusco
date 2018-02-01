@@ -24,24 +24,3 @@
     &hide { display: none; }
   }
 }
-
-@media (--view-ltsd) {
-  .ltsd- {
-    &show { display: block; }
-    &hide { display: none; }
-  }
-}
-
-@media (--view-ltmd) {
-  .ltmd- {
-    &show { display: block; }
-    &hide { display: none; }
-  }
-}
-
-@media (--view-ltld) {
-  .ltld- {
-    &show { display: block; }
-    &hide { display: none; }
-  }
-}

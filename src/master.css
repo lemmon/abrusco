@@ -8,8 +8,8 @@
 @import '-visibility';
 @import '-grid';
 @import '-spacing';
-@import '-colors';
 @import '-borders';
+@import '-colors';
 @import '-background';
 
 @import '-debug';

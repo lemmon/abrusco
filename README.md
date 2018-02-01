@@ -2,10 +2,18 @@
 
 Hackable CSS toolbox. <http://abrusco.lemmonjuice.com>
 
+[![npm version](https://badge.fury.io/js/abrusco.svg)](https://badge.fury.io/js/abrusco)
+
 ## Install
 
 ```sh
 npm install abrusco --save-dev
+```
+
+### Use the CDN
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/abrusco@0.4.0/css/abrusco.min.css">
 ```
 
 ## Features

@@ -91,18 +91,3 @@
   &-brown { background-color: var(--brown, brown); }
 
 }
-
-.b {
-  &-red { border-color: var(--red, red); }
-  &-pink { border-color: var(--pink, pink); }
-  &-purple { border-color: var(--purple, purple); }
-  &-indigo { border-color: var(--indigo, indigo); }
-  &-blue { border-color: var(--blue, blue); }
-  &-cyan { border-color: var(--cyan, cyan); }
-  &-teal { border-color: var(--teal, teal); }
-  &-green { border-color: var(--green, green); }
-  &-lime { border-color: var(--lime, lime); }
-  &-yellow { border-color: var(--yellow, yellow); }
-  &-orange { border-color: var(--orange, orange); }
-  &-brown { border-color: var(--brown, brown); }
-}

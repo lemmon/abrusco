@@ -9,8 +9,17 @@
   --background-color: var(--white, white);
   --text-color: var(--black, black);
   --link-color: var(--blue, blue);
+  --border-color: currentColor;
+  --bold-font-weight: bold;
 
   --code-font-family: 'Menlo', 'Andale Mono', monospace;
+
+  --h1: 2.5rem;     /* 40 */
+  --h2: 2.0rem;     /* 32 */
+  --h3: 1.5rem;     /* 24 */
+  --h4: 1.25rem;    /* 20 */
+  --h5: 1.125rem;   /* 18 */
+  --h6: 1.0625rem;  /* 17 */
 
   --black:  #040404;
   --white:  #ffffff;
@@ -30,12 +39,8 @@
 
 }
 
-@custom-media --view-sd (width >=  480px);
-@custom-media --view-md (width >=  768px);
-@custom-media --view-ld (width >= 1024px);
-
-@custom-media --view-ltsd (width <  480px);
-@custom-media --view-ltmd (width <  768px);
-@custom-media --view-ltld (width < 1024px);
+@custom-media --view-sd (min-width: 32rem);
+@custom-media --view-md (min-width: 48rem);
+@custom-media --view-ld (min-width: 64rem);
 
 @custom-media --ie screen and (-ms-high-contrast: active), (-ms-high-contrast: none);

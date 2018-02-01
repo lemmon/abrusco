@@ -1,4 +1,5 @@
 .a {
+  cursor: pointer;
   &-anchor {
     display: block;
   }

@@ -1,6 +1,7 @@
 .image {
   display: block;
   max-width: 100%;
+  width: auto;
   height: auto;
   &-fill {
     width: 100%;

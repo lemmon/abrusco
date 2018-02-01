@@ -79,6 +79,10 @@
 .span7 { flex: 7; min-width: 0; min-height: 0; }
 .span8 { flex: 8; min-width: 0; min-height: 0; }
 
+.span {
+  &-auto { flex-basis: auto; }
+}
+
 @media (--ie) {
   .col > * {
     flex-basis: auto;

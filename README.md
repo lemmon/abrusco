@@ -22,45 +22,11 @@ npm install abrusco --save-dev
 * Reusable and hackable
 * Works with plain html or framework of your choice
 * Built with Postcss
+* Inspired by Tachyons and Basscss
 
 ## CLI
 
-```
-Usage
-  $ abrusco <input.css>
-
-Options
-  -o, --output Output file
-  -m, --minify Minify the output stylesheet
-  -w, --watch Watch CSS source directory for changes
-
-Example
-  $ abrusco src/master.css -o dist/bundle.css
-  $ abrusco src/master.css -o dist/bundle.css --minify
-  $ abrusco src/master.css -o dist/bundle.css --watch
-```
-
-## Example
-
-`master.css`:
-
-```css
-@import 'abrusco';
-
-/* my custom variables */
-:root {
-  --text-color: var(--indigo); /* affect Abrusco's internals */
-}
-
-/* my custom styles */
-.hello {
-  color: var(--orange);
-}
-```
-
-```sh
-abrusco master.css > bundle.css
-```
+To use CLI and to create your own Abrusco build install [`abrusco-cli`](https://github.com/lemmon/abrusco-cli) package.
 
 ## Modules
 
@@ -77,3 +43,13 @@ abrusco master.css > bundle.css
 * **borders**
 * **background**
 * **debug** - debugging utilities
+
+## Related
+
+- [`abrusco-cli`](https://github.com/lemmon/abrusco-cli)
+- [`tachyons`](https://github.com/tachyons-css/tachyons)
+- [`basscss`](https://github.com/basscss/basscss)
+
+## License
+
+MIT

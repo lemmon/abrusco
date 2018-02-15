@@ -4,30 +4,15 @@
   "version": "0.4.2",
   "author": "lemmon",
   "license": "MIT",
-  "main": "index.js",
   "style": "src/master.css",
-  "bin": {
-    "abrusco": "cli.js"
-  },
-  "dependencies": {
-    "chalk": "^2.0.1",
-    "chokidar": "^2.0.0",
-    "cssnano": "^3.10.0",
-    "file-exists": "^4.0.0",
-    "is-blank": "^2.1.0",
-    "meow": "^3.7.0",
-    "postcss": "^5.2.12",
-    "postcss-assets": "^4.1.0",
-    "postcss-cssnext": "^2.9.0",
-    "postcss-discard-comments": "^2.0.4",
-    "postcss-import": "^9.1.0",
-    "postcss-reporter": "^3.0.0"
-  },
   "scripts": {
-    "build:css": "node cli.js src/master.css -o css/abrusco.css",
-    "build:minify": "node cli.js css/abrusco.css -o css/abrusco.min.css --minify",
+    "build:css": "abrusco src/master.css -o css/abrusco.css",
+    "build:minify": "abrusco css/abrusco.css -o css/abrusco.min.css --minify",
     "build": "npm run build:css && npm run build:minify",
-    "w": "node cli.js src/master.css -o css/abrusco.css --watch"
+    "readme": "sed -i -E 's/@[0-9]+\\.[0-9]+\\.[0-9]+/@'$npm_package_version'/g' README.md",
+    "version": "npm run build && npm run readme && git add -A css README.md",
+    "postversion": "git push && git push --tags && npm publish",
+    "w": "abrusco src/master.css -o css/abrusco.css --watch"
   },
   "repository": {
     "type": "git",
@@ -43,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/lemmon/abrusco/issues"
   },
-  "homepage": "https://github.com/lemmon/abrusco#readme"
+  "homepage": "https://github.com/lemmon/abrusco#readme",
+  "devDependencies": {
+    "abrusco-cli": "^0.1.0"
+  }
 }

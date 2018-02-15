@@ -1,7 +1,7 @@
 {
   "name": "abrusco",
   "description": "Hackable CSS toolbox.",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "author": "lemmon",
   "license": "MIT",
   "style": "src/master.css",
@@ -9,8 +9,8 @@
     "build:css": "abrusco src/master.css -o css/abrusco.css",
     "build:minify": "abrusco css/abrusco.css -o css/abrusco.min.css --minify",
     "build": "npm run build:css && npm run build:minify",
-    "readme": "sed -i -E 's/@[0-9]+\\.[0-9]+\\.[0-9]+/@'$npm_package_version'/g' README.md",
-    "version": "npm run build && npm run readme && git add -A css README.md",
+    "readme": "sed -i ~previous -E 's/@[0-9]+\\.[0-9]+\\.[0-9]+/@'$npm_package_version'/g' README.md",
+    "version": "npm run build && npm run readme && git add package.json README.md css",
     "postversion": "git push && git push --tags && npm publish",
     "w": "abrusco src/master.css -o css/abrusco.css --watch"
   },

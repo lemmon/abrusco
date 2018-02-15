@@ -10,7 +10,7 @@
     "build:minify": "abrusco css/abrusco.css -o css/abrusco.min.css --minify",
     "build": "npm run build:css && npm run build:minify",
     "readme": "sed -i ~previous -E 's/@[0-9]+\\.[0-9]+\\.[0-9]+/@'$npm_package_version'/g' README.md",
-    "version": "npm run build && npm run readme && git add package.json README.md css",
+    "version": "npm run build && npm run readme && git add -A css",
     "postversion": "git push && git push --tags && npm publish",
     "w": "abrusco src/master.css -o css/abrusco.css --watch"
   },

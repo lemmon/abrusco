@@ -1,3 +1,7 @@
+.block { display: block; }
+.inline { display: inline; }
+.inlineblock { display: inline-block; }
+
 .show { display: block; }
 .hide { display: none; }
 
@@ -5,22 +9,22 @@
 .invisible { visibility: hidden; }
 
 @media (--view-sd) {
-  .sd- {
-    &show { display: block; }
-    &hide { display: none; }
-  }
+
+  .sd-show { display: block; }
+  .sd-hide { display: none; }
+
 }
 
 @media (--view-md) {
-  .md- {
-    &show { display: block; }
-    &hide { display: none; }
-  }
+
+  .md-show { display: block; }
+  .md-hide { display: none; }
+
 }
 
 @media (--view-ld) {
-  .ld- {
-    &show { display: block; }
-    &hide { display: none; }
-  }
+
+  .ld-show { display: block; }
+  .ld-hide { display: none; }
+
 }

@@ -1,93 +1,44 @@
-.color {
+.color-inherit { color: inherit; }
 
-  &-inherit { color: inherit; }
+.color-black { color: var(--black); }
+.color-black-95 { color: var(--black-95); }
+.color-black-90 { color: var(--black-90); }
+.color-black-80 { color: var(--black-80); }
+.color-black-70 { color: var(--black-70); }
+.color-black-60 { color: var(--black-60); }
+.color-black-50 { color: var(--black-50); }
+.color-black-40 { color: var(--black-40); }
+.color-black-30 { color: var(--black-30); }
+.color-black-20 { color: var(--black-20); }
+.color-black-10 { color: var(--black-10); }
+.color-black-05 { color: var(--black-05); }
+.color-black-025 { color: var(--black-025); }
+.color-black-0125 { color: var(--black-0125); }
 
-  &-black { color: var(--black, black); }
-  &-black-90 { color: color(var(--black, black) alpha(90%)); }
-  &-black-80 { color: color(var(--black, black) alpha(80%)); }
-  &-black-70 { color: color(var(--black, black) alpha(70%)); }
-  &-black-60 { color: color(var(--black, black) alpha(60%)); }
-  &-black-50 { color: color(var(--black, black) alpha(50%)); }
-  &-black-40 { color: color(var(--black, black) alpha(40%)); }
-  &-black-30 { color: color(var(--black, black) alpha(30%)); }
-  &-black-20 { color: color(var(--black, black) alpha(20%)); }
-  &-black-10 { color: color(var(--black, black) alpha(10%)); }
-  &-black-05 { color: color(var(--black, black) alpha(5%)); }
-  &-black-025 { color: color(var(--black, black) alpha(2.5%)); }
-  &-black-0125 { color: color(var(--black, black) alpha(1.25%)); }
+.color-white { color: var(--white); }
+.color-white-95 { color: var(--white-95); }
+.color-white-90 { color: var(--white-90); }
+.color-white-80 { color: var(--white-80); }
+.color-white-70 { color: var(--white-70); }
+.color-white-60 { color: var(--white-60); }
+.color-white-50 { color: var(--white-50); }
+.color-white-40 { color: var(--white-40); }
+.color-white-30 { color: var(--white-30); }
+.color-white-20 { color: var(--white-20); }
+.color-white-10 { color: var(--white-10); }
+.color-white-05 { color: var(--white-05); }
+.color-white-025 { color: var(--white-025); }
+.color-white-0125 { color: var(--white-0125); }
 
-  &-white { color: var(--white, white); }
-  &-white-90 { color: color(var(--white, white) alpha(90%)); }
-  &-white-80 { color: color(var(--white, white) alpha(80%)); }
-  &-white-70 { color: color(var(--white, white) alpha(70%)); }
-  &-white-60 { color: color(var(--white, white) alpha(60%)); }
-  &-white-50 { color: color(var(--white, white) alpha(50%)); }
-  &-white-40 { color: color(var(--white, white) alpha(40%)); }
-  &-white-30 { color: color(var(--white, white) alpha(30%)); }
-  &-white-20 { color: color(var(--white, white) alpha(20%)); }
-  &-white-10 { color: color(var(--white, white) alpha(10%)); }
-  &-white-05 { color: color(var(--white, white) alpha(5%)); }
-  &-white-025 { color: color(var(--white, white) alpha(2.5%)); }
-  &-white-0125 { color: color(var(--white, white) alpha(1.25%)); }
-
-  &-red { color: var(--red, red); }
-  &-pink { color: var(--pink, pink); }
-  &-purple { color: var(--purple, purple); }
-  &-indigo { color: var(--indigo, indigo); }
-  &-blue { color: var(--blue, blue); }
-  &-cyan { color: var(--cyan, cyan); }
-  &-teal { color: var(--teal, teal); }
-  &-green { color: var(--green, green); }
-  &-lime { color: var(--lime, lime); }
-  &-yellow { color: var(--yellow, yellow); }
-  &-orange { color: var(--orange, orange); }
-  &-brown { color: var(--brown, brown); }
-
-}
-
-.bg {
-
-  &-inherit { background-color: inherit; }
-
-  &-black { background-color: var(--black, black); }
-  &-black-90 { background-color: color(var(--black, black) alpha(90%)); }
-  &-black-80 { background-color: color(var(--black, black) alpha(80%)); }
-  &-black-70 { background-color: color(var(--black, black) alpha(70%)); }
-  &-black-60 { background-color: color(var(--black, black) alpha(60%)); }
-  &-black-50 { background-color: color(var(--black, black) alpha(50%)); }
-  &-black-40 { background-color: color(var(--black, black) alpha(40%)); }
-  &-black-30 { background-color: color(var(--black, black) alpha(30%)); }
-  &-black-20 { background-color: color(var(--black, black) alpha(20%)); }
-  &-black-10 { background-color: color(var(--black, black) alpha(10%)); }
-  &-black-05 { background-color: color(var(--black, black) alpha(5%)); }
-  &-black-025 { background-color: color(var(--black, black) alpha(2.5%)); }
-  &-black-0125 { background-color: color(var(--black, black) alpha(1.25%)); }
-
-  &-white { background-color: var(--white, white); }
-  &-white-90 { background-color: color(var(--white, white) alpha(90%)); }
-  &-white-80 { background-color: color(var(--white, white) alpha(80%)); }
-  &-white-70 { background-color: color(var(--white, white) alpha(70%)); }
-  &-white-60 { background-color: color(var(--white, white) alpha(60%)); }
-  &-white-50 { background-color: color(var(--white, white) alpha(50%)); }
-  &-white-40 { background-color: color(var(--white, white) alpha(40%)); }
-  &-white-30 { background-color: color(var(--white, white) alpha(30%)); }
-  &-white-20 { background-color: color(var(--white, white) alpha(20%)); }
-  &-white-10 { background-color: color(var(--white, white) alpha(10%)); }
-  &-white-05 { background-color: color(var(--white, white) alpha(5%)); }
-  &-white-025 { background-color: color(var(--white, white) alpha(2.5%)); }
-  &-white-0125 { background-color: color(var(--white, white) alpha(1.25%)); }
-
-  &-red { background-color: var(--red, red); }
-  &-pink { background-color: var(--pink, pink); }
-  &-purple { background-color: var(--purple, purple); }
-  &-indigo { background-color: var(--indigo, indigo); }
-  &-blue { background-color: var(--blue, blue); }
-  &-cyan { background-color: var(--cyan, cyan); }
-  &-teal { background-color: var(--teal, teal); }
-  &-green { background-color: var(--green, green); }
-  &-lime { background-color: var(--lime, lime); }
-  &-yellow { background-color: var(--yellow, yellow); }
-  &-orange { background-color: var(--orange, orange); }
-  &-brown { background-color: var(--brown, brown); }
-
-}
+.color-red { color: var(--red); }
+.color-pink { color: var(--pink); }
+.color-purple { color: var(--purple); }
+.color-indigo { color: var(--indigo); }
+.color-blue { color: var(--blue); }
+.color-cyan { color: var(--cyan); }
+.color-teal { color: var(--teal); }
+.color-green { color: var(--green); }
+.color-lime { color: var(--lime); }
+.color-yellow { color: var(--yellow); }
+.color-orange { color: var(--orange); }
+.color-brown { color: var(--brown); }

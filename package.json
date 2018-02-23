@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/lemmon/abrusco#readme",
   "devDependencies": {
-    "abrusco-cli": "^0.1.0"
+    "abrusco-cli": "^0.2.0"
   }
 }

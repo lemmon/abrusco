@@ -1,6 +1,13 @@
-.a {
-  cursor: pointer;
-  &-anchor {
-    display: block;
-  }
+.a-anchor {
+  display: block;
+}
+
+.a-ul:hover,
+.a-anchor:hover .a-ul {
+  text-decoration: underline;
+}
+
+.a-color-inherit:hover,
+.a-anchor:hover .a-color-inherit {
+  color: inherit;
 }

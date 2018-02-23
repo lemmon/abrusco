@@ -21,14 +21,16 @@
 .max80 { max-width: 80rem; }
 .max90 { max-width: 90rem; }
 
+.w100 { width: 100%; }
+.w50  { width: 50%; }
+
+.h100 { height: 100%; }
+.h50  { height: 50%; }
+
 .row { display: flex; flex-direction: row; }
 .col { display: flex; flex-direction: column; }
 
-.flex {
-  &-wrap {
-    flex-wrap: wrap;
-  }
-}
+.flex-wrap { flex-wrap: wrap; }
 
 .grid {
   display: flex;
@@ -82,9 +84,7 @@
 .span7 { flex: 7; min-width: 0; min-height: 0; }
 .span8 { flex: 8; min-width: 0; min-height: 0; }
 
-.span {
-  &-auto { flex-basis: auto; }
-}
+.span-auto { flex-basis: auto; }
 
 @media (--ie) {
   .col > * {

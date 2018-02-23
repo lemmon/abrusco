@@ -3,7 +3,8 @@
   max-width: 100%;
   width: auto;
   height: auto;
-  &-fill {
-    width: 100%;
-  }
+}
+
+.image-fill {
+  width: 100%;
 }

@@ -1,5 +1,5 @@
-.-d * { box-shadow: 0 0 0 1px var(--lime, lime); }
-.-d .-d { outline: 1px dashed var(--purple, purple) !important; }
+.-d * { outline: 1px dashed var(--lime); }
+.-d *.-d { outline: 1px dashed var(--purple); }
 
 .-view {
   position: fixed;
@@ -12,18 +12,18 @@
   padding: 4px;
   z-index: 9999;
   &::before {
-    content: '-'
+    content: "-";
   }
 }
 
 @media (--view-sd) {
-  .-view::before { content: 'SD'; }
+  .-view::before { content: "SD"; }
 }
 
 @media (--view-md) {
-  .-view::before { content: 'MD'; }
+  .-view::before { content: "MD"; }
 }
 
 @media (--view-ld) {
-  .-view::before { content: 'LD'; }
+  .-view::before { content: "LD"; }
 }

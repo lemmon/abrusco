@@ -648,6 +648,10 @@ svg {
   max-width: 72rem;
 }
 
+.max74 {
+  max-width: 74rem;
+}
+
 .max80 {
   max-width: 80rem;
 }
@@ -1598,6 +1602,16 @@ svg {
     padding-right: 2rem;
   }
 
+  .sd-px3 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .sd-px4 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
   .sd-py1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -1606,6 +1620,16 @@ svg {
   .sd-py2 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .sd-py3 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .sd-py4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 }
 
@@ -1648,6 +1672,16 @@ svg {
     padding-right: 2rem;
   }
 
+  .md-px3 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .md-px4 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
   .md-py1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -1656,6 +1690,16 @@ svg {
   .md-py2 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .md-py3 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .md-py4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 }
 
@@ -1698,6 +1742,16 @@ svg {
     padding-right: 2rem;
   }
 
+  .ld-px3 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .ld-px4 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
   .ld-py1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -1706,6 +1760,16 @@ svg {
   .ld-py2 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .ld-py3 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .ld-py4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 }
 

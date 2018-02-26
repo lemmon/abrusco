@@ -4,15 +4,16 @@
   "version": "0.6.1",
   "author": "lemmon",
   "license": "MIT",
-  "style": "src/master.css",
+  "style": "src/index.css",
   "scripts": {
-    "build:css": "abrusco src/master.css -o css/abrusco.css",
+    "build:css": "abrusco src -o css/abrusco.css",
     "build:minify": "abrusco css/abrusco.css -o css/abrusco.min.css --minify",
     "build": "npm run build:css && npm run build:minify",
     "readme": "sed -i ~previous -E 's/@[0-9]+\\.[0-9]+\\.[0-9]+/@'$npm_package_version'/g' README.md",
     "version": "npm run build && npm run readme && git add -A css README.md",
     "postversion": "git push && git push --tags && npm publish",
-    "w": "abrusco src/master.css -o css/abrusco.css --watch"
+    "w": "abrusco src -o css/abrusco.css --watch",
+    "w:latest": "node ../abrusco-cli/cli src -o css/abrusco.css --watch"
   },
   "repository": {
     "type": "git",
@@ -28,8 +29,5 @@
   "bugs": {
     "url": "https://github.com/lemmon/abrusco/issues"
   },
-  "homepage": "https://github.com/lemmon/abrusco#readme",
-  "devDependencies": {
-    "abrusco-cli": "^0.2.0"
-  }
+  "homepage": "https://github.com/lemmon/abrusco#readme"
 }

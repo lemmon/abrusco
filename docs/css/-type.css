@@ -1,0 +1,40 @@
+.copy {
+  & h1, & ol, & ul, & blockquote, & figure, & pre {
+    margin-top: var(--copy-space);
+    margin-bottom: var(--copy-space);
+  }
+  & h2, & h3, & h4 {
+    margin-top: var(--copy-space);
+    margin-bottom: var(--copy-space-second);
+  }
+  & p {
+    margin-top: var(--copy-space-second);
+    margin-bottom: var(--copy-space);
+  }
+  & :first-child {
+    margin-top: 0;
+  }
+  & :last-child {
+    margin-bottom: 0;
+  }
+  & h1 { font-size: var(--h2); }
+  & h2 { font-size: var(--h3); }
+  & h3 { font-size: var(--h4); }
+  & h4 { font-size: var(--h5); }
+  & h1, & h2, & h3, & h4 {
+    font-weight: 600;
+  }
+  & a {
+    color: var(--blue);
+    font-weight: 600;
+    box-shadow: 0 2px var(--black-10);
+    &:hover {
+      color: inherit;
+    }
+  }
+}
+
+:root {
+  --copy-space: 1rem;
+  --copy-space-second: .5rem;
+}

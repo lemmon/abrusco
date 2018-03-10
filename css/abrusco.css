@@ -192,6 +192,22 @@ svg {
   color: inherit;
 }
 
+.cursor-default {
+  cursor: default;
+}
+
+.cursor-notallowed {
+  cursor: not-allowed;
+}
+
+.cursor-progress {
+  cursor: progress;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .image {
   display: block;
   max-width: 100%;
@@ -538,6 +554,58 @@ svg {
   visibility: hidden;
 }
 
+.a100 {
+  opacity: 1;
+}
+
+.a95 {
+  opacity: .95;
+}
+
+.a9 {
+  opacity: .9;
+}
+
+.a8 {
+  opacity: .8;
+}
+
+.a7 {
+  opacity: .7;
+}
+
+.a6 {
+  opacity: .6;
+}
+
+.a5 {
+  opacity: .5;
+}
+
+.a4 {
+  opacity: .4;
+}
+
+.a3 {
+  opacity: .3;
+}
+
+.a2 {
+  opacity: .2;
+}
+
+.a1 {
+  opacity: .1;
+}
+
+.a05 {
+  opacity: .05;
+}
+
+.a0 {
+  opacity: ;
+}
+
 @media (min-width: 32rem) {
   .sd-show {
     display: block;
@@ -620,8 +688,20 @@ svg {
   max-width: 40rem;
 }
 
+.max45 {
+  max-width: 45rem;
+}
+
+.max47 {
+  max-width: 47rem;
+}
+
 .max48 {
   max-width: 48rem;
+}
+
+.max49 {
+  max-width: 49rem;
 }
 
 .max50 {
@@ -1547,6 +1627,10 @@ svg {
   margin-left: 2rem;
 }
 
+.ml {
+  margin-left: auto;
+}
+
 .mr025 {
   margin-right: .25rem;
 }
@@ -1561,6 +1645,10 @@ svg {
 
 .mr2 {
   margin-right: 2rem;
+}
+
+.mr {
+  margin-right: auto;
 }
 
 @media (min-width: 32rem) {
@@ -2012,10 +2100,6 @@ svg {
 .b-brown {
   border-color: #795548;
   border-color: var(--brown);
-}
-
-.div {
-  color: inherit;
 }
 
 .div::before {

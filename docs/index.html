@@ -5,7 +5,7 @@
   <title>Abrusco</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="icon" type="image/png" href="http://www.lemmonjuice.com/img/favicon.png" sizes="32x32">
-  <link rel="stylesheet" href="http://localhost/abrusco/css/abrusco.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/abrusco@0.6.2/css/abrusco.min.css">
   <link rel="stylesheet" href="bundle.css">
 </head>
 <body class="py1 sd-p1 col">
@@ -23,8 +23,8 @@
       <div class="copy lh4">
         <h2 class="h2">Getting Started</h2>
         <pre class="code f2 bg-black-80 color-white p1">npm install abrusco --save-dev</pre>
-        <p>Or use the <a target="_blank" href="https://unpkg.com/abrusco@0.6.1/css/abrusco.min.css">CDN Link</a></p>
-        <pre class="code f2 bg-black-80 color-white p1">&lt;link href="https://unpkg.com/abrusco@0.6.1/css/abrusco.min.css" rel="stylesheet"&gt;</pre>
+        <p>Or use the <a target="_blank" href="https://unpkg.com/abrusco@0.6.2/css/abrusco.min.css">CDN Link</a></p>
+        <pre class="code f2 bg-black-80 color-white p1">&lt;link href="https://unpkg.com/abrusco@0.6.2/css/abrusco.min.css" rel="stylesheet"&gt;</pre>
         <p><a target="_blank" href="https://raw.githubusercontent.com/lemmon/abrusco/master/css/abrusco.min.css">Download directly</a></p>
       </div>
     </section>
@@ -81,16 +81,16 @@ Example
 &lt;html&gt;
 &lt;head&gt;
   &lt;meta charset="utf-8"&gt;
-  &lt;link href="https://unpkg.com/abrusco@0.6.1/css/abrusco.min.css" rel="stylesheet"&gt;
-  &lt;style media="screen"&gt;
+  &lt;link href="https://unpkg.com/abrusco@0.6.2/css/abrusco.min.css" rel="stylesheet"&gt;
+  &lt;style&gt;
   :root {
-    --h1: 5rem; /* your custom h1 size */
+    --h1: 5rem; <span class="color-black-40">/* your custom h1 size */</span>
   }
   &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
 
-  &lt;h1 class="h1"&gt;Heading 1 is 5rem&lt;/h1&gt;
+  &lt;h1 class="h1"&gt;Heading 1 is 5rem now&lt;/h1&gt;
 
 &lt;/body&gt;
 &lt;/html&gt;
@@ -100,16 +100,16 @@ Example
           See the list of <a target="_blank" href="https://caniuse.com/#feat=css-variables">browsers supporting</a> CSS variables.
           However you can create your own build if you have both <code class="code f2 bg-black-05 color-black-80 p0125">abrusco</code> and <code class="code f2 bg-black-05 color-black-80 p0125">abrusco-cli</code> installed.</p>
         <pre class="code f2 lh4 bg-black-05 color-black-80 p1 my1">
-/* import full abrusco build */
+<span class="color-black-40">/* import full abrusco build */</span>
 @include 'abrusco';
 
-/* modify abrusco's internal variables */
+<span class="color-black-40">/* modify abrusco's internal variables */</span>
 :root {
   --text-color: var(--orange);
   --orange: var(255, 108, 47);
 }
 
-/* use abrusco's internal variables */
+<span class="color-black-40">/* use abrusco's internal variables */</span>
 .your-class {
   color: var(--green);
 }

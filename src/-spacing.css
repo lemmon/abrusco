@@ -86,11 +86,13 @@
 .ml05  { margin-left:  .5rem; }
 .ml1   { margin-left:   1rem; }
 .ml2   { margin-left:   2rem; }
+.ml    { margin-left:   auto; }
 
 .mr025 { margin-right: .25rem; }
 .mr05  { margin-right:  .5rem; }
 .mr1   { margin-right:   1rem; }
 .mr2   { margin-right:   2rem; }
+.mr    { margin-right:   auto; }
 
 @media (--view-sd) {
 

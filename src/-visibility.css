@@ -8,6 +8,20 @@
 .visible { visibility: visible; }
 .invisible { visibility: hidden; }
 
+.a100 { opacity: 1; }
+.a95  { opacity: .95; }
+.a9   { opacity: .9; }
+.a8   { opacity: .8; }
+.a7   { opacity: .7; }
+.a6   { opacity: .6; }
+.a5   { opacity: .5; }
+.a4   { opacity: .4; }
+.a3   { opacity: .3; }
+.a2   { opacity: .2; }
+.a1   { opacity: .1; }
+.a05  { opacity: .05; }
+.a0   { opacity: .0; }
+
 @media (--view-sd) {
 
   .sd-show { display: block; }

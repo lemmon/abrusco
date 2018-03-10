@@ -1,6 +1,6 @@
 # Abrusco
 
-Hackable CSS toolbox. <http://abrusco.lemmonjuice.com>
+Hackable CSS toolbox. <http://abrusco.com>
 
 [![npm version](https://badge.fury.io/js/abrusco.svg)](https://badge.fury.io/js/abrusco)
 

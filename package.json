@@ -1,7 +1,7 @@
 {
   "name": "abrusco",
   "description": "Hackable CSS toolbox.",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "author": "lemmon",
   "license": "MIT",
   "style": "src/index.css",

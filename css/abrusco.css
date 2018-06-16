@@ -732,6 +732,14 @@ svg {
   max-width: 74rem;
 }
 
+.max75 {
+  max-width: 75rem;
+}
+
+.max77 {
+  max-width: 77rem;
+}
+
 .max80 {
   max-width: 80rem;
 }

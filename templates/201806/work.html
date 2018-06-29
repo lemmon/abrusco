@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <style>
+  .max75 { max-width: 75rem; }
+  .max77 { max-width: 77rem; }
+  #menu {
+    display: none;
+  }
+  #menu:checked + nav {
+    display: block;
+  }
+  @media (max-width: 400px) {
+    .xs-hide {
+      display: none;
+    }
+  }
+  </style>
+  <link rel="stylesheet" href="../../css/abrusco.min.css">
+</head>
+<body class="col max77 mx p05 sd-p1 --d">
+
+  <header class="py1 sd-py2 md-row justify-between items-center">
+    <div class="py1">
+      <div class="row justify-between items-center">
+        <a class="a-anchor px05 py1 sd-p1 fw700" href=".">Company</a>
+        <label for="menu" class="a-anchor cursor-pointer px05 sd-px1 md-hide">
+          <svg class="image" width="24" height="48">
+            <rect y="16" width="24" height="2" />
+            <rect y="23" width="24" height="2" />
+            <rect y="30" width="24" height="2" />
+          </svg>
+        </label>
+      </div>
+    </div>
+    <input type="checkbox" id="menu">
+    <nav class="hide md-show">
+      <ul class="py1 md-row">
+        <li><a class="a-anchor px05 py1 sd-p1 fw700" href="work.html"><span class="a-ul">Work</span></a></li>
+        <li><a class="a-anchor px05 py1 sd-p1" href="studio.html"><span class="a-ul">Studio</span></a></li>
+        <li><a class="a-anchor px05 py1 sd-p1" href="people.html"><span class="a-ul">People</span></a></li>
+        <li><a class="a-anchor px05 py1 sd-p1" href="news.html"><span class="a-ul">News</span></a></li>
+        <li><a class="a-anchor px05 py1 sd-p1" href="contact.html"><span class="a-ul">Contact</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="span1">
+
+    <header class="py2 sd-py3">
+      <div class="px025 py05 sd-p05">
+        <h1 class="px025 py05 sd-p05 h2 fw700 lh2">Work</h1>
+        <div class="px025 py05 sd-p05 max40">
+          <p class="h4 lh4 color-black-50">Cras massa dui, consequat a ultrices vitae, malesuada vitae quam. Integer nec sapien posuere, congue arcu.</p>
+        </div>
+      </div>
+    </header>
+
+  </main>
+
+  <footer class="py2 sd-py3">
+    <div class="px05 py1 sd-p1">
+      <p class="lh4">Abrusco Templates</p>
+    </div>
+  </footer>
+
+</body>
+</html>

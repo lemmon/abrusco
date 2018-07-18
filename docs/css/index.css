@@ -1,1 +1,24 @@
 @import '-type';
+
+.copy {
+  & h1, & h2, & h3, & h4, & h5, & h6 {
+    font-weight: 600;
+  }
+  & a {
+    color: var(--blue);
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  & pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding: 1rem;
+    background-color: var(--black-10);
+    font-size: .875em;
+    line-height: 1.5;
+    &.cli {
+      background-color: var(--black-90);
+      color: var(--white);
+    }
+  }
+}

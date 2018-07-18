@@ -1,21 +1,21 @@
 .copy h1, .copy ol, .copy ul, .copy blockquote, .copy figure, .copy pre {
-  margin-top: 1rem;
+  margin-top: 1.5em;
   margin-top: var(--copy-space);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5em;
   margin-bottom: var(--copy-space);
 }
 
-.copy h2, .copy h3, .copy h4 {
-  margin-top: 1rem;
+.copy h2, .copy h3, .copy h4, .copy h5, .copy h6 {
+  margin-top: 1.5em;
   margin-top: var(--copy-space);
-  margin-bottom: .5rem;
+  margin-bottom: .5em;
   margin-bottom: var(--copy-space-second);
 }
 
 .copy p {
-  margin-top: .5rem;
+  margin-top: .5em;
   margin-top: var(--copy-space-second);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5em;
   margin-bottom: var(--copy-space);
 }
 
@@ -28,37 +28,70 @@
 }
 
 .copy h1 {
-  font-size: var(--h2);
+  font-size: 2em;
+  font-size: var(--copy-h1);
 }
 
 .copy h2 {
-  font-size: var(--h3);
+  font-size: 1.5em;
+  font-size: var(--copy-h2);
 }
 
 .copy h3 {
-  font-size: var(--h4);
+  font-size: 1.25em;
+  font-size: var(--copy-h3);
 }
 
 .copy h4 {
-  font-size: var(--h5);
+  font-size: 1.125em;
+  font-size: var(--copy-h4);
 }
 
-.copy h1, .copy h2, .copy h3, .copy h4 {
+.copy h5 {
+  font-size: 1.0625em;
+  font-size: var(--copy-h5);
+}
+
+.copy h6 {
+  font-size: 1em;
+  font-size: var(--copy-h6);
+}
+
+.copy pre {
+  font-family: var(--code-font-family);
+}
+
+:root {
+  --copy-h1: 2em;
+  --copy-h2: 1.5em;
+  --copy-h3: 1.25em;
+  --copy-h4: 1.125em;
+  --copy-h5: 1.0625em;
+  --copy-h6: 1em;
+  --copy-space: 1.5em;
+  --copy-space-second: .5em;
+}
+
+.copy h1, .copy h2, .copy h3, .copy h4, .copy h5, .copy h6 {
   font-weight: 600;
 }
 
 .copy a {
   color: var(--blue);
-  font-weight: 600;
-  -webkit-box-shadow: 0 2px var(--black-10);
-          box-shadow: 0 2px var(--black-10);
+  font-weight: 500;
+  text-decoration: underline;
 }
 
-.copy a:hover {
-  color: inherit;
+.copy pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 1rem;
+  background-color: var(--black-10);
+  font-size: .875em;
+  line-height: 1.5;
 }
 
-:root {
-  --copy-space: 1rem;
-  --copy-space-second: .5rem;
+.copy pre.cli {
+  background-color: var(--black-90);
+  color: var(--white);
 }

@@ -7,41 +7,58 @@
   <link rel="icon" type="image/png" href="http://www.lemmonjuice.com/img/favicon.png" sizes="32x32">
   <link rel="stylesheet" href="https://unpkg.com/abrusco@0.6.4/css/abrusco.min.css">
   <link rel="stylesheet" href="bundle.css">
+  <style>
+  :root {
+    --aqua:    #7fdbff;
+    --blue:    #0074d9;
+    --navy:    #001f3f;
+    --teal:    #39cccc;
+    --green:   #2ecc40;
+    --olive:   #3d9970;
+    --lime:    #01ff70;
+    --yellow:  #ffdc00;
+    --orange:  #ff851b;
+    --red:     #ff4136;
+    --fuchsia: #f012be;
+    --purple:  #b10dc9;
+    --maroon:  #85144b;
+  }
+  </style>
 </head>
-<body class="py1 sd-p1 col">
+<body class="col justify-between sd-p1 max64">
 
-  <header class="p05">
-    <div class="p025">
-      <h1 class="p025 h2 fw700">Abrusco</h1>
-      <p class="p025 lh4 color-black-50">Hackable CSS toolbox.</p>
+  <header class="p05 sd-p1">
+    <div class="p05 sd-p1">
+      <h1 class="h2 lh4 fw600">Abrusco</h1>
+      <p class="lh4 color-black-50">Hackable CSS toolbox.</p>
     </div>
   </header>
 
-  <main class="span1">
+  <main class="span1 p05 sd-p1">
 
-    <section class="p1 my2 max60">
+    <section class="p05 sd-p1 my2">
       <div class="copy lh4">
-        <h2 class="h2">Getting Started</h2>
-        <pre class="code f2 bg-black-80 color-white p1">npm install abrusco --save-dev</pre>
+        <h2>Getting Started</h2>
+        <pre class="cli">npm install abrusco --save-dev</pre>
         <p>Or use the <a target="_blank" href="https://unpkg.com/abrusco@0.6.4/css/abrusco.min.css">CDN Link</a></p>
-        <pre class="code f2 bg-black-80 color-white p1">&lt;link href="https://unpkg.com/abrusco@0.6.4/css/abrusco.min.css" rel="stylesheet"&gt;</pre>
-        <p><a target="_blank" href="https://raw.githubusercontent.com/lemmon/abrusco/master/css/abrusco.min.css">Download directly</a></p>
+        <pre class="cli">&lt;link href="https://unpkg.com/abrusco@0.6.4/css/abrusco.min.css" rel="stylesheet"&gt;</pre>
       </div>
     </section>
 
-    <section class="p1 my2 max60">
+    <section class="p05 sd-p1 my2">
       <div class="copy lh4">
-        <h2 class="h2">CLI</h2>
+        <h2>CLI</h2>
         <p>This package is meant to be installed globally.</p>
-        <pre class="code f2 bg-black-80 color-white p1">npm install abrusco-cli --global</pre>
-        <pre class="code f2 bg-black-80 color-white p1">
+        <pre class="cli">npm install abrusco-cli --global</pre>
+        <pre class="cli">
 Usage
   $ abrusco &lt;input.css&gt;
 
 Options
   -o, --output Output file
   -m, --minify Minify the output stylesheet
-  -w, --watch Watch CSS source directory for changes
+  -w, --watch  Watch CSS source directory for changes
+  --novars     Do not preserve Custom Properties
 
 Example
   $ abrusco src/master.css -o dist/bundle.css
@@ -51,12 +68,11 @@ Example
       </div>
     </section>
 
-    <section class="p1 my2 max60">
+    <section class="p05 sd-p1 my2">
       <div class="copy lh4">
-        <h2 class="h2">Hacking Abrusco</h2>
+        <h2>Hacking Abrusco</h2>
         <p>Many of the properties are set up as <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables">CSS custom variables</a>.</p>
-      </div>
-      <pre class="code f2 lh4 bg-black-05 color-black-80 p1 my1">
+        <pre>
 .h1 { font-size: var(--h1); }
 .h2 { font-size: var(--h2); }
 .h3 { font-size: var(--h3); }
@@ -73,10 +89,8 @@ Example
   --h6: 1.0625rem;
 }
 </pre>
-      <div class="copy lh4">
         <p>Abrusco is build in a way that you can adjust the properties even insite the HTML document.</p>
-      </div>
-      <pre class="code f2 lh4 bg-black-05 color-black-80 p1 my1">
+        <pre>
 &lt;!doctype html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -84,7 +98,7 @@ Example
   &lt;link href="https://unpkg.com/abrusco@0.6.4/css/abrusco.min.css" rel="stylesheet"&gt;
   &lt;style&gt;
   :root {
-    --h1: 5rem; <span class="color-black-40">/* your custom h1 size */</span>
+    --h1: 5rem; <span class="a5">/* your custom h1 size */</span>
   }
   &lt;/style&gt;
 &lt;/head&gt;
@@ -95,60 +109,40 @@ Example
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
-      <div class="copy lh4">
         <p>Note that this example will not work in Internet Explorer.
           See the list of <a target="_blank" href="https://caniuse.com/#feat=css-variables">browsers supporting</a> CSS variables.
           However you can create your own build if you have both <code class="code f2 bg-black-05 color-black-80 p0125">abrusco</code> and <code class="code f2 bg-black-05 color-black-80 p0125">abrusco-cli</code> installed.</p>
-        <pre class="code f2 lh4 bg-black-05 color-black-80 p1 my1">
-<span class="color-black-40">/* import full abrusco build */</span>
+        <pre>
+<span class="a5">/* import full abrusco build */</span>
 @include 'abrusco';
 
-<span class="color-black-40">/* modify abrusco's internal variables */</span>
+<span class="a5">/* modify abrusco's internal variables */</span>
 :root {
   --text-color: var(--orange);
   --orange: var(255, 108, 47);
 }
 
-<span class="color-black-40">/* use abrusco's internal variables */</span>
+<span class="a5">/* use abrusco's internal variables */</span>
 .your-class {
   color: var(--green);
 }
 </pre>
         <p>Build your custom bundle using CLI:</p>
-        <pre class="code f2 bg-black-80 color-white p1">abrusco master.css -o bundle.css</pre>
-      </div>
-    </section>
-
-    <section class="p1 my2 max60">
-      <div class="copy lh4">
-        <h2 class="h2">Type</h2>
-      </div>
-      <pre class="code f2 lh4 bg-black-05 color-black-80 p1 my1">
-&lt;h1 class="h1"&gt;Heading 1&lt;/h1&gt;
-&lt;h2 class="h2"&gt;Heading 2&lt;/h2&gt;
-&lt;h3 class="h3"&gt;Heading 3&lt;/h3&gt;
-&lt;h4 class="h4"&gt;Heading 4&lt;/h4&gt;
-&lt;h5 class="h5"&gt;Heading 5&lt;/h5&gt;
-&lt;h6 class="h6"&gt;Heading 6&lt;/h6&gt;
-</pre>
-      <figure class="bg-black-05 color-black-80 p05 my1">
-        <h1 class="p05 h1">Heading 1</h1>
-        <h2 class="p05 h2">Heading 2</h2>
-        <h3 class="p05 h3">Heading 3</h3>
-        <h4 class="p05 h4">Heading 4</h4>
-        <h5 class="p05 h5">Heading 5</h5>
-        <h6 class="p05 h6">Heading 6</h6>
-      </figure>
-      <div class="copy lh4">
-        <p>See all the <a target="_blank" href="https://github.com/lemmon/abrusco/blob/master/src/-type.css">typography classes</a> and <a target="_blank" href="https://github.com/lemmon/abrusco/blob/master/src/-variables.css">variables</a> available.</p>
+        <pre class="cli">abrusco master.css -o bundle.css</pre>
       </div>
     </section>
 
   </main>
 
-  <footer class="p1">
-    <p class="color-black-20">created by <a class="a-ul color-black-40" href="http://www.lemmonjuice.com">lemmon</a> |
-      <a class="a-ul color-black-40" target="_blank" href="https://github.com/lemmon/abrusco">github</a></p>
+  <footer class="sd-p1">
+
+    <nav>
+      <ul class="md-row py05">
+        <li class="px1 py05"><a class="ul" target="_blank" href="https://github.com/lemmon">github</a></li>
+        <li class="px1 py05">Created by <a class="ul" target="_blank" href="http://www.lemmonjuice.com/">lemmon</a></li>
+      </ul>
+    </nav>
+
   </footer>
 
 </body>

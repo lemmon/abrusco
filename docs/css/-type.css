@@ -3,7 +3,7 @@
     margin-top: var(--copy-space);
     margin-bottom: var(--copy-space);
   }
-  & h2, & h3, & h4 {
+  & h2, & h3, & h4, & h5, & h6 {
     margin-top: var(--copy-space);
     margin-bottom: var(--copy-space-second);
   }
@@ -17,24 +17,24 @@
   & :last-child {
     margin-bottom: 0;
   }
-  & h1 { font-size: var(--h2); }
-  & h2 { font-size: var(--h3); }
-  & h3 { font-size: var(--h4); }
-  & h4 { font-size: var(--h5); }
-  & h1, & h2, & h3, & h4 {
-    font-weight: 600;
-  }
-  & a {
-    color: var(--blue);
-    font-weight: 600;
-    box-shadow: 0 2px var(--black-10);
-    &:hover {
-      color: inherit;
-    }
+  & h1 { font-size: var(--copy-h1); }
+  & h2 { font-size: var(--copy-h2); }
+  & h3 { font-size: var(--copy-h3); }
+  & h4 { font-size: var(--copy-h4); }
+  & h5 { font-size: var(--copy-h5); }
+  & h6 { font-size: var(--copy-h6); }
+  & pre {
+    font-family: var(--code-font-family);
   }
 }
 
 :root {
-  --copy-space: 1rem;
-  --copy-space-second: .5rem;
+  --copy-h1: 2.0em;
+  --copy-h2: 1.5em;
+  --copy-h3: 1.25em;
+  --copy-h4: 1.125em;
+  --copy-h5: 1.0625em;
+  --copy-h6: 1em;
+  --copy-space: 1.5em;
+  --copy-space-second: 0.5em;
 }

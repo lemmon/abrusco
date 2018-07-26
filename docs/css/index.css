@@ -21,4 +21,8 @@
       color: var(--white);
     }
   }
+  & .dollar::before {
+    content: "$ ";
+    opacity: .5;
+  }
 }

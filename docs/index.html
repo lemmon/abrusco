@@ -39,9 +39,9 @@
     <section class="p05 sd-p1 my2">
       <div class="copy lh4">
         <h2>Getting Started</h2>
-        <pre class="cli">npm install abrusco --save-dev</pre>
-        <p>Or use the <a target="_blank" href="https://unpkg.com/abrusco@0.6.4/css/abrusco.min.css">CDN Link</a></p>
-        <pre class="cli">&lt;link href="https://unpkg.com/abrusco@0.6.4/css/abrusco.min.css" rel="stylesheet"&gt;</pre>
+        <pre class="cli dollar">npm install abrusco --save-dev</pre>
+        <p>Or use the <a target="_blank" href="https://unpkg.com/abrusco@0.6.4/css/abrusco.min.css">CDN Link</a>.</p>
+        <pre>&lt;link href="https://unpkg.com/abrusco@0.6.4/css/abrusco.min.css" rel="stylesheet"&gt;</pre>
       </div>
     </section>
 
@@ -49,7 +49,7 @@
       <div class="copy lh4">
         <h2>CLI</h2>
         <p>This package is meant to be installed globally.</p>
-        <pre class="cli">npm install abrusco-cli --global</pre>
+        <pre class="cli dollar">npm install abrusco-cli --global</pre>
         <pre class="cli">
 Usage
   $ abrusco &lt;input.css&gt;
@@ -65,6 +65,7 @@ Example
   $ abrusco src/master.css -o dist/bundle.css --minify
   $ abrusco src/master.css -o dist/bundle.css --watch
 </pre>
+        <p>See Abrusco CLI <a target="_blank" href="https://github.com/lemmon/abrusco-cli">GitHub</a> page for more.</p>
       </div>
     </section>
 
@@ -89,7 +90,9 @@ Example
   --h6: 1.0625rem;
 }
 </pre>
-        <p>Abrusco is build in a way that you can adjust the properties even insite the HTML document.</p>
+        <p>Abrusco is build in a way that you can adjust the properties even insite the HTML document.
+          See the list of all Abrusco's <a target="_blank" href="https://github.com/lemmon/abrusco/blob/master/src/-variables.css">custom properties</a> available.</p>
+        <p>Note: (only root properties work now) TODO</p>
         <pre>
 &lt;!doctype html&gt;
 &lt;html&gt;
@@ -105,11 +108,12 @@ Example
 &lt;body&gt;
 
   &lt;h1 class="h1"&gt;Heading 1 is 5rem now&lt;/h1&gt;
+  &lt;h2 class="h2"&gt;Heading is still Abrusco's default H2 size&lt;/h2&gt;
 
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
-        <p>Note that this example will not work in Internet Explorer.
+        <p>Note: this example will not work in Internet Explorer.
           See the list of <a target="_blank" href="https://caniuse.com/#feat=css-variables">browsers supporting</a> CSS variables.
           However you can create your own build if you have both <code class="code f2 bg-black-05 color-black-80 p0125">abrusco</code> and <code class="code f2 bg-black-05 color-black-80 p0125">abrusco-cli</code> installed.</p>
         <pre>
@@ -128,7 +132,7 @@ Example
 }
 </pre>
         <p>Build your custom bundle using CLI:</p>
-        <pre class="cli">abrusco master.css -o bundle.css</pre>
+        <pre class="cli dollar">abrusco master.css -o bundle.css</pre>
       </div>
     </section>
 
@@ -139,7 +143,7 @@ Example
     <nav>
       <ul class="md-row py05">
         <li class="px1 py05"><a class="ul" target="_blank" href="https://github.com/lemmon">github</a></li>
-        <li class="px1 py05">Created by <a class="ul" target="_blank" href="http://www.lemmonjuice.com/">lemmon</a></li>
+        <li class="px1 py05">created by <a class="ul" target="_blank" href="http://www.lemmonjuice.com/">lemmon</a></li>
       </ul>
     </nav>
 

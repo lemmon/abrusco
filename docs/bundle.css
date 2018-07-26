@@ -95,3 +95,8 @@
   background-color: var(--black-90);
   color: var(--white);
 }
+
+.copy .dollar::before {
+  content: "$ ";
+  opacity: .5;
+}

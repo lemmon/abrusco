@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build": "abrusco css -o bundle.css",
+    "w": "npm run build -- --watch"
+  }
+}

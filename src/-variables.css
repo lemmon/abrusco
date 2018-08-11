@@ -79,6 +79,7 @@
 
 }
 
+@custom-media --view-xs (max-width: 24rem);
 @custom-media --view-sd (min-width: 32rem);
 @custom-media --view-md (min-width: 48rem);
 @custom-media --view-ld (min-width: 64rem);

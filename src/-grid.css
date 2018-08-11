@@ -47,6 +47,7 @@
 .grid4 > * { width: calc(100% / 4); }
 .grid5 > * { width: calc(100% / 5); }
 .grid6 > * { width: calc(100% / 6); }
+.grid7 > * { width: calc(100% / 7); }
 
 @supports (display: grid) {
   .grid {
@@ -57,11 +58,13 @@
   .grid4 { grid-template-columns: repeat(4, 1fr); }
   .grid5 { grid-template-columns: repeat(5, 1fr); }
   .grid6 { grid-template-columns: repeat(6, 1fr); }
+  .grid7 { grid-template-columns: repeat(7, 1fr); }
   .grid2 > *,
   .grid3 > *,
   .grid4 > *,
   .grid5 > *,
-  .grid6 > * {
+  .grid6 > *,
+  .grid7 > * {
     width: auto;
   }
 }
@@ -126,6 +129,7 @@
   .sd-grid4 > * { width: calc(100% / 4); }
   .sd-grid5 > * { width: calc(100% / 5); }
   .sd-grid6 > * { width: calc(100% / 6); }
+  .sd-grid7 > * { width: calc(100% / 7); }
 
   @supports (display: grid) {
     .sd-grid {
@@ -136,11 +140,13 @@
     .sd-grid4 { grid-template-columns: repeat(4, 1fr); }
     .sd-grid5 { grid-template-columns: repeat(5, 1fr); }
     .sd-grid6 { grid-template-columns: repeat(6, 1fr); }
+    .sd-grid7 { grid-template-columns: repeat(7, 1fr); }
     .sd-grid2 > *,
     .sd-grid3 > *,
     .sd-grid4 > *,
     .sd-grid5 > *,
-    .sd-grid6 > * {
+    .sd-grid6 > *,
+    .sd-grid7 > * {
       width: auto;
     }
   }
@@ -161,6 +167,7 @@
   .md-grid4 > * { width: calc(100% / 4); }
   .md-grid5 > * { width: calc(100% / 5); }
   .md-grid6 > * { width: calc(100% / 6); }
+  .md-grid7 > * { width: calc(100% / 7); }
 
   @supports (display: grid) {
     .md-grid {
@@ -171,11 +178,13 @@
     .md-grid4 { grid-template-columns: repeat(4, 1fr); }
     .md-grid5 { grid-template-columns: repeat(5, 1fr); }
     .md-grid6 { grid-template-columns: repeat(6, 1fr); }
+    .md-grid7 { grid-template-columns: repeat(7, 1fr); }
     .md-grid2 > *,
     .md-grid3 > *,
     .md-grid4 > *,
     .md-grid5 > *,
-    .md-grid6 > * {
+    .md-grid6 > *,
+    .md-grid7 > * {
       width: auto;
     }
   }
@@ -196,6 +205,7 @@
   .ld-grid4 > * { width: calc(100% / 4); }
   .ld-grid5 > * { width: calc(100% / 5); }
   .ld-grid6 > * { width: calc(100% / 6); }
+  .ld-grid7 > * { width: calc(100% / 7); }
 
   @supports (display: grid) {
     .ld-grid {
@@ -206,11 +216,13 @@
     .ld-grid4 { grid-template-columns: repeat(4, 1fr); }
     .ld-grid5 { grid-template-columns: repeat(5, 1fr); }
     .ld-grid6 { grid-template-columns: repeat(6, 1fr); }
+    .ld-grid7 { grid-template-columns: repeat(7, 1fr); }
     .ld-grid2 > *,
     .ld-grid3 > *,
     .ld-grid4 > *,
     .ld-grid5 > *,
-    .ld-grid6 > * {
+    .ld-grid6 > *,
+    .ld-grid7 > * {
       width: auto;
     }
   }

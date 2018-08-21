@@ -34,6 +34,8 @@
   --lh4: 1.5;       /* 24 */
   --lh5: 2;         /* 32 */
 
+  --div-size: 1px;
+
   --black:  #040404;
   --white:  #ffffff;
   --red:    #f44336;

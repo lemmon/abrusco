@@ -36,6 +36,9 @@
 .row { display: flex; flex-direction: row; }
 .col { display: flex; flex-direction: column; }
 
+.row-reverse { display: flex; flex-direction: row-reverse; }
+.col-reverse { display: flex; flex-direction: column-reverse; }
+
 .flex-wrap { flex-wrap: wrap; }
 
 .grid {
@@ -122,6 +125,9 @@
   .sd-row { display: flex; flex-direction: row; }
   .sd-col { display: flex; flex-direction: column; }
 
+  .sd-row-reverse { display: flex; flex-direction: row-reverse; }
+  .sd-col-reverse { display: flex; flex-direction: column-reverse; }
+
   .sd-grid {
     display: flex;
     flex-wrap: wrap;
@@ -162,6 +168,9 @@
   .md-row { display: flex; flex-direction: row; }
   .md-col { display: flex; flex-direction: column; }
 
+  .md-row-reverse { display: flex; flex-direction: row-reverse; }
+  .md-col-reverse { display: flex; flex-direction: column-reverse; }
+
   .md-grid {
     display: flex;
     flex-wrap: wrap;
@@ -201,6 +210,9 @@
 
   .ld-row { display: flex; flex-direction: row; }
   .ld-col { display: flex; flex-direction: column; }
+
+  .ld-row-reverse { display: flex; flex-direction: row-reverse; }
+  .ld-col-reverse { display: flex; flex-direction: column-reverse; }
 
   .ld-grid {
     display: flex;

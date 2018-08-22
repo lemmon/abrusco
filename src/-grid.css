@@ -117,6 +117,8 @@
 
 @media (--view-sd) {
 
+  .sd-max { max-width: none; }
+
   .sd-row { display: flex; flex-direction: row; }
   .sd-col { display: flex; flex-direction: column; }
 
@@ -155,6 +157,8 @@
 
 @media (--view-md) {
 
+  .md-max { max-width: none; }
+
   .md-row { display: flex; flex-direction: row; }
   .md-col { display: flex; flex-direction: column; }
 
@@ -192,6 +196,8 @@
 }
 
 @media (--view-ld) {
+
+  .ld-max { max-width: none; }
 
   .ld-row { display: flex; flex-direction: row; }
   .ld-col { display: flex; flex-direction: column; }

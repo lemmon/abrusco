@@ -45,15 +45,16 @@
 .bg-white-025 { background-color: var(--white-025); }
 .bg-white-0125 { background-color: var(--white-0125); }
 
-.bg-red { background-color: var(--red); }
-.bg-pink { background-color: var(--pink); }
-.bg-purple { background-color: var(--purple); }
-.bg-indigo { background-color: var(--indigo); }
+.bg-aqua { background-color: var(--aqua); }
 .bg-blue { background-color: var(--blue); }
-.bg-cyan { background-color: var(--cyan); }
+.bg-navy { background-color: var(--navy); }
 .bg-teal { background-color: var(--teal); }
 .bg-green { background-color: var(--green); }
+.bg-olive { background-color: var(--olive); }
 .bg-lime { background-color: var(--lime); }
 .bg-yellow { background-color: var(--yellow); }
 .bg-orange { background-color: var(--orange); }
-.bg-brown { background-color: var(--brown); }
+.bg-red { background-color: var(--red); }
+.bg-fuchsia { background-color: var(--fuchsia); }
+.bg-purple { background-color: var(--purple); }
+.bg-maroon { background-color: var(--maroon); }

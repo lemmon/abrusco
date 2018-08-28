@@ -30,15 +30,16 @@
 .color-white-025 { color: var(--white-025); }
 .color-white-0125 { color: var(--white-0125); }
 
-.color-red { color: var(--red); }
-.color-pink { color: var(--pink); }
-.color-purple { color: var(--purple); }
-.color-indigo { color: var(--indigo); }
+.color-aqua { color: var(--aqua); }
 .color-blue { color: var(--blue); }
-.color-cyan { color: var(--cyan); }
+.color-navy { color: var(--navy); }
 .color-teal { color: var(--teal); }
 .color-green { color: var(--green); }
+.color-olive { color: var(--olive); }
 .color-lime { color: var(--lime); }
 .color-yellow { color: var(--yellow); }
 .color-orange { color: var(--orange); }
-.color-brown { color: var(--brown); }
+.color-red { color: var(--red); }
+.color-fuchsia { color: var(--fuchsia); }
+.color-purple { color: var(--purple); }
+.color-maroon { color: var(--maroon); }

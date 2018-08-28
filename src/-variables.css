@@ -38,18 +38,6 @@
 
   --black:  #040404;
   --white:  #ffffff;
-  --red:    #f44336;
-  --pink:   #e91e63;
-  --purple: #9c27b0;
-  --indigo: #3f51b5;
-  --blue:   #2196f3;
-  --cyan:   #00bcd4;
-  --teal:   #009688;
-  --green:  #4caf50;
-  --lime:   #cddc39;
-  --yellow: #ffeb3b;
-  --orange: #ff9800;
-  --brown:  #795548;
 
   --black-95: rgba(4, 4, 4, .95);
   --black-90: rgba(4, 4, 4, .90);
@@ -78,6 +66,22 @@
   --white-05: rgba(255, 255, 255, .05);
   --white-025: rgba(255, 255, 255, .025);
   --white-0125: rgba(255, 255, 255, .0125);
+
+  /* credit to http://clrs.cc/ */
+  --aqua:    #7fdbff;
+  --blue:    #0074d9;
+  --navy:    #001f3f;
+  --teal:    #39cccc;
+  --green:   #2ecc40;
+  --olive:   #3d9970;
+  --lime:    #01ff70;
+  --yellow:  #ffdc00;
+  --orange:  #ff851b;
+  --red:     #ff4136;
+  --fuchsia: #f012be;
+  --purple:  #b10dc9;
+  --maroon:  #85144b;
+  /* /credit */
 
 }
 

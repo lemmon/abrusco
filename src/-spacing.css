@@ -102,6 +102,7 @@
 
 @media (--view-sd) {
 
+  .sd-p0    { padding:   0;    }
   .sd-p025  { padding: .25rem; }
   .sd-p05   { padding:  .5rem; }
   .sd-p075  { padding: .75rem; }
@@ -110,11 +111,13 @@
   .sd-p3    { padding:   3rem; }
   .sd-p4    { padding:   4rem; }
 
+  .sd-px0   { padding-left:   0;    padding-right:   0;    }
   .sd-px1   { padding-left:   1rem; padding-right:   1rem; }
   .sd-px2   { padding-left:   2rem; padding-right:   2rem; }
   .sd-px3   { padding-left:   3rem; padding-right:   3rem; }
   .sd-px4   { padding-left:   4rem; padding-right:   4rem; }
 
+  .sd-py0   { padding-top:   0;    padding-bottom:   0;    }
   .sd-py1   { padding-top:   1rem; padding-bottom:   1rem; }
   .sd-py2   { padding-top:   2rem; padding-bottom:   2rem; }
   .sd-py3   { padding-top:   3rem; padding-bottom:   3rem; }
@@ -124,6 +127,7 @@
 
 @media (--view-md) {
 
+  .md-p0    { padding:   0;    }
   .md-p025  { padding: .25rem; }
   .md-p05   { padding:  .5rem; }
   .md-p075  { padding: .75rem; }
@@ -132,11 +136,13 @@
   .md-p3    { padding:   3rem; }
   .md-p4    { padding:   4rem; }
 
+  .md-px0   { padding-left:   0;    padding-right:   0;    }
   .md-px1   { padding-left:   1rem; padding-right:   1rem; }
   .md-px2   { padding-left:   2rem; padding-right:   2rem; }
   .md-px3   { padding-left:   3rem; padding-right:   3rem; }
   .md-px4   { padding-left:   4rem; padding-right:   4rem; }
 
+  .md-py0   { padding-top:   0;    padding-bottom:   0;    }
   .md-py1   { padding-top:   1rem; padding-bottom:   1rem; }
   .md-py2   { padding-top:   2rem; padding-bottom:   2rem; }
   .md-py3   { padding-top:   3rem; padding-bottom:   3rem; }
@@ -146,6 +152,7 @@
 
 @media (--view-ld) {
 
+  .ld-p0    { padding:   0;    }
   .ld-p025  { padding: .25rem; }
   .ld-p05   { padding:  .5rem; }
   .ld-p075  { padding: .75rem; }
@@ -154,11 +161,13 @@
   .ld-p3    { padding:   3rem; }
   .ld-p4    { padding:   4rem; }
 
+  .ld-px0   { padding-left:   0;    padding-right:   0;    }
   .ld-px1   { padding-left:   1rem; padding-right:   1rem; }
   .ld-px2   { padding-left:   2rem; padding-right:   2rem; }
   .ld-px3   { padding-left:   3rem; padding-right:   3rem; }
   .ld-px4   { padding-left:   4rem; padding-right:   4rem; }
 
+  .ld-py0   { padding-top:   0;    padding-bottom:   0;    }
   .ld-py1   { padding-top:   1rem; padding-bottom:   1rem; }
   .ld-py2   { padding-top:   2rem; padding-bottom:   2rem; }
   .ld-py3   { padding-top:   3rem; padding-bottom:   3rem; }

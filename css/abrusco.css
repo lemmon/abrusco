@@ -1483,6 +1483,11 @@ svg {
   padding-right: 0;
 }
 
+.px0125 {
+  padding-left: .125rem;
+  padding-right: .125rem;
+}
+
 .px025 {
   padding-left: .25rem;
   padding-right: .25rem;
@@ -1523,6 +1528,11 @@ svg {
   padding-bottom: 0;
 }
 
+.py0125 {
+  padding-top: .125rem;
+  padding-bottom: .125rem;
+}
+
 .py025 {
   padding-top: .25rem;
   padding-bottom: .25rem;
@@ -1558,6 +1568,10 @@ svg {
   padding-bottom: 4rem;
 }
 
+.pt0125 {
+  padding-top: .125rem;
+}
+
 .pt025 {
   padding-top: .25rem;
 }
@@ -1580,6 +1594,10 @@ svg {
 
 .pt4 {
   padding-top: 4rem;
+}
+
+.pb0125 {
+  padding-bottom: .125rem;
 }
 
 .pb025 {
@@ -1606,6 +1624,10 @@ svg {
   padding-bottom: 4rem;
 }
 
+.pl0125 {
+  padding-left: .125rem;
+}
+
 .pl025 {
   padding-left: .25rem;
 }
@@ -1628,6 +1650,10 @@ svg {
 
 .pl4 {
   padding-left: 4rem;
+}
+
+.pr0125 {
+  padding-right: .125rem;
 }
 
 .pr025 {
@@ -1795,6 +1821,10 @@ svg {
 }
 
 @media (min-width: 32rem) {
+  .sd-p0 {
+    padding: 0;
+  }
+
   .sd-p025 {
     padding: .25rem;
   }
@@ -1823,6 +1853,11 @@ svg {
     padding: 4rem;
   }
 
+  .sd-px0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .sd-px1 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1841,6 +1876,11 @@ svg {
   .sd-px4 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .sd-py0 {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .sd-py1 {
@@ -1865,6 +1905,10 @@ svg {
 }
 
 @media (min-width: 48rem) {
+  .md-p0 {
+    padding: 0;
+  }
+
   .md-p025 {
     padding: .25rem;
   }
@@ -1893,6 +1937,11 @@ svg {
     padding: 4rem;
   }
 
+  .md-px0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .md-px1 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1911,6 +1960,11 @@ svg {
   .md-px4 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .md-py0 {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .md-py1 {
@@ -1935,6 +1989,10 @@ svg {
 }
 
 @media (min-width: 64rem) {
+  .ld-p0 {
+    padding: 0;
+  }
+
   .ld-p025 {
     padding: .25rem;
   }
@@ -1963,6 +2021,11 @@ svg {
     padding: 4rem;
   }
 
+  .ld-px0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .ld-px1 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1981,6 +2044,11 @@ svg {
   .ld-px4 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .ld-py0 {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .ld-py1 {

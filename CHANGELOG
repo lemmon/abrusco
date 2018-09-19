@@ -2,3 +2,4 @@
 
   * add changelog
   * (spacing) added classes: px0125, py0125, pt0125, pb0125, pl0125, pr0125, sd-p0, sd-px0, sd-py0, md-p0, md-px0, md-py0, ld-p0, ld-px0, ld-py0
+  * removed --div-size, added --border-width to set default border-width and divider size as well

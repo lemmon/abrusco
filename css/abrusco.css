@@ -118,6 +118,7 @@ svg {
   --link-color: blue;
   --link-color: #0074d9;
   --link-color: var(--blue, blue);
+  --border-width: 1px;
   --border-color: currentColor;
   --bold-font-weight: bold;
   --code-font-family: 'Menlo', 'Andale Mono', monospace;
@@ -138,7 +139,6 @@ svg {
   --lh3: 1.375;
   --lh4: 1.5;
   --lh5: 2;
-  --div-size: 1px;
   --black: #040404;
   --white: #fff;
   --black-95: rgba(4, 4, 4, .95);
@@ -2074,27 +2074,27 @@ svg {
 
 .ba {
   border: 1px solid currentColor;
-  border: 1px solid var(--border-color);
+  border: var(--border-width) solid var(--border-color);
 }
 
 .bl {
   border-left: 1px solid currentColor;
-  border-left: 1px solid var(--border-color);
+  border-left: var(--border-width) solid var(--border-color);
 }
 
 .br {
   border-right: 1px solid currentColor;
-  border-right: 1px solid var(--border-color);
+  border-right: var(--border-width) solid var(--border-color);
 }
 
 .bt {
   border-top: 1px solid currentColor;
-  border-top: 1px solid var(--border-color);
+  border-top: var(--border-width) solid var(--border-color);
 }
 
 .bb {
   border-bottom: 1px solid currentColor;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: var(--border-width) solid var(--border-color);
 }
 
 .br1 {
@@ -2324,9 +2324,9 @@ svg {
   width: 100%;
   height: 100%;
   min-width: 1px;
-  min-width: var(--div-size);
+  min-width: var(--border-width);
   min-height: 1px;
-  min-height: var(--div-size);
+  min-height: var(--border-width);
   background-color: currentColor;
 }
 

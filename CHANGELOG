@@ -1,3 +1,8 @@
+* 0.7.2 (2018-10-XX)
+
+  * new variables: --serif-font-family, --sansserif-font-family
+  * (type) added classes: serif, sansserif
+
 * 0.7.1 (2018-09-19)
 
   * add changelog

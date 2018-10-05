@@ -55,6 +55,12 @@
 
 .nowrap { white-space: nowrap; }
 
+.serif {
+  font-family: var(--serif-font-family);
+}
+.sansserif {
+  font-family: var(--sansserif-font-family);
+}
 .code {
   font-family: var(--code-font-family);
 }

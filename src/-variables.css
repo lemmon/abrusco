@@ -1,10 +1,7 @@
 :root {
 
   --font-size: 16px;
-  --font-family: -apple-system, BlinkMacSystemFont,
-    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
-    'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  --font-family: var(--sansserif-font-family);
 
   --background-color: var(--white, white);
   --text-color: var(--black, black);
@@ -13,6 +10,11 @@
   --border-color: currentColor;
   --bold-font-weight: bold;
 
+  --serif-font-family: Georgia, 'Times New Roman', serif;
+  --sansserif-font-family: -apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
   --code-font-family: 'Menlo', 'Andale Mono', monospace;
 
   --h1: 2.5rem;     /* 40 */

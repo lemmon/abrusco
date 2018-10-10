@@ -60,5 +60,5 @@
   height: 100%;
   min-width: var(--border-width);
   min-height: var(--border-width);
-  background-color: currentColor;
+  background-color: var(--border-color);
 }

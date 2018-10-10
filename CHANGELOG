@@ -1,7 +1,8 @@
-* 0.7.2 (2018-10-XX)
+* 0.7.2 (2018-10-10)
 
   * new variables: --serif-font-family, --sansserif-font-family
   * (type) added classes: serif, sansserif
+  * (borders) fix: class div to use --border-color as default color
 
 * 0.7.1 (2018-09-19)
 

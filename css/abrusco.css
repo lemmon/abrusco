@@ -2361,6 +2361,7 @@ svg {
   min-height: 1px;
   min-height: var(--border-width);
   background-color: currentColor;
+  background-color: var(--border-color);
 }
 
 .color-inherit {

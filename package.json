@@ -9,16 +9,21 @@
     "build:css": "abrusco src -o css/abrusco.css",
     "build:minify": "abrusco css/abrusco.css -o css/abrusco.min.css --minify",
     "build": "npm run build:css && npm run build:minify",
-    "readme": "sed -i .previous -E 's/@[0-9]+\\.[0-9]+\\.[0-9]+/@'$npm_package_version'/g' {README.md,docs/*.html}",
+    "readme:update": "sed -i ~previous -E 's/@[0-9]+\\.[0-9]+\\.[0-9]+/@'$npm_package_version'/g' {README.md,docs/*.html}",
+    "readme:cleanup": "find . -type f -name '*.*~previous' | xargs rm",
+    "readme": "npm run readme:update && npm run readme:cleanup",
     "version": "npm run build && npm run readme && git add -A css docs examples README.md",
     "postversion": "git push && git push --tags && npm publish && bin/deploy",
-    "w": "abrusco src -o css/abrusco.css --watch",
-    "w:latest": "node ../abrusco-cli/cli src -o css/abrusco.css --watch"
+    "w": "abrusco src -o css/abrusco.css --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lemmon/abrusco.git"
   },
+  "files": [
+    "/css",
+    "/src"
+  ],
   "keywords": [
     "css",
     "oocss",

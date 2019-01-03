@@ -96,6 +96,12 @@
   color: var(--white);
 }
 
+.copy pre a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dashed;
+}
+
 .copy .dollar::before {
   content: "$ ";
   opacity: .5;

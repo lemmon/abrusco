@@ -8,27 +8,33 @@
   <link rel="stylesheet" href="https://unpkg.com/abrusco@0.7.3/css/abrusco.min.css">
   <link rel="stylesheet" href="bundle.css">
 </head>
-<body class="col justify-between sd-p1 max64">
+<body class="col max64">
 
-  <header class="p05 sd-p1">
-    <div class="p05 sd-p1">
-      <h1 class="h2 lh4 fw600">Abrusco</h1>
-      <p class="lh4 color-black-50">Hackable CSS toolbox.</p>
+  <header class="py2 md-px1 ld-p2">
+    <div class="p075">
+      <h1 class="p025 h2 lh2 fw700">Abrusco</h1>
+      <div class="p025">
+        <p class="lh4 color-black-50">Hackable CSS toolbox.</p>
+      </div>
     </div>
   </header>
 
-  <main class="span1 p05 sd-p1">
+  <div class="ld-px1">
+    <hr class="px1 div color-black-10">
+  </div>
 
-    <section class="p05 sd-p1 my2">
+  <main class="span1 py1 ld-py2"><div class="p05">
+
+    <section class="py1 md-px1 ld-p2"><div class="p05">
       <div class="copy lh4">
         <h2>Getting Started</h2>
         <pre class="cli dollar">npm install abrusco --save-dev</pre>
         <p>Or use the <a target="_blank" href="https://unpkg.com/abrusco@0.7.3/css/abrusco.min.css">CDN Link</a>.</p>
-        <pre>&lt;link href="https://unpkg.com/abrusco@0.7.3/css/abrusco.min.css" rel="stylesheet"&gt;</pre>
+        <pre>&lt;link href="<a target="_blank" href="https://unpkg.com/abrusco@0.7.3/css/abrusco.min.css">https://unpkg.com/abrusco@0.7.3/css/abrusco.min.css</a>" rel="stylesheet"&gt;</pre>
       </div>
-    </section>
+    </div></section>
 
-    <section class="p05 sd-p1 my2">
+    <section class="py1 md-px1 ld-p2"><div class="p05">
       <div class="copy lh4">
         <h2>CLI</h2>
         <p>This package is meant to be installed globally.</p>
@@ -50,9 +56,9 @@ Example
 </pre>
         <p>See Abrusco CLI <a target="_blank" href="https://github.com/lemmon/abrusco-cli">GitHub</a> page for more.</p>
       </div>
-    </section>
+    </div></section>
 
-    <section class="p05 sd-p1 my2">
+    <section class="py1 md-px1 ld-p2"><div class="p05">
       <div class="copy lh4">
         <h2>Hacking Abrusco</h2>
         <p>Many of the properties are set up as <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables">CSS custom variables</a>.</p>
@@ -117,19 +123,21 @@ Example
         <p>Build your custom bundle using CLI:</p>
         <pre class="cli dollar">abrusco master.css -o bundle.css</pre>
       </div>
-    </section>
+    </div></section>
 
-  </main>
+  </div></main>
 
-  <footer class="sd-p1">
+  <div class="ld-px1">
+    <hr class="px1 div color-black-10">
+  </div>
 
-    <nav>
-      <ul class="md-row py05">
+  <footer class="py2 md-px1 ld-p2">
+    <nav class="lh4">
+      <ul class="row flex-wrap py05">
         <li class="px1 py05"><a class="ul" target="_blank" href="https://github.com/lemmon/abrusco">github</a></li>
         <li class="px1 py05">created by <a class="ul" target="_blank" href="http://www.lemmonjuice.com/">lemmon</a></li>
       </ul>
     </nav>
-
   </footer>
 
 </body>

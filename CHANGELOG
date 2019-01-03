@@ -1,3 +1,7 @@
+* 0.7.3 (2019-02-03)
+
+  * (borders) fix div color overwrite
+
 * 0.7.2 (2018-10-10)
 
   * new variables: --serif-font-family, --sansserif-font-family

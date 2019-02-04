@@ -71,7 +71,7 @@ body {
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   body {
-    height: 100vh;
+    height: 100%;
   }
 }
 

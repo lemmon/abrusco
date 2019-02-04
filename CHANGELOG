@@ -1,4 +1,8 @@
-* 0.7.3 (2019-02-03)
+* 0.7.4 (2019-02-04)
+
+  * (normalize) fix IE 100vh vertical height
+
+* 0.7.3 (2019-01-03)
 
   * (borders) fix div color overwrite
 

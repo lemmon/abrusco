@@ -2605,31 +2605,31 @@ svg {
   background-position: center;
 }
 
-.bg-tl {
+.bg-tl, .bg-topleft {
   background-position: top left;
 }
 
-.bg-tr {
+.bg-tr, .bg-topright {
   background-position: top right;
 }
 
-.bg-bl {
+.bg-bl, .bg-bottomleft {
   background-position: bottom left;
 }
 
-.bg-br {
+.bg-br, .bg-bottomright {
   background-position: bottom right;
 }
 
-.bg-rx {
+.bg-rx, .bg-repeatx {
   background-repeat: repeat-x;
 }
 
-.bg-ry {
+.bg-ry, .bg-repeaty {
   background-repeat: repeat-y;
 }
 
-.bg-nr {
+.bg-nr, .bg-norepeat {
   background-repeat: no-repeat;
 }
 

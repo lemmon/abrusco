@@ -1,6 +1,6 @@
 # Abrusco
 
-Hackable CSS toolbox. <https://abrusco.com>
+Hackable & Functional CSS toolbox. <https://abrusco.com>
 
 [![npm version](https://badge.fury.io/js/abrusco.svg)](https://badge.fury.io/js/abrusco)
 
@@ -20,6 +20,7 @@ npm install abrusco --save-dev
 
 * Mobile first and responsive
 * Reusable and hackable
+* Functional
 * Works with plain html or framework of your choice
 * Built with Postcss
 * Inspired by Tachyons and Basscss

@@ -2368,7 +2368,7 @@ svg {
   background-color: currentColor;
 }
 
-.color-inherit {
+.color-inherit, .color-inherit\:hover:hover, .anchor:hover .color-inherit\:hover {
   color: inherit;
 }
 

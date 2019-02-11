@@ -1,4 +1,8 @@
-.color-inherit { color: inherit; }
+.color-inherit,
+.color-inherit\:hover:hover,
+.anchor:hover .color-inherit\:hover {
+  color: inherit;
+}
 
 .color-black { color: var(--black); }
 .color-black-95 { color: var(--black-95); }

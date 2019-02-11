@@ -2,6 +2,7 @@
 
   * (background) add: bg-topleft, bg-topright, bg-bottomleft, bg-bottomright, bg-repeatx, bg-repeaty, bg-norepeat
   * (background) depreciate: bg-tl, bg-tr, bg-bl, bg-br, bg-rx, bg-ry, bg-nr
+  * (colors) add: color-inherit, color-inherit:hover
 
 * 0.7.4 (2019-02-04)
 

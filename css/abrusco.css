@@ -2838,6 +2838,11 @@ svg {
   background-color: var(--maroon);
 }
 
+.-d {
+  outline: 1px dashed #b10dc9;
+  outline: 1px dashed var(--purple);
+}
+
 .-d * {
   outline: 1px dashed #01ff70;
   outline: 1px dashed var(--lime);
@@ -2865,6 +2870,12 @@ svg {
   content: "-";
 }
 
+@media (max-width: 24rem) {
+  .-view::before {
+    content: "XS";
+  }
+}
+
 @media (min-width: 32rem) {
   .-view::before {
     content: "SD";
@@ -2880,5 +2891,11 @@ svg {
 @media (min-width: 64rem) {
   .-view::before {
     content: "LD";
+  }
+}
+
+@media (min-width: 80rem) {
+  .-view::before {
+    content: "XL";
   }
 }

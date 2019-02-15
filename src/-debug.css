@@ -1,3 +1,4 @@
+.-d { outline: 1px dashed var(--purple); }
 .-d * { outline: 1px dashed var(--lime); }
 .-d *.-d { outline: 1px dashed var(--purple); }
 
@@ -16,14 +17,8 @@
   }
 }
 
-@media (--view-sd) {
-  .-view::before { content: "SD"; }
-}
-
-@media (--view-md) {
-  .-view::before { content: "MD"; }
-}
-
-@media (--view-ld) {
-  .-view::before { content: "LD"; }
-}
+@media (--view-xs) { .-view::before { content: "XS"; } }
+@media (--view-sd) { .-view::before { content: "SD"; } }
+@media (--view-md) { .-view::before { content: "MD"; } }
+@media (--view-ld) { .-view::before { content: "LD"; } }
+@media (--view-xl) { .-view::before { content: "XL"; } }

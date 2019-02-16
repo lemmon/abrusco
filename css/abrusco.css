@@ -569,14 +569,6 @@ svg {
   display: inline-block;
 }
 
-.show {
-  display: block;
-}
-
-.hide {
-  display: none;
-}
-
 .visible {
   visibility: visible;
 }
@@ -689,44 +681,12 @@ svg {
   opacity: ;
 }
 
-@media (max-width: 24rem) {
-  .xs-show {
-    display: block;
-  }
-
-  .xs-hide {
-    display: none;
-  }
+.show {
+  display: block;
 }
 
-@media (min-width: 32rem) {
-  .sd-show {
-    display: block;
-  }
-
-  .sd-hide {
-    display: none;
-  }
-}
-
-@media (min-width: 48rem) {
-  .md-show {
-    display: block;
-  }
-
-  .md-hide {
-    display: none;
-  }
-}
-
-@media (min-width: 64rem) {
-  .ld-show {
-    display: block;
-  }
-
-  .ld-hide {
-    display: none;
-  }
+.hide {
+  display: none;
 }
 
 .max {
@@ -1188,7 +1148,25 @@ svg {
   order: 9;
 }
 
+@media (max-width: 24rem) {
+  .xs-show {
+    display: block;
+  }
+
+  .xs-hide {
+    display: none;
+  }
+}
+
 @media (min-width: 32rem) {
+  .sd-show {
+    display: block;
+  }
+
+  .sd-hide {
+    display: none;
+  }
+
   .sd-max {
     max-width: none;
   }
@@ -1302,6 +1280,14 @@ svg {
 }
 
 @media (min-width: 48rem) {
+  .md-show {
+    display: block;
+  }
+
+  .md-hide {
+    display: none;
+  }
+
   .md-max {
     max-width: none;
   }
@@ -1415,6 +1401,14 @@ svg {
 }
 
 @media (min-width: 64rem) {
+  .ld-show {
+    display: block;
+  }
+
+  .ld-hide {
+    display: none;
+  }
+
   .ld-max {
     max-width: none;
   }
@@ -1524,6 +1518,16 @@ svg {
     .ld-grid7 > * {
       width: auto;
     }
+  }
+}
+
+@media (min-width: 80rem) {
+  .xl-show {
+    display: block;
+  }
+
+  .xl-hide {
+    display: none;
   }
 }
 

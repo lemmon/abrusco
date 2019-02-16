@@ -2,9 +2,6 @@
 .inline { display: inline; }
 .inlineblock { display: inline-block; }
 
-.show { display: block; }
-.hide { display: none; }
-
 .visible { visibility: visible; }
 .invisible, /* depreciated */
 .hidden { visibility: hidden; }
@@ -37,31 +34,3 @@
 .o10  { opacity: .1; }
 .o05  { opacity: .05; }
 .o0   { opacity: .0; }
-
-@media (--view-xs) {
-
-  .xs-show { display: block; }
-  .xs-hide { display: none; }
-
-}
-
-@media (--view-sd) {
-
-  .sd-show { display: block; }
-  .sd-hide { display: none; }
-
-}
-
-@media (--view-md) {
-
-  .md-show { display: block; }
-  .md-hide { display: none; }
-
-}
-
-@media (--view-ld) {
-
-  .ld-show { display: block; }
-  .ld-hide { display: none; }
-
-}

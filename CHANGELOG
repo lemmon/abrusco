@@ -5,6 +5,8 @@
   * (colors) add: color-inherit, color-inherit:hover
   * (variables) add: @custom-media --view-xl
   * (images) depreciate: image
+  * (visibility) depreciate: invisible in favor of hidden
+  * (visibility) depreciate: a0-100 in favor of o0-100
 
 * 0.7.4 (2019-02-04)
 

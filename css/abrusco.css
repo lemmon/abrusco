@@ -581,7 +581,7 @@ svg {
   visibility: visible;
 }
 
-.invisible {
+.invisible, .hidden {
   visibility: hidden;
 }
 
@@ -634,6 +634,58 @@ svg {
 }
 
 .a0 {
+  opacity: ;
+}
+
+.o100 {
+  opacity: 1;
+}
+
+.o95 {
+  opacity: .95;
+}
+
+.o90 {
+  opacity: .9;
+}
+
+.o80 {
+  opacity: .8;
+}
+
+.o70 {
+  opacity: .7;
+}
+
+.o60 {
+  opacity: .6;
+}
+
+.o50 {
+  opacity: .5;
+}
+
+.o40 {
+  opacity: .4;
+}
+
+.o30 {
+  opacity: .3;
+}
+
+.o20 {
+  opacity: .2;
+}
+
+.o10 {
+  opacity: .1;
+}
+
+.o05 {
+  opacity: .05;
+}
+
+.o0 {
   opacity: ;
 }
 

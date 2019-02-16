@@ -6,8 +6,10 @@
 .hide { display: none; }
 
 .visible { visibility: visible; }
-.invisible { visibility: hidden; }
+.invisible, /* depreciated */
+.hidden { visibility: hidden; }
 
+/* depreciated */
 .a100 { opacity: 1; }
 .a95  { opacity: .95; }
 .a9   { opacity: .9; }
@@ -21,6 +23,20 @@
 .a1   { opacity: .1; }
 .a05  { opacity: .05; }
 .a0   { opacity: .0; }
+
+.o100 { opacity: 1; }
+.o95  { opacity: .95; }
+.o90  { opacity: .9; }
+.o80  { opacity: .8; }
+.o70  { opacity: .7; }
+.o60  { opacity: .6; }
+.o50  { opacity: .5; }
+.o40  { opacity: .4; }
+.o30  { opacity: .3; }
+.o20  { opacity: .2; }
+.o10  { opacity: .1; }
+.o05  { opacity: .05; }
+.o0   { opacity: .0; }
 
 @media (--view-xs) {
 

@@ -4,6 +4,7 @@
   * (background) depreciate: bg-tl, bg-tr, bg-bl, bg-br, bg-rx, bg-ry, bg-nr
   * (colors) add: color-inherit, color-inherit:hover
   * (variables) add: @custom-media --view-xl
+  * (images) depreciate: image
 
 * 0.7.4 (2019-02-04)
 

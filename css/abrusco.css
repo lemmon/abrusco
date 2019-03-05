@@ -2987,6 +2987,10 @@ svg {
   color: inherit;
 }
 
+.color-transparent {
+  color: transparent;
+}
+
 .color-black {
   color: #040404;
   color: var(--black);

@@ -195,18 +195,6 @@ svg {
   --maroon: #85144b;
 }
 
-.a-anchor {
-  display: block;
-}
-
-.a-ul:hover, .a-anchor:hover .a-ul {
-  text-decoration: underline;
-}
-
-.a-color-inherit:hover, .a-anchor:hover .a-color-inherit {
-  color: inherit;
-}
-
 .cursor-default {
   cursor: default;
 }
@@ -392,15 +380,15 @@ svg {
   font-style: italic;
 }
 
+.ul, .ul\:hover:hover, .anchor:hover .ul\:hover {
+  text-decoration: underline;
+}
+
 .ol {
   text-decoration: overline;
 }
 
-.ul {
-  text-decoration: underline;
-}
-
-.st {
+.st, .lt {
   text-decoration: line-through;
 }
 
@@ -461,7 +449,33 @@ svg {
   font-family: var(--code-font-family);
 }
 
+@media (max-width: 24rem) {
+  .xs-al {
+    text-align: left;
+  }
+
+  .xs-ar {
+    text-align: right;
+  }
+
+  .xs-ac {
+    text-align: center;
+  }
+}
+
 @media (min-width: 32rem) {
+  .sd-al {
+    text-align: left;
+  }
+
+  .sd-ar {
+    text-align: right;
+  }
+
+  .sd-ac {
+    text-align: center;
+  }
+
   .sd-h1 {
     font-size: 2.5rem;
     font-size: var(--h1);
@@ -494,6 +508,18 @@ svg {
 }
 
 @media (min-width: 48rem) {
+  .md-al {
+    text-align: left;
+  }
+
+  .md-ar {
+    text-align: right;
+  }
+
+  .md-ac {
+    text-align: center;
+  }
+
   .md-h1 {
     font-size: 2.5rem;
     font-size: var(--h1);
@@ -526,6 +552,18 @@ svg {
 }
 
 @media (min-width: 64rem) {
+  .ld-al {
+    text-align: left;
+  }
+
+  .ld-ar {
+    text-align: right;
+  }
+
+  .ld-ac {
+    text-align: center;
+  }
+
   .ld-h1 {
     font-size: 2.5rem;
     font-size: var(--h1);

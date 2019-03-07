@@ -41,9 +41,15 @@
 
 .italic { font-style: italic; }
 
+.ul,
+.ul\:hover:hover,
+.anchor:hover .ul\:hover {
+  text-decoration: underline;
+}
+
 .ol { text-decoration: overline; }
-.ul { text-decoration: underline; }
-.st { text-decoration: line-through; }
+.st, /* depreciate */
+.lt { text-decoration: line-through; }
 
 .va-inherit  { vertical-align: inherit; }
 .va-baseline { vertical-align: baseline; }
@@ -55,17 +61,23 @@
 
 .nowrap { white-space: nowrap; }
 
-.serif {
-  font-family: var(--serif-font-family);
-}
-.sansserif {
-  font-family: var(--sansserif-font-family);
-}
-.code {
-  font-family: var(--code-font-family);
+.serif     { font-family: var(--serif-font-family); }
+.sansserif { font-family: var(--sansserif-font-family); }
+.code      { font-family: var(--code-font-family); }
+
+@media (--view-xs) {
+
+  .xs-al { text-align: left; }
+  .xs-ar { text-align: right; }
+  .xs-ac { text-align: center; }
+
 }
 
 @media (--view-sd) {
+
+  .sd-al { text-align: left; }
+  .sd-ar { text-align: right; }
+  .sd-ac { text-align: center; }
 
   .sd-h1 { font-size: var(--h1); }
   .sd-h2 { font-size: var(--h2); }
@@ -78,6 +90,10 @@
 
 @media (--view-md) {
 
+  .md-al { text-align: left; }
+  .md-ar { text-align: right; }
+  .md-ac { text-align: center; }
+
   .md-h1 { font-size: var(--h1); }
   .md-h2 { font-size: var(--h2); }
   .md-h3 { font-size: var(--h3); }
@@ -88,6 +104,10 @@
 }
 
 @media (--view-ld) {
+
+  .ld-al { text-align: left; }
+  .ld-ar { text-align: right; }
+  .ld-ac { text-align: center; }
 
   .ld-h1 { font-size: var(--h1); }
   .ld-h2 { font-size: var(--h2); }

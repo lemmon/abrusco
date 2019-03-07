@@ -1,17 +1,3 @@
-.a-anchor {
-  display: block;
-}
-
-.a-ul:hover,
-.a-anchor:hover .a-ul {
-  text-decoration: underline;
-}
-
-.a-color-inherit:hover,
-.a-anchor:hover .a-color-inherit {
-  color: inherit;
-}
-
 .cursor-default    { cursor: default; }
 .cursor-notallowed { cursor: not-allowed; }
 .cursor-progress   { cursor: progress; }

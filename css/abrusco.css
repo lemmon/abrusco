@@ -1066,6 +1066,14 @@ svg {
   justify-content: space-around;
 }
 
+.span0 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0;
+      flex: 0;
+  min-width: 0;
+  min-height: 0;
+}
+
 .span1 {
   -webkit-box-flex: 1;
   -ms-flex: 1;
@@ -1126,6 +1134,14 @@ svg {
   -webkit-box-flex: 8;
   -ms-flex: 8;
       flex: 8;
+  min-width: 0;
+  min-height: 0;
+}
+
+.span9 {
+  -webkit-box-flex: 9;
+  -ms-flex: 9;
+      flex: 9;
   min-width: 0;
   min-height: 0;
 }

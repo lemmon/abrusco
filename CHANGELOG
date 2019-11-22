@@ -14,7 +14,7 @@
   * (type) depreciate: st class in favor of lt
   * (type) add: ul:hover class
   * (type) responsive text-align
-  * (grid) add w[0a], h[0a]
+  * (grid) add: w[0a], h[0a], span[09]
   * (grid) responsive order[019]
 
 * 0.7.4 (2019-02-04)

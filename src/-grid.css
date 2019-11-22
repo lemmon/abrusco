@@ -32,9 +32,13 @@
 
 .w100 { width: 100%; }
 .w50  { width: 50%; }
+.w0   { width: 0%; }
+.wa   { width: auto; }
 
 .h100 { height: 100%; }
 .h50  { height: 50%; }
+.h0   { height: 0%; }
+.ha   { height: auto; }
 
 .row { display: flex; flex-direction: row; }
 .col { display: flex; flex-direction: column; }

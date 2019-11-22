@@ -15,6 +15,7 @@
   * (type) add: ul:hover class
   * (type) responsive text-align
   * (grid) add w[0a], h[0a]
+  * (grid) responsive order[019]
 
 * 0.7.4 (2019-02-04)
 

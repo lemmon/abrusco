@@ -176,6 +176,10 @@
     }
   }
 
+  .sd-order0 { order: 0; }
+  .sd-order1 { order: 1; }
+  .sd-order9 { order: 9; }
+
 }
 
 @media (--view-md) {
@@ -221,6 +225,10 @@
       width: auto;
     }
   }
+
+  .md-order0 { order: 0; }
+  .md-order1 { order: 1; }
+  .md-order9 { order: 9; }
 
 }
 
@@ -268,11 +276,19 @@
     }
   }
 
+  .ld-order0 { order: 0; }
+  .ld-order1 { order: 1; }
+  .ld-order9 { order: 9; }
+
 }
 
 @media (--view-xl) {
 
   .xl-show { display: block; }
   .xl-hide { display: none; }
+
+  .xl-order0 { order: 0; }
+  .xl-order1 { order: 1; }
+  .xl-order9 { order: 9; }
 
 }

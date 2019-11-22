@@ -16,6 +16,7 @@
   * (type) responsive text-align
   * (grid) add: w[0a], h[0a], span[09]
   * (grid) responsive order[019]
+  * (grid) grid class, grid(2-8) update
 
 * 0.7.4 (2019-02-04)
 

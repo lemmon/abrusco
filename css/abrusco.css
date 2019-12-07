@@ -134,7 +134,7 @@ svg {
                              'Droid Sans',
                              'Helvetica Neue',
                              sans-serif;
-  --code-font-family: 'Menlo', 'Andale Mono', monospace;
+  --code-font-family: Courier, monospace;
   --h1: 2.5rem;
   --h2: 2rem;
   --h3: 1.5rem;
@@ -148,7 +148,7 @@ svg {
   --f4: .75rem;
   --lh0: 1;
   --lh1: 1.125;
-  --lh2: 1.1875;
+  --lh2: 1.25;
   --lh3: 1.375;
   --lh4: 1.5;
   --lh5: 2;
@@ -312,7 +312,7 @@ svg {
 }
 
 .lh2 {
-  line-height: 1.1875;
+  line-height: 1.25;
   line-height: var(--lh2);
 }
 
@@ -445,7 +445,7 @@ svg {
 }
 
 .code {
-  font-family: 'Menlo', 'Andale Mono', monospace;
+  font-family: Courier, monospace;
   font-family: var(--code-font-family);
 }
 
@@ -751,6 +751,10 @@ svg {
   max-width: 12rem;
 }
 
+.max15 {
+  max-width: 15rem;
+}
+
 .max16 {
   max-width: 16rem;
 }
@@ -809,6 +813,10 @@ svg {
 
 .max64 {
   max-width: 64rem;
+}
+
+.max65 {
+  max-width: 65rem;
 }
 
 .max70 {

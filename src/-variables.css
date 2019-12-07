@@ -15,7 +15,7 @@
     'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
     'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  --code-font-family: 'Menlo', 'Andale Mono', monospace;
+  --code-font-family: Courier, monospace;
 
   --h1: 2.5rem;     /* 40 */
   --h2: 2.0rem;     /* 32 */
@@ -32,7 +32,7 @@
 
   --lh0: 1;         /* 16 */
   --lh1: 1.125;     /* 18 */
-  --lh2: 1.1875;    /* 19 */
+  --lh2: 1.250;     /* 20 */
   --lh3: 1.375;     /* 22 */
   --lh4: 1.5;       /* 24 */
   --lh5: 2;         /* 32 */

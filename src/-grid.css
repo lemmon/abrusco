@@ -7,6 +7,7 @@
 .max8  { max-width: 8rem; }
 .max10 { max-width: 10rem; }
 .max12 { max-width: 12rem; }
+.max15 { max-width: 15rem; }
 .max16 { max-width: 16rem; }
 .max20 { max-width: 20rem; }
 .max24 { max-width: 24rem; }
@@ -22,6 +23,7 @@
 .max56 { max-width: 56rem; }
 .max60 { max-width: 60rem; }
 .max64 { max-width: 64rem; }
+.max65 { max-width: 65rem; }
 .max70 { max-width: 70rem; }
 .max72 { max-width: 72rem; }
 .max74 { max-width: 74rem; }

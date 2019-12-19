@@ -2,32 +2,17 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Template</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <style>
-  .max75 { max-width: 75rem; }
-  .max77 { max-width: 77rem; }
-  #menu {
-    display: none;
-  }
-  #menu:checked + nav {
-    display: block;
-  }
-  @media (max-width: 400px) {
-    .xs-hide {
-      display: none;
-    }
-  }
-  </style>
-  <link rel="stylesheet" href="../../css/abrusco.min.css">
+  <link rel="stylesheet" href="./custom.css">
+  <link rel="stylesheet" href="https://unpkg.com/abrusco@0.8.1/css/abrusco.min.css">
 </head>
-<body class="col max77 mx p05 sd-p1 --d">
+<body class="col max77 mx p05 sd-p1">
 
   <header class="py1 sd-py2 md-row justify-between items-center">
     <div class="py1">
       <div class="row justify-between items-center">
-        <a class="a-anchor px05 py1 sd-p1 fw700" href=".">Company</a>
-        <label for="menu" class="a-anchor cursor-pointer px05 sd-px1 md-hide">
+        <a class="block px05 py1 sd-p1 fw700" href=".">Company</a>
+        <label for="menu" class="block cursor-pointer px05 sd-px1 md-hide">
           <svg class="image" width="24" height="48">
             <rect y="16" width="24" height="2" />
             <rect y="23" width="24" height="2" />
@@ -39,11 +24,11 @@
     <input type="checkbox" id="menu">
     <nav class="hide md-show">
       <ul class="py1 md-row">
-        <li><a class="a-anchor px05 py1 sd-p1" href="work.html"><span class="a-ul">Work</span></a></li>
-        <li><a class="a-anchor px05 py1 sd-p1" href="studio.html"><span class="a-ul">Studio</span></a></li>
-        <li><a class="a-anchor px05 py1 sd-p1" href="people.html"><span class="a-ul">People</span></a></li>
-        <li><a class="a-anchor px05 py1 sd-p1" href="news.html"><span class="a-ul">News</span></a></li>
-        <li><a class="a-anchor px05 py1 sd-p1 fw700" href="contact.html"><span class="a-ul">Contact</span></a></li>
+        <li><a class="block ul:hover px05 py1 sd-p1" href="work.html">Work</a></li>
+        <li><a class="block ul:hover px05 py1 sd-p1" href="studio.html">Studio</a></li>
+        <li><a class="block ul:hover px05 py1 sd-p1" href="people.html">People</a></li>
+        <li><a class="block ul:hover px05 py1 sd-p1" href="news.html">News</a></li>
+        <li><a class="block ul:hover px05 py1 sd-p1 fw700" href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>

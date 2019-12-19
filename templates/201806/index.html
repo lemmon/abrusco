@@ -2,32 +2,17 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Template</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <style>
-  .max75 { max-width: 75rem; }
-  .max77 { max-width: 77rem; }
-  #menu {
-    display: none;
-  }
-  #menu:checked + nav {
-    display: block;
-  }
-  @media (max-width: 400px) {
-    .xs-hide {
-      display: none;
-    }
-  }
-  </style>
-  <link rel="stylesheet" href="../../css/abrusco.min.css">
+  <link rel="stylesheet" href="./custom.css">
+  <link rel="stylesheet" href="https://unpkg.com/abrusco@0.8.1/css/abrusco.min.css">
 </head>
-<body class="col max77 mx p05 sd-p1 --d">
+<body class="col max77 mx p05 sd-p1">
 
   <header class="py1 sd-py2 md-row justify-between items-center">
     <div class="py1">
       <div class="row justify-between items-center">
-        <a class="a-anchor px05 py1 sd-p1 fw700" href=".">Company</a>
-        <label for="menu" class="a-anchor cursor-pointer px05 sd-px1 md-hide">
+        <a class="block px05 py1 sd-p1 fw700" href=".">Company</a>
+        <label for="menu" class="block cursor-pointer px05 sd-px1 md-hide">
           <svg class="image" width="24" height="48">
             <rect y="16" width="24" height="2" />
             <rect y="23" width="24" height="2" />
@@ -39,11 +24,11 @@
     <input type="checkbox" id="menu">
     <nav class="hide md-show">
       <ul class="py1 md-row">
-        <li><a class="a-anchor px05 py1 sd-p1" href="work.html"><span class="a-ul">Work</span></a></li>
-        <li><a class="a-anchor px05 py1 sd-p1" href="studio.html"><span class="a-ul">Studio</span></a></li>
-        <li><a class="a-anchor px05 py1 sd-p1" href="people.html"><span class="a-ul">People</span></a></li>
-        <li><a class="a-anchor px05 py1 sd-p1" href="news.html"><span class="a-ul">News</span></a></li>
-        <li><a class="a-anchor px05 py1 sd-p1" href="contact.html"><span class="a-ul">Contact</span></a></li>
+        <li><a class="block ul:hover px05 py1 sd-p1" href="work.html">Work</a></li>
+        <li><a class="block ul:hover px05 py1 sd-p1" href="studio.html">Studio</a></li>
+        <li><a class="block ul:hover px05 py1 sd-p1" href="people.html">People</a></li>
+        <li><a class="block ul:hover px05 py1 sd-p1" href="news.html">News</a></li>
+        <li><a class="block ul:hover px05 py1 sd-p1" href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -62,48 +47,48 @@
     <section class="py2 sd-py3">
       <header class="px025 py05 sd-p05 row justify-between items-center">
         <h2 class="px025 py05 sd-p05 h3 fw700 lh2">Selected Work</h2>
-        <nav><a class="a-anchor a-color-inherit px025 py05 sd-p05 color-black-50" href="work.html"><span class="xs-hide a-ul">View Portfolio</span> &rarr;</a></nav>
+        <nav><a class="block anchor color-inherit:hover px025 py05 sd-p05 color-black-50" href="work.html"><span class="xs-hide ul:hover">View Portfolio</span> &rarr;</a></nav>
       </header>
       <div class="md-grid md-grid2 ld-grid3">
-        <article class="px025 py075 sd-p075"><a class="a-anchor" href="#">
+        <article class="px025 py075 sd-p075"><a class="block anchor" href="#">
           <figure class="p025"><svg class="image bg-black-10" viewBox="0 0 4 3"></svg></figure>
           <div class="p025">
-            <h3 class="a-ul h5 fw700 lh2">Project Numbero Uno</h3>
+            <h3 class="h5 fw700 lh2 ul:hover">Project Numbero Uno</h3>
             <p class="mt025 lh4 color-black-50">Short description might go here.</p>
           </div>
         </a></article>
-        <article class="px025 py075 sd-p075"><a class="a-anchor" href="#">
+        <article class="px025 py075 sd-p075"><a class="block anchor" href="#">
           <figure class="p025"><svg class="image bg-black-10" viewBox="0 0 4 3"></svg></figure>
           <div class="p025">
-            <h3 class="a-ul h5 fw700 lh2">Project Numbero Dos</h3>
+            <h3 class="h5 fw700 lh2 ul:hover">Project Numbero Dos</h3>
             <p class="mt025 lh4 color-black-50">Short description might go here.</p>
           </div>
         </a></article>
-        <article class="px025 py075 sd-p075"><a class="a-anchor" href="#">
+        <article class="px025 py075 sd-p075"><a class="block anchor" href="#">
           <figure class="p025"><svg class="image bg-black-10" viewBox="0 0 4 3"></svg></figure>
           <div class="p025">
-            <h3 class="a-ul h5 fw700 lh2">Project Numbero Tres</h3>
+            <h3 class="h5 fw700 lh2 ul:hover">Project Numbero Tres</h3>
             <p class="mt025 lh4 color-black-50">Short description might go here.</p>
           </div>
         </a></article>
-        <article class="px025 py075 sd-p075"><a class="a-anchor" href="#">
+        <article class="px025 py075 sd-p075"><a class="block anchor" href="#">
           <figure class="p025"><svg class="image bg-black-10" viewBox="0 0 4 3"></svg></figure>
           <div class="p025">
-            <h3 class="a-ul h5 fw700 lh2">Project Numbero Cuatro</h3>
+            <h3 class="h5 fw700 lh2 ul:hover">Project Numbero Cuatro</h3>
             <p class="mt025 lh4 color-black-50">Short description might go here.</p>
           </div>
         </a></article>
-        <article class="px025 py075 sd-p075"><a class="a-anchor" href="#">
+        <article class="px025 py075 sd-p075"><a class="block anchor" href="#">
           <figure class="p025"><svg class="image bg-black-10" viewBox="0 0 4 3"></svg></figure>
           <div class="p025">
-            <h3 class="a-ul h5 fw700 lh2">Project Numbero Cinco</h3>
+            <h3 class="h5 fw700 lh2 ul:hover">Project Numbero Cinco</h3>
             <p class="mt025 lh4 color-black-50">Short description might go here.</p>
           </div>
         </a></article>
-        <article class="px025 py075 sd-p075"><a class="a-anchor" href="#">
+        <article class="px025 py075 sd-p075"><a class="block anchor" href="#">
           <figure class="p025"><svg class="image bg-black-10" viewBox="0 0 4 3"></svg></figure>
           <div class="p025">
-            <h3 class="a-ul h5 fw700 lh2">Project Numbero Seis</h3>
+            <h3 class="h5 fw700 lh2 ul:hover">Project Numbero Seis</h3>
             <p class="mt025 lh4 color-black-50">Short description might go here.</p>
           </div>
         </a></article>
@@ -113,39 +98,39 @@
     <section class="py2 sd-py3">
       <header class="px025 py05 sd-p05 row justify-between items-center">
         <h2 class="px025 py05 sd-p05 h3 fw700 lh2">Recent News</h2>
-        <nav><a class="a-anchor a-color-inherit px025 py05 sd-p05 color-black-50" href="news.html"><span class="xs-hide a-ul">View Archive</span> &rarr;</a></nav>
+        <nav><a class="block anchor color-inherit:hover px025 py05 sd-p05 color-black-50" href="news.html"><span class="xs-hide ul:hover">View Archive</span> &rarr;</a></nav>
       </header>
       <div class="md-grid md-grid2 ld-grid4">
-        <article class="px05 py1 sd-p1"><a class="a-anchor" href="#">
+        <article class="px05 py1 sd-p1"><a class="block anchor" href="#">
           <figure><svg class="image bg-black-10" viewBox="0 0 4 3"></svg></figure>
           <aside class="mt025 f2 lh4 color-black-50">
             <time datetime="2016-07-26 04:59:49 UTC" itemprop="datePublished">Jul 26, 2016</time>
           </aside>
-          <h3 class="mt025 h5 fw700 lh2 a-ul">Article Title</h3>
+          <h3 class="mt025 h5 fw700 lh2 ul:hover">Article Title</h3>
           <p class="mt025 lh4 color-black-50">Donec pulvinar dolor tristique, faucibus libero sit amet.</p>
         </a></article>
-        <article class="px05 py1 sd-p1"><a class="a-anchor" href="#">
+        <article class="px05 py1 sd-p1"><a class="block anchor" href="#">
           <figure><svg class="image bg-black-10" viewBox="0 0 4 3"></svg></figure>
           <aside class="mt025 f2 lh4 color-black-50">
             <time datetime="2016-07-26 04:59:49 UTC" itemprop="datePublished">Jul 26, 2016</time>
           </aside>
-          <h3 class="mt025 h5 fw700 lh2 a-ul">Article Title</h3>
+          <h3 class="mt025 h5 fw700 lh2 ul:hover">Article Title</h3>
           <p class="mt025 lh4 color-black-50">Donec pulvinar dolor tristique, faucibus libero sit amet.</p>
         </a></article>
-        <article class="px05 py1 sd-p1"><a class="a-anchor" href="#">
+        <article class="px05 py1 sd-p1"><a class="block anchor" href="#">
           <figure><svg class="image bg-black-10" viewBox="0 0 4 3"></svg></figure>
           <aside class="mt025 f2 lh4 color-black-50">
             <time datetime="2016-07-26 04:59:49 UTC" itemprop="datePublished">Jul 26, 2016</time>
           </aside>
-          <h3 class="mt025 h5 fw700 lh2 a-ul">Article Title</h3>
+          <h3 class="mt025 h5 fw700 lh2 ul:hover">Article Title</h3>
           <p class="mt025 lh4 color-black-50">Donec pulvinar dolor tristique, faucibus libero sit amet.</p>
         </a></article>
-        <article class="px05 py1 sd-p1"><a class="a-anchor" href="#">
+        <article class="px05 py1 sd-p1"><a class="block anchor" href="#">
           <figure><svg class="image bg-black-10" viewBox="0 0 4 3"></svg></figure>
           <aside class="mt025 f2 lh4 color-black-50">
             <time datetime="2016-07-26 04:59:49 UTC" itemprop="datePublished">Jul 26, 2016</time>
           </aside>
-          <h3 class="mt025 h5 fw700 lh2 a-ul">Article Title</h3>
+          <h3 class="mt025 h5 fw700 lh2 ul:hover">Article Title</h3>
           <p class="mt025 lh4 color-black-50">Donec pulvinar dolor tristique, faucibus libero sit amet.</p>
         </a></article>
       </div>
@@ -154,42 +139,42 @@
     <section class="py2 sd-py3">
       <header class="px025 py05 sd-p05 row justify-between items-center">
         <h2 class="px025 py05 sd-p05 h3 fw700 lh2">Meet The Team</h2>
-        <nav><a class="a-anchor a-color-inherit px025 py05 sd-p05 color-black-50" href="people.html"><span class="xs-hide a-ul">View All</span> &rarr;</a></nav>
+        <nav><a class="block anchor color-inherit:hover px025 py05 sd-p05 color-black-50" href="people.html"><span class="xs-hide ul:hover">View All</span> &rarr;</a></nav>
       </header>
       <div class="grid grid2 sd-grid3 md-grid4 ld-grid5">
-        <article class="px05 py1 sd-p1"><a class="a-anchor" href="#">
+        <article class="px05 py1 sd-p1"><a class="block anchor" href="#">
           <figure>
             <svg class="image bg-black-10" viewBox="0 0 1 1"></svg>
           </figure>
-          <h3 class="mt025 fw700 lh2 a-ul">Lemmon Juice</h3>
+          <h3 class="mt025 fw700 lh2 ul:hover">Lemmon Juice</h3>
           <p class="lh4 color-black-50">CEO</p>
         </a></article>
-        <article class="px05 py1 sd-p1"><a class="a-anchor" href="#">
+        <article class="px05 py1 sd-p1"><a class="block anchor" href="#">
           <figure>
             <svg class="image bg-black-10" viewBox="0 0 1 1"></svg>
           </figure>
-          <h3 class="mt025 fw700 lh2 a-ul">Lemmon Juice</h3>
+          <h3 class="mt025 fw700 lh2 ul:hover">Lemmon Juice</h3>
           <p class="lh4 color-black-50">CTO</p>
         </a></article>
-        <article class="px05 py1 sd-p1"><a class="a-anchor" href="#">
+        <article class="px05 py1 sd-p1"><a class="block anchor" href="#">
           <figure>
             <svg class="image bg-black-10" viewBox="0 0 1 1"></svg>
           </figure>
-          <h3 class="mt025 fw700 lh2 a-ul">Lemmon Juice</h3>
+          <h3 class="mt025 fw700 lh2 ul:hover">Lemmon Juice</h3>
           <p class="lh4 color-black-50">CFO</p>
         </a></article>
-        <article class="px05 py1 sd-p1"><a class="a-anchor" href="#">
+        <article class="px05 py1 sd-p1"><a class="block anchor" href="#">
           <figure>
             <svg class="image bg-black-10" viewBox="0 0 1 1"></svg>
           </figure>
-          <h3 class="mt025 fw700 lh2 a-ul">Lemmon Juice</h3>
+          <h3 class="mt025 fw700 lh2 ul:hover">Lemmon Juice</h3>
           <p class="lh4 color-black-50">CDO</p>
         </a></article>
-        <article class="px05 py1 sd-p1"><a class="a-anchor" href="#">
+        <article class="px05 py1 sd-p1"><a class="block anchor" href="#">
           <figure>
             <svg class="image bg-black-10" viewBox="0 0 1 1"></svg>
           </figure>
-          <h3 class="mt025 fw700 lh2 a-ul">Lemmon Juice</h3>
+          <h3 class="mt025 fw700 lh2 ul:hover">Lemmon Juice</h3>
           <p class="lh4 color-black-50">WTF</p>
         </a></article>
       </div>

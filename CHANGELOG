@@ -1,3 +1,8 @@
+* 0.8.2 (2019-12-XX)
+
+  * (grid) update: reorder paddings
+  * (grid) add: .p[tblr](0|075)
+
 * 0.8.1 (2019-12-07)
 
   * (type) update: code-font-family, lh2

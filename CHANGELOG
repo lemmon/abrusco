@@ -2,6 +2,7 @@
 
   * (grid) update: reorder paddings
   * (grid) add: .p[tblr](0|075)
+  * (visibility) fix: opacity:0
 
 * 0.8.1 (2019-12-07)
 

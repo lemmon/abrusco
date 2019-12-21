@@ -19,7 +19,7 @@
 .a2   { opacity: .2; }
 .a1   { opacity: .1; }
 .a05  { opacity: .05; }
-.a0   { opacity: .0; }
+.a0   { opacity: 0; }
 
 .o100 { opacity: 1; }
 .o95  { opacity: .95; }
@@ -33,4 +33,4 @@
 .o20  { opacity: .2; }
 .o10  { opacity: .1; }
 .o05  { opacity: .05; }
-.o0   { opacity: .0; }
+.o0   { opacity: 0; }

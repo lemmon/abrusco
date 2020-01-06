@@ -1,0 +1,64 @@
+body {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="16"> \
+    <g stroke="%23b3d4fc" stroke-dasharray="5 3" opacity=".4"> \
+      <line x1="16" y1="0" x2="16" y2="16"/> \
+      <line x1="32" y1="0" x2="32" y2="16"/> \
+    </g> \
+  </svg>');
+  background-position: top left;
+  background-repeat: repeat-y;
+}
+
+@media (--view-md) {
+  body {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="16"> \
+      <g fill="%23b3d4fc" opacity=".2"> \
+        <rect x="48" width="720" height="16"/> \
+      </g> \
+      <g stroke="%23b3d4fc" stroke-dasharray="5 3" opacity=".4"> \
+        <line x1="16" y1="0" x2="16" y2="16"/> \
+        <line x1="32" y1="0" x2="32" y2="16"/> \
+        <line x1="48" y1="0" x2="48" y2="16"/> \
+        <line x1="768" y1="0" x2="768" y2="16"/> \
+        <line x1="784" y1="0" x2="784" y2="16"/> \
+        <line x1="800" y1="0" x2="800" y2="16"/> \
+        <line x1="816" y1="0" x2="816" y2="16"/> \
+      </g> \
+    </svg>');
+  }
+}
+
+@media (--view-ld) {
+  body {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="16"> \
+      <g fill="%23b3d4fc" opacity=".2"> \
+        <rect x="48" width="720" height="16"/> \
+        <rect x="816" width="336" height="16"/> \
+      </g> \
+      <g stroke="%23b3d4fc" stroke-dasharray="5 3" opacity=".4"> \
+        <line x1="0.5" y1="0" x2="0.5" y2="16"/> \
+        <line x1="16" y1="0" x2="16" y2="16"/> \
+        <line x1="32" y1="0" x2="32" y2="16"/> \
+        <line x1="48" y1="0" x2="48" y2="16"/> \
+        <line x1="768" y1="0" x2="768" y2="16"/> \
+        <line x1="784" y1="0" x2="784" y2="16"/> \
+        <line x1="800" y1="0" x2="800" y2="16"/> \
+        <line x1="816" y1="0" x2="816" y2="16"/> \
+        <line x1="1152" y1="0" x2="1152" y2="16"/> \
+        <line x1="1168" y1="0" x2="1168" y2="16"/> \
+        <line x1="1184" y1="0" x2="1184" y2="16"/> \
+        <line x1="1200" y1="0" x2="1200" y2="16"/> \
+        <line x1="1232" y1="0" x2="1232" y2="16"/> \
+        <line x1="1248" y1="0" x2="1248" y2="16"/> \
+        <line x1="1264" y1="0" x2="1264" y2="16"/> \
+        <line x1="1279.5" y1="0" x2="1279.5" y2="16"/> \
+      </g> \
+    </svg>');
+  }
+}
+
+@media (min-width: 80rem) {
+  body {
+    background-position: top center;
+  }
+}

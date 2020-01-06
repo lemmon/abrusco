@@ -1,4 +1,10 @@
+@import '../../src';
+/*
+@import '-debug';
+*/
 @import '-type';
+
+.max51 { max-width: 51rem; }
 
 .copy {
   & h1, & h2, & h3, & h4, & h5, & h6 {
@@ -30,4 +36,19 @@
     content: "$ ";
     opacity: .5;
   }
+  max-width: 45rem;
 }
+
+@media (--view-ld) {
+
+  .ld-nav {
+    max-height: 100vh;
+    position: sticky;
+    top: 0;
+  }
+
+}
+
+@custom-media --view-sd (min-width: 35rem);
+@custom-media --view-md (min-width: 51rem);
+@custom-media --view-ld (min-width: 75rem);

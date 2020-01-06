@@ -1,3 +1,4 @@
 .ftp*
 *.*~previous
 node_modules/
+docs/master.css

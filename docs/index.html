@@ -1,45 +1,46 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Abrusco</title>
+  <title>Abrusco &ndash; Hackable CSS Toolbox</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="shortcut icon" href="https://www.lemmonjuice.com/favicon.ico">
-  <link rel="stylesheet" href="https://unpkg.com/abrusco@0.8.2/css/abrusco.min.css">
-  <link rel="stylesheet" href="bundle.css">
+  <link rel="stylesheet" href="master.css">
 </head>
-<body class="col max64">
+<body class="col max80 mx">
 
-  <header class="py2 md-px1 ld-p2">
+  <header class="max51 py2 sd-px1 md-p2">
     <div class="p075">
       <h1 class="p025 h2 lh2 fw700">Abrusco</h1>
       <div class="p025">
-        <p class="lh4 color-black-50">Hackable & Functional CSS toolbox.</p>
+        <p class="lh4 color-black-50">Hackable &amp; Functional CSS toolbox.</p>
       </div>
     </div>
   </header>
 
-  <div class="ld-px1">
+  <div class="max51 md-px1">
     <hr class="px1 div color-black-10">
   </div>
 
-  <main class="span1 py1 ld-py2"><div class="p05">
+  <main class="span1 max75 py1 sd-px1 md-py2"><div class="py05">
 
-    <section class="py1 md-px1 ld-p2"><div class="p05">
-      <div class="copy lh4">
-        <h2>Getting Started</h2>
-        <pre class="cli dollar">npm install abrusco --save-dev</pre>
-        <p>Or use the <a target="_blank" href="https://unpkg.com/abrusco@0.8.2/css/abrusco.min.css">CDN Link</a>.</p>
-        <pre>&lt;link href="<a target="_blank" href="https://unpkg.com/abrusco@0.8.2/css/abrusco.min.css">https://unpkg.com/abrusco@0.8.2/css/abrusco.min.css</a>" rel="stylesheet"&gt;</pre>
-      </div>
-    </div></section>
+    <div class="px1">
 
-    <section class="py1 md-px1 ld-p2"><div class="p05">
-      <div class="copy lh4">
-        <h2>CLI</h2>
-        <p>This package is meant to be installed globally.</p>
-        <pre class="cli dollar">npm install abrusco-cli --global</pre>
-        <pre class="cli">
+        <section class="py1 md-px1 md-py2"><div class="py05">
+          <div class="copy lh4">
+            <h2>Getting Started</h2>
+            <pre class="cli dollar">npm install abrusco --save-dev</pre>
+            <p>Or use the <a target="_blank" href="https://unpkg.com/abrusco@0.8.2/css/abrusco.min.css">CDN Link</a>.</p>
+            <pre>&lt;link rel="stylesheet" href="<a target="_blank" href="https://unpkg.com/abrusco@0.8.2/css/abrusco.min.css">https://unpkg.com/abrusco@0.8.2/css/abrusco.min.css</a>"&gt;</pre>
+          </div>
+        </div></section>
+
+        <section class="py1 md-px1 md-py2"><div class="py05">
+          <div class="copy lh4">
+            <h2>CLI</h2>
+            <p>This package is meant to be installed globally.</p>
+            <pre class="cli dollar">npm install abrusco-cli --global</pre>
+            <pre class="cli">
 Usage
   $ abrusco &lt;input.css&gt;
 
@@ -52,17 +53,16 @@ Options
 Example
   $ abrusco src/master.css -o dist/bundle.css
   $ abrusco src/master.css -o dist/bundle.css --minify
-  $ abrusco src/master.css -o dist/bundle.css --watch
-</pre>
-        <p>See Abrusco CLI <a target="_blank" href="https://github.com/lemmon/abrusco-cli">GitHub</a> page for more.</p>
-      </div>
-    </div></section>
+  $ abrusco src/master.css -o dist/bundle.css --watch</pre>
+            <p>See Abrusco CLI <a target="_blank" href="https://github.com/lemmon/abrusco-cli">GitHub</a> page for more.</p>
+          </div>
+        </div></section>
 
-    <section class="py1 md-px1 ld-p2"><div class="p05">
-      <div class="copy lh4">
-        <h2>Hacking Abrusco</h2>
-        <p>Many of the properties are set up as <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables">CSS custom variables</a>.</p>
-        <pre>
+        <section class="py1 md-px1 md-py2"><div class="py05">
+          <div class="copy lh4">
+            <h2>Hacking Abrusco</h2>
+            <p>Many of the properties are set up as <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables">CSS custom variables</a>.</p>
+            <pre>
 .h1 { font-size: var(--h1); }
 .h2 { font-size: var(--h2); }
 .h3 { font-size: var(--h3); }
@@ -87,7 +87,7 @@ Example
 &lt;html&gt;
 &lt;head&gt;
   &lt;meta charset="utf-8"&gt;
-  &lt;link href="https://unpkg.com/abrusco@0.8.2/css/abrusco.min.css" rel="stylesheet"&gt;
+  &lt;link rel="stylesheet" href="https://unpkg.com/abrusco@0.8.2/css/abrusco.min.css"&gt;
   &lt;style&gt;
   :root {
     --h1: 5rem; <span class="a5">/* your custom h1 size */</span>
@@ -97,7 +97,7 @@ Example
 &lt;body&gt;
 
   &lt;h1 class="h1"&gt;Heading 1 is 5rem now&lt;/h1&gt;
-  &lt;h2 class="h2"&gt;Heading is still Abrusco's default H2 size&lt;/h2&gt;
+  &lt;h2 class="h2"&gt;Heading 2 is still Abrusco's default H2 size&lt;/h2&gt;
 
 &lt;/body&gt;
 &lt;/html&gt;
@@ -118,20 +118,21 @@ Example
 <span class="a5">/* use abrusco's internal variables */</span>
 .your-class {
   color: var(--green);
-}
-</pre>
-        <p>Build your custom bundle using CLI:</p>
-        <pre class="cli dollar">abrusco master.css -o bundle.css</pre>
-      </div>
-    </div></section>
+}</pre>
+            <p>Build your custom bundle using CLI:</p>
+            <pre class="cli dollar">abrusco input.css -o output.css</pre>
+          </div>
+        </div></section>
+
+    </div>
 
   </div></main>
 
-  <div class="ld-px1">
+  <div class="max51 md-px1">
     <hr class="px1 div color-black-10">
   </div>
 
-  <footer class="py2 md-px1 ld-p2">
+  <footer class="max51 py2 sd-p1 md-p2">
     <nav class="lh4">
       <ul class="row flex-wrap py05">
         <li class="px1 py05"><a class="ul" target="_blank" href="https://github.com/lemmon/abrusco">github</a></li>

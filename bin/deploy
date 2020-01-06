@@ -1,7 +1,19 @@
 #!/bin/sh
 cd "$(dirname $0)/.."
-BASE_DIR=`pwd`
 
-ftpcurl=$(<.ftpcurl)
-curl -T "docs/index.html" $ftpcurl
-curl -T "docs/bundle.css" $ftpcurl
+HOST=37.9.175.3
+DEST=web
+USER=abrusco.com
+PASS=$(security find-internet-password -s $HOST -a $USER -r ftps -w)
+DIST=docs
+
+npm run build --prefix docs
+
+ftpup \
+  -i '**/.DS_Store' \
+  -i 'package.json' \
+  -i 'css/**' \
+  -u ${USER} \
+  -p ${PASS} \
+  ${DIST} \
+  ${HOST}/${DEST}

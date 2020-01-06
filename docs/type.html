@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Abrusco &ndash; Typography Documentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="https://www.lemmonjuice.com/favicon.ico">
+  <link rel="stylesheet" href="master.css">
+</head>
+<body class="col max80 mx">
+
+  <header class="max51 py2 sd-px1 md-p2">
+    <div class="p075">
+      <h1 class="p025 h2 lh2 fw700">Abrusco</h1>
+      <div class="p025">
+        <p class="lh4 color-black-50">Hackable &amp; Functional CSS toolbox.</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="max51 md-px1">
+    <hr class="px1 div color-black-10">
+  </div>
+
+  <main class="span1 max75 py1 sd-px1 md-py2"><div class="py05">
+
+    <header class="max49 p1 md-p2"><div class="py05">
+      <h1 class="h2 lh2 fw600">Typography</h1>
+    </div></header>
+
+    <div class="px05 ld-row">
+
+      <nav class="span1 max48 ld-nav order2 self-start">
+      <div class="px05">
+        <div class="py1 md-px1 md-py2"><div class="py05">
+          <h2 class="h3 lh4 fw600">Table of Contents</h2>
+          <ul class="mt1 lh4">
+            <li><a class="inlineblock ul:hover" href="#text-align">Text Align</a></li>
+            <li><a class="inlineblock ul:hover" href="#text-transform">Text Transform</a></li>
+            <li><a class="inlineblock ul:hover" href="#type-scale">Type Scale</a></li>
+            <li><a class="inlineblock ul:hover" href="#line-height">Line Height</a></li>
+            <li><a class="inlineblock ul:hover" href="#font-weight">Font Weight</a></li>
+            <li><a class="inlineblock ul:hover" href="#font-style">Font Style</a></li>
+            <li><a class="inlineblock ul:hover" href="#text-decoration">Text Decoration</a></li>
+            <li><a class="inlineblock ul:hover" href="#vertical-align">Vertical Align</a></li>
+            <li><a class="inlineblock ul:hover" href="#white-space">White Space</a></li>
+            <li><a class="inlineblock ul:hover" href="#font-family">Font Family</a></li>
+          </ul>
+        </div></div>
+      </div>
+      </nav>
+
+      <div class="span2 max48">
+      <div class="px05">
+
+        <section id="text-align" class="py1 md-px1 md-py2"><div class="py05">
+          <div class="copy lh4">
+            <h2>Text Align</h2>
+            <pre>.al { text-align: left; }
+.ar { text-align: right; }
+.ac { text-align: center; }</pre>
+            <h3>Responsivity</h3>
+            <pre>@media (--view-xs) { <span class="o50">/* max-width: 24rem */</span>
+
+  .xs-al { text-align: left; }
+  .xs-ar { text-align: right; }
+  .xs-ac { text-align: center; }
+
+}
+@media (--view-sd) { <span class="o50">/* min-width: 32rem */</span>
+
+  .sd-al { text-align: left; }
+  .sd-ar { text-align: right; }
+  .sd-ac { text-align: center; }
+
+}
+@media (--view-md) { <span class="o50">/* min-width: 48rem */</span>
+
+  .md-al { text-align: left; }
+  .md-ar { text-align: right; }
+  .md-ac { text-align: center; }
+
+}
+@media (--view-ld) { <span class="o50">/* min-width: 64rem */</span>
+
+  .ld-al { text-align: left; }
+  .ld-ar { text-align: right; }
+  .ld-ac { text-align: center; }
+
+}</pre>
+          </div>
+        </div></section>
+
+        <section id="text-transform" class="py1 md-px1 md-py2"><div class="py05">
+          <div class="copy lh4">
+            <h2>Text Transform</h2>
+            <pre>.uc { text-transform: uppercase; }
+.lc { text-transform: lowercase; }
+.cc { text-transform: capitalize; }
+.nc { text-transform: none; }</pre>
+          </div>
+        </div></section>
+
+        <section id="type-scale" class="py1 md-px1 md-py2"><div class="py05">
+          <div class="copy lh4">
+            <h2>Type Scale</h2>
+            <pre><span class="o50">/* Headings */</span>
+.h1 { font-size: var(--h1); } <span class="o50">/* 2.5rem    (40px) */</span>
+.h2 { font-size: var(--h2); } <span class="o50">/* 2.0rem    (32px) */</span>
+.h3 { font-size: var(--h3); } <span class="o50">/* 1.5rem    (24px) */</span>
+.h4 { font-size: var(--h4); } <span class="o50">/* 1.25rem   (20px) */</span>
+.h5 { font-size: var(--h5); } <span class="o50">/* 1.125rem  (18px) */</span>
+.h6 { font-size: var(--h6); } <span class="o50">/* 1.0625rem (17px) */</span>
+
+<span class="o50">/* Smaller Sizes */</span>
+.f0 { font-size: var(--f0); } <span class="o50">/* 1rem      (16px) */</span>
+.f1 { font-size: var(--f1); } <span class="o50">/* .9375rem  (15px) */</span>
+.f2 { font-size: var(--f2); } <span class="o50">/* .875rem   (14px) */</span>
+.f3 { font-size: var(--f3); } <span class="o50">/* .8125rem  (13px) */</span>
+.f4 { font-size: var(--f4); } <span class="o50">/* .75rem    (12px) */</span></pre>
+            <h3>Responsivity</h3>
+            <pre>@media (--view-sd) { <span class="o50">/* min-width: 32rem */</span>
+
+  .sd-h1 { font-size: var(--h1); }
+  .sd-h2 { font-size: var(--h2); }
+  .sd-h3 { font-size: var(--h3); }
+  .sd-h4 { font-size: var(--h4); }
+  .sd-h5 { font-size: var(--h5); }
+  .sd-h6 { font-size: var(--h6); }
+
+}
+@media (--view-md) { <span class="o50">/* min-width: 48rem */</span>
+
+  .md-h1 { font-size: var(--h1); }
+  .md-h2 { font-size: var(--h2); }
+  .md-h3 { font-size: var(--h3); }
+  .md-h4 { font-size: var(--h4); }
+  .md-h5 { font-size: var(--h5); }
+  .md-h6 { font-size: var(--h6); }
+
+}
+@media (--view-ld) { <span class="o50">/* min-width: 64rem */</span>
+
+  .ld-h1 { font-size: var(--h1); }
+  .ld-h2 { font-size: var(--h2); }
+  .ld-h3 { font-size: var(--h3); }
+  .ld-h4 { font-size: var(--h4); }
+  .ld-h5 { font-size: var(--h5); }
+  .ld-h6 { font-size: var(--h6); }
+
+}</pre>
+            <h3>Default Variables</h3>
+            <pre>:root {
+
+  --h1: 2.5rem;     <span class="o50">/* 40px */</span>
+  --h2: 2.0rem;     <span class="o50">/* 32px */</span>
+  --h3: 1.5rem;     <span class="o50">/* 24px */</span>
+  --h4: 1.25rem;    <span class="o50">/* 20px */</span>
+  --h5: 1.125rem;   <span class="o50">/* 18px */</span>
+  --h6: 1.0625rem;  <span class="o50">/* 17px */</span>
+  --f0: 1rem;       <span class="o50">/* 16px */</span>
+  --f1: .9375rem;   <span class="o50">/* 15px */</span>
+  --f2: .875rem;    <span class="o50">/* 14px */</span>
+  --f3: .8125rem;   <span class="o50">/* 13px */</span>
+  --f4: .75rem;     <span class="o50">/* 12px */</span>
+
+}</pre>
+          </div>
+        </div></section>
+
+        <section id="line-height" class="py1 md-px1 md-py2"><div class="py05">
+          <div class="copy lh4">
+            <h2>Line Height</h2>
+            <pre>.lh0 { line-height: var(--lh0); }
+.lh1 { line-height: var(--lh1); }
+.lh2 { line-height: var(--lh2); }
+.lh3 { line-height: var(--lh3); }
+.lh4 { line-height: var(--lh4); }
+.lh5 { line-height: var(--lh5); }</pre>
+            <h3>Default Variables</h3>
+            <pre>:root {
+
+  --lh0: 1;         <span class="o50">/* 16px (at default font-size) */</span>
+  --lh1: 1.125;     <span class="o50">/* 18px (at default font-size) */</span>
+  --lh2: 1.250;     <span class="o50">/* 20px (at default font-size) */</span>
+  --lh3: 1.375;     <span class="o50">/* 22px (at default font-size) */</span>
+  --lh4: 1.5;       <span class="o50">/* 24px (at default font-size) */</span>
+  --lh5: 2;         <span class="o50">/* 32px (at default font-size) */</span>
+
+}</pre>
+          </div>
+        </div></section>
+
+        <section id="font-weight" class="py1 md-px1 md-py2"><div class="py05">
+          <div class="copy lh4">
+            <h2>Font Weight</h2>
+            <pre>.normal { font-weight: normal; }
+.bold   { font-weight: var(--bold-font-weight); }
+.fw100  { font-weight: 100; }
+.fw200  { font-weight: 200; }
+.fw300  { font-weight: 300; }
+.fw400  { font-weight: 400; }
+.fw500  { font-weight: 500; }
+.fw600  { font-weight: 600; }
+.fw700  { font-weight: 700; }
+.fw800  { font-weight: 800; }
+.fw900  { font-weight: 900; }</pre>
+            <h3>Default Variables</h3>
+            <pre>:root {
+
+  --bold-font-weight: bold;
+
+}</pre>
+          </div>
+        </div></section>
+
+        <section id="font-style" class="py1 md-px1 md-py2"><div class="py05">
+          <div class="copy lh4">
+            <h2>Font Style</h2>
+            <pre>.italic { font-style: italic; }</pre>
+          </div>
+        </div></section>
+
+        <section id="text-decoration" class="py1 md-px1 md-py2"><div class="py05">
+          <div class="copy lh4">
+            <h2>Text Decoration</h2>
+            <pre>.ul,
+.ul\:hover:hover,
+.anchor:hover .ul\:hover {
+  text-decoration: underline;
+}
+.ol { text-decoration: overline; }
+.lt { text-decoration: line-through; }</pre>
+          </div>
+        </div></section>
+
+        <section id="vertical-align" class="py1 md-px1 md-py2"><div class="py05">
+          <div class="copy lh4">
+            <h2>Vertical Align</h2>
+            <pre>.va-inherit  { vertical-align: inherit; }
+.va-baseline { vertical-align: baseline; }
+.va-sub      { vertical-align: sub; }
+.va-super    { vertical-align: super; }
+.va-middle   { vertical-align: middle; }
+.va-top      { vertical-align: top; }
+.va-bottom   { vertical-align: bottom; }</pre>
+          </div>
+        </div></section>
+
+        <section id="white-space" class="py1 md-px1 md-py2"><div class="py05">
+          <div class="copy lh4">
+            <h2>White Space</h2>
+            <pre>.nowrap { white-space: nowrap; }</pre>
+          </div>
+        </div></section>
+
+        <section id="font-family" class="py1 md-px1 md-py2"><div class="py05">
+          <div class="copy lh4">
+            <h2>Font Family</h2>
+            <pre>.serif     { font-family: var(--serif-font-family); }
+.sansserif { font-family: var(--sansserif-font-family); }
+.code      { font-family: var(--code-font-family); }</pre>
+            <h3>Default Variables</h3>
+            <pre>:root {
+
+  --serif-font-family: Georgia, 'Times New Roman', serif;
+  --sansserif-font-family: -apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  --code-font-family: Courier, monospace;
+
+}</pre>
+          </div>
+        </div></section>
+
+      </div>
+
+    </div>
+    </div>
+
+  </div></main>
+
+  <div class="max51 md-px1">
+    <hr class="px1 div color-black-10">
+  </div>
+
+  <footer class="max51 py2 sd-p1 md-p2">
+    <nav class="lh4">
+      <ul class="row flex-wrap py05">
+        <li class="px1 py05"><a class="ul" target="_blank" href="https://github.com/lemmon/abrusco">github</a></li>
+        <li class="px1 py05">created by <a class="ul" target="_blank" href="http://www.lemmonjuice.com/">lemmon</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>

@@ -29,9 +29,9 @@
         <section class="py1 md-px1 md-py2"><div class="py05">
           <div class="copy lh4">
             <h2>Getting Started</h2>
-            <pre class="cli dollar">npm install abrusco --save-dev</pre>
+            <pre class="cli"><code class="dollar">npm install abrusco --save-dev</code></pre>
             <p>Or use the <a target="_blank" href="https://unpkg.com/abrusco@0.8.2/css/abrusco.min.css">CDN Link</a>.</p>
-            <pre>&lt;link rel="stylesheet" href="<a target="_blank" href="https://unpkg.com/abrusco@0.8.2/css/abrusco.min.css">https://unpkg.com/abrusco@0.8.2/css/abrusco.min.css</a>"&gt;</pre>
+            <pre><code>&lt;link rel="stylesheet" href="<a target="_blank" href="https://unpkg.com/abrusco@0.8.2/css/abrusco.min.css">https://unpkg.com/abrusco@0.8.2/css/abrusco.min.css</a>"&gt;</code></pre>
           </div>
         </div></section>
 
@@ -39,9 +39,8 @@
           <div class="copy lh4">
             <h2>CLI</h2>
             <p>This package is meant to be installed globally.</p>
-            <pre class="cli dollar">npm install abrusco-cli --global</pre>
-            <pre class="cli">
-Usage
+            <pre class="cli"><code class="dollar">npm install abrusco-cli --global</code></pre>
+            <pre class="cli"><code>Usage
   $ abrusco &lt;input.css&gt;
 
 Options
@@ -53,7 +52,8 @@ Options
 Example
   $ abrusco src/master.css -o dist/bundle.css
   $ abrusco src/master.css -o dist/bundle.css --minify
-  $ abrusco src/master.css -o dist/bundle.css --watch</pre>
+  $ abrusco src/master.css -o dist/bundle.css --watch
+</code></pre>
             <p>See Abrusco CLI <a target="_blank" href="https://github.com/lemmon/abrusco-cli">GitHub</a> page for more.</p>
           </div>
         </div></section>
@@ -62,8 +62,7 @@ Example
           <div class="copy lh4">
             <h2>Hacking Abrusco</h2>
             <p>Many of the properties are set up as <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables">CSS custom variables</a>.</p>
-            <pre>
-.h1 { font-size: var(--h1); }
+            <pre><code>.h1 { font-size: var(--h1); }
 .h2 { font-size: var(--h2); }
 .h3 { font-size: var(--h3); }
 .h4 { font-size: var(--h4); }
@@ -78,12 +77,11 @@ Example
   --h5: 1.125rem;
   --h6: 1.0625rem;
 }
-</pre>
+</code></pre>
         <p>Abrusco is build in a way that you can adjust the properties even inside the HTML document.
           See the list of all Abrusco's <a target="_blank" href="https://github.com/lemmon/abrusco/blob/master/src/-variables.css">custom properties</a> available.</p>
         <p>Note: Only root properties are currently supported.</p>
-        <pre>
-&lt;!doctype html&gt;
+        <pre><code>&lt;!doctype html&gt;
 &lt;html&gt;
 &lt;head&gt;
   &lt;meta charset="utf-8"&gt;
@@ -101,12 +99,11 @@ Example
 
 &lt;/body&gt;
 &lt;/html&gt;
-</pre>
+</code></pre>
         <p>Note: This example will not work in Internet Explorer.
           See the list of <a target="_blank" href="https://caniuse.com/#feat=css-variables">browsers supporting</a> CSS variables.
           However you can create your own build if you have both <code class="code f2 bg-black-05 color-black-80 p0125">abrusco</code> and <code class="code f2 bg-black-05 color-black-80 p0125">abrusco-cli</code> installed.</p>
-        <pre>
-<span class="a5">/* import full abrusco build */</span>
+        <pre><code><span class="a5">/* import full abrusco build */</span>
 @include 'abrusco';
 
 <span class="a5">/* modify abrusco's internal variables */</span>
@@ -118,9 +115,10 @@ Example
 <span class="a5">/* use abrusco's internal variables */</span>
 .your-class {
   color: var(--green);
-}</pre>
+}
+</code></pre>
             <p>Build your custom bundle using CLI:</p>
-            <pre class="cli dollar">abrusco input.css -o output.css</pre>
+            <pre class="cli"><code class="dollar">abrusco input.css -o output.css</code></pre>
           </div>
         </div></section>
 

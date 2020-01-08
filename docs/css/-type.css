@@ -23,7 +23,8 @@
   & h4 { font-size: var(--copy-h4); }
   & h5 { font-size: var(--copy-h5); }
   & h6 { font-size: var(--copy-h6); }
-  & pre {
+  & pre,
+  & code {
     font-family: var(--code-font-family);
   }
 }

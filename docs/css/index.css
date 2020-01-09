@@ -16,16 +16,21 @@
     text-decoration: underline;
   }
   & code {
+    font-size: 14px;
+    line-height: 20px;
     &.dollar::before {
       content: "$ ";
       opacity: .5;
     }
   }
+  & p code {
+    vertical-align: middle;
+    line-height: 1;
+  }
   & pre {
     display: flex;
+    flex-direction: row;
     background-color: var(--black-10);
-    font-size: .875em;
-    line-height: 1.5;
     overflow: auto;
     scrollbar-width: none;
     &.cli {
@@ -34,7 +39,7 @@
     }
     & code {
       display: block;
-      padding: 1rem;
+      padding: 1rem 2ch;
     }
   }
   & pre a {

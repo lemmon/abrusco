@@ -16,6 +16,11 @@
     "postversion": "git push && git push --tags && npm publish && bin/deploy",
     "w": "abrusco src -o css/abrusco.css --watch"
   },
+  "browserslist": [
+    "ie >= 11",
+    "> 1%",
+    "last 2 versions"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lemmon/abrusco.git"

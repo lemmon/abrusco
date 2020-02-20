@@ -2,14 +2,13 @@
 @import '-normalize';
 @import '-variables';
 
-@import '-links';
-@import '-images';
 @import '-type';
 @import '-visibility';
 @import '-grid';
 @import '-spacing';
-@import '-borders';
-@import '-colors';
+@import '-border';
+@import '-color';
 @import '-background';
+@import '-cursor';
 
 @import '-debug';

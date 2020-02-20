@@ -6,20 +6,13 @@
 .bg-left { background-position: left; }
 .bg-right { background-position: right; }
 .bg-center { background-position: center; }
-.bg-tl, /* depreciate */
 .bg-topleft { background-position: top left; }
-.bg-tr, /* depreciate */
 .bg-topright { background-position: top right; }
-.bg-bl, /* depreciate */
 .bg-bottomleft { background-position: bottom left; }
-.bg-br, /* depreciate */
 .bg-bottomright { background-position: bottom right; }
 
-.bg-rx, /* depreciate */
 .bg-repeatx { background-repeat: repeat-x; }
-.bg-ry, /* depreciate */
 .bg-repeaty { background-repeat: repeat-y; }
-.bg-nr, /* depreciate */
 .bg-norepeat { background-repeat: no-repeat; }
 
 .bg-black { background-color: var(--black); }

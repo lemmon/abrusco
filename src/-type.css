@@ -48,7 +48,6 @@
 }
 
 .ol { text-decoration: overline; }
-.st, /* depreciate */
 .lt { text-decoration: line-through; }
 
 .va-inherit  { vertical-align: inherit; }

@@ -55,10 +55,8 @@ html {
                  'Helvetica Neue',
                  sans-serif;
   font-family: var(--font-family);
-  color: black;
   color: #040404;
   color: var(--text-color);
-  background-color: white;
   background-color: #fff;
   background-color: var(--background-color);
   -webkit-box-sizing: border-box;
@@ -69,7 +67,7 @@ body {
   min-height: 100vh;
 }
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+@media screen and (-ms-high-contrast: active),(-ms-high-contrast: none) {
   body {
     height: 100%;
   }
@@ -98,26 +96,9 @@ svg {
 
 :root {
   --font-size: 16px;
-  --font-family: -apple-system,
-                   BlinkMacSystemFont,
-                   'Segoe UI',
-                   'Roboto',
-                   'Oxygen',
-                   'Ubuntu',
-                   'Cantarell',
-                   'Fira Sans',
-                   'Droid Sans',
-                   'Helvetica Neue',
-                   sans-serif;
   --font-family: var(--sansserif-font-family);
-  --background-color: white;
-  --background-color: #fff;
   --background-color: var(--white, white);
-  --text-color: black;
-  --text-color: #040404;
   --text-color: var(--black, black);
-  --link-color: blue;
-  --link-color: #0074d9;
   --link-color: var(--blue, blue);
   --border-width: 1px;
   --border-color: currentColor;
@@ -193,29 +174,6 @@ svg {
   --fuchsia: #f012be;
   --purple: #b10dc9;
   --maroon: #85144b;
-}
-
-.cursor-default {
-  cursor: default;
-}
-
-.cursor-notallowed {
-  cursor: not-allowed;
-}
-
-.cursor-progress {
-  cursor: progress;
-}
-
-.cursor-pointer {
-  cursor: pointer;
-}
-
-.image {
-  display: block;
-  max-width: 100%;
-  width: auto;
-  height: auto;
 }
 
 .al {
@@ -388,7 +346,7 @@ svg {
   text-decoration: overline;
 }
 
-.st, .lt {
+.lt {
   text-decoration: line-through;
 }
 
@@ -611,60 +569,8 @@ svg {
   visibility: visible;
 }
 
-.invisible, .hidden {
+.hidden {
   visibility: hidden;
-}
-
-.a100 {
-  opacity: 1;
-}
-
-.a95 {
-  opacity: .95;
-}
-
-.a9 {
-  opacity: .9;
-}
-
-.a8 {
-  opacity: .8;
-}
-
-.a7 {
-  opacity: .7;
-}
-
-.a6 {
-  opacity: .6;
-}
-
-.a5 {
-  opacity: .5;
-}
-
-.a4 {
-  opacity: .4;
-}
-
-.a3 {
-  opacity: .3;
-}
-
-.a2 {
-  opacity: .2;
-}
-
-.a1 {
-  opacity: .1;
-}
-
-.a05 {
-  opacity: .05;
-}
-
-.a0 {
-  opacity: 0;
 }
 
 .o100 {
@@ -1175,7 +1081,7 @@ svg {
   flex-basis: auto;
 }
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+@media screen and (-ms-high-contrast: active),(-ms-high-contrast: none) {
   .col > * {
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
@@ -3467,31 +3373,31 @@ svg {
   background-position: center;
 }
 
-.bg-tl, .bg-topleft {
+.bg-topleft {
   background-position: top left;
 }
 
-.bg-tr, .bg-topright {
+.bg-topright {
   background-position: top right;
 }
 
-.bg-bl, .bg-bottomleft {
+.bg-bottomleft {
   background-position: bottom left;
 }
 
-.bg-br, .bg-bottomright {
+.bg-bottomright {
   background-position: bottom right;
 }
 
-.bg-rx, .bg-repeatx {
+.bg-repeatx {
   background-repeat: repeat-x;
 }
 
-.bg-ry, .bg-repeaty {
+.bg-repeaty {
   background-repeat: repeat-y;
 }
 
-.bg-nr, .bg-norepeat {
+.bg-norepeat {
   background-repeat: no-repeat;
 }
 
@@ -3698,6 +3604,22 @@ svg {
 .bg-maroon {
   background-color: #85144b;
   background-color: var(--maroon);
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.cursor-notallowed {
+  cursor: not-allowed;
+}
+
+.cursor-progress {
+  cursor: progress;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .-d {

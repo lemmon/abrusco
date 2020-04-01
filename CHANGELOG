@@ -1,4 +1,8 @@
-* 0.9.0 (2020-01-XX)
+* 0.10.0 (2020-04-XX)
+
+  * (type) add .d[1-5]
+
+* 0.9.0 (2020-02-20)
 
   * rename: links to cursor
   * rename: borders to border

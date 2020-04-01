@@ -14,6 +14,12 @@
 .h5 { font-size: var(--h5); }
 .h6 { font-size: var(--h6); }
 
+.d1 { font-size: var(--d1); }
+.d2 { font-size: var(--d2); }
+.d3 { font-size: var(--d3); }
+.d4 { font-size: var(--d4); }
+.d5 { font-size: var(--d5); }
+
 .f0 { font-size: var(--f0); }
 .f1 { font-size: var(--f1); }
 .f2 { font-size: var(--f2); }
@@ -85,6 +91,12 @@
   .sd-h5 { font-size: var(--h5); }
   .sd-h6 { font-size: var(--h6); }
 
+  .sd-d1 { font-size: var(--d1); }
+  .sd-d2 { font-size: var(--d2); }
+  .sd-d3 { font-size: var(--d3); }
+  .sd-d4 { font-size: var(--d4); }
+  .sd-d5 { font-size: var(--d5); }
+
 }
 
 @media (--view-md) {
@@ -100,6 +112,12 @@
   .md-h5 { font-size: var(--h5); }
   .md-h6 { font-size: var(--h6); }
 
+  .md-d1 { font-size: var(--d1); }
+  .md-d2 { font-size: var(--d2); }
+  .md-d3 { font-size: var(--d3); }
+  .md-d4 { font-size: var(--d4); }
+  .md-d5 { font-size: var(--d5); }
+
 }
 
 @media (--view-ld) {
@@ -114,5 +132,11 @@
   .ld-h4 { font-size: var(--h4); }
   .ld-h5 { font-size: var(--h5); }
   .ld-h6 { font-size: var(--h6); }
+
+  .ld-d1 { font-size: var(--d1); }
+  .ld-d2 { font-size: var(--d2); }
+  .ld-d3 { font-size: var(--d3); }
+  .ld-d4 { font-size: var(--d4); }
+  .ld-d5 { font-size: var(--d5); }
 
 }

@@ -122,6 +122,11 @@ svg {
   --h4: 1.25rem;
   --h5: 1.125rem;
   --h6: 1.0625rem;
+  --d1: 3rem;
+  --d2: 3.5rem;
+  --d3: 4rem;
+  --d4: 5rem;
+  --d5: 6rem;
   --f0: 1rem;
   --f1: .9375rem;
   --f2: .875rem;
@@ -232,6 +237,31 @@ svg {
 .h6 {
   font-size: 1.0625rem;
   font-size: var(--h6);
+}
+
+.d1 {
+  font-size: 3rem;
+  font-size: var(--d1);
+}
+
+.d2 {
+  font-size: 3.5rem;
+  font-size: var(--d2);
+}
+
+.d3 {
+  font-size: 4rem;
+  font-size: var(--d3);
+}
+
+.d4 {
+  font-size: 5rem;
+  font-size: var(--d4);
+}
+
+.d5 {
+  font-size: 6rem;
+  font-size: var(--d5);
 }
 
 .f0 {
@@ -463,6 +493,31 @@ svg {
     font-size: 1.0625rem;
     font-size: var(--h6);
   }
+
+  .sd-d1 {
+    font-size: 3rem;
+    font-size: var(--d1);
+  }
+
+  .sd-d2 {
+    font-size: 3.5rem;
+    font-size: var(--d2);
+  }
+
+  .sd-d3 {
+    font-size: 4rem;
+    font-size: var(--d3);
+  }
+
+  .sd-d4 {
+    font-size: 5rem;
+    font-size: var(--d4);
+  }
+
+  .sd-d5 {
+    font-size: 6rem;
+    font-size: var(--d5);
+  }
 }
 
 @media (min-width: 48rem) {
@@ -507,6 +562,31 @@ svg {
     font-size: 1.0625rem;
     font-size: var(--h6);
   }
+
+  .md-d1 {
+    font-size: 3rem;
+    font-size: var(--d1);
+  }
+
+  .md-d2 {
+    font-size: 3.5rem;
+    font-size: var(--d2);
+  }
+
+  .md-d3 {
+    font-size: 4rem;
+    font-size: var(--d3);
+  }
+
+  .md-d4 {
+    font-size: 5rem;
+    font-size: var(--d4);
+  }
+
+  .md-d5 {
+    font-size: 6rem;
+    font-size: var(--d5);
+  }
 }
 
 @media (min-width: 64rem) {
@@ -550,6 +630,31 @@ svg {
   .ld-h6 {
     font-size: 1.0625rem;
     font-size: var(--h6);
+  }
+
+  .ld-d1 {
+    font-size: 3rem;
+    font-size: var(--d1);
+  }
+
+  .ld-d2 {
+    font-size: 3.5rem;
+    font-size: var(--d2);
+  }
+
+  .ld-d3 {
+    font-size: 4rem;
+    font-size: var(--d3);
+  }
+
+  .ld-d4 {
+    font-size: 5rem;
+    font-size: var(--d4);
+  }
+
+  .ld-d5 {
+    font-size: 6rem;
+    font-size: var(--d5);
   }
 }
 

@@ -730,6 +730,71 @@ svg {
   opacity: 0;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.z0 {
+  z-index: 0;
+}
+
+.z1 {
+  z-index: 1;
+}
+
+.z2 {
+  z-index: 2;
+}
+
+.z3 {
+  z-index: 3;
+}
+
+.z9 {
+  z-index: 9;
+}
+
+.z99 {
+  z-index: 99;
+}
+
+.z999 {
+  z-index: 999;
+}
+
+.z9999 {
+  z-index: 9999;
+}
+
 .show {
   display: block;
 }

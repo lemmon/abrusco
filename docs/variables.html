@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Abrusco &ndash; Default Variables Documentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="https://www.lemmonjuice.com/favicon.ico">
+  <link rel="stylesheet" href="master.css">
+</head>
+<body class="col max80 mx">
+
+  <header class="max51 py2 sd-px1 md-p2">
+    <div class="p075">
+      <h1 class="p025 h2 lh2 fw700">Abrusco Docs</h1>
+      <div class="p025">
+        <p class="lh4 color-black-50">Hackable &amp; Functional CSS toolbox.</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="max51 md-px1">
+    <hr class="px1 div color-black-10">
+    <nav class="row sd-px1">
+      <div class="p075">
+        <a class="inlineblock p025 ul:hover" href="./">Home</a>
+        <span class="inlineblock p025 color-black-20">&gt;</span>
+        <a class="inlineblock p025 ul:hover" href="./docs.html">Docs</a>
+        <span class="inlineblock p025 color-black-20">&gt;</span>
+        <span class="inlineblock p025">Default Variables</span>
+      </div>
+    </nav>
+    <hr class="px1 div color-black-10">
+  </div>
+
+  <main class="span1 max75 py1 sd-px1 md-py2"><div class="py05">
+
+    <header class="max49 p1 md-p2"><div class="py05">
+      <h1 class="h2 lh2 fw600">Default Variables</h1>
+    </div></header>
+
+    <div class="px05 ld-row">
+
+      <div class="span2 max48">
+      <div class="px05">
+
+        <div class="py1 md-px1 md-py2"><div class="py05">
+          <div class="copy lh4">
+            <pre><code>:root {
+
+  --font-size: 16px;
+  --font-family: var(--sansserif-font-family);
+
+  --background-color: var(--white, white);
+  --text-color: var(--black, black);
+  --link-color: var(--blue, blue);
+  --border-width: 1px;
+  --border-color: currentColor;
+  --bold-font-weight: bold;
+
+  --serif-font-family: Georgia, 'Times New Roman', serif;
+  --sansserif-font-family: -apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  --code-font-family: Courier, monospace;
+
+  --h1: 2.5rem;     <span class="o50">/* 40px */</span>
+  --h2: 2.0rem;     <span class="o50">/* 32px */</span>
+  --h3: 1.5rem;     <span class="o50">/* 24px */</span>
+  --h4: 1.25rem;    <span class="o50">/* 20px */</span>
+  --h5: 1.125rem;   <span class="o50">/* 18px */</span>
+  --h6: 1.0625rem;  <span class="o50">/* 17px */</span>
+
+  --d1: 3.0rem;     <span class="o50">/* 48px */</span>
+  --d2: 3.5rem;     <span class="o50">/* 56px */</span>
+  --d3: 4.0rem;     <span class="o50">/* 64px */</span>
+  --d4: 5.0rem;     <span class="o50">/* 80px */</span>
+  --d5: 6.0rem;     <span class="o50">/* 96px */</span>
+
+  --f0: 1rem;       <span class="o50">/* 16px */</span>
+  --f1: .9375rem;   <span class="o50">/* 15px */</span>
+  --f2: .875rem;    <span class="o50">/* 14px */</span>
+  --f3: .8125rem;   <span class="o50">/* 13px */</span>
+  --f4: .75rem;     <span class="o50">/* 12px */</span>
+
+  --lh0: 1;         <span class="o50">/* 16px */</span>
+  --lh1: 1.125;     <span class="o50">/* 18px */</span>
+  --lh2: 1.250;     <span class="o50">/* 20px */</span>
+  --lh3: 1.375;     <span class="o50">/* 22px */</span>
+  --lh4: 1.5;       <span class="o50">/* 24px */</span>
+  --lh5: 2;         <span class="o50">/* 32px */</span>
+
+  --black:  #040404;
+  --white:  #ffffff;
+
+  --black-95: rgba(4, 4, 4, .95);
+  --black-90: rgba(4, 4, 4, .90);
+  --black-80: rgba(4, 4, 4, .80);
+  --black-70: rgba(4, 4, 4, .70);
+  --black-60: rgba(4, 4, 4, .60);
+  --black-50: rgba(4, 4, 4, .50);
+  --black-40: rgba(4, 4, 4, .40);
+  --black-30: rgba(4, 4, 4, .30);
+  --black-20: rgba(4, 4, 4, .20);
+  --black-10: rgba(4, 4, 4, .10);
+  --black-05: rgba(4, 4, 4, .05);
+  --black-025: rgba(4, 4, 4, .025);
+  --black-0125: rgba(4, 4, 4, .0125);
+
+  --white-95: rgba(255, 255, 255, .95);
+  --white-90: rgba(255, 255, 255, .90);
+  --white-80: rgba(255, 255, 255, .80);
+  --white-70: rgba(255, 255, 255, .70);
+  --white-60: rgba(255, 255, 255, .60);
+  --white-50: rgba(255, 255, 255, .50);
+  --white-40: rgba(255, 255, 255, .40);
+  --white-30: rgba(255, 255, 255, .30);
+  --white-20: rgba(255, 255, 255, .20);
+  --white-10: rgba(255, 255, 255, .10);
+  --white-05: rgba(255, 255, 255, .05);
+  --white-025: rgba(255, 255, 255, .025);
+  --white-0125: rgba(255, 255, 255, .0125);
+
+  <span class="o50">/* credit to <a target="_blank" href="http://clrs.cc/">http://clrs.cc/</a> */</span>
+  --aqua:    #7fdbff;
+  --blue:    #0074d9;
+  --navy:    #001f3f;
+  --teal:    #39cccc;
+  --green:   #2ecc40;
+  --olive:   #3d9970;
+  --lime:    #01ff70;
+  --yellow:  #ffdc00;
+  --orange:  #ff851b;
+  --red:     #ff4136;
+  --fuchsia: #f012be;
+  --purple:  #b10dc9;
+  --maroon:  #85144b;
+  <span class="o50">/* /credit */</span>
+
+}
+
+@custom-media --view-xs (max-width: 24rem);
+@custom-media --view-sd (min-width: 32rem);
+@custom-media --view-md (min-width: 48rem);
+@custom-media --view-ld (min-width: 64rem);
+@custom-media --view-xl (min-width: 80rem);
+
+@custom-media --ie screen and (-ms-high-contrast: active), (-ms-high-contrast: none);
+</code></pre>
+          </div>
+        </div></div>
+
+      </div>
+      </div>
+
+    </div>
+
+  </div></main>
+
+  <div class="max51 md-px1">
+    <hr class="px1 div color-black-10">
+  </div>
+
+  <footer class="max51 py2 sd-px1 md-px2">
+    <nav class="lh4">
+      <ul class="row flex-wrap py05">
+        <li class="px1 py05"><a class="ul" target="_blank" href="https://github.com/lemmon/abrusco">github</a></li>
+        <li class="px1 py05">created by <a class="ul" target="_blank" href="http://www.lemmonjuice.com/">lemmon</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>

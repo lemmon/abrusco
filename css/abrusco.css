@@ -3128,6 +3128,26 @@ svg {
   border-radius: .5rem;
 }
 
+.br4 {
+  border-radius: .75rem;
+}
+
+.br5 {
+  border-radius: 1rem;
+}
+
+.br6 {
+  border-radius: 1.25rem;
+}
+
+.br7 {
+  border-radius: 1.5rem;
+}
+
+.br8 {
+  border-radius: 2rem;
+}
+
 .br100 {
   border-radius: 100%;
 }

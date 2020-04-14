@@ -5,6 +5,7 @@
   * (grid) add: .max(34|35|38|42|44|51|52|54|55|78)
   * (grid) add: .(w|h)max { max-(width|height): 100% }
   * (grid) add: .xl-max
+  * (border) add: .br[4-8]
 
 * 0.9.0 (2020-02-20)
 

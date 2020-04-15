@@ -1,4 +1,4 @@
-* 0.10.0 (2020-04-XX)
+* 0.10.0 (2020-04-15)
 
   * (type) add: .d[1-5]
   * (position) init: .position, .(left|right|top|bottom), .z([0-3]|9{1,4})

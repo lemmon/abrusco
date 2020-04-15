@@ -90,10 +90,6 @@ hr {
   border: 0;
 }
 
-svg {
-  fill: currentColor;
-}
-
 :root {
   --font-size: 16px;
   --font-family: var(--sansserif-font-family);

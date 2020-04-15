@@ -1,6 +1,15 @@
 .show { display: block; }
 .hide { display: none; }
 
+.min8  { min-width:  8rem; }
+.min10 { min-width: 10rem; }
+.min12 { min-width: 12rem; }
+.min14 { min-width: 14rem; }
+.min16 { min-width: 16rem; }
+.min18 { min-width: 18rem; }
+.min20 { min-width: 20rem; }
+.min24 { min-width: 24rem; }
+
 .max   { max-width: none; }
 .max4  { max-width: 4rem; }
 .max6  { max-width: 6rem; }

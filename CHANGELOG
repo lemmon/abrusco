@@ -2,6 +2,7 @@
 
   * (type) add: .d[1-5]
   * (position) init: .position, .(left|right|top|bottom), .z([0-3]|9{1,4})
+  * (grid) add: .min(8|10|12|14|16|18|20|24)
   * (grid) add: .max(34|35|38|42|44|51|52|54|55|78)
   * (grid) add: .max(w|h) { max-(width|height): 100% }
   * (grid) add: .xl-max

@@ -42,14 +42,13 @@
 .max80 { max-width: 80rem; }
 .max90 { max-width: 90rem; }
 
-.wmax { max-width: 100%; }
+.maxw { max-width:  100%; }
+.maxh { max-height: 100%; }
 
 .w100 { width: 100%; }
 .w50  { width: 50%; }
 .w0   { width: 0%; }
 .wa   { width: auto; }
-
-.hmax { max-height: 100%; }
 
 .h100 { height: 100%; }
 .h50  { height: 50%; }

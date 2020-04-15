@@ -959,8 +959,12 @@ hr {
   max-width: 90rem;
 }
 
-.wmax {
+.maxw {
   max-width: 100%;
+}
+
+.maxh {
+  max-height: 100%;
 }
 
 .w100 {
@@ -977,10 +981,6 @@ hr {
 
 .wa {
   width: auto;
-}
-
-.hmax {
-  max-height: 100%;
 }
 
 .h100 {

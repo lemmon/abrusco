@@ -14,7 +14,7 @@
 .p075b  { padding: calc( .75rem - var(--border-width)); }
 .p1b    { padding: calc(   1rem - var(--border-width)); }
 
-.px0    { padding-left:    0;    padding-right :   0;    }
+.px0    { padding-left:    0;    padding-right:    0;    }
 .px0125 { padding-left: .125rem; padding-right: .125rem; }
 .px025  { padding-left:  .25rem; padding-right:  .25rem; }
 .px05   { padding-left:   .5rem; padding-right:   .5rem; }

@@ -3,6 +3,7 @@
   * (grid) add: .max(28)
   * (grid) add: .minvh
   * (normalize) depreciate: body min-height
+  * (background) add: .bg-transparent
 
 * 0.10.0 (2020-04-15)
 

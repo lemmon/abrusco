@@ -15,6 +15,12 @@
 .bg-repeaty { background-repeat: repeat-y; }
 .bg-norepeat { background-repeat: no-repeat; }
 
+.bg-transparent,
+.bg-transparent\:hover:hover,
+.anchor:hover .bg-transparent\:hover {
+  background-color: transparent;
+}
+
 .bg-black { background-color: var(--black); }
 .bg-black-95 { background-color: var(--black-95); }
 .bg-black-90 { background-color: var(--black-90); }

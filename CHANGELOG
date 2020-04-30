@@ -1,6 +1,8 @@
 * 0.11.0 (2020-05-XX)
 
   * (grid) add: .max(28)
+  * (grid) add: .minvh
+  * (normalize) depreciate: body min-height
 
 * 0.10.0 (2020-04-15)
 

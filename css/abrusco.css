@@ -1035,6 +1035,17 @@ hr {
   height: auto;
 }
 
+.minvh {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+@media screen and (-ms-high-contrast: active),(-ms-high-contrast: none) {
+  .minvh {
+    height: 100%;
+  }
+}
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;

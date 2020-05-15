@@ -1,7 +1,0 @@
-{
-  "scripts": {
-    "build:css": "abrusco css -o master.css",
-    "build": "npm run build:css -- --minify",
-    "w": "npm run build:css -- --watch"
-  }
-}

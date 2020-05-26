@@ -5,6 +5,7 @@
   * (normalize) depreciate: body min-height
   * (background) add: .bg-transparent
   * (reset) drop -reset.css in favor of reset-css package
+  * split into base, utils, modules, debug
 
 * 0.10.0 (2020-04-15)
 

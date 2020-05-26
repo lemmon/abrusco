@@ -21,23 +21,23 @@
     "> 1%",
     "last 2 versions"
   ],
+  "files": [
+    "css",
+    "src"
+  ],
+  "homepage": "https://abrusco.com",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lemmon/abrusco.git"
   },
-  "files": [
-    "/css",
-    "/src"
-  ],
+  "bugs": {
+    "url": "https://github.com/lemmon/abrusco/issues"
+  },
   "keywords": [
     "css",
     "oocss",
     "postcss",
     "design",
     "responsive"
-  ],
-  "bugs": {
-    "url": "https://github.com/lemmon/abrusco/issues"
-  },
-  "homepage": "https://abrusco.com/"
+  ]
 }

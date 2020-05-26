@@ -1,0 +1,31 @@
+.copy {
+  & > *:first-child {
+    margin-top: 0;
+  }
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+  & > *:not(h1,h2,h3,h4,h5,h6,p) {
+    margin-top: var(--copy-space-primary);
+    margin-bottom: var(--copy-space-primary);
+  }
+  & > h1,
+  & > h2,
+  & > h3,
+  & > h4,
+  & > h5,
+  & > h6 {
+    margin-top: var(--copy-space-primary);
+  }
+  & > p {
+    margin-top: var(--copy-space-secondary);
+    margin-bottom: var(--copy-space-primary);
+  }
+}
+
+:root {
+
+  --copy-space-primary:   1.5em;
+  --copy-space-secondary:  .5em;
+
+}

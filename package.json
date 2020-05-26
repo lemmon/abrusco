@@ -5,6 +5,9 @@
   "author": "lemmon",
   "license": "MIT",
   "style": "src/index.css",
+  "dependencies": {
+    "reset-css": "^5.0.1"
+  },
   "scripts": {
     "build:css": "abrusco src -o css/abrusco.css",
     "build:minify": "abrusco css/abrusco.css -o css/abrusco.min.css --minify",

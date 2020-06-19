@@ -903,8 +903,16 @@ hr {
   max-width: 20rem;
 }
 
+.max22 {
+  max-width: 22rem;
+}
+
 .max24 {
   max-width: 24rem;
+}
+
+.max26 {
+  max-width: 26rem;
 }
 
 .max28 {
@@ -997,6 +1005,14 @@ hr {
 
 .max65 {
   max-width: 65rem;
+}
+
+.max66 {
+  max-width: 66rem;
+}
+
+.max68 {
+  max-width: 68rem;
 }
 
 .max70 {

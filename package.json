@@ -20,9 +20,8 @@
     "w": "abrusco index.css -o css/abrusco.css --watch"
   },
   "browserslist": [
-    "ie >= 11",
-    "> 1%",
-    "last 2 versions"
+    "> 2%",
+    "not dead"
   ],
   "files": [
     "css",

@@ -54,16 +54,13 @@ table {
   --border-color: currentColor;
   --bold-font-weight: bold;
   --serif-font-family: Georgia, 'Times New Roman', serif;
-  --sansserif-font-family: -apple-system,
-                             BlinkMacSystemFont,
-                             'Segoe UI',
-                             'Roboto',
-                             'Oxygen',
-                             'Ubuntu',
-                             'Cantarell',
-                             'Fira Sans',
-                             'Droid Sans',
-                             'Helvetica Neue',
+  --sansserif-font-family: system-ui,
+                             -apple-system,
+                             Segoe UI,
+                             Roboto,
+                             Ubuntu,
+                             Cantarell,
+                             Noto Sans,
                              sans-serif;
   --code-font-family: Courier, monospace;
   --h1: 2.5rem;

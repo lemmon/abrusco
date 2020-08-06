@@ -9,9 +9,6 @@ html {
 body {
   /* depreciated */
   min-height: 100vh;
-  @media (--ie) {
-    height: 100%;
-  }
 }
 
 *,

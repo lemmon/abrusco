@@ -140,12 +140,6 @@ body {
   min-height: 100vh;
 }
 
-@media screen and (-ms-high-contrast: active),(-ms-high-contrast: none) {
-  body {
-    height: 100%;
-  }
-}
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -999,12 +993,6 @@ hr {
   min-height: -webkit-fill-available;
 }
 
-@media screen and (-ms-high-contrast: active),(-ms-high-contrast: none) {
-  .minvh {
-    height: 100%;
-  }
-}
-
 .row {
   display: flex;
   flex-direction: row;
@@ -1230,12 +1218,6 @@ hr {
 
 .span-auto {
   flex-basis: auto;
-}
-
-@media screen and (-ms-high-contrast: active),(-ms-high-contrast: none) {
-  .col > * {
-    flex-basis: auto;
-  }
 }
 
 .order0 {

@@ -6,11 +6,6 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  /* depreciated */
-  min-height: 100vh;
-}
-
 *,
 *::before,
 *::after {

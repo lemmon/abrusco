@@ -3,6 +3,7 @@
   * (grid) add: .max(22|26|66|68)
   * (spacing) added paddings of 1.25rem, 1.5rem, and 2.5rem
   * drop support for IE and dead browser versions
+  * remove depreciated styles
 
 * 0.11.1 (2020-05-26)
 

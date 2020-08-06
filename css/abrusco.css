@@ -136,10 +136,6 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  min-height: 100vh;
-}
-
 *, *::before, *::after {
   box-sizing: inherit;
 }

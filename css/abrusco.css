@@ -682,6 +682,7 @@ hr {
 }
 
 .sticky {
+  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -1712,8 +1713,20 @@ hr {
   padding: 1rem;
 }
 
+.p125 {
+  padding: 1.25rem;
+}
+
+.p15 {
+  padding: 1.5rem;
+}
+
 .p2 {
   padding: 2rem;
+}
+
+.p25 {
+  padding: 2.5rem;
 }
 
 .p3 {
@@ -1742,6 +1755,18 @@ hr {
 
 .p1b {
   padding: calc(1rem - var(--border-width));
+}
+
+.p125b {
+  padding: calc(1.25rem - var(--border-width));
+}
+
+.p15b {
+  padding: calc(1.5rem - var(--border-width));
+}
+
+.p2b {
+  padding: calc(2rem - var(--border-width));
 }
 
 .px0 {
@@ -1774,9 +1799,24 @@ hr {
   padding-right: 1rem;
 }
 
+.px125 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px15 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .px2 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.px25 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px3 {
@@ -1814,6 +1854,21 @@ hr {
   padding-right: calc(1rem - var(--border-width));
 }
 
+.px125b {
+  padding-left: calc(1.25rem - var(--border-width));
+  padding-right: calc(1.25rem - var(--border-width));
+}
+
+.px15b {
+  padding-left: calc(1.5rem - var(--border-width));
+  padding-right: calc(1.5rem - var(--border-width));
+}
+
+.px2b {
+  padding-left: calc(2rem - var(--border-width));
+  padding-right: calc(2rem - var(--border-width));
+}
+
 .py0 {
   padding-top: 0;
   padding-bottom: 0;
@@ -1844,9 +1899,24 @@ hr {
   padding-bottom: 1rem;
 }
 
+.py125 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py15 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .py2 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py25 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py3 {
@@ -1884,6 +1954,21 @@ hr {
   padding-bottom: calc(1rem - var(--border-width));
 }
 
+.py125b {
+  padding-top: calc(1.25rem - var(--border-width));
+  padding-bottom: calc(1.25rem - var(--border-width));
+}
+
+.py15b {
+  padding-top: calc(1.5rem - var(--border-width));
+  padding-bottom: calc(1.5rem - var(--border-width));
+}
+
+.py2b {
+  padding-top: calc(2rem - var(--border-width));
+  padding-bottom: calc(2rem - var(--border-width));
+}
+
 .pt0 {
   padding-top: 0;
 }
@@ -1906,6 +1991,14 @@ hr {
 
 .pt1 {
   padding-top: 1rem;
+}
+
+.pt125 {
+  padding-top: 1.25rem;
+}
+
+.pt15 {
+  padding-top: 1.5rem;
 }
 
 .pt2 {
@@ -1944,6 +2037,14 @@ hr {
   padding-bottom: 1rem;
 }
 
+.pb125 {
+  padding-bottom: 1.25rem;
+}
+
+.pb15 {
+  padding-bottom: 1.5rem;
+}
+
 .pb2 {
   padding-bottom: 2rem;
 }
@@ -1980,6 +2081,14 @@ hr {
   padding-left: 1rem;
 }
 
+.pl125 {
+  padding-left: 1.25rem;
+}
+
+.pl15 {
+  padding-left: 1.5rem;
+}
+
 .pl2 {
   padding-left: 2rem;
 }
@@ -2014,6 +2123,14 @@ hr {
 
 .pr1 {
   padding-right: 1rem;
+}
+
+.pr125 {
+  padding-right: 1.25rem;
+}
+
+.pr15 {
+  padding-right: 1.5rem;
 }
 
 .pr2 {
@@ -2173,6 +2290,10 @@ hr {
     padding: 0;
   }
 
+  .sd-p0125 {
+    padding: .125rem;
+  }
+
   .sd-p025 {
     padding: .25rem;
   }
@@ -2189,8 +2310,20 @@ hr {
     padding: 1rem;
   }
 
+  .sd-p125 {
+    padding: 1.25rem;
+  }
+
+  .sd-p15 {
+    padding: 1.5rem;
+  }
+
   .sd-p2 {
     padding: 2rem;
+  }
+
+  .sd-p25 {
+    padding: 2.5rem;
   }
 
   .sd-p3 {
@@ -2327,6 +2460,10 @@ hr {
     padding: 0;
   }
 
+  .md-p0125 {
+    padding: .125rem;
+  }
+
   .md-p025 {
     padding: .25rem;
   }
@@ -2343,8 +2480,20 @@ hr {
     padding: 1rem;
   }
 
+  .md-p125 {
+    padding: 1.25rem;
+  }
+
+  .md-p15 {
+    padding: 1.5rem;
+  }
+
   .md-p2 {
     padding: 2rem;
+  }
+
+  .md-p25 {
+    padding: 2.5rem;
   }
 
   .md-p3 {
@@ -2481,6 +2630,10 @@ hr {
     padding: 0;
   }
 
+  .ld-p0125 {
+    padding: .125rem;
+  }
+
   .ld-p025 {
     padding: .25rem;
   }
@@ -2497,8 +2650,20 @@ hr {
     padding: 1rem;
   }
 
+  .ld-p125 {
+    padding: 1.25rem;
+  }
+
+  .ld-p15 {
+    padding: 1.5rem;
+  }
+
   .ld-p2 {
     padding: 2rem;
+  }
+
+  .ld-p25 {
+    padding: 2.5rem;
   }
 
   .ld-p3 {
@@ -2635,6 +2800,10 @@ hr {
     padding: 0;
   }
 
+  .xl-p0125 {
+    padding: .125rem;
+  }
+
   .xl-p025 {
     padding: .25rem;
   }
@@ -2651,8 +2820,20 @@ hr {
     padding: 1rem;
   }
 
+  .xl-p125 {
+    padding: 1.25rem;
+  }
+
+  .xl-p15 {
+    padding: 1.5rem;
+  }
+
   .xl-p2 {
     padding: 2rem;
+  }
+
+  .xl-p25 {
+    padding: 2.5rem;
   }
 
   .xl-p3 {

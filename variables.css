@@ -1,14 +1,24 @@
 :root {
 
-  --font-size: 16px;
-  --font-family: var(--sansserif-font-family);
+  --base-font-size: 16px;
+  --base-font-family: var(--sansserif-font-family);
+  --base-background-color: var(--white, white);
+  --base-color: var(--black, black);
 
-  --background-color: var(--white, white);
-  --text-color: var(--black, black);
-  --link-color: var(--blue, blue);
-  --border-width: 1px;
-  --border-color: currentColor;
-  --bold-font-weight: bold;
+  --default-link-color: var(--blue, blue);
+  --default-border-width: 1px;
+  --default-border-color: currentColor;
+  --default-bold-font-weight: bold;
+
+  --font-size: var(--base-font-size);
+  --font-family: var(--base-font-family);
+  --background-color: var(--base-background-color);
+  --color: var(--base-color);
+
+  --link-color: var(--default-link-color);
+  --border-width: var(--default-border-width);
+  --border-color: var(--default-border-color);
+  --bold-font-weight: var(--default-bold-font-weight);
 
   --serif-font-family: Georgia, 'Times New Roman', serif;
   --sansserif-font-family: system-ui;

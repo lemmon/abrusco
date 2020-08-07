@@ -2,6 +2,9 @@
 
   * (grid) add: .max(22|26|66|68)
   * (spacing) added paddings of 1.25rem, 1.5rem, and 2.5rem
+  * (variables) prefix some variables with base- and default-
+    feature is non-breaking but it is recommended to use the new variables
+  * (variables) change --text-color to --base-color
   * drop support for IE and dead browser versions
   * remove depreciated styles
 

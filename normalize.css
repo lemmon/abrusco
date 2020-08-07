@@ -1,7 +1,7 @@
 html {
   font-size: var(--font-size);
   font-family: var(--font-family);
-  color: var(--text-color);
+  color: var(--color);
   background-color: var(--background-color);
   box-sizing: border-box;
 }

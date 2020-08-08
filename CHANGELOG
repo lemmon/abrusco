@@ -5,6 +5,8 @@
   * (variables) prefix some variables with base- and default-
     feature is non-breaking but it is recommended to use the new variables
   * (variables) change --text-color to --base-color
+  * (border) change b-{color} to bc-{{color}}
+  * (border) set border-color as a variable
   * drop support for IE and dead browser versions
   * remove depreciated styles
 

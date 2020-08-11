@@ -7,6 +7,7 @@
   * (variables) change --text-color to --base-color
   * (border) change b-{color} to bc-{{color}}
   * (border) set border-color as a variable
+  * (grid) drop webkit-fill-available from minvh
   * drop support for IE and dead browser versions
   * remove depreciated styles
 

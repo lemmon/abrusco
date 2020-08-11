@@ -69,10 +69,7 @@
 .h0   { height: 0%; }
 .ha   { height: auto; }
 
-.minvh {
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
-}
+.minvh { min-height: 100vh; }
 
 .row { display: flex; flex-direction: row; }
 .col { display: flex; flex-direction: column; }
@@ -138,16 +135,16 @@
 .justify-between { justify-content: space-between; }
 .justify-around  { justify-content: space-around; }
 
-.span0 { flex: 0; min-width: 0; min-height: 0; }
-.span1 { flex: 1; min-width: 0; min-height: 0; }
-.span2 { flex: 2; min-width: 0; min-height: 0; }
-.span3 { flex: 3; min-width: 0; min-height: 0; }
-.span4 { flex: 4; min-width: 0; min-height: 0; }
-.span5 { flex: 5; min-width: 0; min-height: 0; }
-.span6 { flex: 6; min-width: 0; min-height: 0; }
-.span7 { flex: 7; min-width: 0; min-height: 0; }
-.span8 { flex: 8; min-width: 0; min-height: 0; }
-.span9 { flex: 9; min-width: 0; min-height: 0; }
+.span0 { flex: 0; }
+.span1 { flex: 1; }
+.span2 { flex: 2; }
+.span3 { flex: 3; }
+.span4 { flex: 4; }
+.span5 { flex: 5; }
+.span6 { flex: 6; }
+.span7 { flex: 7; }
+.span8 { flex: 8; }
+.span9 { flex: 9; }
 
 .span-auto { flex-basis: auto; }
 

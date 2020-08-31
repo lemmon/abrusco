@@ -1641,6 +1641,105 @@ hr {
     max-width: none;
   }
 
+  .xl-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .xl-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .xl-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .xl-col-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .xl-grid2, .xl-grid3, .xl-grid4, .xl-grid5, .xl-grid6, .xl-grid7, .xl-grid8 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .xl-grid2 > * {
+    width: calc(100% / 2);
+  }
+
+  .xl-grid3 > * {
+    width: calc(100% / 3);
+  }
+
+  .xl-grid4 > * {
+    width: calc(100% / 4);
+  }
+
+  .xl-grid5 > * {
+    width: calc(100% / 5);
+  }
+
+  .xl-grid6 > * {
+    width: calc(100% / 6);
+  }
+
+  .xl-grid7 > * {
+    width: calc(100% / 7);
+  }
+
+  .xl-grid8 > * {
+    width: calc(100% / 8);
+  }
+
+  @supports (display: grid) {
+    .xl-grid {
+      display: grid;
+    }
+
+    .xl-grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .xl-grid3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .xl-grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .xl-grid5 {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    .xl-grid6 {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+    }
+
+    .xl-grid7 {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+    }
+
+    .xl-grid8 {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+    }
+
+    .xl-grid2 > *, .xl-grid3 > *, .xl-grid4 > *, .xl-grid5 > *, .xl-grid6 > *,
+    .xl-grid7 > *, .xl-grid8 > * {
+      width: auto;
+    }
+  }
+
   .xl-order0 {
     order: 0;
   }

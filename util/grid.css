@@ -312,7 +312,7 @@
   .ld-grid8 > * { width: calc(100% / 8); }
 
   @supports (display: grid) {
-    .md-grid  { display: grid; }
+    .ld-grid  { display: grid; }
     .ld-grid2 { display: grid; grid-template-columns: repeat(2, 1fr); }
     .ld-grid3 { display: grid; grid-template-columns: repeat(3, 1fr); }
     .ld-grid4 { display: grid; grid-template-columns: repeat(4, 1fr); }

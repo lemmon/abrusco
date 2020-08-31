@@ -1570,7 +1570,7 @@ hr {
   }
 
   @supports (display: grid) {
-    .md-grid {
+    .ld-grid {
       display: grid;
     }
 

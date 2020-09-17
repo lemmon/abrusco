@@ -2,7 +2,8 @@
 @import './util/visibility';
 @import './util/position';
 @import './util/grid';
-@import './util/spacing';
+@import './util/margin';
+@import './util/padding';
 @import './util/border';
 @import './util/color';
 @import './util/background';

@@ -2,6 +2,7 @@
 
   * (spacing) split margin and padding
   * (spacing) depreciate
+  * (margin) add .ma, .mt, .mb
 
 * 0.12.2 (2020-09-01)
 

@@ -5,6 +5,7 @@
 .m2    { margin:   2rem; }
 .m3    { margin:   3rem; }
 .m4    { margin:   4rem; }
+.ma    { margin:   auto; }
 
 .mx0   { margin-left:  0;    margin-right:  0;    }
 .mx1   { margin-left:  1rem; margin-right:  1rem; }
@@ -20,11 +21,13 @@
 .mt05  { margin-top:  .5rem; }
 .mt1   { margin-top:   1rem; }
 .mt2   { margin-top:   2rem; }
+.mt    { margin-top:   auto; }
 
 .mb025 { margin-bottom: .25rem; }
 .mb05  { margin-bottom:  .5rem; }
 .mb1   { margin-bottom:   1rem; }
 .mb2   { margin-bottom:   2rem; }
+.mb    { margin-bottom:   auto; }
 
 .ml025 { margin-left: .25rem; }
 .ml05  { margin-left:  .5rem; }

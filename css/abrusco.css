@@ -1781,6 +1781,10 @@ hr {
   margin: 4rem;
 }
 
+.ma {
+  margin: auto;
+}
+
 .mx0 {
   margin-left: 0;
   margin-right: 0;
@@ -1837,6 +1841,10 @@ hr {
   margin-top: 2rem;
 }
 
+.mt {
+  margin-top: auto;
+}
+
 .mb025 {
   margin-bottom: .25rem;
 }
@@ -1851,6 +1859,10 @@ hr {
 
 .mb2 {
   margin-bottom: 2rem;
+}
+
+.mb {
+  margin-bottom: auto;
 }
 
 .ml025 {

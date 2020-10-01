@@ -71,13 +71,23 @@
 
 .minvh { min-height: 100vh; }
 
-.row { display: flex; flex-direction: row; }
-.col { display: flex; flex-direction: column; }
+.row,
+.row-wrap { display: flex; flex-direction: row; }
+.col,
+.col-wrap { display: flex; flex-direction: column; }
 
-.row-reverse { display: flex; flex-direction: row-reverse; }
-.col-reverse { display: flex; flex-direction: column-reverse; }
+.row-reverse,
+.row-reverse-wrap { display: flex; flex-direction: row-reverse; }
+.col-reverse,
+.col-reverse-wrap { display: flex; flex-direction: column-reverse; }
 
-.flex-wrap { flex-wrap: wrap; }
+.row-wrap,
+.col-wrap,
+.row-reverse-wrap,
+.col-reverse-wrap,
+.flex-wrap {
+  flex-wrap: wrap;
+}
 
 .grid2,
 .grid3,
@@ -173,11 +183,23 @@
 
   .sd\:max { max-width: none; }
 
-  .sd\:row { display: flex; flex-direction: row; }
-  .sd\:col { display: flex; flex-direction: column; }
+  .sd\:row,
+  .sd\:row-wrap { display: flex; flex-direction: row; }
+  .sd\:col,
+  .sd\:col-wrap { display: flex; flex-direction: column; }
 
-  .sd\:row-reverse { display: flex; flex-direction: row-reverse; }
-  .sd\:col-reverse { display: flex; flex-direction: column-reverse; }
+  .sd\:row-reverse,
+  .sd\:row-reverse-wrap { display: flex; flex-direction: row-reverse; }
+  .sd\:col-reverse,
+  .sd\:col-reverse-wrap { display: flex; flex-direction: column-reverse; }
+
+  .sd\:row-wrap,
+  .sd\:col-wrap,
+  .sd\:row-reverse-wrap,
+  .sd\:col-reverse-wrap,
+  .sd\:flex-wrap {
+    flex-wrap: wrap;
+  }
 
   .sd\:grid2,
   .sd\:grid3,
@@ -230,11 +252,23 @@
 
   .md\:max { max-width: none; }
 
-  .md\:row { display: flex; flex-direction: row; }
-  .md\:col { display: flex; flex-direction: column; }
+  .md\:row,
+  .md\:row-wrap { display: flex; flex-direction: row; }
+  .md\:col,
+  .md\:col-wrap { display: flex; flex-direction: column; }
 
-  .md\:row-reverse { display: flex; flex-direction: row-reverse; }
-  .md\:col-reverse { display: flex; flex-direction: column-reverse; }
+  .md\:row-reverse,
+  .md\:row-reverse-wrap { display: flex; flex-direction: row-reverse; }
+  .md\:col-reverse,
+  .md\:col-reverse-wrap { display: flex; flex-direction: column-reverse; }
+
+  .md\:row-wrap,
+  .md\:col-wrap,
+  .md\:row-reverse-wrap,
+  .md\:col-reverse-wrap,
+  .md\:flex-wrap {
+    flex-wrap: wrap;
+  }
 
   .md\:grid2,
   .md\:grid3,
@@ -287,11 +321,23 @@
 
   .ld\:max { max-width: none; }
 
-  .ld\:row { display: flex; flex-direction: row; }
-  .ld\:col { display: flex; flex-direction: column; }
+  .ld\:row,
+  .ld\:row-wrap { display: flex; flex-direction: row; }
+  .ld\:col,
+  .ld\:col-wrap { display: flex; flex-direction: column; }
 
-  .ld\:row-reverse { display: flex; flex-direction: row-reverse; }
-  .ld\:col-reverse { display: flex; flex-direction: column-reverse; }
+  .ld\:row-reverse,
+  .ld\:row-reverse-wrap { display: flex; flex-direction: row-reverse; }
+  .ld\:col-reverse,
+  .ld\:col-reverse-wrap { display: flex; flex-direction: column-reverse; }
+
+  .ld\:row-wrap,
+  .ld\:col-wrap,
+  .ld\:row-reverse-wrap,
+  .ld\:col-reverse-wrap,
+  .ld\:flex-wrap {
+    flex-wrap: wrap;
+  }
 
   .ld\:grid2,
   .ld\:grid3,
@@ -344,11 +390,23 @@
 
   .xl\:max { max-width: none; }
 
-  .xl\:row { display: flex; flex-direction: row; }
-  .xl\:col { display: flex; flex-direction: column; }
+  .xl\:row,
+  .xl\:row-wrap { display: flex; flex-direction: row; }
+  .xl\:col,
+  .xl\:col-wrap { display: flex; flex-direction: column; }
 
-  .xl\:row-reverse { display: flex; flex-direction: row-reverse; }
-  .xl\:col-reverse { display: flex; flex-direction: column-reverse; }
+  .xl\:row-reverse,
+  .xl\:row-reverse-wrap { display: flex; flex-direction: row-reverse; }
+  .xl\:col-reverse,
+  .xl\:col-reverse-wrap { display: flex; flex-direction: column-reverse; }
+
+  .xl\:row-wrap,
+  .xl\:col-wrap,
+  .xl\:row-reverse-wrap,
+  .xl\:col-reverse-wrap,
+  .xl\:flex-wrap {
+    flex-wrap: wrap;
+  }
 
   .xl\:grid2,
   .xl\:grid3,

@@ -3,6 +3,8 @@
   * (spacing) split margin and padding
   * (spacing) depreciate
   * (margin) add .ma, .mt, .mb
+  * (grid) add row-wrap, col-wrap, row-reverse-wrap, col-reverse-wrap,
+    including responsivity
   * responsivity: drop (xs|sd|md|ld|xl)- prefixes in favor of (xs|sd|md|ld|xl):
 
 * 0.12.2 (2020-09-01)

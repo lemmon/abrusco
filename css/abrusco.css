@@ -347,6 +347,10 @@ hr {
   font-weight: 900;
 }
 
+.fw1000 {
+  font-weight: 1000;
+}
+
 .italic {
   font-style: italic;
 }

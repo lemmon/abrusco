@@ -3733,6 +3733,10 @@ hr {
   border-radius: 100%;
 }
 
+.br999 {
+  border-radius: 999px;
+}
+
 .div {
   color: var(--border-color);
 }

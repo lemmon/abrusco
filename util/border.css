@@ -57,6 +57,7 @@
 .br7 { border-radius: 1.5rem; }
 .br8 { border-radius: 2rem; }
 .br100 { border-radius: 100%; }
+.br999 { border-radius: 999px; }
 
 .div {
   color: var(--border-color);

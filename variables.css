@@ -50,6 +50,12 @@
   --lh4: 1.5;       /* 24 */
   --lh5: 2;         /* 32 */
 
+  --br1: .125rem;
+  --br2: .25rem;
+  --br3: .5rem;
+  --br4: .75rem;
+  --br5: 1rem;
+
   --black:  #040404;
   --white:  #ffffff;
 

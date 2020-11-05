@@ -29,22 +29,6 @@ npm install abrusco --save-dev
 
 To use CLI and to create your own Abrusco build install [`abrusco-cli`](https://github.com/lemmon/abrusco-cli) package.
 
-## Modules
-
-* **reset** - CSS reset
-* **normalize** - normalize certain html elements
-* **variables** - define global variables
-* **page**
-* **links**
-* **type** - typography
-* **visibility**
-* **grid**
-* **spacing**
-* **colors**
-* **borders**
-* **background**
-* **debug** - debugging utilities
-
 ## Related
 
 - [`abrusco-cli`](https://github.com/lemmon/abrusco-cli)

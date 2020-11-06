@@ -5,6 +5,7 @@
   * (variables) add --br[1-5]
   * (type) add .fw1000
   * (type) depreciate .normal
+  * (padding) add 1.75rem padding
 
 * 0.13.0 (2020-10-01)
 

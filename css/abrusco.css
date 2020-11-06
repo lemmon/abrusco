@@ -1970,6 +1970,10 @@ hr {
   padding: 1.5rem;
 }
 
+.p175 {
+  padding: 1.75rem;
+}
+
 .p2 {
   padding: 2rem;
 }
@@ -2014,6 +2018,10 @@ hr {
   padding: calc(1.5rem - var(--border-width));
 }
 
+.p175b {
+  padding: calc(1.75rem - var(--border-width));
+}
+
 .p2b {
   padding: calc(2rem - var(--border-width));
 }
@@ -2056,6 +2064,11 @@ hr {
 .px15 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.px175 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
 .px2 {
@@ -2113,6 +2126,11 @@ hr {
   padding-right: calc(1.5rem - var(--border-width));
 }
 
+.px175b {
+  padding-left: calc(1.75rem - var(--border-width));
+  padding-right: calc(1.75rem - var(--border-width));
+}
+
 .px2b {
   padding-left: calc(2rem - var(--border-width));
   padding-right: calc(2rem - var(--border-width));
@@ -2156,6 +2174,11 @@ hr {
 .py15 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py175 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
 }
 
 .py2 {
@@ -2213,6 +2236,11 @@ hr {
   padding-bottom: calc(1.5rem - var(--border-width));
 }
 
+.py175b {
+  padding-top: calc(1.75rem - var(--border-width));
+  padding-bottom: calc(1.75rem - var(--border-width));
+}
+
 .py2b {
   padding-top: calc(2rem - var(--border-width));
   padding-bottom: calc(2rem - var(--border-width));
@@ -2248,6 +2276,10 @@ hr {
 
 .pt15 {
   padding-top: 1.5rem;
+}
+
+.pt175 {
+  padding-top: 1.75rem;
 }
 
 .pt2 {
@@ -2294,6 +2326,10 @@ hr {
   padding-bottom: 1.5rem;
 }
 
+.pb175 {
+  padding-bottom: 1.75rem;
+}
+
 .pb2 {
   padding-bottom: 2rem;
 }
@@ -2338,6 +2374,10 @@ hr {
   padding-left: 1.5rem;
 }
 
+.pl175 {
+  padding-left: 1.75rem;
+}
+
 .pl2 {
   padding-left: 2rem;
 }
@@ -2380,6 +2420,10 @@ hr {
 
 .pr15 {
   padding-right: 1.5rem;
+}
+
+.pr175 {
+  padding-right: 1.75rem;
 }
 
 .pr2 {
@@ -2427,6 +2471,10 @@ hr {
     padding: 1.5rem;
   }
 
+  .sd\:p175 {
+    padding: 1.75rem;
+  }
+
   .sd\:p2 {
     padding: 2rem;
   }
@@ -2471,6 +2519,10 @@ hr {
     padding: calc(1.5rem - var(--border-width));
   }
 
+  .sd\:p175b {
+    padding: calc(1.75rem - var(--border-width));
+  }
+
   .sd\:p2b {
     padding: calc(2rem - var(--border-width));
   }
@@ -2513,6 +2565,11 @@ hr {
   .sd\:px15 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .sd\:px175 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
   }
 
   .sd\:px2 {
@@ -2570,6 +2627,11 @@ hr {
     padding-right: calc(1.5rem - var(--border-width));
   }
 
+  .sd\:px175b {
+    padding-left: calc(1.75rem - var(--border-width));
+    padding-right: calc(1.75rem - var(--border-width));
+  }
+
   .sd\:px2b {
     padding-left: calc(2rem - var(--border-width));
     padding-right: calc(2rem - var(--border-width));
@@ -2613,6 +2675,11 @@ hr {
   .sd\:py15 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .sd\:py175 {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
   }
 
   .sd\:py2 {
@@ -2670,6 +2737,11 @@ hr {
     padding-bottom: calc(1.5rem - var(--border-width));
   }
 
+  .sd\:py175b {
+    padding-top: calc(1.75rem - var(--border-width));
+    padding-bottom: calc(1.75rem - var(--border-width));
+  }
+
   .sd\:py2b {
     padding-top: calc(2rem - var(--border-width));
     padding-bottom: calc(2rem - var(--border-width));
@@ -2707,6 +2779,10 @@ hr {
 
   .md\:p15 {
     padding: 1.5rem;
+  }
+
+  .md\:p175 {
+    padding: 1.75rem;
   }
 
   .md\:p2 {
@@ -2753,6 +2829,10 @@ hr {
     padding: calc(1.5rem - var(--border-width));
   }
 
+  .md\:p175b {
+    padding: calc(1.75rem - var(--border-width));
+  }
+
   .md\:p2b {
     padding: calc(2rem - var(--border-width));
   }
@@ -2795,6 +2875,11 @@ hr {
   .md\:px15 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .md\:px175 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
   }
 
   .md\:px2 {
@@ -2852,6 +2937,11 @@ hr {
     padding-right: calc(1.5rem - var(--border-width));
   }
 
+  .md\:px175b {
+    padding-left: calc(1.75rem - var(--border-width));
+    padding-right: calc(1.75rem - var(--border-width));
+  }
+
   .md\:px2b {
     padding-left: calc(2rem - var(--border-width));
     padding-right: calc(2rem - var(--border-width));
@@ -2895,6 +2985,11 @@ hr {
   .md\:py15 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .md\:py175 {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
   }
 
   .md\:py2 {
@@ -2952,6 +3047,11 @@ hr {
     padding-bottom: calc(1.5rem - var(--border-width));
   }
 
+  .md\:py175b {
+    padding-top: calc(1.75rem - var(--border-width));
+    padding-bottom: calc(1.75rem - var(--border-width));
+  }
+
   .md\:py2b {
     padding-top: calc(2rem - var(--border-width));
     padding-bottom: calc(2rem - var(--border-width));
@@ -2989,6 +3089,10 @@ hr {
 
   .ld\:p15 {
     padding: 1.5rem;
+  }
+
+  .ld\:p175 {
+    padding: 1.75rem;
   }
 
   .ld\:p2 {
@@ -3035,6 +3139,10 @@ hr {
     padding: calc(1.5rem - var(--border-width));
   }
 
+  .ld\:p175b {
+    padding: calc(1.75rem - var(--border-width));
+  }
+
   .ld\:p2b {
     padding: calc(2rem - var(--border-width));
   }
@@ -3077,6 +3185,11 @@ hr {
   .ld\:px15 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .ld\:px175 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
   }
 
   .ld\:px2 {
@@ -3134,6 +3247,11 @@ hr {
     padding-right: calc(1.5rem - var(--border-width));
   }
 
+  .ld\:px175b {
+    padding-left: calc(1.75rem - var(--border-width));
+    padding-right: calc(1.75rem - var(--border-width));
+  }
+
   .ld\:px2b {
     padding-left: calc(2rem - var(--border-width));
     padding-right: calc(2rem - var(--border-width));
@@ -3177,6 +3295,11 @@ hr {
   .ld\:py15 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .ld\:py175 {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
   }
 
   .ld\:py2 {
@@ -3234,6 +3357,11 @@ hr {
     padding-bottom: calc(1.5rem - var(--border-width));
   }
 
+  .ld\:py175b {
+    padding-top: calc(1.75rem - var(--border-width));
+    padding-bottom: calc(1.75rem - var(--border-width));
+  }
+
   .ld\:py2b {
     padding-top: calc(2rem - var(--border-width));
     padding-bottom: calc(2rem - var(--border-width));
@@ -3271,6 +3399,10 @@ hr {
 
   .xl\:p15 {
     padding: 1.5rem;
+  }
+
+  .xl\:p175 {
+    padding: 1.75rem;
   }
 
   .xl\:p2 {
@@ -3317,6 +3449,10 @@ hr {
     padding: calc(1.5rem - var(--border-width));
   }
 
+  .xl\:p175b {
+    padding: calc(1.75rem - var(--border-width));
+  }
+
   .xl\:p2b {
     padding: calc(2rem - var(--border-width));
   }
@@ -3359,6 +3495,11 @@ hr {
   .xl\:px15 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .xl\:px175 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
   }
 
   .xl\:px2 {
@@ -3416,6 +3557,11 @@ hr {
     padding-right: calc(1.5rem - var(--border-width));
   }
 
+  .xl\:px175b {
+    padding-left: calc(1.75rem - var(--border-width));
+    padding-right: calc(1.75rem - var(--border-width));
+  }
+
   .xl\:px2b {
     padding-left: calc(2rem - var(--border-width));
     padding-right: calc(2rem - var(--border-width));
@@ -3459,6 +3605,11 @@ hr {
   .xl\:py15 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .xl\:py175 {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
   }
 
   .xl\:py2 {
@@ -3514,6 +3665,11 @@ hr {
   .xl\:py15b {
     padding-top: calc(1.5rem - var(--border-width));
     padding-bottom: calc(1.5rem - var(--border-width));
+  }
+
+  .xl\:py175b {
+    padding-top: calc(1.75rem - var(--border-width));
+    padding-bottom: calc(1.75rem - var(--border-width));
   }
 
   .xl\:py2b {

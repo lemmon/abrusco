@@ -6,6 +6,7 @@
   * (type) add .fw1000
   * (type) depreciate .normal
   * (padding) add 1.75rem padding
+  * (modules) move .div from border to modules
 
 * 0.13.0 (2020-10-01)
 

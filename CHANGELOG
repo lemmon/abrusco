@@ -1,4 +1,4 @@
-* 0.13.1 (2020-11-09)
+# 0.13.1 (2020-11-09)
 
   * (border) add .br999
   * (border) drop .br[6-8]
@@ -8,7 +8,7 @@
   * (padding) add 1.75rem padding
   * (modules) move .div from border to modules
 
-* 0.13.0 (2020-10-01)
+# 0.13.0 (2020-10-01)
 
   * (spacing) split margin and padding
   * (spacing) depreciate
@@ -17,15 +17,15 @@
     including responsivity
   * responsivity: drop (xs|sd|md|ld|xl)- prefixes in favor of (xs|sd|md|ld|xl):
 
-* 0.12.2 (2020-09-01)
+# 0.12.2 (2020-09-01)
 
   * (grid) xl responsive classes
 
-* 0.12.1 (2020-08-28)
+# 0.12.1 (2020-08-28)
 
   * (spacing) add more responsive paddings
 
-* 0.12.0 (2020-08-20)
+# 0.12.0 (2020-08-20)
 
   * (grid) add: .max(22|26|66|68)
   * (spacing) added paddings of 1.25rem, 1.5rem, and 2.5rem
@@ -38,7 +38,7 @@
   * drop support for IE and dead browser versions
   * remove depreciated styles
 
-* 0.11.1 (2020-05-26)
+# 0.11.1 (2020-05-26)
 
   * (grid) add: .max(28)
   * (grid) add: .minvh
@@ -48,7 +48,7 @@
   * split into base, utils, modules, debug
   * (copy) first alpha of copy module
 
-* 0.10.0 (2020-04-15)
+# 0.10.0 (2020-04-15)
 
   * (type) add: .d[1-5]
   * (position) init: .position, .(left|right|top|bottom), .z([0-3]|9{1,4})
@@ -59,7 +59,7 @@
   * (border) add: .br[4-8]
   * (normalize) remove SVG fill
 
-* 0.9.0 (2020-02-20)
+# 0.9.0 (2020-02-20)
 
   * rename: links to cursor
   * rename: borders to border
@@ -67,18 +67,18 @@
   * remove: depreciated styles
   * build with abrusco cli 0.5.0, add browserlist
 
-* 0.8.2 (2019-12-21)
+# 0.8.2 (2019-12-21)
 
   * (grid) update: reorder paddings
   * (grid) add: .p[tblr](0|075)
   * (visibility) fix: opacity:0
 
-* 0.8.1 (2019-12-07)
+# 0.8.1 (2019-12-07)
 
   * (type) update: code-font-family, lh2
   * (grid) add: max(15|65)
 
-* 0.8.0 (2019-11-23)
+# 0.8.0 (2019-11-23)
 
   * (background) add: bg-topleft, bg-topright, bg-bottomleft, bg-bottomright, bg-repeatx, bg-repeaty, bg-norepeat
   * (background) depreciate: bg-tl, bg-tr, bg-bl, bg-br, bg-rx, bg-ry, bg-nr
@@ -98,21 +98,21 @@
   * (grid) responsive order[019]
   * (grid) grid class, grid(2-8) update
 
-* 0.7.4 (2019-02-04)
+# 0.7.4 (2019-02-04)
 
   * (normalize) fix IE 100vh vertical height
 
-* 0.7.3 (2019-01-03)
+# 0.7.3 (2019-01-03)
 
   * (borders) fix div color overwrite
 
-* 0.7.2 (2018-10-10)
+# 0.7.2 (2018-10-10)
 
   * new variables: --serif-font-family, --sansserif-font-family
   * (type) added classes: serif, sansserif
   * (borders) fix: class div to use --border-color as default color
 
-* 0.7.1 (2018-09-19)
+# 0.7.1 (2018-09-19)
 
   * add changelog
   * (spacing) added classes: px0125, py0125, pt0125, pb0125, pl0125, pr0125, sd-p0, sd-px0, sd-py0, md-p0, md-px0, md-py0, ld-p0, ld-px0, ld-py0

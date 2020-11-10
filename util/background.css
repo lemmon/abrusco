@@ -16,7 +16,7 @@
 .bg-norepeat { background-repeat: no-repeat; }
 
 .bg-current {
-  background-color: current;
+  background-color: currentColor;
 }
 
 .bg-transparent,

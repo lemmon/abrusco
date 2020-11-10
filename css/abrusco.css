@@ -3904,6 +3904,11 @@ hr {
   border-radius: 999px;
 }
 
+.color-currentColor, .color-currentColor\:hover:hover,
+.anchor:hover .color-currentColor\:hover {
+  color: currentColor;
+}
+
 .color-inherit, .color-inherit\:hover:hover, .anchor:hover .color-inherit\:hover {
   color: inherit;
 }

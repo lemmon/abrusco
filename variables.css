@@ -5,7 +5,6 @@
   --base-background-color: var(--white, white);
   --base-color: var(--black, black);
 
-  --default-link-color: var(--blue, blue);
   --default-border-width: 1px;
   --default-border-color: currentColor;
   --default-bold-font-weight: bold;
@@ -15,7 +14,6 @@
   --background-color: var(--base-background-color);
   --color: var(--base-color);
 
-  --link-color: var(--default-link-color);
   --border-width: var(--default-border-width);
   --border-color: var(--default-border-color);
   --bold-font-weight: var(--default-bold-font-weight);

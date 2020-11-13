@@ -98,6 +98,12 @@
   .sd\:d4 { font-size: var(--d4); }
   .sd\:d5 { font-size: var(--d5); }
 
+  .sd\:f0 { font-size: var(--f0); }
+  .sd\:f1 { font-size: var(--f1); }
+  .sd\:f2 { font-size: var(--f2); }
+  .sd\:f3 { font-size: var(--f3); }
+  .sd\:f4 { font-size: var(--f4); }
+
 }
 
 @media (--view-md) {
@@ -119,6 +125,12 @@
   .md\:d4 { font-size: var(--d4); }
   .md\:d5 { font-size: var(--d5); }
 
+  .md\:f0 { font-size: var(--f0); }
+  .md\:f1 { font-size: var(--f1); }
+  .md\:f2 { font-size: var(--f2); }
+  .md\:f3 { font-size: var(--f3); }
+  .md\:f4 { font-size: var(--f4); }
+
 }
 
 @media (--view-ld) {
@@ -139,5 +151,11 @@
   .ld\:d3 { font-size: var(--d3); }
   .ld\:d4 { font-size: var(--d4); }
   .ld\:d5 { font-size: var(--d5); }
+
+  .ld\:f0 { font-size: var(--f0); }
+  .ld\:f1 { font-size: var(--f1); }
+  .ld\:f2 { font-size: var(--f2); }
+  .ld\:f3 { font-size: var(--f3); }
+  .ld\:f4 { font-size: var(--f4); }
 
 }

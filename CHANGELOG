@@ -9,6 +9,7 @@
   * (grid) add .maxw100, .maxh100
   * (grid) depreciate .maxw, .maxh
   * (grid) depreciate .grid[\d] as flexbox
+  * (type) responsive .f[\d]
 
 # 0.13.1 (2020-11-09)
 

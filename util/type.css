@@ -104,6 +104,13 @@
   .sd\:f3 { font-size: var(--f3); }
   .sd\:f4 { font-size: var(--f4); }
 
+  .sd\:lh0 { line-height: var(--lh0); }
+  .sd\:lh1 { line-height: var(--lh1); }
+  .sd\:lh2 { line-height: var(--lh2); }
+  .sd\:lh3 { line-height: var(--lh3); }
+  .sd\:lh4 { line-height: var(--lh4); }
+  .sd\:lh5 { line-height: var(--lh5); }
+
 }
 
 @media (--view-md) {
@@ -131,6 +138,13 @@
   .md\:f3 { font-size: var(--f3); }
   .md\:f4 { font-size: var(--f4); }
 
+  .md\:lh0 { line-height: var(--lh0); }
+  .md\:lh1 { line-height: var(--lh1); }
+  .md\:lh2 { line-height: var(--lh2); }
+  .md\:lh3 { line-height: var(--lh3); }
+  .md\:lh4 { line-height: var(--lh4); }
+  .md\:lh5 { line-height: var(--lh5); }
+
 }
 
 @media (--view-ld) {
@@ -157,5 +171,12 @@
   .ld\:f2 { font-size: var(--f2); }
   .ld\:f3 { font-size: var(--f3); }
   .ld\:f4 { font-size: var(--f4); }
+
+  .ld\:lh0 { line-height: var(--lh0); }
+  .ld\:lh1 { line-height: var(--lh1); }
+  .ld\:lh2 { line-height: var(--lh2); }
+  .ld\:lh3 { line-height: var(--lh3); }
+  .ld\:lh4 { line-height: var(--lh4); }
+  .ld\:lh5 { line-height: var(--lh5); }
 
 }

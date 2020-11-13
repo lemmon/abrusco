@@ -4,6 +4,8 @@
   * (color) add .color-current
   * (variables) remove --link-color
   * (variables) --bold-font-weight to --bold-fw
+  * (grid) add .min100vh, .min100vw
+  * (grid) depreciate .minvh
 
 # 0.13.1 (2020-11-09)
 

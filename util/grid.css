@@ -69,7 +69,9 @@
 .h0   { height: 0%; }
 .ha   { height: auto; }
 
-.minvh { min-height: 100vh; }
+.min100vw { min-width: 100vh; }
+.minvh, /* depreciated */
+.min100vh { min-height: 100vh; }
 
 .row,
 .row-wrap { display: flex; flex-direction: row; }

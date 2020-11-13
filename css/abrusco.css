@@ -1013,7 +1013,11 @@ hr {
   height: auto;
 }
 
-.minvh {
+.min100vw {
+  min-width: 100vh;
+}
+
+.minvh, .min100vh {
   min-height: 100vh;
 }
 

@@ -56,9 +56,6 @@
 .max80 { max-width: 80rem; }
 .max90 { max-width: 90rem; }
 
-.maxw { max-width:  100%; }
-.maxh { max-height: 100%; }
-
 .w100 { width: 100%; }
 .w50  { width: 50%; }
 .w0   { width: 0%; }
@@ -72,6 +69,11 @@
 .min100vw { min-width: 100vh; }
 .minvh, /* depreciated */
 .min100vh { min-height: 100vh; }
+
+.maxw, /* depreciated */
+.maxw100 { max-width:  100%; }
+.maxh, /* depreciated */
+.maxh100 { max-height: 100%; }
 
 .row,
 .row-wrap { display: flex; flex-direction: row; }

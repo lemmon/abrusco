@@ -3,6 +3,7 @@
   * (background) add .bg-current
   * (color) add .color-current
   * (variables) remove --link-color
+  * (variables) --bold-font-weight to --bold-fw
 
 # 0.13.1 (2020-11-09)
 

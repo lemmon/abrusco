@@ -7,7 +7,7 @@
 
   --default-border-width: 1px;
   --default-border-color: currentColor;
-  --default-bold-font-weight: bold;
+  --default-bold-fw: bold;
 
   --font-size: var(--base-font-size);
   --font-family: var(--base-font-family);
@@ -16,7 +16,7 @@
 
   --border-width: var(--default-border-width);
   --border-color: var(--default-border-color);
-  --bold-font-weight: var(--default-bold-font-weight);
+  --bold-fw: var(--default-bold-fw);
 
   --serif-font-family: Georgia, 'Times New Roman', serif;
   --sansserif-font-family: system-ui;

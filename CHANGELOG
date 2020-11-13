@@ -8,6 +8,7 @@
   * (grid) depreciate .minvh
   * (grid) add .maxw100, .maxh100
   * (grid) depreciate .maxw, .maxh
+  * (grid) depreciate .grid[\d] as flexbox
 
 # 0.13.1 (2020-11-09)
 

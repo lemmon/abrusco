@@ -93,6 +93,7 @@
   flex-wrap: wrap;
 }
 
+/* depreciated */
 .grid2,
 .grid3,
 .grid4,
@@ -205,6 +206,7 @@
     flex-wrap: wrap;
   }
 
+  /* depreciated */
   .sd\:grid2,
   .sd\:grid3,
   .sd\:grid4,
@@ -274,6 +276,7 @@
     flex-wrap: wrap;
   }
 
+  /* depreciated */
   .md\:grid2,
   .md\:grid3,
   .md\:grid4,
@@ -343,6 +346,7 @@
     flex-wrap: wrap;
   }
 
+  /* depreciated */
   .ld\:grid2,
   .ld\:grid3,
   .ld\:grid4,
@@ -412,6 +416,7 @@
     flex-wrap: wrap;
   }
 
+  /* depreciated */
   .xl\:grid2,
   .xl\:grid3,
   .xl\:grid4,

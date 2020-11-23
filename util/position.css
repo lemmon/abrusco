@@ -16,3 +16,8 @@
 .z99   { z-index: 99;   }
 .z999  { z-index: 999;  }
 .z9999 { z-index: 9999; }
+
+.object-contain   { object-fit: contain; }
+.object-cover     { object-fit: cover; }
+.object-fill      { object-fit: fill; }
+.object-scaledown { object-fit: scale-down; }

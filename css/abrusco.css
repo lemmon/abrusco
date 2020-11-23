@@ -885,6 +885,22 @@ hr {
   z-index: 9999;
 }
 
+.object-contain {
+  object-fit: contain;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.object-fill {
+  object-fit: fill;
+}
+
+.object-scaledown {
+  object-fit: scale-down;
+}
+
 .show {
   display: block;
 }

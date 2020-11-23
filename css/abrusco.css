@@ -432,6 +432,10 @@ hr {
   white-space: break-spaces;
 }
 
+.break-word {
+  overflow-wrap: break-word;
+}
+
 .serif {
   font-family: var(--serif-font-family);
 }

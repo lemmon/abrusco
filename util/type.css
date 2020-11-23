@@ -70,6 +70,7 @@
 .pre-wrap     { white-space: pre-wrap;     }
 .pre-line     { white-space: pre-line;     }
 .break-spaces { white-space: break-spaces; }
+.break-word   { overflow-wrap: break-word; }
 
 .serif     { font-family: var(--serif-font-family); }
 .sansserif { font-family: var(--sansserif-font-family); }

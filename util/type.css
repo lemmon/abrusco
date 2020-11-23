@@ -65,7 +65,11 @@
 .va-top      { vertical-align: top; }
 .va-bottom   { vertical-align: bottom; }
 
-.nowrap { white-space: nowrap; }
+.nowrap       { white-space: nowrap;       }
+.pre          { white-space: pre;          }
+.pre-wrap     { white-space: pre-wrap;     }
+.pre-line     { white-space: pre-line;     }
+.break-spaces { white-space: break-spaces; }
 
 .serif     { font-family: var(--serif-font-family); }
 .sansserif { font-family: var(--sansserif-font-family); }

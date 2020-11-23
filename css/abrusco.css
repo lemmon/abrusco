@@ -416,6 +416,22 @@ hr {
   white-space: nowrap;
 }
 
+.pre {
+  white-space: pre;
+}
+
+.pre-wrap {
+  white-space: pre-wrap;
+}
+
+.pre-line {
+  white-space: pre-line;
+}
+
+.break-spaces {
+  white-space: break-spaces;
+}
+
 .serif {
   font-family: var(--serif-font-family);
 }

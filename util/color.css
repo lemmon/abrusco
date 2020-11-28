@@ -14,46 +14,87 @@
   color: transparent;
 }
 
+.black,
 .color-black { color: var(--black); }
+.black-95,
 .color-black-95 { color: var(--black-95); }
+.black-90,
 .color-black-90 { color: var(--black-90); }
+.black-80,
 .color-black-80 { color: var(--black-80); }
+.black-70,
 .color-black-70 { color: var(--black-70); }
+.black-60,
 .color-black-60 { color: var(--black-60); }
+.black-50,
 .color-black-50 { color: var(--black-50); }
+.black-40,
 .color-black-40 { color: var(--black-40); }
+.black-30,
 .color-black-30 { color: var(--black-30); }
+.black-20,
 .color-black-20 { color: var(--black-20); }
+.black-10,
 .color-black-10 { color: var(--black-10); }
+.black-05,
 .color-black-05 { color: var(--black-05); }
+.black-025,
 .color-black-025 { color: var(--black-025); }
+.black-0125,
 .color-black-0125 { color: var(--black-0125); }
 
+.white,
 .color-white { color: var(--white); }
+.white-95,
 .color-white-95 { color: var(--white-95); }
+.white-90,
 .color-white-90 { color: var(--white-90); }
+.white-80,
 .color-white-80 { color: var(--white-80); }
+.white-70,
 .color-white-70 { color: var(--white-70); }
+.white-60,
 .color-white-60 { color: var(--white-60); }
+.white-50,
 .color-white-50 { color: var(--white-50); }
+.white-40,
 .color-white-40 { color: var(--white-40); }
+.white-30,
 .color-white-30 { color: var(--white-30); }
+.white-20,
 .color-white-20 { color: var(--white-20); }
+.white-10,
 .color-white-10 { color: var(--white-10); }
+.white-05,
 .color-white-05 { color: var(--white-05); }
+.white-025,
 .color-white-025 { color: var(--white-025); }
+.white-0125,
 .color-white-0125 { color: var(--white-0125); }
 
+.aqua,
 .color-aqua { color: var(--aqua); }
+.blue,
 .color-blue { color: var(--blue); }
+.navy,
 .color-navy { color: var(--navy); }
+.teal,
 .color-teal { color: var(--teal); }
+.green,
 .color-green { color: var(--green); }
+.olive,
 .color-olive { color: var(--olive); }
+.lime,
 .color-lime { color: var(--lime); }
+.yellow,
 .color-yellow { color: var(--yellow); }
+.orange,
 .color-orange { color: var(--orange); }
+.red,
 .color-red { color: var(--red); }
+.fuchsia,
 .color-fuchsia { color: var(--fuchsia); }
+.purple,
 .color-purple { color: var(--purple); }
+.maroon,
 .color-maroon { color: var(--maroon); }

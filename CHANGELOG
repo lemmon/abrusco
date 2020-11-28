@@ -3,6 +3,7 @@
   * (position) add object-fit classes
   * (type) white-space
   * (type) overflow-wrap: break-word;
+  * (color) add .color-{colorName} -> .{colorName}
 
 # 0.13.2 (2020-11-19)
 

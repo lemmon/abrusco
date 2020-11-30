@@ -4074,7 +4074,8 @@ hr {
 }
 
 .color-currentColor, .color-currentColor\:hover:hover,
-.anchor:hover .color-currentColor\:hover {
+.anchor:hover .color-currentColor\:hover, .color-current,
+.color-current\:hover:hover, .anchor:hover .color-current\:hover {
   color: currentColor;
 }
 

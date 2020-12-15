@@ -19,10 +19,6 @@
     "postversion": "git push && git push --tags && npm publish",
     "w": "abrusco index.css -o css/abrusco.css --watch"
   },
-  "browserslist": [
-    "> 2%",
-    "not dead"
-  ],
   "files": [
     "css",
     "mod",

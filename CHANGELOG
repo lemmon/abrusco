@@ -1,3 +1,7 @@
+# 0.15.0 (2020-XX-XX)
+
+  * (variables) change --base-xy to --default-xy
+
 # 0.14.0 (2020-12-01)
 
   * (position) add object-fit classes

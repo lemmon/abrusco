@@ -1,18 +1,17 @@
 :root {
 
-  --base-font-size: 16px;
-  --base-font-family: var(--sansserif-font-family);
-  --base-background-color: var(--white, white);
-  --base-color: var(--black, black);
-
+  --default-font-size: 16px;
+  --default-font-family: var(--sansserif-font-family);
+  --default-background-color: var(--white, white);
+  --default-color: var(--black, black);
   --default-border-width: 1px;
   --default-border-color: currentColor;
   --default-bold-fw: bold;
 
-  --font-size: var(--base-font-size);
-  --font-family: var(--base-font-family);
-  --background-color: var(--base-background-color);
-  --color: var(--base-color);
+  --font-size: var(--default-font-size);
+  --font-family: var(--default-font-family);
+  --background-color: var(--default-background-color);
+  --color: var(--default-color);
 
   --border-width: var(--default-border-width);
   --border-color: var(--default-border-color);

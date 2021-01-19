@@ -2,6 +2,9 @@
 
   * (variables) change --base-xy to --default-xy
   * (color) remove .color-{colorName} -> .{colorName}
+  * (grid) un-depreciate .minvh, .maxw, .maxh
+  * (grid) add .minvw
+  * (grid) remove .min100vh, .min100vw, .maxw100, .maxh100
 
 # 0.14.0 (2020-12-01)
 

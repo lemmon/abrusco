@@ -1172,19 +1172,19 @@ hr {
   height: auto;
 }
 
-.min100vw {
-  min-width: 100vh;
+.minvw {
+  min-width: 100vw;
 }
 
-.minvh, .min100vh {
+.minvh {
   min-height: 100vh;
 }
 
-.maxw, .maxw100 {
+.maxw {
   max-width: 100%;
 }
 
-.maxh, .maxh100 {
+.maxh {
   max-height: 100%;
 }
 

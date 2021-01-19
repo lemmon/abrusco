@@ -1,7 +1,0 @@
-#menu {
-  display: none;
-}
-
-#menu:checked + nav {
-  display: block;
-}

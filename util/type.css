@@ -33,7 +33,6 @@
 .lh4 { line-height: var(--lh4); }
 .lh5 { line-height: var(--lh5); }
 
-.normal { font-weight: normal; } /* depreciated */
 .bold   { font-weight: var(--bold-fw); }
 .fw100  { font-weight: 100; }
 .fw200  { font-weight: 200; }

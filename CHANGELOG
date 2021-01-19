@@ -5,6 +5,7 @@
   * (grid) un-depreciate .minvh, .maxw, .maxh
   * (grid) add .minvw
   * (grid) remove .min100vh, .min100vw, .maxw100, .maxh100
+  * remove depreciated styles
 
 # 0.14.0 (2020-12-01)
 

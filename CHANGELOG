@@ -1,4 +1,4 @@
-# 0.15.0 (2020-XX-XX)
+# 0.15.0 (2020-01-20)
 
   * (variables) change --base-xy to --default-xy
   * (color) remove .color-{colorName} -> .{colorName}

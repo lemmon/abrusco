@@ -66,6 +66,9 @@
 .h0   { height: 0%; }
 .ha   { height: auto; }
 
+.vw100 { width: 100vw; }
+.vh100 { width: 100vh; }
+
 .minvw { min-width: 100vw; }
 .minvh { min-height: 100vh; }
 

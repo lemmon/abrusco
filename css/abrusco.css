@@ -1168,6 +1168,14 @@ hr {
   height: auto;
 }
 
+.vw100 {
+  width: 100vw;
+}
+
+.vh100 {
+  width: 100vh;
+}
+
 .minvw {
   min-width: 100vw;
 }

@@ -81,49 +81,49 @@ table {
   --d4: 5rem;
   --d5: 6rem;
   --f0: 1rem;
-  --f1: .9375rem;
-  --f2: .875rem;
-  --f3: .8125rem;
-  --f4: .75rem;
+  --f1: 0.9375rem;
+  --f2: 0.875rem;
+  --f3: 0.8125rem;
+  --f4: 0.75rem;
   --lh0: 1;
   --lh1: 1.125;
   --lh2: 1.25;
   --lh3: 1.375;
   --lh4: 1.5;
   --lh5: 2;
-  --br1: .125rem;
-  --br2: .25rem;
-  --br3: .5rem;
-  --br4: .75rem;
+  --br1: 0.125rem;
+  --br2: 0.25rem;
+  --br3: 0.5rem;
+  --br4: 0.75rem;
   --br5: 1rem;
   --black: #040404;
-  --white: #fff;
-  --black-95: rgba(4, 4, 4, .95);
-  --black-90: rgba(4, 4, 4, .9);
-  --black-80: rgba(4, 4, 4, .8);
-  --black-70: rgba(4, 4, 4, .7);
-  --black-60: rgba(4, 4, 4, .6);
-  --black-50: rgba(4, 4, 4, .5);
-  --black-40: rgba(4, 4, 4, .4);
-  --black-30: rgba(4, 4, 4, .3);
-  --black-20: rgba(4, 4, 4, .2);
-  --black-10: rgba(4, 4, 4, .1);
-  --black-05: rgba(4, 4, 4, .05);
-  --black-025: rgba(4, 4, 4, .025);
-  --black-0125: rgba(4, 4, 4, .0125);
-  --white-95: rgba(255, 255, 255, .95);
-  --white-90: rgba(255, 255, 255, .9);
-  --white-80: rgba(255, 255, 255, .8);
-  --white-70: rgba(255, 255, 255, .7);
-  --white-60: rgba(255, 255, 255, .6);
-  --white-50: rgba(255, 255, 255, .5);
-  --white-40: rgba(255, 255, 255, .4);
-  --white-30: rgba(255, 255, 255, .3);
-  --white-20: rgba(255, 255, 255, .2);
-  --white-10: rgba(255, 255, 255, .1);
-  --white-05: rgba(255, 255, 255, .05);
-  --white-025: rgba(255, 255, 255, .025);
-  --white-0125: rgba(255, 255, 255, .0125);
+  --white: #ffffff;
+  --black-95: rgba(4, 4, 4, 0.95);
+  --black-90: rgba(4, 4, 4, 0.9);
+  --black-80: rgba(4, 4, 4, 0.8);
+  --black-70: rgba(4, 4, 4, 0.7);
+  --black-60: rgba(4, 4, 4, 0.6);
+  --black-50: rgba(4, 4, 4, 0.5);
+  --black-40: rgba(4, 4, 4, 0.4);
+  --black-30: rgba(4, 4, 4, 0.3);
+  --black-20: rgba(4, 4, 4, 0.2);
+  --black-10: rgba(4, 4, 4, 0.1);
+  --black-05: rgba(4, 4, 4, 0.05);
+  --black-025: rgba(4, 4, 4, 0.025);
+  --black-0125: rgba(4, 4, 4, 0.0125);
+  --white-95: rgba(255, 255, 255, 0.95);
+  --white-90: rgba(255, 255, 255, 0.9);
+  --white-80: rgba(255, 255, 255, 0.8);
+  --white-70: rgba(255, 255, 255, 0.7);
+  --white-60: rgba(255, 255, 255, 0.6);
+  --white-50: rgba(255, 255, 255, 0.5);
+  --white-40: rgba(255, 255, 255, 0.4);
+  --white-30: rgba(255, 255, 255, 0.3);
+  --white-20: rgba(255, 255, 255, 0.2);
+  --white-10: rgba(255, 255, 255, 0.1);
+  --white-05: rgba(255, 255, 255, 0.05);
+  --white-025: rgba(255, 255, 255, 0.025);
+  --white-0125: rgba(255, 255, 255, 0.0125);
   --aqua: #7fdbff;
   --blue: #0074d9;
   --navy: #001f3f;
@@ -187,7 +187,7 @@ hr {
 
 :root {
   --copy-space-primary: 1.5em;
-  --copy-space-secondary: .5em;
+  --copy-space-secondary: 0.5em;
 }
 
 .div {
@@ -789,47 +789,47 @@ hr {
 }
 
 .o95 {
-  opacity: .95;
+  opacity: 0.95;
 }
 
 .o90 {
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .o80 {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .o70 {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .o60 {
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .o50 {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .o40 {
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .o30 {
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .o20 {
-  opacity: .2;
+  opacity: 0.2;
 }
 
 .o10 {
-  opacity: .1;
+  opacity: 0.1;
 }
 
 .o05 {
-  opacity: .05;
+  opacity: 0.05;
 }
 
 .o0 {
@@ -1774,11 +1774,11 @@ hr {
 }
 
 .m025 {
-  margin: .25rem;
+  margin: 0.25rem;
 }
 
 .m05 {
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
 .m1 {
@@ -1842,11 +1842,11 @@ hr {
 }
 
 .mt025 {
-  margin-top: .25rem;
+  margin-top: 0.25rem;
 }
 
 .mt05 {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .mt1 {
@@ -1862,11 +1862,11 @@ hr {
 }
 
 .mb025 {
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
 
 .mb05 {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .mb1 {
@@ -1882,11 +1882,11 @@ hr {
 }
 
 .ml025 {
-  margin-left: .25rem;
+  margin-left: 0.25rem;
 }
 
 .ml05 {
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 .ml1 {
@@ -1902,11 +1902,11 @@ hr {
 }
 
 .mr025 {
-  margin-right: .25rem;
+  margin-right: 0.25rem;
 }
 
 .mr05 {
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 .mr1 {
@@ -1926,19 +1926,19 @@ hr {
 }
 
 .p0125 {
-  padding: .125rem;
+  padding: 0.125rem;
 }
 
 .p025 {
-  padding: .25rem;
+  padding: 0.25rem;
 }
 
 .p05 {
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .p075 {
-  padding: .75rem;
+  padding: 0.75rem;
 }
 
 .p1 {
@@ -1974,19 +1974,19 @@ hr {
 }
 
 .p0125b {
-  padding: calc(.125rem - var(--border-width));
+  padding: calc(0.125rem - var(--border-width));
 }
 
 .p025b {
-  padding: calc(.25rem - var(--border-width));
+  padding: calc(0.25rem - var(--border-width));
 }
 
 .p05b {
-  padding: calc(.5rem - var(--border-width));
+  padding: calc(0.5rem - var(--border-width));
 }
 
 .p075b {
-  padding: calc(.75rem - var(--border-width));
+  padding: calc(0.75rem - var(--border-width));
 }
 
 .p1b {
@@ -2015,23 +2015,23 @@ hr {
 }
 
 .px0125 {
-  padding-left: .125rem;
-  padding-right: .125rem;
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
 }
 
 .px025 {
-  padding-left: .25rem;
-  padding-right: .25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .px05 {
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .px075 {
-  padding-left: .75rem;
-  padding-right: .75rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px1 {
@@ -2075,23 +2075,23 @@ hr {
 }
 
 .px0125b {
-  padding-left: calc(.125rem - var(--border-width));
-  padding-right: calc(.125rem - var(--border-width));
+  padding-left: calc(0.125rem - var(--border-width));
+  padding-right: calc(0.125rem - var(--border-width));
 }
 
 .px025b {
-  padding-left: calc(.25rem - var(--border-width));
-  padding-right: calc(.25rem - var(--border-width));
+  padding-left: calc(0.25rem - var(--border-width));
+  padding-right: calc(0.25rem - var(--border-width));
 }
 
 .px05b {
-  padding-left: calc(.5rem - var(--border-width));
-  padding-right: calc(.5rem - var(--border-width));
+  padding-left: calc(0.5rem - var(--border-width));
+  padding-right: calc(0.5rem - var(--border-width));
 }
 
 .px075b {
-  padding-left: calc(.75rem - var(--border-width));
-  padding-right: calc(.75rem - var(--border-width));
+  padding-left: calc(0.75rem - var(--border-width));
+  padding-right: calc(0.75rem - var(--border-width));
 }
 
 .px1b {
@@ -2125,23 +2125,23 @@ hr {
 }
 
 .py0125 {
-  padding-top: .125rem;
-  padding-bottom: .125rem;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
 }
 
 .py025 {
-  padding-top: .25rem;
-  padding-bottom: .25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .py05 {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .py075 {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .py1 {
@@ -2185,23 +2185,23 @@ hr {
 }
 
 .py0125b {
-  padding-top: calc(.125rem - var(--border-width));
-  padding-bottom: calc(.125rem - var(--border-width));
+  padding-top: calc(0.125rem - var(--border-width));
+  padding-bottom: calc(0.125rem - var(--border-width));
 }
 
 .py025b {
-  padding-top: calc(.25rem - var(--border-width));
-  padding-bottom: calc(.25rem - var(--border-width));
+  padding-top: calc(0.25rem - var(--border-width));
+  padding-bottom: calc(0.25rem - var(--border-width));
 }
 
 .py05b {
-  padding-top: calc(.5rem - var(--border-width));
-  padding-bottom: calc(.5rem - var(--border-width));
+  padding-top: calc(0.5rem - var(--border-width));
+  padding-bottom: calc(0.5rem - var(--border-width));
 }
 
 .py075b {
-  padding-top: calc(.75rem - var(--border-width));
-  padding-bottom: calc(.75rem - var(--border-width));
+  padding-top: calc(0.75rem - var(--border-width));
+  padding-bottom: calc(0.75rem - var(--border-width));
 }
 
 .py1b {
@@ -2234,19 +2234,19 @@ hr {
 }
 
 .pt0125 {
-  padding-top: .125rem;
+  padding-top: 0.125rem;
 }
 
 .pt025 {
-  padding-top: .25rem;
+  padding-top: 0.25rem;
 }
 
 .pt05 {
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 
 .pt075 {
-  padding-top: .75rem;
+  padding-top: 0.75rem;
 }
 
 .pt1 {
@@ -2282,19 +2282,19 @@ hr {
 }
 
 .pb0125 {
-  padding-bottom: .125rem;
+  padding-bottom: 0.125rem;
 }
 
 .pb025 {
-  padding-bottom: .25rem;
+  padding-bottom: 0.25rem;
 }
 
 .pb05 {
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 .pb075 {
-  padding-bottom: .75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pb1 {
@@ -2330,19 +2330,19 @@ hr {
 }
 
 .pl0125 {
-  padding-left: .125rem;
+  padding-left: 0.125rem;
 }
 
 .pl025 {
-  padding-left: .25rem;
+  padding-left: 0.25rem;
 }
 
 .pl05 {
-  padding-left: .5rem;
+  padding-left: 0.5rem;
 }
 
 .pl075 {
-  padding-left: .75rem;
+  padding-left: 0.75rem;
 }
 
 .pl1 {
@@ -2378,19 +2378,19 @@ hr {
 }
 
 .pr0125 {
-  padding-right: .125rem;
+  padding-right: 0.125rem;
 }
 
 .pr025 {
-  padding-right: .25rem;
+  padding-right: 0.25rem;
 }
 
 .pr05 {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 
 .pr075 {
-  padding-right: .75rem;
+  padding-right: 0.75rem;
 }
 
 .pr1 {
@@ -2427,19 +2427,19 @@ hr {
   }
 
   .sd\:p0125 {
-    padding: .125rem;
+    padding: 0.125rem;
   }
 
   .sd\:p025 {
-    padding: .25rem;
+    padding: 0.25rem;
   }
 
   .sd\:p05 {
-    padding: .5rem;
+    padding: 0.5rem;
   }
 
   .sd\:p075 {
-    padding: .75rem;
+    padding: 0.75rem;
   }
 
   .sd\:p1 {
@@ -2475,19 +2475,19 @@ hr {
   }
 
   .sd\:p0125b {
-    padding: calc(.125rem - var(--border-width));
+    padding: calc(0.125rem - var(--border-width));
   }
 
   .sd\:p025b {
-    padding: calc(.25rem - var(--border-width));
+    padding: calc(0.25rem - var(--border-width));
   }
 
   .sd\:p05b {
-    padding: calc(.5rem - var(--border-width));
+    padding: calc(0.5rem - var(--border-width));
   }
 
   .sd\:p075b {
-    padding: calc(.75rem - var(--border-width));
+    padding: calc(0.75rem - var(--border-width));
   }
 
   .sd\:p1b {
@@ -2516,23 +2516,23 @@ hr {
   }
 
   .sd\:px0125 {
-    padding-left: .125rem;
-    padding-right: .125rem;
+    padding-left: 0.125rem;
+    padding-right: 0.125rem;
   }
 
   .sd\:px025 {
-    padding-left: .25rem;
-    padding-right: .25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
   .sd\:px05 {
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .sd\:px075 {
-    padding-left: .75rem;
-    padding-right: .75rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .sd\:px1 {
@@ -2576,23 +2576,23 @@ hr {
   }
 
   .sd\:px0125b {
-    padding-left: calc(.125rem - var(--border-width));
-    padding-right: calc(.125rem - var(--border-width));
+    padding-left: calc(0.125rem - var(--border-width));
+    padding-right: calc(0.125rem - var(--border-width));
   }
 
   .sd\:px025b {
-    padding-left: calc(.25rem - var(--border-width));
-    padding-right: calc(.25rem - var(--border-width));
+    padding-left: calc(0.25rem - var(--border-width));
+    padding-right: calc(0.25rem - var(--border-width));
   }
 
   .sd\:px05b {
-    padding-left: calc(.5rem - var(--border-width));
-    padding-right: calc(.5rem - var(--border-width));
+    padding-left: calc(0.5rem - var(--border-width));
+    padding-right: calc(0.5rem - var(--border-width));
   }
 
   .sd\:px075b {
-    padding-left: calc(.75rem - var(--border-width));
-    padding-right: calc(.75rem - var(--border-width));
+    padding-left: calc(0.75rem - var(--border-width));
+    padding-right: calc(0.75rem - var(--border-width));
   }
 
   .sd\:px1b {
@@ -2626,23 +2626,23 @@ hr {
   }
 
   .sd\:py0125 {
-    padding-top: .125rem;
-    padding-bottom: .125rem;
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
   }
 
   .sd\:py025 {
-    padding-top: .25rem;
-    padding-bottom: .25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 
   .sd\:py05 {
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .sd\:py075 {
-    padding-top: .75rem;
-    padding-bottom: .75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .sd\:py1 {
@@ -2686,23 +2686,23 @@ hr {
   }
 
   .sd\:py0125b {
-    padding-top: calc(.125rem - var(--border-width));
-    padding-bottom: calc(.125rem - var(--border-width));
+    padding-top: calc(0.125rem - var(--border-width));
+    padding-bottom: calc(0.125rem - var(--border-width));
   }
 
   .sd\:py025b {
-    padding-top: calc(.25rem - var(--border-width));
-    padding-bottom: calc(.25rem - var(--border-width));
+    padding-top: calc(0.25rem - var(--border-width));
+    padding-bottom: calc(0.25rem - var(--border-width));
   }
 
   .sd\:py05b {
-    padding-top: calc(.5rem - var(--border-width));
-    padding-bottom: calc(.5rem - var(--border-width));
+    padding-top: calc(0.5rem - var(--border-width));
+    padding-bottom: calc(0.5rem - var(--border-width));
   }
 
   .sd\:py075b {
-    padding-top: calc(.75rem - var(--border-width));
-    padding-bottom: calc(.75rem - var(--border-width));
+    padding-top: calc(0.75rem - var(--border-width));
+    padding-bottom: calc(0.75rem - var(--border-width));
   }
 
   .sd\:py1b {
@@ -2737,19 +2737,19 @@ hr {
   }
 
   .md\:p0125 {
-    padding: .125rem;
+    padding: 0.125rem;
   }
 
   .md\:p025 {
-    padding: .25rem;
+    padding: 0.25rem;
   }
 
   .md\:p05 {
-    padding: .5rem;
+    padding: 0.5rem;
   }
 
   .md\:p075 {
-    padding: .75rem;
+    padding: 0.75rem;
   }
 
   .md\:p1 {
@@ -2785,19 +2785,19 @@ hr {
   }
 
   .md\:p0125b {
-    padding: calc(.125rem - var(--border-width));
+    padding: calc(0.125rem - var(--border-width));
   }
 
   .md\:p025b {
-    padding: calc(.25rem - var(--border-width));
+    padding: calc(0.25rem - var(--border-width));
   }
 
   .md\:p05b {
-    padding: calc(.5rem - var(--border-width));
+    padding: calc(0.5rem - var(--border-width));
   }
 
   .md\:p075b {
-    padding: calc(.75rem - var(--border-width));
+    padding: calc(0.75rem - var(--border-width));
   }
 
   .md\:p1b {
@@ -2826,23 +2826,23 @@ hr {
   }
 
   .md\:px0125 {
-    padding-left: .125rem;
-    padding-right: .125rem;
+    padding-left: 0.125rem;
+    padding-right: 0.125rem;
   }
 
   .md\:px025 {
-    padding-left: .25rem;
-    padding-right: .25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
   .md\:px05 {
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .md\:px075 {
-    padding-left: .75rem;
-    padding-right: .75rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .md\:px1 {
@@ -2886,23 +2886,23 @@ hr {
   }
 
   .md\:px0125b {
-    padding-left: calc(.125rem - var(--border-width));
-    padding-right: calc(.125rem - var(--border-width));
+    padding-left: calc(0.125rem - var(--border-width));
+    padding-right: calc(0.125rem - var(--border-width));
   }
 
   .md\:px025b {
-    padding-left: calc(.25rem - var(--border-width));
-    padding-right: calc(.25rem - var(--border-width));
+    padding-left: calc(0.25rem - var(--border-width));
+    padding-right: calc(0.25rem - var(--border-width));
   }
 
   .md\:px05b {
-    padding-left: calc(.5rem - var(--border-width));
-    padding-right: calc(.5rem - var(--border-width));
+    padding-left: calc(0.5rem - var(--border-width));
+    padding-right: calc(0.5rem - var(--border-width));
   }
 
   .md\:px075b {
-    padding-left: calc(.75rem - var(--border-width));
-    padding-right: calc(.75rem - var(--border-width));
+    padding-left: calc(0.75rem - var(--border-width));
+    padding-right: calc(0.75rem - var(--border-width));
   }
 
   .md\:px1b {
@@ -2936,23 +2936,23 @@ hr {
   }
 
   .md\:py0125 {
-    padding-top: .125rem;
-    padding-bottom: .125rem;
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
   }
 
   .md\:py025 {
-    padding-top: .25rem;
-    padding-bottom: .25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 
   .md\:py05 {
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .md\:py075 {
-    padding-top: .75rem;
-    padding-bottom: .75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .md\:py1 {
@@ -2996,23 +2996,23 @@ hr {
   }
 
   .md\:py0125b {
-    padding-top: calc(.125rem - var(--border-width));
-    padding-bottom: calc(.125rem - var(--border-width));
+    padding-top: calc(0.125rem - var(--border-width));
+    padding-bottom: calc(0.125rem - var(--border-width));
   }
 
   .md\:py025b {
-    padding-top: calc(.25rem - var(--border-width));
-    padding-bottom: calc(.25rem - var(--border-width));
+    padding-top: calc(0.25rem - var(--border-width));
+    padding-bottom: calc(0.25rem - var(--border-width));
   }
 
   .md\:py05b {
-    padding-top: calc(.5rem - var(--border-width));
-    padding-bottom: calc(.5rem - var(--border-width));
+    padding-top: calc(0.5rem - var(--border-width));
+    padding-bottom: calc(0.5rem - var(--border-width));
   }
 
   .md\:py075b {
-    padding-top: calc(.75rem - var(--border-width));
-    padding-bottom: calc(.75rem - var(--border-width));
+    padding-top: calc(0.75rem - var(--border-width));
+    padding-bottom: calc(0.75rem - var(--border-width));
   }
 
   .md\:py1b {
@@ -3047,19 +3047,19 @@ hr {
   }
 
   .ld\:p0125 {
-    padding: .125rem;
+    padding: 0.125rem;
   }
 
   .ld\:p025 {
-    padding: .25rem;
+    padding: 0.25rem;
   }
 
   .ld\:p05 {
-    padding: .5rem;
+    padding: 0.5rem;
   }
 
   .ld\:p075 {
-    padding: .75rem;
+    padding: 0.75rem;
   }
 
   .ld\:p1 {
@@ -3095,19 +3095,19 @@ hr {
   }
 
   .ld\:p0125b {
-    padding: calc(.125rem - var(--border-width));
+    padding: calc(0.125rem - var(--border-width));
   }
 
   .ld\:p025b {
-    padding: calc(.25rem - var(--border-width));
+    padding: calc(0.25rem - var(--border-width));
   }
 
   .ld\:p05b {
-    padding: calc(.5rem - var(--border-width));
+    padding: calc(0.5rem - var(--border-width));
   }
 
   .ld\:p075b {
-    padding: calc(.75rem - var(--border-width));
+    padding: calc(0.75rem - var(--border-width));
   }
 
   .ld\:p1b {
@@ -3136,23 +3136,23 @@ hr {
   }
 
   .ld\:px0125 {
-    padding-left: .125rem;
-    padding-right: .125rem;
+    padding-left: 0.125rem;
+    padding-right: 0.125rem;
   }
 
   .ld\:px025 {
-    padding-left: .25rem;
-    padding-right: .25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
   .ld\:px05 {
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .ld\:px075 {
-    padding-left: .75rem;
-    padding-right: .75rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .ld\:px1 {
@@ -3196,23 +3196,23 @@ hr {
   }
 
   .ld\:px0125b {
-    padding-left: calc(.125rem - var(--border-width));
-    padding-right: calc(.125rem - var(--border-width));
+    padding-left: calc(0.125rem - var(--border-width));
+    padding-right: calc(0.125rem - var(--border-width));
   }
 
   .ld\:px025b {
-    padding-left: calc(.25rem - var(--border-width));
-    padding-right: calc(.25rem - var(--border-width));
+    padding-left: calc(0.25rem - var(--border-width));
+    padding-right: calc(0.25rem - var(--border-width));
   }
 
   .ld\:px05b {
-    padding-left: calc(.5rem - var(--border-width));
-    padding-right: calc(.5rem - var(--border-width));
+    padding-left: calc(0.5rem - var(--border-width));
+    padding-right: calc(0.5rem - var(--border-width));
   }
 
   .ld\:px075b {
-    padding-left: calc(.75rem - var(--border-width));
-    padding-right: calc(.75rem - var(--border-width));
+    padding-left: calc(0.75rem - var(--border-width));
+    padding-right: calc(0.75rem - var(--border-width));
   }
 
   .ld\:px1b {
@@ -3246,23 +3246,23 @@ hr {
   }
 
   .ld\:py0125 {
-    padding-top: .125rem;
-    padding-bottom: .125rem;
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
   }
 
   .ld\:py025 {
-    padding-top: .25rem;
-    padding-bottom: .25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 
   .ld\:py05 {
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .ld\:py075 {
-    padding-top: .75rem;
-    padding-bottom: .75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .ld\:py1 {
@@ -3306,23 +3306,23 @@ hr {
   }
 
   .ld\:py0125b {
-    padding-top: calc(.125rem - var(--border-width));
-    padding-bottom: calc(.125rem - var(--border-width));
+    padding-top: calc(0.125rem - var(--border-width));
+    padding-bottom: calc(0.125rem - var(--border-width));
   }
 
   .ld\:py025b {
-    padding-top: calc(.25rem - var(--border-width));
-    padding-bottom: calc(.25rem - var(--border-width));
+    padding-top: calc(0.25rem - var(--border-width));
+    padding-bottom: calc(0.25rem - var(--border-width));
   }
 
   .ld\:py05b {
-    padding-top: calc(.5rem - var(--border-width));
-    padding-bottom: calc(.5rem - var(--border-width));
+    padding-top: calc(0.5rem - var(--border-width));
+    padding-bottom: calc(0.5rem - var(--border-width));
   }
 
   .ld\:py075b {
-    padding-top: calc(.75rem - var(--border-width));
-    padding-bottom: calc(.75rem - var(--border-width));
+    padding-top: calc(0.75rem - var(--border-width));
+    padding-bottom: calc(0.75rem - var(--border-width));
   }
 
   .ld\:py1b {
@@ -3357,19 +3357,19 @@ hr {
   }
 
   .xl\:p0125 {
-    padding: .125rem;
+    padding: 0.125rem;
   }
 
   .xl\:p025 {
-    padding: .25rem;
+    padding: 0.25rem;
   }
 
   .xl\:p05 {
-    padding: .5rem;
+    padding: 0.5rem;
   }
 
   .xl\:p075 {
-    padding: .75rem;
+    padding: 0.75rem;
   }
 
   .xl\:p1 {
@@ -3405,19 +3405,19 @@ hr {
   }
 
   .xl\:p0125b {
-    padding: calc(.125rem - var(--border-width));
+    padding: calc(0.125rem - var(--border-width));
   }
 
   .xl\:p025b {
-    padding: calc(.25rem - var(--border-width));
+    padding: calc(0.25rem - var(--border-width));
   }
 
   .xl\:p05b {
-    padding: calc(.5rem - var(--border-width));
+    padding: calc(0.5rem - var(--border-width));
   }
 
   .xl\:p075b {
-    padding: calc(.75rem - var(--border-width));
+    padding: calc(0.75rem - var(--border-width));
   }
 
   .xl\:p1b {
@@ -3446,23 +3446,23 @@ hr {
   }
 
   .xl\:px0125 {
-    padding-left: .125rem;
-    padding-right: .125rem;
+    padding-left: 0.125rem;
+    padding-right: 0.125rem;
   }
 
   .xl\:px025 {
-    padding-left: .25rem;
-    padding-right: .25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
   .xl\:px05 {
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .xl\:px075 {
-    padding-left: .75rem;
-    padding-right: .75rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .xl\:px1 {
@@ -3506,23 +3506,23 @@ hr {
   }
 
   .xl\:px0125b {
-    padding-left: calc(.125rem - var(--border-width));
-    padding-right: calc(.125rem - var(--border-width));
+    padding-left: calc(0.125rem - var(--border-width));
+    padding-right: calc(0.125rem - var(--border-width));
   }
 
   .xl\:px025b {
-    padding-left: calc(.25rem - var(--border-width));
-    padding-right: calc(.25rem - var(--border-width));
+    padding-left: calc(0.25rem - var(--border-width));
+    padding-right: calc(0.25rem - var(--border-width));
   }
 
   .xl\:px05b {
-    padding-left: calc(.5rem - var(--border-width));
-    padding-right: calc(.5rem - var(--border-width));
+    padding-left: calc(0.5rem - var(--border-width));
+    padding-right: calc(0.5rem - var(--border-width));
   }
 
   .xl\:px075b {
-    padding-left: calc(.75rem - var(--border-width));
-    padding-right: calc(.75rem - var(--border-width));
+    padding-left: calc(0.75rem - var(--border-width));
+    padding-right: calc(0.75rem - var(--border-width));
   }
 
   .xl\:px1b {
@@ -3556,23 +3556,23 @@ hr {
   }
 
   .xl\:py0125 {
-    padding-top: .125rem;
-    padding-bottom: .125rem;
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
   }
 
   .xl\:py025 {
-    padding-top: .25rem;
-    padding-bottom: .25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 
   .xl\:py05 {
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .xl\:py075 {
-    padding-top: .75rem;
-    padding-bottom: .75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .xl\:py1 {
@@ -3616,23 +3616,23 @@ hr {
   }
 
   .xl\:py0125b {
-    padding-top: calc(.125rem - var(--border-width));
-    padding-bottom: calc(.125rem - var(--border-width));
+    padding-top: calc(0.125rem - var(--border-width));
+    padding-bottom: calc(0.125rem - var(--border-width));
   }
 
   .xl\:py025b {
-    padding-top: calc(.25rem - var(--border-width));
-    padding-bottom: calc(.25rem - var(--border-width));
+    padding-top: calc(0.25rem - var(--border-width));
+    padding-bottom: calc(0.25rem - var(--border-width));
   }
 
   .xl\:py05b {
-    padding-top: calc(.5rem - var(--border-width));
-    padding-bottom: calc(.5rem - var(--border-width));
+    padding-top: calc(0.5rem - var(--border-width));
+    padding-bottom: calc(0.5rem - var(--border-width));
   }
 
   .xl\:py075b {
-    padding-top: calc(.75rem - var(--border-width));
-    padding-bottom: calc(.75rem - var(--border-width));
+    padding-top: calc(0.75rem - var(--border-width));
+    padding-bottom: calc(0.75rem - var(--border-width));
   }
 
   .xl\:py1b {
@@ -4311,7 +4311,7 @@ hr {
   left: 0;
   top: 0;
   background-color: var(--yellow);
-  color: #000;
+  color: #000000;
   line-height: 1;
   font-size: 12px;
   padding: 4px;

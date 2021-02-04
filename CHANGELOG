@@ -1,6 +1,7 @@
 # 0.15.1 (2020-XX-XX)
 
   * (grid) add .vw100, .vh100
+  * (border) border-radius, border-color vars update
   * rebuild with abrusco cli 0.7.0
 
 # 0.15.0 (2020-01-20)

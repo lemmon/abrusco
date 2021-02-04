@@ -3845,32 +3845,47 @@ hr {
   --border-color: var(--maroon);
 }
 
+.bc-black, .bc-black-95, .bc-black-90, .bc-black-80, .bc-black-70, .bc-black-60,
+.bc-black-50, .bc-black-40, .bc-black-30, .bc-black-20, .bc-black-10,
+.bc-black-05, .bc-black-025, .bc-black-0125, .bc-white, .bc-white-95,
+.bc-white-90, .bc-white-80, .bc-white-70, .bc-white-60, .bc-white-50,
+.bc-white-40, .bc-white-30, .bc-white-20, .bc-white-10, .bc-white-05,
+.bc-white-025, .bc-white-0125, .bc-aqua, .bc-blue, .bc-navy, .bc-teal, .bc-green,
+.bc-olive, .bc-lime, .bc-yellow, .bc-orange, .bc-red, .bc-fuchsia, .bc-purple,
+.bc-maroon {
+  border-color: var(--border-color);
+}
+
 .br1 {
-  border-radius: var(--br1);
+  --border-radius: var(--br1);
 }
 
 .br2 {
-  border-radius: var(--br2);
+  --border-radius: var(--br2);
 }
 
 .br3 {
-  border-radius: var(--br3);
+  --border-radius: var(--br3);
 }
 
 .br4 {
-  border-radius: var(--br4);
+  --border-radius: var(--br4);
 }
 
 .br5 {
-  border-radius: var(--br5);
+  --border-radius: var(--br5);
 }
 
 .br100 {
-  border-radius: 100%;
+  --border-radius: 100%;
 }
 
 .br999 {
-  border-radius: 999px;
+  --border-radius: 999px;
+}
+
+.br1, .br2, .br3, .br4, .br5, .br100, .br999 {
+  border-radius: var(--border-radius);
 }
 
 .color-current, .color-current\:hover:hover, .anchor:hover .color-current\:hover {

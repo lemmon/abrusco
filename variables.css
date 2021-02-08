@@ -13,8 +13,6 @@
   --background-color: var(--default-background-color);
   --color: var(--default-color);
 
-  --border-width: var(--default-border-width);
-  --border-color: var(--default-border-color);
   --bold-fw: var(--default-bold-fw);
 
   --serif-font-family: Georgia, 'Times New Roman', serif;

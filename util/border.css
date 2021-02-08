@@ -1,3 +1,12 @@
+.ba,
+.bl,
+.br,
+.bt,
+.bb {
+  --border-width: var(--default-border-width);
+  --border-color: var(--default-border-color);
+}
+
 .ba { border:        var(--border-width) solid var(--border-color); }
 .bl { border-left:   var(--border-width) solid var(--border-color); }
 .br { border-right:  var(--border-width) solid var(--border-color); }

@@ -1,6 +1,8 @@
 # 0.16.0 (2020-XX-XX)
 
   * (type) .rlh root-line-height
+  * (border) --border-width, --border-color update
+  * (div) --div-width, --div-color
 
 # 0.15.1 (2020-02-05)
 

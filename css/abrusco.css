@@ -91,6 +91,12 @@ table {
   --lh3: 1.375;
   --lh4: 1.5;
   --lh5: 2;
+  --rlh0: 1rem;
+  --rlh1: 1.125rem;
+  --rlh2: 1.25rem;
+  --rlh3: 1.375rem;
+  --rlh4: 1.5rem;
+  --rlh5: 2rem;
   --br1: 0.125rem;
   --br2: 0.25rem;
   --br3: 0.5rem;
@@ -318,6 +324,30 @@ hr {
 
 .lh5 {
   line-height: var(--lh5);
+}
+
+.rlh0 {
+  line-height: var(--rlh0);
+}
+
+.rlh1 {
+  line-height: var(--rlh1);
+}
+
+.rlh2 {
+  line-height: var(--rlh2);
+}
+
+.rlh3 {
+  line-height: var(--rlh3);
+}
+
+.rlh4 {
+  line-height: var(--rlh4);
+}
+
+.rlh5 {
+  line-height: var(--rlh5);
 }
 
 .bold {
@@ -558,6 +588,30 @@ hr {
   .sd\:lh5 {
     line-height: var(--lh5);
   }
+
+  .sd\:rlh0 {
+    line-height: var(--rlh0);
+  }
+
+  .sd\:rlh1 {
+    line-height: var(--rlh1);
+  }
+
+  .sd\:rlh2 {
+    line-height: var(--rlh2);
+  }
+
+  .sd\:rlh3 {
+    line-height: var(--rlh3);
+  }
+
+  .sd\:rlh4 {
+    line-height: var(--rlh4);
+  }
+
+  .sd\:rlh5 {
+    line-height: var(--rlh5);
+  }
 }
 
 @media (min-width: 48rem) {
@@ -660,6 +714,30 @@ hr {
   .md\:lh5 {
     line-height: var(--lh5);
   }
+
+  .md\:rlh0 {
+    line-height: var(--rlh0);
+  }
+
+  .md\:rlh1 {
+    line-height: var(--rlh1);
+  }
+
+  .md\:rlh2 {
+    line-height: var(--rlh2);
+  }
+
+  .md\:rlh3 {
+    line-height: var(--rlh3);
+  }
+
+  .md\:rlh4 {
+    line-height: var(--rlh4);
+  }
+
+  .md\:rlh5 {
+    line-height: var(--rlh5);
+  }
 }
 
 @media (min-width: 64rem) {
@@ -761,6 +839,30 @@ hr {
 
   .ld\:lh5 {
     line-height: var(--lh5);
+  }
+
+  .ld\:rlh0 {
+    line-height: var(--rlh0);
+  }
+
+  .ld\:rlh1 {
+    line-height: var(--rlh1);
+  }
+
+  .ld\:rlh2 {
+    line-height: var(--rlh2);
+  }
+
+  .ld\:rlh3 {
+    line-height: var(--rlh3);
+  }
+
+  .ld\:rlh4 {
+    line-height: var(--rlh4);
+  }
+
+  .ld\:rlh5 {
+    line-height: var(--rlh5);
   }
 }
 

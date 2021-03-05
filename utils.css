@@ -1,5 +1,6 @@
 @import './util/type';
 @import './util/visibility';
+@import './util/overflow';
 @import './util/position';
 @import './util/grid';
 @import './util/margin';

@@ -5,6 +5,7 @@
   * (div) --div-width, --div-color
   * (grid) .justify-evenly
   * (copy) update
+  * (overflow) init
 
 # 0.15.1 (2020-02-05)
 

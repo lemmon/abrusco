@@ -4,6 +4,7 @@
   * (border) --border-width, --border-color update
   * (div) --div-width, --div-color
   * (grid) .justify-evenly
+  * (visibility) fix .o05 -> .o5
   * (copy) update
   * (overflow) init
 

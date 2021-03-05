@@ -5,7 +5,7 @@
 .visible { visibility: visible; }
 .hidden { visibility: hidden; }
 
-.o100 { opacity: 1;    }
+.o100 { opacity: 1.00; }
 .o95  { opacity: 0.95; }
 .o90  { opacity: 0.9;  }
 .o80  { opacity: 0.8;  }
@@ -16,5 +16,5 @@
 .o30  { opacity: 0.3;  }
 .o20  { opacity: 0.2;  }
 .o10  { opacity: 0.1;  }
-.o05  { opacity: 0.05; }
+.o5   { opacity: 0.05; }
 .o0   { opacity: 0;    }

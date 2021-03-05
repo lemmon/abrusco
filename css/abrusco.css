@@ -1420,6 +1420,10 @@ hr {
   justify-content: space-around;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .span0 {
   flex: 0;
 }

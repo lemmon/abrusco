@@ -43,6 +43,15 @@
 .bc-white-025  { --border-color: var(--white-025);  }
 .bc-white-0125 { --border-color: var(--white-0125); }
 
+.bc-gray {
+  --border-hue: var(--gray-hue);
+  --border-sat: var(--gray-sat);
+  --border-lum: var(--gray-lum);
+  --border-alpha: 100%;
+  --border-color: hsla(var(--border-hue) var(--border-sat) var(--border-lum) / var(--border-alpha));
+  border-color: var(--border-color);
+}
+
 .bc-aqua    { --border-color: var(--aqua);    }
 .bc-blue    { --border-color: var(--blue);    }
 .bc-navy    { --border-color: var(--navy);    }

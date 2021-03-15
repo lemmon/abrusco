@@ -44,6 +44,15 @@
 .white-025 { color: var(--white-025); }
 .white-0125 { color: var(--white-0125); }
 
+.gray {
+  --hue: var(--gray-hue);
+  --sat: var(--gray-sat);
+  --lum: var(--gray-lum);
+  --alpha: 100%;
+  --color: hsla(var(--hue) var(--sat) var(--lum) / var(--alpha));
+  color: var(--color);
+}
+
 .aqua { color: var(--aqua); }
 .blue { color: var(--blue); }
 .navy { color: var(--navy); }

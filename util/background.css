@@ -55,6 +55,15 @@
 .bg-white-025 { background-color: var(--white-025); }
 .bg-white-0125 { background-color: var(--white-0125); }
 
+.bg-gray {
+  --bg-hue: var(--gray-hue);
+  --bg-sat: var(--gray-sat);
+  --bg-lum: var(--gray-lum);
+  --bg-alpha: 100%;
+  --bg-color: hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha));
+  background-color: var(--bg-color);
+}
+
 .bg-aqua { background-color: var(--aqua); }
 .bg-blue { background-color: var(--blue); }
 .bg-navy { background-color: var(--navy); }

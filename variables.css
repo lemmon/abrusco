@@ -61,6 +61,10 @@
   --black:  #040404;
   --white:  #ffffff;
 
+  --gray-hue: 0;
+  --gray-sat: 0%;
+  --gray-lum: 50%;
+
   --black-95: rgba(4, 4, 4, .95);
   --black-90: rgba(4, 4, 4, .90);
   --black-80: rgba(4, 4, 4, .80);

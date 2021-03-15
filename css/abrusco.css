@@ -102,6 +102,9 @@ table {
   --br5: 1rem;
   --black: #040404;
   --white: #ffffff;
+  --gray-hue: 0;
+  --gray-sat: 0%;
+  --gray-lum: 50%;
   --black-95: rgba(4, 4, 4, 0.95);
   --black-90: rgba(4, 4, 4, 0.9);
   --black-80: rgba(4, 4, 4, 0.8);
@@ -3943,6 +3946,15 @@ hr {
   --border-color: var(--white-0125);
 }
 
+.bc-gray {
+  --border-hue: var(--gray-hue);
+  --border-sat: var(--gray-sat);
+  --border-lum: var(--gray-lum);
+  --border-alpha: 100%;
+  --border-color: hsla(var(--border-hue) var(--border-sat) var(--border-lum) / var(--border-alpha));
+  border-color: var(--border-color);
+}
+
 .bc-aqua {
   --border-color: var(--aqua);
 }
@@ -4160,6 +4172,15 @@ hr {
 
 .white-0125 {
   color: var(--white-0125);
+}
+
+.gray {
+  --hue: var(--gray-hue);
+  --sat: var(--gray-sat);
+  --lum: var(--gray-lum);
+  --alpha: 100%;
+  --color: hsla(var(--hue) var(--sat) var(--lum) / var(--alpha));
+  color: var(--color);
 }
 
 .aqua {
@@ -4389,6 +4410,15 @@ hr {
 
 .bg-white-0125 {
   background-color: var(--white-0125);
+}
+
+.bg-gray {
+  --bg-hue: var(--gray-hue);
+  --bg-sat: var(--gray-sat);
+  --bg-lum: var(--gray-lum);
+  --bg-alpha: 100%;
+  --bg-color: hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha));
+  background-color: var(--bg-color);
 }
 
 .bg-aqua {

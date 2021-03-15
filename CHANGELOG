@@ -5,6 +5,7 @@
   * (div) --div-width, --div-color
   * (grid) .justify-evenly
   * (visibility) fix .o05 -> .o5
+  * (color) gray hsla color
   * (copy) update
   * (overflow) init
 

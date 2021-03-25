@@ -6,7 +6,7 @@
   * (grid) .justify-evenly
   * (visibility) fix .o05 -> .o5
   * (color) gray hsla color
-  * (copy) update
+  * (copy) children update
   * (overflow) init
 
 # 0.15.1 (2020-02-05)

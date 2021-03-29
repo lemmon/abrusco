@@ -77,3 +77,45 @@
 .bg-fuchsia { background-color: var(--fuchsia); }
 .bg-purple { background-color: var(--purple); }
 .bg-maroon { background-color: var(--maroon); }
+
+.bg-sat0   { --bg-sat:   0%; }
+.bg-sat5   { --bg-sat:   5%; }
+.bg-sat10  { --bg-sat:  10%; }
+.bg-sat20  { --bg-sat:  20%; }
+.bg-sat30  { --bg-sat:  30%; }
+.bg-sat40  { --bg-sat:  40%; }
+.bg-sat50  { --bg-sat:  50%; }
+.bg-sat60  { --bg-sat:  60%; }
+.bg-sat70  { --bg-sat:  70%; }
+.bg-sat80  { --bg-sat:  80%; }
+.bg-sat90  { --bg-sat:  90%; }
+.bg-sat95  { --bg-sat:  95%; }
+.bg-sat100 { --bg-sat: 100%; }
+
+.bg-lum0   { --bg-lum:   0%; }
+.bg-lum5   { --bg-lum:   5%; }
+.bg-lum10  { --bg-lum:  10%; }
+.bg-lum20  { --bg-lum:  20%; }
+.bg-lum30  { --bg-lum:  30%; }
+.bg-lum40  { --bg-lum:  40%; }
+.bg-lum50  { --bg-lum:  50%; }
+.bg-lum60  { --bg-lum:  60%; }
+.bg-lum70  { --bg-lum:  70%; }
+.bg-lum80  { --bg-lum:  80%; }
+.bg-lum90  { --bg-lum:  90%; }
+.bg-lum95  { --bg-lum:  95%; }
+.bg-lum100 { --bg-lum: 100%; }
+
+.bg-alpha0   { --bg-alpha:   0%; }
+.bg-alpha5   { --bg-alpha:   5%; }
+.bg-alpha10  { --bg-alpha:  10%; }
+.bg-alpha20  { --bg-alpha:  20%; }
+.bg-alpha30  { --bg-alpha:  30%; }
+.bg-alpha40  { --bg-alpha:  40%; }
+.bg-alpha50  { --bg-alpha:  50%; }
+.bg-alpha60  { --bg-alpha:  60%; }
+.bg-alpha70  { --bg-alpha:  70%; }
+.bg-alpha80  { --bg-alpha:  80%; }
+.bg-alpha90  { --bg-alpha:  90%; }
+.bg-alpha95  { --bg-alpha:  95%; }
+.bg-alpha100 { --bg-alpha: 100%; }

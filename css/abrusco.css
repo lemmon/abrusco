@@ -4251,6 +4251,162 @@ hr {
   color: var(--maroon);
 }
 
+.sat0 {
+  --sat: 0%;
+}
+
+.sat5 {
+  --sat: 5%;
+}
+
+.sat10 {
+  --sat: 10%;
+}
+
+.sat20 {
+  --sat: 20%;
+}
+
+.sat30 {
+  --sat: 30%;
+}
+
+.sat40 {
+  --sat: 40%;
+}
+
+.sat50 {
+  --sat: 50%;
+}
+
+.sat60 {
+  --sat: 60%;
+}
+
+.sat70 {
+  --sat: 70%;
+}
+
+.sat80 {
+  --sat: 80%;
+}
+
+.sat90 {
+  --sat: 90%;
+}
+
+.sat95 {
+  --sat: 95%;
+}
+
+.sat100 {
+  --sat: 100%;
+}
+
+.lum0 {
+  --lum: 0%;
+}
+
+.lum5 {
+  --lum: 5%;
+}
+
+.lum10 {
+  --lum: 10%;
+}
+
+.lum20 {
+  --lum: 20%;
+}
+
+.lum30 {
+  --lum: 30%;
+}
+
+.lum40 {
+  --lum: 40%;
+}
+
+.lum50 {
+  --lum: 50%;
+}
+
+.lum60 {
+  --lum: 60%;
+}
+
+.lum70 {
+  --lum: 70%;
+}
+
+.lum80 {
+  --lum: 80%;
+}
+
+.lum90 {
+  --lum: 90%;
+}
+
+.lum95 {
+  --lum: 95%;
+}
+
+.lum100 {
+  --lum: 100%;
+}
+
+.alpha0 {
+  --alpha: 0%;
+}
+
+.alpha5 {
+  --alpha: 5%;
+}
+
+.alpha10 {
+  --alpha: 10%;
+}
+
+.alpha20 {
+  --alpha: 20%;
+}
+
+.alpha30 {
+  --alpha: 30%;
+}
+
+.alpha40 {
+  --alpha: 40%;
+}
+
+.alpha50 {
+  --alpha: 50%;
+}
+
+.alpha60 {
+  --alpha: 60%;
+}
+
+.alpha70 {
+  --alpha: 70%;
+}
+
+.alpha80 {
+  --alpha: 80%;
+}
+
+.alpha90 {
+  --alpha: 90%;
+}
+
+.alpha95 {
+  --alpha: 95%;
+}
+
+.alpha100 {
+  --alpha: 100%;
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -4487,6 +4643,162 @@ hr {
 
 .bg-maroon {
   background-color: var(--maroon);
+}
+
+.bg-sat0 {
+  --bg-sat: 0%;
+}
+
+.bg-sat5 {
+  --bg-sat: 5%;
+}
+
+.bg-sat10 {
+  --bg-sat: 10%;
+}
+
+.bg-sat20 {
+  --bg-sat: 20%;
+}
+
+.bg-sat30 {
+  --bg-sat: 30%;
+}
+
+.bg-sat40 {
+  --bg-sat: 40%;
+}
+
+.bg-sat50 {
+  --bg-sat: 50%;
+}
+
+.bg-sat60 {
+  --bg-sat: 60%;
+}
+
+.bg-sat70 {
+  --bg-sat: 70%;
+}
+
+.bg-sat80 {
+  --bg-sat: 80%;
+}
+
+.bg-sat90 {
+  --bg-sat: 90%;
+}
+
+.bg-sat95 {
+  --bg-sat: 95%;
+}
+
+.bg-sat100 {
+  --bg-sat: 100%;
+}
+
+.bg-lum0 {
+  --bg-lum: 0%;
+}
+
+.bg-lum5 {
+  --bg-lum: 5%;
+}
+
+.bg-lum10 {
+  --bg-lum: 10%;
+}
+
+.bg-lum20 {
+  --bg-lum: 20%;
+}
+
+.bg-lum30 {
+  --bg-lum: 30%;
+}
+
+.bg-lum40 {
+  --bg-lum: 40%;
+}
+
+.bg-lum50 {
+  --bg-lum: 50%;
+}
+
+.bg-lum60 {
+  --bg-lum: 60%;
+}
+
+.bg-lum70 {
+  --bg-lum: 70%;
+}
+
+.bg-lum80 {
+  --bg-lum: 80%;
+}
+
+.bg-lum90 {
+  --bg-lum: 90%;
+}
+
+.bg-lum95 {
+  --bg-lum: 95%;
+}
+
+.bg-lum100 {
+  --bg-lum: 100%;
+}
+
+.bg-alpha0 {
+  --bg-alpha: 0%;
+}
+
+.bg-alpha5 {
+  --bg-alpha: 5%;
+}
+
+.bg-alpha10 {
+  --bg-alpha: 10%;
+}
+
+.bg-alpha20 {
+  --bg-alpha: 20%;
+}
+
+.bg-alpha30 {
+  --bg-alpha: 30%;
+}
+
+.bg-alpha40 {
+  --bg-alpha: 40%;
+}
+
+.bg-alpha50 {
+  --bg-alpha: 50%;
+}
+
+.bg-alpha60 {
+  --bg-alpha: 60%;
+}
+
+.bg-alpha70 {
+  --bg-alpha: 70%;
+}
+
+.bg-alpha80 {
+  --bg-alpha: 80%;
+}
+
+.bg-alpha90 {
+  --bg-alpha: 90%;
+}
+
+.bg-alpha95 {
+  --bg-alpha: 95%;
+}
+
+.bg-alpha100 {
+  --bg-alpha: 100%;
 }
 
 .cursor-default {

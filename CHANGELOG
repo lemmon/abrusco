@@ -7,6 +7,9 @@
   * (visibility) fix .o05 -> .o5
   * (position) .inset
   * (color) gray hsla color
+  * (color) .sat(0-100), .lum(0-100), .alpha(0-100) swatches
+  * (background) gray hsla color
+  * (background) .bg-sat(0-100), .bg-lum(0-100), .bg-alpha(0-100) swatches
   * (copy) children update
   * (overflow) init
   * (fit) init module

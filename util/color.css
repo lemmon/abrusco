@@ -66,3 +66,45 @@
 .fuchsia { color: var(--fuchsia); }
 .purple { color: var(--purple); }
 .maroon { color: var(--maroon); }
+
+.sat0   { --sat:   0%; }
+.sat5   { --sat:   5%; }
+.sat10  { --sat:  10%; }
+.sat20  { --sat:  20%; }
+.sat30  { --sat:  30%; }
+.sat40  { --sat:  40%; }
+.sat50  { --sat:  50%; }
+.sat60  { --sat:  60%; }
+.sat70  { --sat:  70%; }
+.sat80  { --sat:  80%; }
+.sat90  { --sat:  90%; }
+.sat95  { --sat:  95%; }
+.sat100 { --sat: 100%; }
+
+.lum0   { --lum:   0%; }
+.lum5   { --lum:   5%; }
+.lum10  { --lum:  10%; }
+.lum20  { --lum:  20%; }
+.lum30  { --lum:  30%; }
+.lum40  { --lum:  40%; }
+.lum50  { --lum:  50%; }
+.lum60  { --lum:  60%; }
+.lum70  { --lum:  70%; }
+.lum80  { --lum:  80%; }
+.lum90  { --lum:  90%; }
+.lum95  { --lum:  95%; }
+.lum100 { --lum: 100%; }
+
+.alpha0   { --alpha:   0%; }
+.alpha5   { --alpha:   5%; }
+.alpha10  { --alpha:  10%; }
+.alpha20  { --alpha:  20%; }
+.alpha30  { --alpha:  30%; }
+.alpha40  { --alpha:  40%; }
+.alpha50  { --alpha:  50%; }
+.alpha60  { --alpha:  60%; }
+.alpha70  { --alpha:  70%; }
+.alpha80  { --alpha:  80%; }
+.alpha90  { --alpha:  90%; }
+.alpha95  { --alpha:  95%; }
+.alpha100 { --alpha: 100%; }

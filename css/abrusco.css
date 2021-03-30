@@ -51,12 +51,10 @@ table {
   --default-color: var(--black, black);
   --default-border-width: 1px;
   --default-border-color: currentColor;
-  --default-bold-fw: bold;
   --font-size: var(--default-font-size);
   --font-family: var(--default-font-family);
   --bg-color: var(--default-bg-color);
   --color: var(--default-color);
-  --bold-fw: var(--default-bold-fw);
   --serif-font-family: Georgia, 'Times New Roman', serif;
   --sansserif-font-family: system-ui,
                              -apple-system,
@@ -366,7 +364,7 @@ hr {
 }
 
 .bold {
-  font-weight: var(--bold-fw);
+  font-weight: bold;
 }
 
 .fw100 {

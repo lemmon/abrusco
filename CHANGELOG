@@ -1,6 +1,7 @@
 # 0.16.1 (2020-04-21)
 
   * (border) fix --border-width, --border-color
+  * (div) depreciate --div-width, --div-color
 
 # 0.16.0 (2020-04-07)
 

@@ -13,7 +13,7 @@
 
 :root {
 
-  --div-width: var(--default-border-width);
-  --div-color: var(--default-border-color);
+  --div-width: var(--default-border-width); /* depreciated */
+  --div-color: var(--default-border-color); /* depreciated */
 
 }

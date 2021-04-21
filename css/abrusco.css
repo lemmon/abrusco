@@ -55,6 +55,8 @@ table {
   --font-family: var(--default-font-family);
   --bg-color: var(--default-bg-color);
   --color: var(--default-color);
+  --border-width: var(--default-border-width);
+  --border-color: var(--default-border-color);
   --serif-font-family: Georgia, 'Times New Roman', serif;
   --sansserif-font-family: system-ui,
                              -apple-system,
@@ -3821,11 +3823,6 @@ hr {
     padding-top: calc(2rem - var(--border-width));
     padding-bottom: calc(2rem - var(--border-width));
   }
-}
-
-.ba, .bl, .br, .bt, .bb {
-  --border-width: var(--default-border-width);
-  --border-color: var(--default-border-color);
 }
 
 .ba {

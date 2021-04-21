@@ -11,6 +11,8 @@
   --font-family: var(--default-font-family);
   --bg-color: var(--default-bg-color);
   --color: var(--default-color);
+  --border-width: var(--default-border-width);
+  --border-color: var(--default-border-color);
 
   --serif-font-family: Georgia, 'Times New Roman', serif;
   --sansserif-font-family: system-ui;

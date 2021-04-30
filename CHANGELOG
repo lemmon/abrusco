@@ -1,3 +1,11 @@
+# 0.17.0 (2020-XX-XX)
+
+  *
+
+# 0.16.2 (2020-04-26)
+
+  * (inset) move from utils to modules
+
 # 0.16.1 (2020-04-21)
 
   * (border) fix --border-width, --border-color

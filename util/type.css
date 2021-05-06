@@ -40,6 +40,9 @@
 .rlh4 { line-height: var(--rlh4); }
 .rlh5 { line-height: var(--rlh5); }
 
+.lsh { letter-spacing: var(--lsh); }
+.lsd { letter-spacing: var(--lsd); }
+
 .bold   { font-weight: bold; }
 .fw100  { font-weight: 100; }
 .fw200  { font-weight: 200; }

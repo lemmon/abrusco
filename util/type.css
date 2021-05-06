@@ -58,6 +58,7 @@
 .ul\:hover:hover,
 .anchor:hover .ul\:hover {
   text-decoration: underline;
+  text-decoration-thickness: var(--text-decoration-thickness);
 }
 
 .ol { text-decoration: overline; }

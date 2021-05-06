@@ -57,6 +57,7 @@ table {
   --color: var(--default-color);
   --border-width: var(--default-border-width);
   --border-color: var(--default-border-color);
+  --text-decoration-thickness: auto;
   --serif-font-family: Georgia, 'Times New Roman', serif;
   --sansserif-font-family: system-ui,
                              -apple-system,
@@ -422,6 +423,7 @@ hr {
 
 .ul, .ul\:hover:hover, .anchor:hover .ul\:hover {
   text-decoration: underline;
+  text-decoration-thickness: var(--text-decoration-thickness);
 }
 
 .ol {

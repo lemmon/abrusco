@@ -171,6 +171,11 @@ hr {
   border: 0;
 }
 
+.copy {
+  --space-primary: var(--copy-space-primary);
+  --space-secondary: var(--copy-space-secondary);
+}
+
 .copy :first-child {
   margin-top: 0;
 }

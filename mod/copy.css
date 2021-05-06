@@ -1,4 +1,6 @@
 .copy {
+  --space-primary:   var(--copy-space-primary);
+  --space-secondary: var(--copy-space-secondary);
   & :first-child {
     margin-top: 0;
   }
@@ -20,7 +22,7 @@
 
 :root {
 
-  --copy-space-primary:   1.5em;
-  --copy-space-secondary: 0.5em;
+  --copy-space-primary:   1.5em; /* depreciate */
+  --copy-space-secondary: 0.5em; /* depreciate */
 
 }

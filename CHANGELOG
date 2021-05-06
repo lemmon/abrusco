@@ -3,6 +3,7 @@
   * (margin) m[xy]0(25|5)
   * (type) --text-decoration-thickness
   * (div) --border-width, --border-color
+  * (copy) depreciate global variables
 
 # 0.16.2 (2020-04-26)
 

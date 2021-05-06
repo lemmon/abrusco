@@ -7,15 +7,19 @@
 .m4    { margin: 4.00rem; }
 .ma    { margin: auto;    }
 
-.mx0   { margin-left: 0;    margin-right: 0;    }
-.mx1   { margin-left: 1rem; margin-right: 1rem; }
-.mx2   { margin-left: 2rem; margin-right: 2rem; }
-.mx    { margin-left: auto; margin-right: auto; }
+.mx0   { margin-left: 0;       margin-right: 0;       }
+.mx025 { margin-left: 0.25rem; margin-right: 0.25rem; }
+.mx05  { margin-left: 0.50rem; margin-right: 0.50rem; }
+.mx1   { margin-left: 1.00rem; margin-right: 1.00rem; }
+.mx2   { margin-left: 2.00rem; margin-right: 2.00rem; }
+.mx    { margin-left: auto;    margin-right: auto;    }
 
-.my0   { margin-top: 0;    margin-bottom: 0;    }
-.my1   { margin-top: 1rem; margin-bottom: 1rem; }
-.my2   { margin-top: 2rem; margin-bottom: 2rem; }
-.my    { margin-top: auto; margin-bottom: auto; }
+.my0   { margin-top: 0;       margin-bottom: 0;       }
+.my025 { margin-top: 0.25rem; margin-bottom: 0.25rem; }
+.my05  { margin-top: 0.50rem; margin-bottom: 0.50rem; }
+.my1   { margin-top: 1.00rem; margin-bottom: 1.00rem; }
+.my2   { margin-top: 2.00rem; margin-bottom: 2.00rem; }
+.my    { margin-top: auto;    margin-bottom: auto;    }
 
 .mt025 { margin-top: 0.25rem; }
 .mt05  { margin-top: 0.50rem; }

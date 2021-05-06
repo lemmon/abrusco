@@ -1970,6 +1970,16 @@ hr {
   margin-right: 0;
 }
 
+.mx025 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.mx05 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx1 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -1988,6 +1998,16 @@ hr {
 .my0 {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.my025 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.my05 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .my1 {

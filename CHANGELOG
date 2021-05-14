@@ -3,6 +3,7 @@
   * (margin) m[xy]0(25|5)
   * (border) .bc-XY -> .border-XY
   * (border) add sat, lum, alpha swatches
+  * (variables) drop black, white 95-0125
   * (type) --text-decoration-thickness
   * (type) letter-spacing .lsh, .lsd
   * (div) --border-width, --border-color

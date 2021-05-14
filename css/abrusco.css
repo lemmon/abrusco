@@ -221,6 +221,12 @@ hr {
   background-color: currentColor;
 }
 
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .fit {
   width: 100%;
   height: 100%;

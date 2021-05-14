@@ -5,6 +5,7 @@
   * (type) letter-spacing .lsh, .lsd
   * (div) --border-width, --border-color
   * (copy) depreciate global variables
+  * (ellipsis) module init
 
 # 0.16.2 (2020-04-26)
 

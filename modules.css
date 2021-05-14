@@ -1,4 +1,5 @@
 @import './mod/copy';
 @import './mod/div';
+@import './mod/ellipsis';
 @import './mod/fit';
 @import './mod/inset';

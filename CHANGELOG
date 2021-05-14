@@ -1,6 +1,7 @@
 # 0.17.0 (2020-XX-XX)
 
   * (margin) m[xy]0(25|5)
+  * (border) .bc-XY -> .border-XY
   * (type) --text-decoration-thickness
   * (type) letter-spacing .lsh, .lsd
   * (div) --border-width, --border-color

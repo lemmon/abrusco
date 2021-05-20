@@ -6,6 +6,7 @@
   * (variables) drop black, white 95-0125
   * (type) --text-decoration-thickness
   * (type) letter-spacing .lsh, .lsd
+  * (type) line-height add .lh6 and .rlh6
   * (div) --border-width, --border-color
   * (copy) depreciate global variables
   * (ellipsis) module init

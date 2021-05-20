@@ -32,6 +32,7 @@
 .lh3 { line-height: var(--lh3); }
 .lh4 { line-height: var(--lh4); }
 .lh5 { line-height: var(--lh5); }
+.lh6 { line-height: var(--lh6); }
 
 .rlh0 { line-height: var(--rlh0); }
 .rlh1 { line-height: var(--rlh1); }
@@ -39,6 +40,7 @@
 .rlh3 { line-height: var(--rlh3); }
 .rlh4 { line-height: var(--rlh4); }
 .rlh5 { line-height: var(--rlh5); }
+.rlh6 { line-height: var(--rlh6); }
 
 .lsh { letter-spacing: var(--lsh); }
 .lsd { letter-spacing: var(--lsd); }
@@ -125,6 +127,7 @@
   .sd\:lh3 { line-height: var(--lh3); }
   .sd\:lh4 { line-height: var(--lh4); }
   .sd\:lh5 { line-height: var(--lh5); }
+  .sd\:lh6 { line-height: var(--lh6); }
 
   .sd\:rlh0 { line-height: var(--rlh0); }
   .sd\:rlh1 { line-height: var(--rlh1); }
@@ -132,6 +135,7 @@
   .sd\:rlh3 { line-height: var(--rlh3); }
   .sd\:rlh4 { line-height: var(--rlh4); }
   .sd\:rlh5 { line-height: var(--rlh5); }
+  .sd\:rlh6 { line-height: var(--rlh6); }
 
 }
 
@@ -166,6 +170,7 @@
   .md\:lh3 { line-height: var(--lh3); }
   .md\:lh4 { line-height: var(--lh4); }
   .md\:lh5 { line-height: var(--lh5); }
+  .md\:lh6 { line-height: var(--lh6); }
 
   .md\:rlh0 { line-height: var(--rlh0); }
   .md\:rlh1 { line-height: var(--rlh1); }
@@ -173,6 +178,7 @@
   .md\:rlh3 { line-height: var(--rlh3); }
   .md\:rlh4 { line-height: var(--rlh4); }
   .md\:rlh5 { line-height: var(--rlh5); }
+  .md\:rlh6 { line-height: var(--rlh6); }
 
 }
 
@@ -207,6 +213,7 @@
   .ld\:lh3 { line-height: var(--lh3); }
   .ld\:lh4 { line-height: var(--lh4); }
   .ld\:lh5 { line-height: var(--lh5); }
+  .ld\:lh6 { line-height: var(--lh6); }
 
   .ld\:rlh0 { line-height: var(--rlh0); }
   .ld\:rlh1 { line-height: var(--rlh1); }
@@ -214,5 +221,6 @@
   .ld\:rlh3 { line-height: var(--rlh3); }
   .ld\:rlh4 { line-height: var(--rlh4); }
   .ld\:rlh5 { line-height: var(--rlh5); }
+  .ld\:rlh6 { line-height: var(--rlh6); }
 
 }

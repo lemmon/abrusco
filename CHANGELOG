@@ -8,6 +8,7 @@
   * (type) letter-spacing .lsh, .lsd
   * (type) line-height add .lh6 and .rlh6
   * (type) update headings font-size
+  * (cursor) add text
   * (div) --border-width, --border-color
   * (copy) depreciate global variables
   * (ellipsis) module init

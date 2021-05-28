@@ -2,3 +2,4 @@
 .cursor-notallowed { cursor: not-allowed; }
 .cursor-progress   { cursor: progress; }
 .cursor-pointer    { cursor: pointer; }
+.cursor-text       { cursor: text; }

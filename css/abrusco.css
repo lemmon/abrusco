@@ -4699,6 +4699,10 @@ hr {
   cursor: pointer;
 }
 
+.cursor-text {
+  cursor: text;
+}
+
 .-d {
   outline: 1px dashed var(--purple);
 }

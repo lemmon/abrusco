@@ -1000,6 +1000,10 @@ hr {
   overflow: hidden;
 }
 
+.overflow-clip {
+  overflow: clip;
+}
+
 .overflowx-auto {
   overflow-x: auto;
 }
@@ -1012,6 +1016,10 @@ hr {
   overflow-x: hidden;
 }
 
+.overflowx-clip {
+  overflow-x: clip;
+}
+
 .overflowy-auto {
   overflow-y: auto;
 }
@@ -1022,6 +1030,10 @@ hr {
 
 .overflowy-hidden {
   overflow-y: hidden;
+}
+
+.overflowy-clip {
+  overflow-y: clip;
 }
 
 .absolute {

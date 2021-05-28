@@ -9,6 +9,7 @@
   * (type) line-height add .lh6 and .rlh6
   * (type) update headings font-size
   * (cursor) add text
+  * (overflow) add clip
   * (div) --border-width, --border-color
   * (copy) depreciate global variables
   * (ellipsis) module init

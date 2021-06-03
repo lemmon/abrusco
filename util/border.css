@@ -4,16 +4,31 @@
 .bt { border-top:    var(--border-width) solid var(--border-color); }
 .bb { border-bottom: var(--border-width) solid var(--border-color); }
 
-.border-black      { --border-color: var(--black);      }
+.border-black {
+  --border-hue: var(--black-hue);
+  --border-sat: var(--black-sat);
+  --border-lum: var(--black-lum);
+  --border-color: var(--black, hsla(var(--border-hue) var(--border-sat) var(--border-lum) / var(--border-alpha)));
+}
 
-.border-white      { --border-color: var(--white);      }
+.border-white {
+  --border-hue: var(--white-hue);
+  --border-sat: var(--white-sat);
+  --border-lum: var(--white-lum);
+  --border-color: var(--white, hsla(var(--border-hue) var(--border-sat) var(--border-lum) / var(--border-alpha)));
+}
 
 .border-gray {
   --border-hue: var(--gray-hue);
   --border-sat: var(--gray-sat);
   --border-lum: var(--gray-lum);
+  --border-color: var(--gray, hsla(var(--border-hue) var(--border-sat) var(--border-lum) / var(--border-alpha)));
+}
+
+.border-black,
+.border-white,
+.border-gray {
   --border-alpha: 100%;
-  --border-color: hsla(var(--border-hue) var(--border-sat) var(--border-lum) / var(--border-alpha));
   border-color: var(--border-color);
 }
 
@@ -31,8 +46,6 @@
 .border-purple  { --border-color: var(--purple);  }
 .border-maroon  { --border-color: var(--maroon);  }
 
-.border-black,
-.border-white,
 .border-aqua,
 .border-blue,
 .border-navy,

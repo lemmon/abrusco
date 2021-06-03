@@ -25,16 +25,31 @@
   background-color: transparent;
 }
 
-.bg-black { background-color: var(--black); }
+.bg-black {
+  --bg-hue: var(--black-hue);
+  --bg-sat: var(--black-sat);
+  --bg-lum: var(--black-lum);
+  --bg-color: var(--black, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
+}
 
-.bg-white { background-color: var(--white); }
+.bg-white {
+  --bg-hue: var(--white-hue);
+  --bg-sat: var(--white-sat);
+  --bg-lum: var(--white-lum);
+  --bg-color: var(--white, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
+}
 
 .bg-gray {
   --bg-hue: var(--gray-hue);
   --bg-sat: var(--gray-sat);
   --bg-lum: var(--gray-lum);
+  --bg-color: var(--gray, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
+}
+
+.bg-black,
+.bg-white,
+.bg-gray {
   --bg-alpha: 100%;
-  --bg-color: hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha));
   background-color: var(--bg-color);
 }
 

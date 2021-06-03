@@ -2,8 +2,8 @@
 
   --default-font-size: 16px;
   --default-font-family: var(--sansserif-font-family);
-  --default-bg-color: var(--white, white);
-  --default-color: var(--black, black);
+  --default-bg-color: var(--white, hsl(var(--white-hue) var(--white-sat) var(--white-lum)));
+  --default-color: var(--black, hsl(var(--black-hue) var(--black-sat) var(--black-lum)));
   --default-border-width: 1px;
   --default-border-color: currentColor;
 
@@ -63,8 +63,13 @@
   --br4: 0.75rem;   /* 12 */
   --br5: 1rem;      /* 16 */
 
-  --black:  #040404;
-  --white:  #ffffff;
+  --black-hue: 0;
+  --black-sat: 0%;
+  --black-lum: 0%;
+
+  --white-hue: 0;
+  --white-sat: 0%;
+  --white-lum: 100%;
 
   --gray-hue: 0;
   --gray-sat: 0%;

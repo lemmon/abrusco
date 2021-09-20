@@ -14,31 +14,36 @@
   color: transparent;
 }
 
-.black {
+.black,
+.black\:hover:hover,
+.anchor:hover .black\:hover {
   --hue: var(--black-hue);
   --sat: var(--black-sat);
   --lum: var(--black-lum);
+  --alpha: 100%;
   --color: var(--black, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
+  color: var(--color);
 }
 
-.white {
+.white,
+.white\:hover:hover,
+.anchor:hover .white\:hover {
   --hue: var(--white-hue);
   --sat: var(--white-sat);
   --lum: var(--white-lum);
+  --alpha: 100%;
   --color: var(--white, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
+  color: var(--color);
 }
 
-.gray {
+.gray,
+.gray\:hover:hover,
+.anchor:hover .gray\:hover {
   --hue: var(--gray-hue);
   --sat: var(--gray-sat);
   --lum: var(--gray-lum);
-  --color: var(--gray, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
-}
-
-.black,
-.white,
-.gray {
   --alpha: 100%;
+  --color: var(--gray, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
   color: var(--color);
 }
 

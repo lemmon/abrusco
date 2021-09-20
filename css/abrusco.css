@@ -4193,29 +4193,30 @@ hr {
   color: transparent;
 }
 
-.black {
+.black, .black\:hover:hover, .anchor:hover .black\:hover {
   --hue: var(--black-hue);
   --sat: var(--black-sat);
   --lum: var(--black-lum);
+  --alpha: 100%;
   --color: var(--black, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
+  color: var(--color);
 }
 
-.white {
+.white, .white\:hover:hover, .anchor:hover .white\:hover {
   --hue: var(--white-hue);
   --sat: var(--white-sat);
   --lum: var(--white-lum);
+  --alpha: 100%;
   --color: var(--white, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
+  color: var(--color);
 }
 
-.gray {
+.gray, .gray\:hover:hover, .anchor:hover .gray\:hover {
   --hue: var(--gray-hue);
   --sat: var(--gray-sat);
   --lum: var(--gray-lum);
-  --color: var(--gray, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
-}
-
-.black, .white, .gray {
   --alpha: 100%;
+  --color: var(--gray, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
   color: var(--color);
 }
 
@@ -4556,29 +4557,30 @@ hr {
   background-color: transparent;
 }
 
-.bg-black {
+.bg-black, .bg-black\:hover:hover, .anchor:hover .bg-black\:hover {
   --bg-hue: var(--black-hue);
   --bg-sat: var(--black-sat);
   --bg-lum: var(--black-lum);
+  --bg-alpha: 100%;
   --bg-color: var(--black, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
+  background-color: var(--bg-color);
 }
 
-.bg-white {
+.bg-white, .bg-white\:hover:hover, .anchor:hover .bg-white\:hover {
   --bg-hue: var(--white-hue);
   --bg-sat: var(--white-sat);
   --bg-lum: var(--white-lum);
+  --bg-alpha: 100%;
   --bg-color: var(--white, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
+  background-color: var(--bg-color);
 }
 
-.bg-gray {
+.bg-gray, .bg-gray\:hover:hover, .anchor:hover .bg-gray\:hover {
   --bg-hue: var(--gray-hue);
   --bg-sat: var(--gray-sat);
   --bg-lum: var(--gray-lum);
-  --bg-color: var(--gray, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
-}
-
-.bg-black, .bg-white, .bg-gray {
   --bg-alpha: 100%;
+  --bg-color: var(--gray, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
   background-color: var(--bg-color);
 }
 

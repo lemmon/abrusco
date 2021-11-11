@@ -69,6 +69,11 @@
 .ol { text-decoration: overline; }
 .lt { text-decoration: line-through; }
 
+.tabnums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: inherit;
+}
+
 .va-inherit  { vertical-align: inherit; }
 .va-baseline { vertical-align: baseline; }
 .va-sub      { vertical-align: sub; }

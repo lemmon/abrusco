@@ -1,8 +1,8 @@
-.ba { border:        var(--border-width) solid var(--border-color); }
-.bl { border-left:   var(--border-width) solid var(--border-color); }
-.br { border-right:  var(--border-width) solid var(--border-color); }
-.bt { border-top:    var(--border-width) solid var(--border-color); }
-.bb { border-bottom: var(--border-width) solid var(--border-color); }
+.border        { border:        var(--border-width) solid var(--border-color); }
+.border-left   { border-left:   var(--border-width) solid var(--border-color); }
+.border-right  { border-right:  var(--border-width) solid var(--border-color); }
+.border-top    { border-top:    var(--border-width) solid var(--border-color); }
+.border-bottom { border-bottom: var(--border-width) solid var(--border-color); }
 
 .border-black {
   --border-hue: var(--black-hue);

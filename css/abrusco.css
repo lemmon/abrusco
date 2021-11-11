@@ -440,6 +440,11 @@ hr {
   text-decoration: line-through;
 }
 
+.tabnums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: inherit, "tnum";
+}
+
 .va-inherit {
   vertical-align: inherit;
 }
@@ -3889,23 +3894,23 @@ hr {
   }
 }
 
-.ba {
+.border {
   border: var(--border-width) solid var(--border-color);
 }
 
-.bl {
+.border-left {
   border-left: var(--border-width) solid var(--border-color);
 }
 
-.br {
+.border-right {
   border-right: var(--border-width) solid var(--border-color);
 }
 
-.bt {
+.border-top {
   border-top: var(--border-width) solid var(--border-color);
 }
 
-.bb {
+.border-bottom {
   border-bottom: var(--border-width) solid var(--border-color);
 }
 

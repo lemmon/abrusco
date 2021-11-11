@@ -3,6 +3,7 @@
   * (color, bg) add sat, lum classes by 5
   * (color, bg) white, black, gray hover states
   * (type) tabular-nums
+  * (border) .border, .border-XY, drop .bX
 
 # 0.17.0 (2020-06-07)
 

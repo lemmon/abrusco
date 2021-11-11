@@ -14,6 +14,7 @@
   --border-width: var(--default-border-width);
   --border-color: var(--default-border-color);
   --text-decoration-thickness: auto;
+  --text-underline-offset: auto;
 
   --serif-font-family: Georgia, 'Times New Roman', serif;
   --sansserif-font-family: system-ui;

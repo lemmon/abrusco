@@ -4881,6 +4881,10 @@ hr {
   cursor: text;
 }
 
+.cursor-inherit {
+  cursor: inherit;
+}
+
 .-d {
   outline: 1px dashed var(--purple);
 }

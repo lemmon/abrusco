@@ -60,14 +60,7 @@ table {
   --text-decoration-thickness: auto;
   --text-underline-offset: auto;
   --serif-font-family: Georgia, 'Times New Roman', serif;
-  --sansserif-font-family: system-ui,
-                             -apple-system,
-                             Segoe UI,
-                             Roboto,
-                             Ubuntu,
-                             Cantarell,
-                             Noto Sans,
-                             sans-serif;
+  --sansserif-font-family: system-ui;
   --code-font-family: Courier, monospace;
   --h1: 2.5rem;
   --h2: 2rem;
@@ -4228,55 +4221,68 @@ hr {
 }
 
 .aqua {
-  color: var(--aqua);
+  --color: var(--aqua);
+  color: var(--color);
 }
 
 .blue {
-  color: var(--blue);
+  --color: var(--blue);
+  color: var(--color);
 }
 
 .navy {
-  color: var(--navy);
+  --color: var(--navy);
+  color: var(--color);
 }
 
 .teal {
-  color: var(--teal);
+  --color: var(--teal);
+  color: var(--color);
 }
 
 .green {
-  color: var(--green);
+  --color: var(--green);
+  color: var(--color);
 }
 
 .olive {
-  color: var(--olive);
+  --color: var(--olive);
+  color: var(--color);
 }
 
 .lime {
-  color: var(--lime);
+  --color: var(--lime);
+  color: var(--color);
 }
 
 .yellow {
-  color: var(--yellow);
+  --color: var(--yellow);
+  color: var(--color);
 }
 
 .orange {
-  color: var(--orange);
+  --color: var(--orange);
+  color: var(--color);
 }
 
 .red {
-  color: var(--red);
+  --color: var(--red);
+  color: var(--color);
 }
 
 .fuchsia {
-  color: var(--fuchsia);
+  --color: var(--fuchsia);
+  color: var(--color);
 }
 
 .purple {
-  color: var(--purple);
+  --color: var(--purple);
+  color: var(--color);
 }
 
 .maroon {
-  color: var(--maroon);
+  --color: var(--maroon);
+  color: var(--color);
 }
 
 .sat0 {
@@ -4592,55 +4598,68 @@ hr {
 }
 
 .bg-aqua {
-  background-color: var(--aqua);
+  --bg-color: var(--aqua);
+  background-color: var(--bg-color);
 }
 
 .bg-blue {
-  background-color: var(--blue);
+  --bg-color: var(--blue);
+  background-color: var(--bg-color);
 }
 
 .bg-navy {
-  background-color: var(--navy);
+  --bg-color: var(--navy);
+  background-color: var(--bg-color);
 }
 
 .bg-teal {
-  background-color: var(--teal);
+  --bg-color: var(--teal);
+  background-color: var(--bg-color);
 }
 
 .bg-green {
-  background-color: var(--green);
+  --bg-color: var(--green);
+  background-color: var(--bg-color);
 }
 
 .bg-olive {
-  background-color: var(--olive);
+  --bg-color: var(--olive);
+  background-color: var(--bg-color);
 }
 
 .bg-lime {
-  background-color: var(--lime);
+  --bg-color: var(--lime);
+  background-color: var(--bg-color);
 }
 
 .bg-yellow {
-  background-color: var(--yellow);
+  --bg-color: var(--yellow);
+  background-color: var(--bg-color);
 }
 
 .bg-orange {
-  background-color: var(--orange);
+  --bg-color: var(--orange);
+  background-color: var(--bg-color);
 }
 
 .bg-red {
-  background-color: var(--red);
+  --bg-color: var(--red);
+  background-color: var(--bg-color);
 }
 
 .bg-fuchsia {
-  background-color: var(--fuchsia);
+  --bg-color: var(--fuchsia);
+  background-color: var(--bg-color);
 }
 
 .bg-purple {
-  background-color: var(--purple);
+  --bg-color: var(--purple);
+  background-color: var(--bg-color);
 }
 
 .bg-maroon {
-  background-color: var(--maroon);
+  --bg-color: var(--maroon);
+  background-color: var(--bg-color);
 }
 
 .bg-sat0 {

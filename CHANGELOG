@@ -1,7 +1,8 @@
-# 0.XX.X (2020-06-07)
+# 0.18.X (2020-11-XX)
 
   * (color, bg) add sat, lum classes by 5
   * (color, bg) white, black, gray hover states
+  * (color, bg) accents now pass color as a variable
   * (type) tabular-nums
   * (border) .border, .border-XY, drop .bX
   * (cursor) .cursor-inherit

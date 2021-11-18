@@ -1,4 +1,4 @@
-# 0.18.X (2020-11-18)
+# 0.18.X (2021-11-18)
 
   * (color, bg) add sat, lum classes by 5
   * (color, bg) white, black, gray hover states
@@ -8,7 +8,7 @@
   * (cursor) .cursor-inherit
   * (type) --text-underline-offset
 
-# 0.17.0 (2020-06-07)
+# 0.17.0 (2021-06-07)
 
   * (color) black, white as hsla
   * (margin) m[xy]0(25|5)
@@ -25,16 +25,16 @@
   * (copy) depreciate global variables
   * (ellipsis) module init
 
-# 0.16.2 (2020-04-26)
+# 0.16.2 (2021-04-26)
 
   * (inset) move from utils to modules
 
-# 0.16.1 (2020-04-21)
+# 0.16.1 (2021-04-21)
 
   * (border) fix --border-width, --border-color
   * (div) depreciate --div-width, --div-color
 
-# 0.16.0 (2020-04-07)
+# 0.16.0 (2021-04-07)
 
   * (type) .rlh root-line-height
   * (border) --border-width, --border-color update
@@ -51,13 +51,13 @@
   * (fit) init module
   * (variables) drop --bold-fw
 
-# 0.15.1 (2020-02-05)
+# 0.15.1 (2021-02-05)
 
   * (grid) add .vw100, .vh100
   * (border) border-radius, border-color vars update
   * rebuild with abrusco cli 0.7.0
 
-# 0.15.0 (2020-01-20)
+# 0.15.0 (2021-01-20)
 
   * (variables) change --base-xy to --default-xy
   * (color) remove .color-{colorName} -> .{colorName}

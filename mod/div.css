@@ -1,6 +1,7 @@
 .div {
   --border-width: var(--default-border-width);
   --border-color: var(--default-border-color);
+  display: block;
   color: var(--border-color);
   &::before {
     content: "";

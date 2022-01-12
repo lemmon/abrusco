@@ -1,4 +1,6 @@
-# 0.18.X (2021-11-18)
+# 0.19.X (2022-01-XX)
+
+# 0.18.0 (2021-11-18)
 
   * (color, bg) add sat, lum classes by 5
   * (color, bg) white, black, gray hover states

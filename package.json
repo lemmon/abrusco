@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build:css": "abrusco index.css -o css/abrusco.css",
-    "build:prettify": "prettier css/abrusco.css --write",
+    "build:prettify": "prettier --print-width 160 --write css/abrusco.css",
     "build:minify": "abrusco index.css -o css/abrusco.min.css --minify",
     "build": "npm run build:css && npm run build:prettify && npm run build:minify",
     "readme:update": "sed -i ~previous -E 's/@[0-9]+\\.[0-9]+\\.[0-9]+/@'$npm_package_version'/g' README.md",

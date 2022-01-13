@@ -102,6 +102,17 @@
 .grid7 { display: grid; grid-template-columns: repeat(7, 1fr); }
 .grid8 { display: grid; grid-template-columns: repeat(8, 1fr); }
 
+.gap0    { gap: 0;        }
+.gap0125 { gap: 0.125rem; }
+.gap025  { gap: 0.25rem;  }
+.gap05   { gap: 0.50rem;  }
+.gap075  { gap: 0.75rem;  }
+.gap1    { gap: 1.00rem;  }
+.gap125  { gap: 1.25rem;  }
+.gap15   { gap: 1.50rem;  }
+.gap175  { gap: 1.75rem;  }
+.gap2    { gap: 2.00rem;  }
+
 .items-start    { align-items: flex-start; }
 .items-end      { align-items: flex-end; }
 .items-center   { align-items: center; }

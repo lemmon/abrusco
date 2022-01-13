@@ -1493,6 +1493,46 @@ hr {
   grid-template-columns: repeat(8, 1fr);
 }
 
+.gap0 {
+  gap: 0;
+}
+
+.gap0125 {
+  gap: 0.125rem;
+}
+
+.gap025 {
+  gap: 0.25rem;
+}
+
+.gap05 {
+  gap: 0.5rem;
+}
+
+.gap075 {
+  gap: 0.75rem;
+}
+
+.gap1 {
+  gap: 1rem;
+}
+
+.gap125 {
+  gap: 1.25rem;
+}
+
+.gap15 {
+  gap: 1.5rem;
+}
+
+.gap175 {
+  gap: 1.75rem;
+}
+
+.gap2 {
+  gap: 2rem;
+}
+
 .items-start {
   align-items: flex-start;
 }

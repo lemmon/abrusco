@@ -4734,6 +4734,10 @@ hr {
   cursor: default;
 }
 
+.cursor-move {
+  cursor: move;
+}
+
 .cursor-notallowed {
   cursor: not-allowed;
 }

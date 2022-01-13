@@ -1,4 +1,5 @@
 .cursor-default    { cursor: default;     }
+.cursor-move       { cursor: move;        }
 .cursor-notallowed { cursor: not-allowed; }
 .cursor-progress   { cursor: progress;    }
 .cursor-pointer    { cursor: pointer;     }

@@ -58,11 +58,11 @@
   --lsh: -0.025em;
   --lsd: -0.050em;
 
-  --br1: 0.125rem;  /*  2 */
-  --br2: 0.25rem;   /*  4 */
-  --br3: 0.5rem;    /*  8 */
-  --br4: 0.75rem;   /* 12 */
-  --br5: 1rem;      /* 16 */
+  --border-radius1: 0.125rem;  /*  2 */
+  --border-radius2: 0.25rem;   /*  4 */
+  --border-radius3: 0.5rem;    /*  8 */
+  --border-radius4: 0.75rem;   /* 12 */
+  --border-radius5: 1rem;      /* 16 */
 
   --black-hue: 0;
   --black-sat: 0%;

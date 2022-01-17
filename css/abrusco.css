@@ -195,11 +195,11 @@ table {
   --lsh: -0.025em;
   --lsd: -0.05em;
 
-  --br1: 0.125rem;
-  --br2: 0.25rem;
-  --br3: 0.5rem;
-  --br4: 0.75rem;
-  --br5: 1rem;
+  --border-radius1: 0.125rem;
+  --border-radius2: 0.25rem;
+  --border-radius3: 0.5rem;
+  --border-radius4: 0.75rem;
+  --border-radius5: 1rem;
 
   --black-hue: 0;
   --black-sat: 0%;
@@ -3969,41 +3969,41 @@ hr {
   --border-alpha: 100%;
 }
 
-.br1 {
-  --border-radius: var(--br1);
+.border-radius1 {
+  --border-radius: var(--border-radius1);
 }
 
-.br2 {
-  --border-radius: var(--br2);
+.border-radius2 {
+  --border-radius: var(--border-radius2);
 }
 
-.br3 {
-  --border-radius: var(--br3);
+.border-radius3 {
+  --border-radius: var(--border-radius3);
 }
 
-.br4 {
-  --border-radius: var(--br4);
+.border-radius4 {
+  --border-radius: var(--border-radius4);
 }
 
-.br5 {
-  --border-radius: var(--br5);
+.border-radius5 {
+  --border-radius: var(--border-radius5);
 }
 
-.br100 {
+.border-radius100 {
   --border-radius: 100%;
 }
 
-.br999 {
+.border-radius999 {
   --border-radius: 999px;
 }
 
-.br1,
-.br2,
-.br3,
-.br4,
-.br5,
-.br100,
-.br999 {
+.border-radius1,
+.border-radius2,
+.border-radius3,
+.border-radius4,
+.border-radius5,
+.border-radius100,
+.border-radius999 {
   border-radius: var(--border-radius);
 }
 

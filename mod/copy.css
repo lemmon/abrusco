@@ -1,6 +1,6 @@
 .copy {
-  --space-primary:   var(--copy-space-primary);
-  --space-secondary: var(--copy-space-secondary);
+  --space-primary:   1.5em;
+  --space-secondary: 0.5em;
   & :first-child {
     margin-top: 0;
   }
@@ -18,11 +18,4 @@
     margin-top: var(--copy-space-primary);
     margin-bottom: var(--copy-space-primary);
   }
-}
-
-:root {
-
-  --copy-space-primary:   1.5em; /* depreciate */
-  --copy-space-secondary: 0.5em; /* depreciate */
-
 }

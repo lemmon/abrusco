@@ -254,8 +254,8 @@ hr {
 }
 
 .copy {
-  --space-primary: var(--copy-space-primary);
-  --space-secondary: var(--copy-space-secondary);
+  --space-primary: 1.5em;
+  --space-secondary: 0.5em;
 }
 
 .copy :first-child {
@@ -278,11 +278,6 @@ hr {
 .copy :is(ul, ol, dl, div, figure, blockquote) {
   margin-top: var(--copy-space-primary);
   margin-bottom: var(--copy-space-primary);
-}
-
-:root {
-  --copy-space-primary: 1.5em;
-  --copy-space-secondary: 0.5em;
 }
 
 .div {

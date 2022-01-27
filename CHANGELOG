@@ -1,6 +1,6 @@
 # 0.19.X (2022-01-XX)
 
-  * (grid) gap
+  * (grid) gap, gapx, gapy
   * (cursor) move
   * (copy) remove depreciated vars
   * (border) br to border-radius

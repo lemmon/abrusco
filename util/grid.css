@@ -113,6 +113,28 @@
 .gap175  { gap: 1.75rem;  }
 .gap2    { gap: 2.00rem;  }
 
+.gapx0    { column-gap: 0;        }
+.gapx0125 { column-gap: 0.125rem; }
+.gapx025  { column-gap: 0.25rem;  }
+.gapx05   { column-gap: 0.50rem;  }
+.gapx075  { column-gap: 0.75rem;  }
+.gapx1    { column-gap: 1.00rem;  }
+.gapx125  { column-gap: 1.25rem;  }
+.gapx15   { column-gap: 1.50rem;  }
+.gapx175  { column-gap: 1.75rem;  }
+.gapx2    { column-gap: 2.00rem;  }
+
+.gapy0    { row-gap: 0;        }
+.gapy0125 { row-gap: 0.125rem; }
+.gapy025  { row-gap: 0.25rem;  }
+.gapy05   { row-gap: 0.50rem;  }
+.gapy075  { row-gap: 0.75rem;  }
+.gapy1    { row-gap: 1.00rem;  }
+.gapy125  { row-gap: 1.25rem;  }
+.gapy15   { row-gap: 1.50rem;  }
+.gapy175  { row-gap: 1.75rem;  }
+.gapy2    { row-gap: 2.00rem;  }
+
 .items-start    { align-items: flex-start; }
 .items-end      { align-items: flex-end; }
 .items-center   { align-items: center; }

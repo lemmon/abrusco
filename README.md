@@ -13,7 +13,7 @@ npm install abrusco --save-dev
 ### Use the CDN
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/abrusco@0.18.1/css/abrusco.min.css">
+<link rel="stylesheet" href="https://unpkg.com/abrusco@0.19.0/css/abrusco.min.css">
 ```
 
 ## Features

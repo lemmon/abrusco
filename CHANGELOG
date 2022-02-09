@@ -4,7 +4,7 @@
   * (cursor) move
   * (copy) remove depreciated vars
   * (border) br to border-radius
-  * (type) update rlh variables
+  * (type) update rlh variables https://github.com/lemmon/abrusco/commit/f1895f0d02dea6cbeb8fbf3c6c2c96606fd9115b#diff-1d7118e6f21cea89e399f6cd1a327c89246e593b86142d8d4fcad420c58e619e
   * (type) text-decoration-color
 
 # 0.18.0 (2021-11-18)

@@ -8,14 +8,14 @@
     margin-bottom: 0;
   }
   & p {
-    margin-top: var(--copy-space-secondary);
-    margin-bottom: var(--copy-space-primary);
+    margin-top: var(--space-secondary);
+    margin-bottom: var(--space-primary);
   }
   & :is(h1, h2, h3, h4, h5, h6) {
-    margin-top: var(--copy-space-primary);
+    margin-top: var(--space-primary);
   }
   & :is(ul, ol, dl, div, figure, blockquote) {
-    margin-top: var(--copy-space-primary);
-    margin-bottom: var(--copy-space-primary);
+    margin-top: var(--space-primary);
+    margin-bottom: var(--space-primary);
   }
 }

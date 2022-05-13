@@ -95,6 +95,8 @@
 .sansserif { font-family: var(--sansserif-font-family); }
 .code      { font-family: var(--code-font-family); }
 
+.noselect { user-select: none; }
+
 @media (--view-xs) {
 
   .xs\:al { text-align: left; }

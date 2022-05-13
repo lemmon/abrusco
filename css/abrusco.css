@@ -611,6 +611,11 @@ hr {
   font-family: var(--code-font-family);
 }
 
+.noselect {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 @media (max-width: 24rem) {
   .xs\:al {
     text-align: left;

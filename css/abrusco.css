@@ -1536,6 +1536,18 @@ hr {
   gap: 2rem;
 }
 
+.gap25 {
+  gap: 2.5rem;
+}
+
+.gap3 {
+  gap: 3rem;
+}
+
+.gap4 {
+  gap: 4rem;
+}
+
 .gapx0 {
   column-gap: 0;
 }
@@ -1576,6 +1588,18 @@ hr {
   column-gap: 2rem;
 }
 
+.gapx25 {
+  column-gap: 2.5rem;
+}
+
+.gapx3 {
+  column-gap: 3rem;
+}
+
+.gapx4 {
+  column-gap: 4rem;
+}
+
 .gapy0 {
   row-gap: 0;
 }
@@ -1614,6 +1638,18 @@ hr {
 
 .gapy2 {
   row-gap: 2rem;
+}
+
+.gapy25 {
+  row-gap: 2.5rem;
+}
+
+.gapy3 {
+  row-gap: 3rem;
+}
+
+.gapy4 {
+  row-gap: 4rem;
 }
 
 .items-start {
@@ -1877,6 +1913,15 @@ hr {
   .sd\:gap2 {
     gap: 2rem;
   }
+  .sd\:gap25 {
+    gap: 2.5rem;
+  }
+  .sd\:gap3 {
+    gap: 3rem;
+  }
+  .sd\:gap4 {
+    gap: 4rem;
+  }
 
   .sd\:gapx0 {
     column-gap: 0;
@@ -1908,6 +1953,15 @@ hr {
   .sd\:gapx2 {
     column-gap: 2rem;
   }
+  .sd\:gapx25 {
+    column-gap: 2.5rem;
+  }
+  .sd\:gapx3 {
+    column-gap: 3rem;
+  }
+  .sd\:gapx4 {
+    column-gap: 4rem;
+  }
 
   .sd\:gapy0 {
     row-gap: 0;
@@ -1938,6 +1992,15 @@ hr {
   }
   .sd\:gapy2 {
     row-gap: 2rem;
+  }
+  .sd\:gapy25 {
+    row-gap: 2.5rem;
+  }
+  .sd\:gapy3 {
+    row-gap: 3rem;
+  }
+  .sd\:gapy4 {
+    row-gap: 4rem;
   }
 
   .sd\:order0 {
@@ -2055,6 +2118,15 @@ hr {
   .md\:gap2 {
     gap: 2rem;
   }
+  .md\:gap25 {
+    gap: 2.5rem;
+  }
+  .md\:gap3 {
+    gap: 3rem;
+  }
+  .md\:gap4 {
+    gap: 4rem;
+  }
 
   .md\:gapx0 {
     column-gap: 0;
@@ -2086,6 +2158,15 @@ hr {
   .md\:gapx2 {
     column-gap: 2rem;
   }
+  .md\:gapx25 {
+    column-gap: 2.5rem;
+  }
+  .md\:gapx3 {
+    column-gap: 3rem;
+  }
+  .md\:gapx4 {
+    column-gap: 4rem;
+  }
 
   .md\:gapy0 {
     row-gap: 0;
@@ -2116,6 +2197,15 @@ hr {
   }
   .md\:gapy2 {
     row-gap: 2rem;
+  }
+  .md\:gapy25 {
+    row-gap: 2.5rem;
+  }
+  .md\:gapy3 {
+    row-gap: 3rem;
+  }
+  .md\:gapy4 {
+    row-gap: 4rem;
   }
 
   .md\:order0 {
@@ -2233,6 +2323,15 @@ hr {
   .ld\:gap2 {
     gap: 2rem;
   }
+  .ld\:gap25 {
+    gap: 2.5rem;
+  }
+  .ld\:gap3 {
+    gap: 3rem;
+  }
+  .ld\:gap4 {
+    gap: 4rem;
+  }
 
   .ld\:gapx0 {
     column-gap: 0;
@@ -2264,6 +2363,15 @@ hr {
   .ld\:gapx2 {
     column-gap: 2rem;
   }
+  .ld\:gapx25 {
+    column-gap: 2.5rem;
+  }
+  .ld\:gapx3 {
+    column-gap: 3rem;
+  }
+  .ld\:gapx4 {
+    column-gap: 4rem;
+  }
 
   .ld\:gapy0 {
     row-gap: 0;
@@ -2294,6 +2402,15 @@ hr {
   }
   .ld\:gapy2 {
     row-gap: 2rem;
+  }
+  .ld\:gapy25 {
+    row-gap: 2.5rem;
+  }
+  .ld\:gapy3 {
+    row-gap: 3rem;
+  }
+  .ld\:gapy4 {
+    row-gap: 4rem;
   }
 
   .ld\:order0 {
@@ -2411,6 +2528,15 @@ hr {
   .xl\:gap2 {
     gap: 2rem;
   }
+  .xl\:gap25 {
+    gap: 2.5rem;
+  }
+  .xl\:gap3 {
+    gap: 3rem;
+  }
+  .xl\:gap4 {
+    gap: 4rem;
+  }
 
   .xl\:gapx0 {
     column-gap: 0;
@@ -2442,6 +2568,15 @@ hr {
   .xl\:gapx2 {
     column-gap: 2rem;
   }
+  .xl\:gapx25 {
+    column-gap: 2.5rem;
+  }
+  .xl\:gapx3 {
+    column-gap: 3rem;
+  }
+  .xl\:gapx4 {
+    column-gap: 4rem;
+  }
 
   .xl\:gapy0 {
     row-gap: 0;
@@ -2472,6 +2607,15 @@ hr {
   }
   .xl\:gapy2 {
     row-gap: 2rem;
+  }
+  .xl\:gapy25 {
+    row-gap: 2.5rem;
+  }
+  .xl\:gapy3 {
+    row-gap: 3rem;
+  }
+  .xl\:gapy4 {
+    row-gap: 4rem;
   }
 
   .xl\:order0 {

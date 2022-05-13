@@ -112,6 +112,9 @@
 .gap15   { gap: 1.50rem;  }
 .gap175  { gap: 1.75rem;  }
 .gap2    { gap: 2.00rem;  }
+.gap25   { gap: 2.50rem;  }
+.gap3    { gap: 3.00rem;  }
+.gap4    { gap: 4.00rem;  }
 
 .gapx0    { column-gap: 0;        }
 .gapx0125 { column-gap: 0.125rem; }
@@ -123,6 +126,9 @@
 .gapx15   { column-gap: 1.50rem;  }
 .gapx175  { column-gap: 1.75rem;  }
 .gapx2    { column-gap: 2.00rem;  }
+.gapx25   { column-gap: 2.50rem;  }
+.gapx3    { column-gap: 3.00rem;  }
+.gapx4    { column-gap: 4.00rem;  }
 
 .gapy0    { row-gap: 0;        }
 .gapy0125 { row-gap: 0.125rem; }
@@ -134,6 +140,9 @@
 .gapy15   { row-gap: 1.50rem;  }
 .gapy175  { row-gap: 1.75rem;  }
 .gapy2    { row-gap: 2.00rem;  }
+.gapy25   { row-gap: 2.50rem;  }
+.gapy3    { row-gap: 3.00rem;  }
+.gapy4    { row-gap: 4.00rem;  }
 
 .items-start    { align-items: flex-start; }
 .items-end      { align-items: flex-end; }
@@ -229,6 +238,9 @@
   .sd\:gap15   { gap: 1.50rem;  }
   .sd\:gap175  { gap: 1.75rem;  }
   .sd\:gap2    { gap: 2.00rem;  }
+  .sd\:gap25   { gap: 2.50rem;  }
+  .sd\:gap3    { gap: 3.00rem;  }
+  .sd\:gap4    { gap: 4.00rem;  }
 
   .sd\:gapx0    { column-gap: 0;        }
   .sd\:gapx0125 { column-gap: 0.125rem; }
@@ -240,6 +252,9 @@
   .sd\:gapx15   { column-gap: 1.50rem;  }
   .sd\:gapx175  { column-gap: 1.75rem;  }
   .sd\:gapx2    { column-gap: 2.00rem;  }
+  .sd\:gapx25   { column-gap: 2.50rem;  }
+  .sd\:gapx3    { column-gap: 3.00rem;  }
+  .sd\:gapx4    { column-gap: 4.00rem;  }
 
   .sd\:gapy0    { row-gap: 0;        }
   .sd\:gapy0125 { row-gap: 0.125rem; }
@@ -251,6 +266,9 @@
   .sd\:gapy15   { row-gap: 1.50rem;  }
   .sd\:gapy175  { row-gap: 1.75rem;  }
   .sd\:gapy2    { row-gap: 2.00rem;  }
+  .sd\:gapy25   { row-gap: 2.50rem;  }
+  .sd\:gapy3    { row-gap: 3.00rem;  }
+  .sd\:gapy4    { row-gap: 4.00rem;  }
 
   .sd\:order0 { order: 0; }
   .sd\:order1 { order: 1; }
@@ -302,6 +320,9 @@
   .md\:gap15   { gap: 1.50rem;  }
   .md\:gap175  { gap: 1.75rem;  }
   .md\:gap2    { gap: 2.00rem;  }
+  .md\:gap25   { gap: 2.50rem;  }
+  .md\:gap3    { gap: 3.00rem;  }
+  .md\:gap4    { gap: 4.00rem;  }
 
   .md\:gapx0    { column-gap: 0;        }
   .md\:gapx0125 { column-gap: 0.125rem; }
@@ -313,6 +334,9 @@
   .md\:gapx15   { column-gap: 1.50rem;  }
   .md\:gapx175  { column-gap: 1.75rem;  }
   .md\:gapx2    { column-gap: 2.00rem;  }
+  .md\:gapx25   { column-gap: 2.50rem;  }
+  .md\:gapx3    { column-gap: 3.00rem;  }
+  .md\:gapx4    { column-gap: 4.00rem;  }
 
   .md\:gapy0    { row-gap: 0;        }
   .md\:gapy0125 { row-gap: 0.125rem; }
@@ -324,6 +348,9 @@
   .md\:gapy15   { row-gap: 1.50rem;  }
   .md\:gapy175  { row-gap: 1.75rem;  }
   .md\:gapy2    { row-gap: 2.00rem;  }
+  .md\:gapy25   { row-gap: 2.50rem;  }
+  .md\:gapy3    { row-gap: 3.00rem;  }
+  .md\:gapy4    { row-gap: 4.00rem;  }
 
   .md\:order0 { order: 0; }
   .md\:order1 { order: 1; }
@@ -375,6 +402,9 @@
   .ld\:gap15   { gap: 1.50rem;  }
   .ld\:gap175  { gap: 1.75rem;  }
   .ld\:gap2    { gap: 2.00rem;  }
+  .ld\:gap25   { gap: 2.50rem;  }
+  .ld\:gap3    { gap: 3.00rem;  }
+  .ld\:gap4    { gap: 4.00rem;  }
 
   .ld\:gapx0    { column-gap: 0;        }
   .ld\:gapx0125 { column-gap: 0.125rem; }
@@ -386,6 +416,9 @@
   .ld\:gapx15   { column-gap: 1.50rem;  }
   .ld\:gapx175  { column-gap: 1.75rem;  }
   .ld\:gapx2    { column-gap: 2.00rem;  }
+  .ld\:gapx25   { column-gap: 2.50rem;  }
+  .ld\:gapx3    { column-gap: 3.00rem;  }
+  .ld\:gapx4    { column-gap: 4.00rem;  }
 
   .ld\:gapy0    { row-gap: 0;        }
   .ld\:gapy0125 { row-gap: 0.125rem; }
@@ -397,6 +430,9 @@
   .ld\:gapy15   { row-gap: 1.50rem;  }
   .ld\:gapy175  { row-gap: 1.75rem;  }
   .ld\:gapy2    { row-gap: 2.00rem;  }
+  .ld\:gapy25   { row-gap: 2.50rem;  }
+  .ld\:gapy3    { row-gap: 3.00rem;  }
+  .ld\:gapy4    { row-gap: 4.00rem;  }
 
   .ld\:order0 { order: 0; }
   .ld\:order1 { order: 1; }
@@ -448,6 +484,9 @@
   .xl\:gap15   { gap: 1.50rem;  }
   .xl\:gap175  { gap: 1.75rem;  }
   .xl\:gap2    { gap: 2.00rem;  }
+  .xl\:gap25   { gap: 2.50rem;  }
+  .xl\:gap3    { gap: 3.00rem;  }
+  .xl\:gap4    { gap: 4.00rem;  }
 
   .xl\:gapx0    { column-gap: 0;        }
   .xl\:gapx0125 { column-gap: 0.125rem; }
@@ -459,6 +498,9 @@
   .xl\:gapx15   { column-gap: 1.50rem;  }
   .xl\:gapx175  { column-gap: 1.75rem;  }
   .xl\:gapx2    { column-gap: 2.00rem;  }
+  .xl\:gapx25   { column-gap: 2.50rem;  }
+  .xl\:gapx3    { column-gap: 3.00rem;  }
+  .xl\:gapx4    { column-gap: 4.00rem;  }
 
   .xl\:gapy0    { row-gap: 0;        }
   .xl\:gapy0125 { row-gap: 0.125rem; }
@@ -470,6 +512,9 @@
   .xl\:gapy15   { row-gap: 1.50rem;  }
   .xl\:gapy175  { row-gap: 1.75rem;  }
   .xl\:gapy2    { row-gap: 2.00rem;  }
+  .xl\:gapy25   { row-gap: 2.50rem;  }
+  .xl\:gapy3    { row-gap: 3.00rem;  }
+  .xl\:gapy4    { row-gap: 4.00rem;  }
 
   .xl\:order0 { order: 0; }
   .xl\:order1 { order: 1; }

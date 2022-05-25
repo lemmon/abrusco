@@ -1406,7 +1406,7 @@ hr {
 }
 
 .vh100 {
-  width: 100vh;
+  height: 100vh;
 }
 
 .minvw {

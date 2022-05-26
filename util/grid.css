@@ -72,6 +72,10 @@
 .minvw { min-width: 100vw; }
 .minvh { min-height: 100vh; }
 
+.mindvh { min-height: 100dvh; }
+.minsvh { min-height: 100svh; }
+.minlvh { min-height: 100lvh; }
+
 .maxw { max-width:  100%; }
 .maxh { max-height: 100%; }
 

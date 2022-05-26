@@ -1417,6 +1417,18 @@ hr {
   min-height: 100vh;
 }
 
+.mindvh {
+  min-height: 100dvh;
+}
+
+.minsvh {
+  min-height: 100svh;
+}
+
+.minlvh {
+  min-height: 100lvh;
+}
+
 .maxw {
   max-width: 100%;
 }

@@ -1449,6 +1449,11 @@ hr {
   flex-direction: column;
 }
 
+.inline-row {
+  display: inline-flex;
+  flex-direction: row;
+}
+
 .row-reverse,
 .row-reverse-wrap {
   display: flex;

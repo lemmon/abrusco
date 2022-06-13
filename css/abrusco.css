@@ -259,24 +259,24 @@ hr {
   --space-secondary: 0.5em;
 }
 
-.copy :first-child {
+.copy > :first-child {
   margin-top: 0;
 }
 
-.copy :last-child {
+.copy > :last-child {
   margin-bottom: 0;
 }
 
-.copy p {
+.copy > p {
   margin-top: var(--space-secondary);
   margin-bottom: var(--space-primary);
 }
 
-.copy :is(h1, h2, h3, h4, h5, h6) {
+.copy > :is(h1, h2, h3, h4, h5, h6) {
   margin-top: var(--space-primary);
 }
 
-.copy :is(ul, ol, dl, div, figure, blockquote) {
+.copy > :is(ul, ol, dl, div, figure, blockquote) {
   margin-top: var(--space-primary);
   margin-bottom: var(--space-primary);
 }

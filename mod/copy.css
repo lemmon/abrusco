@@ -1,20 +1,20 @@
 .copy {
   --space-primary:   1.5em;
   --space-secondary: 0.5em;
-  & :first-child {
+  & > :first-child {
     margin-top: 0;
   }
-  & :last-child {
+  & > :last-child {
     margin-bottom: 0;
   }
-  & p {
+  & > p {
     margin-top: var(--space-secondary);
     margin-bottom: var(--space-primary);
   }
-  & :is(h1, h2, h3, h4, h5, h6) {
+  & > :is(h1, h2, h3, h4, h5, h6) {
     margin-top: var(--space-primary);
   }
-  & :is(ul, ol, dl, div, figure, blockquote) {
+  & > :is(ul, ol, dl, div, figure, blockquote) {
     margin-top: var(--space-primary);
     margin-bottom: var(--space-primary);
   }

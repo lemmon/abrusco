@@ -276,7 +276,7 @@ hr {
   margin-top: var(--space-primary);
 }
 
-.copy > :is(ul, ol, dl, div, figure, blockquote) {
+.copy > :is(ul, ol, dl, pre, figure, blockquote) {
   margin-top: var(--space-primary);
   margin-bottom: var(--space-primary);
 }

@@ -1,6 +1,7 @@
 # 0.21.0 (2022-XX-XX)
 
   * (copy) apply to children only
+  * (copy) drop div, add pre
 
 # 0.20.0 (2022-05-31)
 

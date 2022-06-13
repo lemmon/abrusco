@@ -14,7 +14,7 @@
   & > :is(h1, h2, h3, h4, h5, h6) {
     margin-top: var(--space-primary);
   }
-  & > :is(ul, ol, dl, div, figure, blockquote) {
+  & > :is(ul, ol, dl, pre, figure, blockquote) {
     margin-top: var(--space-primary);
     margin-bottom: var(--space-primary);
   }

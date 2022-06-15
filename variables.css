@@ -65,17 +65,17 @@
   --border-radius4: 0.75rem;   /* 12 */
   --border-radius5: 1rem;      /* 16 */
 
-  --black-hue: 0;
-  --black-sat: 0%;
-  --black-lum: 0%;
-
-  --white-hue: 0;
-  --white-sat: 0%;
-  --white-lum: 100%;
-
   --gray-hue: 0;
   --gray-sat: 0%;
   --gray-lum: 50%;
+
+  --black-hue: var(--gray-hue);
+  --black-sat: var(--gray-sat);
+  --black-lum: 0%;
+
+  --white-hue: var(--gray-hue);
+  --white-sat: var(--gray-sat);
+  --white-lum: 100%;
 
   /* credit to http://clrs.cc/ */
   --aqua:    #7fdbff;

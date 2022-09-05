@@ -58,68 +58,102 @@
   background-color: var(--bg-color);
 }
 
-.bg-aqua {
-  --bg-color: var(--aqua);
-  background-color: var(--bg-color);
-}
-
-.bg-blue {
-  --bg-color: var(--blue);
-  background-color: var(--bg-color);
-}
-
-.bg-navy {
-  --bg-color: var(--navy);
-  background-color: var(--bg-color);
-}
-
-.bg-teal {
-  --bg-color: var(--teal);
-  background-color: var(--bg-color);
-}
-
-.bg-green {
-  --bg-color: var(--green);
-  background-color: var(--bg-color);
-}
-
-.bg-olive {
-  --bg-color: var(--olive);
-  background-color: var(--bg-color);
-}
-
-.bg-lime {
-  --bg-color: var(--lime);
-  background-color: var(--bg-color);
-}
-
-.bg-yellow {
-  --bg-color: var(--yellow);
+.bg-red {
+  --bg-hue: var(--red-hue);
+  --bg-sat: var(--red-sat);
+  --bg-lum: var(--red-lum);
+  --bg-alpha: 100%;
+  --bg-color: var(--red, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
   background-color: var(--bg-color);
 }
 
 .bg-orange {
-  --bg-color: var(--orange);
+  --bg-hue: var(--orange-hue);
+  --bg-sat: var(--orange-sat);
+  --bg-lum: var(--orange-lum);
+  --bg-alpha: 100%;
+  --bg-color: var(--orange, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
   background-color: var(--bg-color);
 }
 
-.bg-red {
-  --bg-color: var(--red);
+.bg-yellow {
+  --bg-hue: var(--yellow-hue);
+  --bg-sat: var(--yellow-sat);
+  --bg-lum: var(--yellow-lum);
+  --bg-alpha: 100%;
+  --bg-color: var(--yellow, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
   background-color: var(--bg-color);
 }
 
-.bg-fuchsia {
-  --bg-color: var(--fuchsia);
+.bg-green {
+  --bg-hue: var(--green-hue);
+  --bg-sat: var(--green-sat);
+  --bg-lum: var(--green-lum);
+  --bg-alpha: 100%;
+  --bg-color: var(--green, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
+  background-color: var(--bg-color);
+}
+
+.bg-teal {
+  --bg-hue: var(--teal-hue);
+  --bg-sat: var(--teal-sat);
+  --bg-lum: var(--teal-lum);
+  --bg-alpha: 100%;
+  --bg-color: var(--teal, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
+  background-color: var(--bg-color);
+}
+
+.bg-cyan {
+  --bg-hue: var(--cyan-hue);
+  --bg-sat: var(--cyan-sat);
+  --bg-lum: var(--cyan-lum);
+  --bg-alpha: 100%;
+  --bg-color: var(--cyan, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
+  background-color: var(--bg-color);
+}
+
+.bg-blue {
+  --bg-hue: var(--blue-hue);
+  --bg-sat: var(--blue-sat);
+  --bg-lum: var(--blue-lum);
+  --bg-alpha: 100%;
+  --bg-color: var(--blue, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
+  background-color: var(--bg-color);
+}
+
+.bg-indigo {
+  --bg-hue: var(--indigo-hue);
+  --bg-sat: var(--indigo-sat);
+  --bg-lum: var(--indigo-lum);
+  --bg-alpha: 100%;
+  --bg-color: var(--indigo, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
   background-color: var(--bg-color);
 }
 
 .bg-purple {
-  --bg-color: var(--purple);
+  --bg-hue: var(--purple-hue);
+  --bg-sat: var(--purple-sat);
+  --bg-lum: var(--purple-lum);
+  --bg-alpha: 100%;
+  --bg-color: var(--purple, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
   background-color: var(--bg-color);
 }
 
-.bg-maroon {
-  --bg-color: var(--maroon);
+.bg-pink {
+  --bg-hue: var(--pink-hue);
+  --bg-sat: var(--pink-sat);
+  --bg-lum: var(--pink-lum);
+  --bg-alpha: 100%;
+  --bg-color: var(--pink, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
+  background-color: var(--bg-color);
+}
+
+.bg-ruby {
+  --bg-hue: var(--ruby-hue);
+  --bg-sat: var(--ruby-sat);
+  --bg-lum: var(--ruby-lum);
+  --bg-alpha: 100%;
+  --bg-color: var(--ruby, hsla(var(--bg-hue) var(--bg-sat) var(--bg-lum) / var(--bg-alpha)));
   background-color: var(--bg-color);
 }
 

@@ -47,68 +47,102 @@
   color: var(--color);
 }
 
-.aqua {
-  --color: var(--aqua);
-  color: var(--color);
-}
-
-.blue {
-  --color: var(--blue);
-  color: var(--color);
-}
-
-.navy {
-  --color: var(--navy);
-  color: var(--color);
-}
-
-.teal {
-  --color: var(--teal);
-  color: var(--color);
-}
-
-.green {
-  --color: var(--green);
-  color: var(--color);
-}
-
-.olive {
-  --color: var(--olive);
-  color: var(--color);
-}
-
-.lime {
-  --color: var(--lime);
-  color: var(--color);
-}
-
-.yellow {
-  --color: var(--yellow);
+.red {
+  --hue: var(--red-hue);
+  --sat: var(--red-sat);
+  --lum: var(--red-lum);
+  --alpha: 100%;
+  --color: var(--red, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
   color: var(--color);
 }
 
 .orange {
-  --color: var(--orange);
+  --hue: var(--orange-hue);
+  --sat: var(--orange-sat);
+  --lum: var(--orange-lum);
+  --alpha: 100%;
+  --color: var(--orange, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
   color: var(--color);
 }
 
-.red {
-  --color: var(--red);
+.yellow {
+  --hue: var(--yellow-hue);
+  --sat: var(--yellow-sat);
+  --lum: var(--yellow-lum);
+  --alpha: 100%;
+  --color: var(--yellow, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
   color: var(--color);
 }
 
-.fuchsia {
-  --color: var(--fuchsia);
+.green {
+  --hue: var(--green-hue);
+  --sat: var(--green-sat);
+  --lum: var(--green-lum);
+  --alpha: 100%;
+  --color: var(--green, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
+  color: var(--color);
+}
+
+.teal {
+  --hue: var(--teal-hue);
+  --sat: var(--teal-sat);
+  --lum: var(--teal-lum);
+  --alpha: 100%;
+  --color: var(--teal, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
+  color: var(--color);
+}
+
+.cyan {
+  --hue: var(--cyan-hue);
+  --sat: var(--cyan-sat);
+  --lum: var(--cyan-lum);
+  --alpha: 100%;
+  --color: var(--cyan, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
+  color: var(--color);
+}
+
+.blue {
+  --hue: var(--blue-hue);
+  --sat: var(--blue-sat);
+  --lum: var(--blue-lum);
+  --alpha: 100%;
+  --color: var(--blue, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
+  color: var(--color);
+}
+
+.indigo {
+  --hue: var(--indigo-hue);
+  --sat: var(--indigo-sat);
+  --lum: var(--indigo-lum);
+  --alpha: 100%;
+  --color: var(--indigo, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
   color: var(--color);
 }
 
 .purple {
-  --color: var(--purple);
+  --hue: var(--purple-hue);
+  --sat: var(--purple-sat);
+  --lum: var(--purple-lum);
+  --alpha: 100%;
+  --color: var(--purple, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
   color: var(--color);
 }
 
-.maroon {
-  --color: var(--maroon);
+.pink {
+  --hue: var(--pink-hue);
+  --sat: var(--pink-sat);
+  --lum: var(--pink-lum);
+  --alpha: 100%;
+  --color: var(--pink, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
+  color: var(--color);
+}
+
+.ruby {
+  --hue: var(--ruby-hue);
+  --sat: var(--ruby-sat);
+  --lum: var(--ruby-lum);
+  --alpha: 100%;
+  --color: var(--ruby, hsla(var(--hue) var(--sat) var(--lum) / var(--alpha)));
   color: var(--color);
 }
 

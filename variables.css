@@ -77,21 +77,49 @@
   --white-sat: var(--gray-sat);
   --white-lum: 100%;
 
-  /* credit to http://clrs.cc/ */
-  --aqua:    #7fdbff;
-  --blue:    #0074d9;
-  --navy:    #001f3f;
-  --teal:    #39cccc;
-  --green:   #2ecc40;
-  --olive:   #3d9970;
-  --lime:    #01ff70;
-  --yellow:  #ffdc00;
-  --orange:  #ff851b;
-  --red:     #ff4136;
-  --fuchsia: #f012be;
-  --purple:  #b10dc9;
-  --maroon:  #85144b;
-  /* /credit */
+  --red-hue:    355;
+  --red-sat:     80%;
+  --red-lum:     50%;
+
+  --orange-hue:  25;
+  --orange-sat:  90%;
+  --orange-lum:  50%;
+
+  --yellow-hue:  55;
+  --yellow-sat:  90%;
+  --yellow-lum:  50%;
+
+  --green-hue:  130;
+  --green-sat:   65%;
+  --green-lum:   50%;
+
+  --teal-hue:   175;
+  --teal-sat:    70%;
+  --teal-lum:    50%;
+
+  --cyan-hue:   190;
+  --cyan-sat:    80%;
+  --cyan-lum:    50%;
+
+  --blue-hue:   220;
+  --blue-sat:    80%;
+  --blue-lum:    50%;
+
+  --indigo-hue: 265;
+  --indigo-sat:  80%;
+  --indigo-lum:  50%;
+
+  --purple-hue: 280;
+  --purple-sat:  80%;
+  --purple-lum:  50%;
+
+  --pink-hue:   325;
+  --pink-sat:    80%;
+  --pink-lum:    50%;
+
+  --ruby-hue:   340;
+  --ruby-sat:    80%;
+  --ruby-lum:    50%;
 
 }
 

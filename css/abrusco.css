@@ -4859,223 +4859,333 @@ hr {
   color: var(--color);
 }
 
-.sat0 {
+.sat0,
+.sat0\:hover:hover,
+.anchor:hover .sat0\:hover {
   --sat: 0%;
 }
 
-.sat5 {
+.sat5,
+.sat5\:hover:hover,
+.anchor:hover .sat5\:hover {
   --sat: 5%;
 }
 
-.sat10 {
+.sat10,
+.sat10\:hover:hover,
+.anchor:hover .sat10\:hover {
   --sat: 10%;
 }
 
-.sat15 {
+.sat15,
+.sat15\:hover:hover,
+.anchor:hover .sat15\:hover {
   --sat: 15%;
 }
 
-.sat20 {
+.sat20,
+.sat20\:hover:hover,
+.anchor:hover .sat20\:hover {
   --sat: 20%;
 }
 
-.sat25 {
+.sat25,
+.sat25\:hover:hover,
+.anchor:hover .sat25\:hover {
   --sat: 25%;
 }
 
-.sat30 {
+.sat30,
+.sat30\:hover:hover,
+.anchor:hover .sat30\:hover {
   --sat: 30%;
 }
 
-.sat35 {
+.sat35,
+.sat35\:hover:hover,
+.anchor:hover .sat35\:hover {
   --sat: 35%;
 }
 
-.sat40 {
+.sat40,
+.sat40\:hover:hover,
+.anchor:hover .sat40\:hover {
   --sat: 40%;
 }
 
-.sat45 {
+.sat45,
+.sat45\:hover:hover,
+.anchor:hover .sat45\:hover {
   --sat: 45%;
 }
 
-.sat50 {
+.sat50,
+.sat50\:hover:hover,
+.anchor:hover .sat50\:hover {
   --sat: 50%;
 }
 
-.sat55 {
+.sat55,
+.sat55\:hover:hover,
+.anchor:hover .sat55\:hover {
   --sat: 55%;
 }
 
-.sat60 {
+.sat60,
+.sat60\:hover:hover,
+.anchor:hover .sat60\:hover {
   --sat: 60%;
 }
 
-.sat65 {
+.sat65,
+.sat65\:hover:hover,
+.anchor:hover .sat65\:hover {
   --sat: 65%;
 }
 
-.sat70 {
+.sat70,
+.sat70\:hover:hover,
+.anchor:hover .sat70\:hover {
   --sat: 70%;
 }
 
-.sat75 {
+.sat75,
+.sat75\:hover:hover,
+.anchor:hover .sat75\:hover {
   --sat: 75%;
 }
 
-.sat80 {
+.sat80,
+.sat80\:hover:hover,
+.anchor:hover .sat80\:hover {
   --sat: 80%;
 }
 
-.sat85 {
+.sat85,
+.sat85\:hover:hover,
+.anchor:hover .sat85\:hover {
   --sat: 85%;
 }
 
-.sat90 {
+.sat90,
+.sat90\:hover:hover,
+.anchor:hover .sat90\:hover {
   --sat: 90%;
 }
 
-.sat95 {
+.sat95,
+.sat95\:hover:hover,
+.anchor:hover .sat95\:hover {
   --sat: 95%;
 }
 
-.sat100 {
+.sat100,
+.sat100\:hover:hover,
+.anchor:hover .sat100\:hover {
   --sat: 100%;
 }
 
-.lum0 {
+.lum0,
+.lum0\:hover:hover,
+.anchor:hover .lum0\:hover {
   --lum: 0%;
 }
 
-.lum5 {
+.lum5,
+.lum5\:hover:hover,
+.anchor:hover .lum5\:hover {
   --lum: 5%;
 }
 
-.lum10 {
+.lum10,
+.lum10\:hover:hover,
+.anchor:hover .lum10\:hover {
   --lum: 10%;
 }
 
-.lum15 {
+.lum15,
+.lum15\:hover:hover,
+.anchor:hover .lum15\:hover {
   --lum: 15%;
 }
 
-.lum20 {
+.lum20,
+.lum20\:hover:hover,
+.anchor:hover .lum20\:hover {
   --lum: 20%;
 }
 
-.lum25 {
+.lum25,
+.lum25\:hover:hover,
+.anchor:hover .lum25\:hover {
   --lum: 25%;
 }
 
-.lum30 {
+.lum30,
+.lum30\:hover:hover,
+.anchor:hover .lum30\:hover {
   --lum: 30%;
 }
 
-.lum35 {
+.lum35,
+.lum35\:hover:hover,
+.anchor:hover .lum35\:hover {
   --lum: 35%;
 }
 
-.lum40 {
+.lum40,
+.lum40\:hover:hover,
+.anchor:hover .lum40\:hover {
   --lum: 40%;
 }
 
-.lum45 {
+.lum45,
+.lum45\:hover:hover,
+.anchor:hover .lum45\:hover {
   --lum: 45%;
 }
 
-.lum50 {
+.lum50,
+.lum50\:hover:hover,
+.anchor:hover .lum50\:hover {
   --lum: 50%;
 }
 
-.lum55 {
+.lum55,
+.lum55\:hover:hover,
+.anchor:hover .lum55\:hover {
   --lum: 55%;
 }
 
-.lum60 {
+.lum60,
+.lum60\:hover:hover,
+.anchor:hover .lum60\:hover {
   --lum: 60%;
 }
 
-.lum65 {
+.lum65,
+.lum65\:hover:hover,
+.anchor:hover .lum65\:hover {
   --lum: 65%;
 }
 
-.lum70 {
+.lum70,
+.lum70\:hover:hover,
+.anchor:hover .lum70\:hover {
   --lum: 70%;
 }
 
-.lum75 {
+.lum75,
+.lum75\:hover:hover,
+.anchor:hover .lum75\:hover {
   --lum: 75%;
 }
 
-.lum80 {
+.lum80,
+.lum80\:hover:hover,
+.anchor:hover .lum80\:hover {
   --lum: 80%;
 }
 
-.lum85 {
+.lum85,
+.lum85\:hover:hover,
+.anchor:hover .lum85\:hover {
   --lum: 85%;
 }
 
-.lum90 {
+.lum90,
+.lum90\:hover:hover,
+.anchor:hover .lum90\:hover {
   --lum: 90%;
 }
 
-.lum95 {
+.lum95,
+.lum95\:hover:hover,
+.anchor:hover .lum95\:hover {
   --lum: 95%;
 }
 
-.lum100 {
+.lum100,
+.lum100\:hover:hover,
+.anchor:hover .lum100\:hover {
   --lum: 100%;
 }
 
-.alpha0 {
+.alpha0,
+.alpha0\:hover:hover,
+.anchor:hover .alpha0\:hover {
   --alpha: 0%;
 }
 
-.alpha5 {
+.alpha5,
+.alpha5\:hover:hover,
+.anchor:hover .alpha5\:hover {
   --alpha: 5%;
 }
 
-.alpha10 {
+.alpha10,
+.alpha10\:hover:hover,
+.anchor:hover .alpha10\:hover {
   --alpha: 10%;
 }
 
-.alpha20 {
+.alpha20,
+.alpha20\:hover:hover,
+.anchor:hover .alpha20\:hover {
   --alpha: 20%;
 }
 
-.alpha30 {
+.alpha30,
+.alpha30\:hover:hover,
+.anchor:hover .alpha30\:hover {
   --alpha: 30%;
 }
 
-.alpha40 {
+.alpha40,
+.alpha40\:hover:hover,
+.anchor:hover .alpha40\:hover {
   --alpha: 40%;
 }
 
-.alpha50 {
+.alpha50,
+.alpha50\:hover:hover,
+.anchor:hover .alpha50\:hover {
   --alpha: 50%;
 }
 
-.alpha60 {
+.alpha60,
+.alpha60\:hover:hover,
+.anchor:hover .alpha60\:hover {
   --alpha: 60%;
 }
 
-.alpha70 {
+.alpha70,
+.alpha70\:hover:hover,
+.anchor:hover .alpha70\:hover {
   --alpha: 70%;
 }
 
-.alpha80 {
+.alpha80,
+.alpha80\:hover:hover,
+.anchor:hover .alpha80\:hover {
   --alpha: 80%;
 }
 
-.alpha90 {
+.alpha90,
+.alpha90\:hover:hover,
+.anchor:hover .alpha90\:hover {
   --alpha: 90%;
 }
 
-.alpha95 {
+.alpha95,
+.alpha95\:hover:hover,
+.anchor:hover .alpha95\:hover {
   --alpha: 95%;
 }
 
-.alpha100 {
+.alpha100,
+.alpha100\:hover:hover,
+.anchor:hover .alpha100\:hover {
   --alpha: 100%;
 }
 
@@ -5299,223 +5409,333 @@ hr {
   background-color: var(--bg-color);
 }
 
-.bg-sat0 {
+.bg-sat0,
+.bg-sat0\:hover:hover,
+.anchor:hover .bg-sat0\:hover {
   --bg-sat: 0%;
 }
 
-.bg-sat5 {
+.bg-sat5,
+.bg-sat5\:hover:hover,
+.anchor:hover .bg-sat5\:hover {
   --bg-sat: 5%;
 }
 
-.bg-sat10 {
+.bg-sat10,
+.bg-sat10\:hover:hover,
+.anchor:hover .bg-sat10\:hover {
   --bg-sat: 10%;
 }
 
-.bg-sat15 {
+.bg-sat15,
+.bg-sat15\:hover:hover,
+.anchor:hover .bg-sat15\:hover {
   --bg-sat: 15%;
 }
 
-.bg-sat20 {
+.bg-sat20,
+.bg-sat20\:hover:hover,
+.anchor:hover .bg-sat20\:hover {
   --bg-sat: 20%;
 }
 
-.bg-sat25 {
+.bg-sat25,
+.bg-sat25\:hover:hover,
+.anchor:hover .bg-sat25\:hover {
   --bg-sat: 25%;
 }
 
-.bg-sat30 {
+.bg-sat30,
+.bg-sat30\:hover:hover,
+.anchor:hover .bg-sat30\:hover {
   --bg-sat: 30%;
 }
 
-.bg-sat35 {
+.bg-sat35,
+.bg-sat35\:hover:hover,
+.anchor:hover .bg-sat35\:hover {
   --bg-sat: 35%;
 }
 
-.bg-sat40 {
+.bg-sat40,
+.bg-sat40\:hover:hover,
+.anchor:hover .bg-sat40\:hover {
   --bg-sat: 40%;
 }
 
-.bg-sat45 {
+.bg-sat45,
+.bg-sat45\:hover:hover,
+.anchor:hover .bg-sat45\:hover {
   --bg-sat: 45%;
 }
 
-.bg-sat50 {
+.bg-sat50,
+.bg-sat50\:hover:hover,
+.anchor:hover .bg-sat50\:hover {
   --bg-sat: 50%;
 }
 
-.bg-sat55 {
+.bg-sat55,
+.bg-sat55\:hover:hover,
+.anchor:hover .bg-sat55\:hover {
   --bg-sat: 55%;
 }
 
-.bg-sat60 {
+.bg-sat60,
+.bg-sat60\:hover:hover,
+.anchor:hover .bg-sat60\:hover {
   --bg-sat: 60%;
 }
 
-.bg-sat65 {
+.bg-sat65,
+.bg-sat65\:hover:hover,
+.anchor:hover .bg-sat65\:hover {
   --bg-sat: 65%;
 }
 
-.bg-sat70 {
+.bg-sat70,
+.bg-sat70\:hover:hover,
+.anchor:hover .bg-sat70\:hover {
   --bg-sat: 70%;
 }
 
-.bg-sat75 {
+.bg-sat75,
+.bg-sat75\:hover:hover,
+.anchor:hover .bg-sat75\:hover {
   --bg-sat: 75%;
 }
 
-.bg-sat80 {
+.bg-sat80,
+.bg-sat80\:hover:hover,
+.anchor:hover .bg-sat80\:hover {
   --bg-sat: 80%;
 }
 
-.bg-sat85 {
+.bg-sat85,
+.bg-sat85\:hover:hover,
+.anchor:hover .bg-sat85\:hover {
   --bg-sat: 85%;
 }
 
-.bg-sat90 {
+.bg-sat90,
+.bg-sat90\:hover:hover,
+.anchor:hover .bg-sat90\:hover {
   --bg-sat: 90%;
 }
 
-.bg-sat95 {
+.bg-sat95,
+.bg-sat95\:hover:hover,
+.anchor:hover .bg-sat95\:hover {
   --bg-sat: 95%;
 }
 
-.bg-sat100 {
+.bg-sat100,
+.bg-sat100\:hover:hover,
+.anchor:hover .bg-sat100\:hover {
   --bg-sat: 100%;
 }
 
-.bg-lum0 {
+.bg-lum0,
+.bg-lum0\:hover:hover,
+.anchor:hover .bg-lum0\:hover {
   --bg-lum: 0%;
 }
 
-.bg-lum5 {
+.bg-lum5,
+.bg-lum5\:hover:hover,
+.anchor:hover .bg-lum5\:hover {
   --bg-lum: 5%;
 }
 
-.bg-lum10 {
+.bg-lum10,
+.bg-lum10\:hover:hover,
+.anchor:hover .bg-lum10\:hover {
   --bg-lum: 10%;
 }
 
-.bg-lum15 {
+.bg-lum15,
+.bg-lum15\:hover:hover,
+.anchor:hover .bg-lum15\:hover {
   --bg-lum: 15%;
 }
 
-.bg-lum20 {
+.bg-lum20,
+.bg-lum20\:hover:hover,
+.anchor:hover .bg-lum20\:hover {
   --bg-lum: 20%;
 }
 
-.bg-lum25 {
+.bg-lum25,
+.bg-lum25\:hover:hover,
+.anchor:hover .bg-lum25\:hover {
   --bg-lum: 25%;
 }
 
-.bg-lum30 {
+.bg-lum30,
+.bg-lum30\:hover:hover,
+.anchor:hover .bg-lum30\:hover {
   --bg-lum: 30%;
 }
 
-.bg-lum35 {
+.bg-lum35,
+.bg-lum35\:hover:hover,
+.anchor:hover .bg-lum35\:hover {
   --bg-lum: 35%;
 }
 
-.bg-lum40 {
+.bg-lum40,
+.bg-lum40\:hover:hover,
+.anchor:hover .bg-lum40\:hover {
   --bg-lum: 40%;
 }
 
-.bg-lum45 {
+.bg-lum45,
+.bg-lum45\:hover:hover,
+.anchor:hover .bg-lum45\:hover {
   --bg-lum: 45%;
 }
 
-.bg-lum50 {
+.bg-lum50,
+.bg-lum50\:hover:hover,
+.anchor:hover .bg-lum50\:hover {
   --bg-lum: 50%;
 }
 
-.bg-lum55 {
+.bg-lum55,
+.bg-lum55\:hover:hover,
+.anchor:hover .bg-lum55\:hover {
   --bg-lum: 55%;
 }
 
-.bg-lum60 {
+.bg-lum60,
+.bg-lum60\:hover:hover,
+.anchor:hover .bg-lum60\:hover {
   --bg-lum: 60%;
 }
 
-.bg-lum65 {
+.bg-lum65,
+.bg-lum65\:hover:hover,
+.anchor:hover .bg-lum65\:hover {
   --bg-lum: 65%;
 }
 
-.bg-lum70 {
+.bg-lum70,
+.bg-lum70\:hover:hover,
+.anchor:hover .bg-lum70\:hover {
   --bg-lum: 70%;
 }
 
-.bg-lum75 {
+.bg-lum75,
+.bg-lum75\:hover:hover,
+.anchor:hover .bg-lum75\:hover {
   --bg-lum: 75%;
 }
 
-.bg-lum80 {
+.bg-lum80,
+.bg-lum80\:hover:hover,
+.anchor:hover .bg-lum80\:hover {
   --bg-lum: 80%;
 }
 
-.bg-lum85 {
+.bg-lum85,
+.bg-lum85\:hover:hover,
+.anchor:hover .bg-lum85\:hover {
   --bg-lum: 85%;
 }
 
-.bg-lum90 {
+.bg-lum90,
+.bg-lum90\:hover:hover,
+.anchor:hover .bg-lum90\:hover {
   --bg-lum: 90%;
 }
 
-.bg-lum95 {
+.bg-lum95,
+.bg-lum95\:hover:hover,
+.anchor:hover .bg-lum95\:hover {
   --bg-lum: 95%;
 }
 
-.bg-lum100 {
+.bg-lum100,
+.bg-lum100\:hover:hover,
+.anchor:hover .bg-lum100\:hover {
   --bg-lum: 100%;
 }
 
-.bg-alpha0 {
+.bg-alpha0,
+.bg-alpha0\:hover:hover,
+.anchor:hover .bg-alpha0\:hover {
   --bg-alpha: 0%;
 }
 
-.bg-alpha5 {
+.bg-alpha5,
+.bg-alpha5\:hover:hover,
+.anchor:hover .bg-alpha5\:hover {
   --bg-alpha: 5%;
 }
 
-.bg-alpha10 {
+.bg-alpha10,
+.bg-alpha10\:hover:hover,
+.anchor:hover .bg-alpha10\:hover {
   --bg-alpha: 10%;
 }
 
-.bg-alpha20 {
+.bg-alpha20,
+.bg-alpha20\:hover:hover,
+.anchor:hover .bg-alpha20\:hover {
   --bg-alpha: 20%;
 }
 
-.bg-alpha30 {
+.bg-alpha30,
+.bg-alpha30\:hover:hover,
+.anchor:hover .bg-alpha30\:hover {
   --bg-alpha: 30%;
 }
 
-.bg-alpha40 {
+.bg-alpha40,
+.bg-alpha40\:hover:hover,
+.anchor:hover .bg-alpha40\:hover {
   --bg-alpha: 40%;
 }
 
-.bg-alpha50 {
+.bg-alpha50,
+.bg-alpha50\:hover:hover,
+.anchor:hover .bg-alpha50\:hover {
   --bg-alpha: 50%;
 }
 
-.bg-alpha60 {
+.bg-alpha60,
+.bg-alpha60\:hover:hover,
+.anchor:hover .bg-alpha60\:hover {
   --bg-alpha: 60%;
 }
 
-.bg-alpha70 {
+.bg-alpha70,
+.bg-alpha70\:hover:hover,
+.anchor:hover .bg-alpha70\:hover {
   --bg-alpha: 70%;
 }
 
-.bg-alpha80 {
+.bg-alpha80,
+.bg-alpha80\:hover:hover,
+.anchor:hover .bg-alpha80\:hover {
   --bg-alpha: 80%;
 }
 
-.bg-alpha90 {
+.bg-alpha90,
+.bg-alpha90\:hover:hover,
+.anchor:hover .bg-alpha90\:hover {
   --bg-alpha: 90%;
 }
 
-.bg-alpha95 {
+.bg-alpha95,
+.bg-alpha95\:hover:hover,
+.anchor:hover .bg-alpha95\:hover {
   --bg-alpha: 95%;
 }
 
-.bg-alpha100 {
+.bg-alpha100,
+.bg-alpha100\:hover:hover,
+.anchor:hover .bg-alpha100\:hover {
   --bg-alpha: 100%;
 }
 

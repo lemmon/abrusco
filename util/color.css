@@ -47,7 +47,9 @@
   color: var(--color);
 }
 
-.red {
+.red,
+.red\:hover:hover,
+.anchor:hover .red\:hover {
   --hue: var(--red-hue);
   --sat: var(--red-sat);
   --lum: var(--red-lum);
@@ -56,7 +58,9 @@
   color: var(--color);
 }
 
-.orange {
+.orange,
+.orange\:hover:hover,
+.anchor:hover .orange\:hover {
   --hue: var(--orange-hue);
   --sat: var(--orange-sat);
   --lum: var(--orange-lum);
@@ -65,7 +69,9 @@
   color: var(--color);
 }
 
-.yellow {
+.yellow,
+.yellow\:hover:hover,
+.anchor:hover .yellow\:hover {
   --hue: var(--yellow-hue);
   --sat: var(--yellow-sat);
   --lum: var(--yellow-lum);
@@ -74,7 +80,9 @@
   color: var(--color);
 }
 
-.green {
+.green,
+.green\:hover:hover,
+.anchor:hover .green\:hover {
   --hue: var(--green-hue);
   --sat: var(--green-sat);
   --lum: var(--green-lum);
@@ -83,7 +91,9 @@
   color: var(--color);
 }
 
-.teal {
+.teal,
+.teal\:hover:hover,
+.anchor:hover .teal\:hover {
   --hue: var(--teal-hue);
   --sat: var(--teal-sat);
   --lum: var(--teal-lum);
@@ -92,7 +102,9 @@
   color: var(--color);
 }
 
-.cyan {
+.cyan,
+.cyan\:hover:hover,
+.anchor:hover .cyan\:hover {
   --hue: var(--cyan-hue);
   --sat: var(--cyan-sat);
   --lum: var(--cyan-lum);
@@ -101,7 +113,9 @@
   color: var(--color);
 }
 
-.blue {
+.blue,
+.blue\:hover:hover,
+.anchor:hover .blue\:hover {
   --hue: var(--blue-hue);
   --sat: var(--blue-sat);
   --lum: var(--blue-lum);
@@ -110,7 +124,9 @@
   color: var(--color);
 }
 
-.indigo {
+.indigo,
+.indigo\:hover:hover,
+.anchor:hover .indigo\:hover {
   --hue: var(--indigo-hue);
   --sat: var(--indigo-sat);
   --lum: var(--indigo-lum);
@@ -119,7 +135,9 @@
   color: var(--color);
 }
 
-.purple {
+.purple,
+.purple\:hover:hover,
+.anchor:hover .purple\:hover {
   --hue: var(--purple-hue);
   --sat: var(--purple-sat);
   --lum: var(--purple-lum);
@@ -128,7 +146,9 @@
   color: var(--color);
 }
 
-.pink {
+.pink,
+.pink\:hover:hover,
+.anchor:hover .pink\:hover {
   --hue: var(--pink-hue);
   --sat: var(--pink-sat);
   --lum: var(--pink-lum);
@@ -137,7 +157,9 @@
   color: var(--color);
 }
 
-.ruby {
+.ruby,
+.ruby\:hover:hover,
+.anchor:hover .ruby\:hover {
   --hue: var(--ruby-hue);
   --sat: var(--ruby-sat);
   --lum: var(--ruby-lum);

@@ -58,7 +58,9 @@
   background-color: var(--bg-color);
 }
 
-.bg-red {
+.bg-red,
+.bg-red\:hover:hover,
+.anchor:hover .bg-red\:hover {
   --bg-hue: var(--red-hue);
   --bg-sat: var(--red-sat);
   --bg-lum: var(--red-lum);
@@ -67,7 +69,9 @@
   background-color: var(--bg-color);
 }
 
-.bg-orange {
+.bg-orange,
+.bg-orange\:hover:hover,
+.anchor:hover .bg-orange\:hover {
   --bg-hue: var(--orange-hue);
   --bg-sat: var(--orange-sat);
   --bg-lum: var(--orange-lum);
@@ -76,7 +80,9 @@
   background-color: var(--bg-color);
 }
 
-.bg-yellow {
+.bg-yellow,
+.bg-yellow\:hover:hover,
+.anchor:hover .bg-yellow\:hover {
   --bg-hue: var(--yellow-hue);
   --bg-sat: var(--yellow-sat);
   --bg-lum: var(--yellow-lum);
@@ -85,7 +91,9 @@
   background-color: var(--bg-color);
 }
 
-.bg-green {
+.bg-green,
+.bg-green\:hover:hover,
+.anchor:hover .bg-green\:hover {
   --bg-hue: var(--green-hue);
   --bg-sat: var(--green-sat);
   --bg-lum: var(--green-lum);
@@ -94,7 +102,9 @@
   background-color: var(--bg-color);
 }
 
-.bg-teal {
+.bg-teal,
+.bg-teal\:hover:hover,
+.anchor:hover .bg-teal\:hover {
   --bg-hue: var(--teal-hue);
   --bg-sat: var(--teal-sat);
   --bg-lum: var(--teal-lum);
@@ -103,7 +113,9 @@
   background-color: var(--bg-color);
 }
 
-.bg-cyan {
+.bg-cyan,
+.bg-cyan\:hover:hover,
+.anchor:hover .bg-cyan\:hover {
   --bg-hue: var(--cyan-hue);
   --bg-sat: var(--cyan-sat);
   --bg-lum: var(--cyan-lum);
@@ -112,7 +124,9 @@
   background-color: var(--bg-color);
 }
 
-.bg-blue {
+.bg-blue,
+.bg-blue\:hover:hover,
+.anchor:hover .bg-blue\:hover {
   --bg-hue: var(--blue-hue);
   --bg-sat: var(--blue-sat);
   --bg-lum: var(--blue-lum);
@@ -121,7 +135,9 @@
   background-color: var(--bg-color);
 }
 
-.bg-indigo {
+.bg-indigo,
+.bg-indigo\:hover:hover,
+.anchor:hover .bg-indigo\:hover {
   --bg-hue: var(--indigo-hue);
   --bg-sat: var(--indigo-sat);
   --bg-lum: var(--indigo-lum);
@@ -130,7 +146,9 @@
   background-color: var(--bg-color);
 }
 
-.bg-purple {
+.bg-purple,
+.bg-purple\:hover:hover,
+.anchor:hover .bg-purple\:hover {
   --bg-hue: var(--purple-hue);
   --bg-sat: var(--purple-sat);
   --bg-lum: var(--purple-lum);
@@ -139,7 +157,9 @@
   background-color: var(--bg-color);
 }
 
-.bg-pink {
+.bg-pink,
+.bg-pink\:hover:hover,
+.anchor:hover .bg-pink\:hover {
   --bg-hue: var(--pink-hue);
   --bg-sat: var(--pink-sat);
   --bg-lum: var(--pink-lum);
@@ -148,7 +168,9 @@
   background-color: var(--bg-color);
 }
 
-.bg-ruby {
+.bg-ruby,
+.bg-ruby\:hover:hover,
+.anchor:hover .bg-ruby\:hover {
   --bg-hue: var(--ruby-hue);
   --bg-sat: var(--ruby-sat);
   --bg-lum: var(--ruby-lum);

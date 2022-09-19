@@ -5,6 +5,7 @@
   --default-bg-color: var(--white, hsl(var(--white-hue) var(--white-sat) var(--white-lum)));
   --default-color: var(--black, hsl(var(--black-hue) var(--black-sat) var(--black-lum)));
   --default-border-width: 1px;
+  --default-border-style: solid;
   --default-border-color: currentColor;
 
   --font-size: var(--default-font-size);
@@ -12,6 +13,7 @@
   --bg-color: var(--default-bg-color);
   --color: var(--default-color);
   --border-width: var(--default-border-width);
+  --border-style: var(--default-border-style);
   --border-color: var(--default-border-color);
   --text-decoration-color: currentColor;
   --text-decoration-thickness: auto;

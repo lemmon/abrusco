@@ -142,6 +142,7 @@ table {
   --default-bg-color: var(--white, hsl(var(--white-hue) var(--white-sat) var(--white-lum)));
   --default-color: var(--black, hsl(var(--black-hue) var(--black-sat) var(--black-lum)));
   --default-border-width: 1px;
+  --default-border-style: solid;
   --default-border-color: currentColor;
 
   --font-size: var(--default-font-size);
@@ -149,6 +150,7 @@ table {
   --bg-color: var(--default-bg-color);
   --color: var(--default-color);
   --border-width: var(--default-border-width);
+  --border-style: var(--default-border-style);
   --border-color: var(--default-border-color);
   --text-decoration-color: currentColor;
   --text-decoration-thickness: auto;
@@ -4350,23 +4352,39 @@ hr {
 }
 
 .border {
-  border: var(--border-width) solid var(--border-color);
+  border: var(--border-width) var(--border-style) var(--border-color);
 }
 
 .border-left {
-  border-left: var(--border-width) solid var(--border-color);
+  border-left: var(--border-width) var(--border-style) var(--border-color);
 }
 
 .border-right {
-  border-right: var(--border-width) solid var(--border-color);
+  border-right: var(--border-width) var(--border-style) var(--border-color);
 }
 
 .border-top {
-  border-top: var(--border-width) solid var(--border-color);
+  border-top: var(--border-width) var(--border-style) var(--border-color);
 }
 
 .border-bottom {
-  border-bottom: var(--border-width) solid var(--border-color);
+  border-bottom: var(--border-width) var(--border-style) var(--border-color);
+}
+
+.border-solid {
+  --border-style: solid;
+}
+
+.border-dotted {
+  --border-style: dotted;
+}
+
+.border-dashed {
+  --border-style: dashed;
+}
+
+.border-double {
+  --border-style: double;
 }
 
 .border-black {

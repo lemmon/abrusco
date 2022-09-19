@@ -1,8 +1,13 @@
-.border        { border:        var(--border-width) solid var(--border-color); }
-.border-left   { border-left:   var(--border-width) solid var(--border-color); }
-.border-right  { border-right:  var(--border-width) solid var(--border-color); }
-.border-top    { border-top:    var(--border-width) solid var(--border-color); }
-.border-bottom { border-bottom: var(--border-width) solid var(--border-color); }
+.border        { border:        var(--border-width) var(--border-style) var(--border-color); }
+.border-left   { border-left:   var(--border-width) var(--border-style) var(--border-color); }
+.border-right  { border-right:  var(--border-width) var(--border-style) var(--border-color); }
+.border-top    { border-top:    var(--border-width) var(--border-style) var(--border-color); }
+.border-bottom { border-bottom: var(--border-width) var(--border-style) var(--border-color); }
+
+.border-solid  { --border-style: solid; }
+.border-dotted { --border-style: dotted; }
+.border-dashed { --border-style: dashed; }
+.border-double { --border-style: double; }
 
 .border-black {
   --border-hue: var(--black-hue);

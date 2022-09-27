@@ -1,4 +1,4 @@
-# 0.22.0 (2022-09-XX)
+# 0.22.0 (2022-09-27)
 
   * color palette revamp (see https://github.com/lemmon/abrusco/blob/master/variables.css)
   * (color,background) accents hover states

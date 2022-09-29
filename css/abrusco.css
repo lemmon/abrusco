@@ -561,7 +561,6 @@ hr {
 .ul\:hover:hover,
 .anchor:hover .ul\:hover {
   text-decoration: underline;
-  -webkit-text-decoration-color: var(--text-decoration-color);
   text-decoration-color: var(--text-decoration-color);
   text-decoration-thickness: var(--text-decoration-thickness);
   text-underline-offset: var(--text-underline-offset);

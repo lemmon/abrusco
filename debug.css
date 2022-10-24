@@ -1,12 +1,12 @@
-.-d { outline: 1px dashed var(--purple); }
-.-d * { outline: 1px dashed var(--lime); }
-.-d *.-d { outline: 1px dashed var(--purple); }
+.-d,
+.-d *.-d { outline: 1px dashed hsl(var(--purple-hue) var(--purple-sat) var(--purple-lum)); }
+.-d * { outline: 1px dashed hsl(var(--cyan-hue) var(--cyan-sat) var(--cyan-lum)); }
 
 .-view {
   position: fixed;
   left: 0;
   top: 0;
-  background-color: var(--yellow);
+  background-color: hsl(var(--yellow-hue) var(--yellow-sat) var(--yellow-lum));
   color: #000;
   line-height: 1;
   font-size: 12px;

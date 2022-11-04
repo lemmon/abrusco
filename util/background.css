@@ -25,6 +25,12 @@
   background-color: transparent;
 }
 
+.bg,
+.bg\:hover:hover,
+.anchor:hover .bg\:hover {
+  background-color: var(--bg-color);
+}
+
 .bg-black,
 .bg-black\:hover:hover,
 .anchor:hover .bg-black\:hover {

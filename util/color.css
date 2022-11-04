@@ -14,6 +14,12 @@
   color: transparent;
 }
 
+.color,
+.color\:hover:hover,
+.anchor:hover .color\:hover {
+  color: var(--color);
+}
+
 .black,
 .black\:hover:hover,
 .anchor:hover .black\:hover {

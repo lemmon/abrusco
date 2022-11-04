@@ -4722,6 +4722,12 @@ hr {
   color: transparent;
 }
 
+.color,
+.color\:hover:hover,
+.anchor:hover .color\:hover {
+  color: var(--color);
+}
+
 .black,
 .black\:hover:hover,
 .anchor:hover .black\:hover {
@@ -5270,6 +5276,12 @@ hr {
 .bg-transparent\:hover:hover,
 .anchor:hover .bg-transparent\:hover {
   background-color: transparent;
+}
+
+.bg,
+.bg\:hover:hover,
+.anchor:hover .bg\:hover {
+  background-color: var(--bg-color);
 }
 
 .bg-black,

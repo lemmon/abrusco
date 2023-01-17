@@ -1,4 +1,4 @@
-# 0.23.0 (2023-01-XX)
+# 0.23.0 (2023-01-17)
 
   * (color, bg) .color, .bg to apply current by defined css variable
   * (color, bg) .color-bg, .bg-color switch color and bg-color defined by css variable

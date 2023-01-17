@@ -296,11 +296,11 @@ hr {
   margin-top: var(--space-heading);
 }
 
-.copy > :is(p, ul, ol, dl, pre, figure, blockquote):not(:first-child) {
+.copy > :is(p, ul, ol, dl, pre, figure, blockquote, div):not(:first-child) {
   margin-top: var(--space);
 }
 
-.copy > :is(p, ul, ol, dl, pre, figure, blockquote):not(:last-child) {
+.copy > :is(p, ul, ol, dl, pre, figure, blockquote, div):not(:last-child) {
   margin-bottom: var(--space);
 }
 

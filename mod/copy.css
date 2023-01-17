@@ -4,10 +4,10 @@
   & > :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
     margin-top: var(--space-heading);
   }
-  & > :is(p, ul, ol, dl, pre, figure, blockquote):not(:first-child) {
+  & > :is(p, ul, ol, dl, pre, figure, blockquote, div):not(:first-child) {
     margin-top: var(--space);
   }
-  & > :is(p, ul, ol, dl, pre, figure, blockquote):not(:last-child) {
+  & > :is(p, ul, ol, dl, pre, figure, blockquote, div):not(:last-child) {
     margin-bottom: var(--space);
   }
 }

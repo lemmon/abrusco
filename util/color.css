@@ -20,6 +20,12 @@
   color: var(--color);
 }
 
+.color-bg,
+.color-bg\:hover:hover,
+.anchor:hover .color-bg\:hover {
+  color: var(--bg-color);
+}
+
 .black,
 .black\:hover:hover,
 .anchor:hover .black\:hover {

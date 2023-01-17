@@ -1,6 +1,7 @@
 # 0.23.0 (2023-01-XX)
 
   * (color, bg) .color, .bg to apply current by defined css variable
+  * (color, bg) .color-bg, .bg-color switch color and bg-color defined by css variable
   * (color) tweak yellow
 
 # 0.22.0 (2022-09-27)

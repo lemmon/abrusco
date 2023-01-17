@@ -31,6 +31,12 @@
   background-color: var(--bg-color);
 }
 
+.bg-color,
+.bg-color\:hover:hover,
+.anchor:hover .bg-color\:hover {
+  background-color: var(--color);
+}
+
 .bg-black,
 .bg-black\:hover:hover,
 .anchor:hover .bg-black\:hover {

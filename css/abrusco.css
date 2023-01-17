@@ -4728,6 +4728,12 @@ hr {
   color: var(--color);
 }
 
+.color-bg,
+.color-bg\:hover:hover,
+.anchor:hover .color-bg\:hover {
+  color: var(--bg-color);
+}
+
 .black,
 .black\:hover:hover,
 .anchor:hover .black\:hover {
@@ -5282,6 +5288,12 @@ hr {
 .bg\:hover:hover,
 .anchor:hover .bg\:hover {
   background-color: var(--bg-color);
+}
+
+.bg-color,
+.bg-color\:hover:hover,
+.anchor:hover .bg-color\:hover {
+  background-color: var(--color);
 }
 
 .bg-black,

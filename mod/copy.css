@@ -1,21 +1,13 @@
 .copy {
-  --space-primary:   1.5em;
-  --space-secondary: 0.5em;
-  & > :first-child {
-    margin-top: 0;
+  --space:         2em;
+  --space-heading: var(--space);
+  & > :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
+    margin-top: var(--space-heading);
   }
-  & > :last-child {
-    margin-bottom: 0;
+  & > :is(p, ul, ol, dl, pre, figure, blockquote):not(:first-child) {
+    margin-top: var(--space);
   }
-  & > p {
-    margin-top: var(--space-secondary);
-    margin-bottom: var(--space-primary);
-  }
-  & > :is(h1, h2, h3, h4, h5, h6) {
-    margin-top: var(--space-primary);
-  }
-  & > :is(ul, ol, dl, pre, figure, blockquote) {
-    margin-top: var(--space-primary);
-    margin-bottom: var(--space-primary);
+  & > :is(p, ul, ol, dl, pre, figure, blockquote):not(:last-child) {
+    margin-bottom: var(--space);
   }
 }

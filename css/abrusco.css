@@ -288,30 +288,20 @@ hr {
 }
 
 .copy {
-  --space-primary: 1.5em;
-  --space-secondary: 0.5em;
+  --space: 2em;
+  --space-heading: var(--space);
 }
 
-.copy > :first-child {
-  margin-top: 0;
+.copy > :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
+  margin-top: var(--space-heading);
 }
 
-.copy > :last-child {
-  margin-bottom: 0;
+.copy > :is(p, ul, ol, dl, pre, figure, blockquote):not(:first-child) {
+  margin-top: var(--space);
 }
 
-.copy > p {
-  margin-top: var(--space-secondary);
-  margin-bottom: var(--space-primary);
-}
-
-.copy > :is(h1, h2, h3, h4, h5, h6) {
-  margin-top: var(--space-primary);
-}
-
-.copy > :is(ul, ol, dl, pre, figure, blockquote) {
-  margin-top: var(--space-primary);
-  margin-bottom: var(--space-primary);
+.copy > :is(p, ul, ol, dl, pre, figure, blockquote):not(:last-child) {
+  margin-bottom: var(--space);
 }
 
 .div {

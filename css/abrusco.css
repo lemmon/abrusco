@@ -2693,6 +2693,10 @@ hr {
   margin: 0;
 }
 
+.m0125 {
+  margin: 0.125rem;
+}
+
 .m025 {
   margin: 0.25rem;
 }
@@ -2701,12 +2705,32 @@ hr {
   margin: 0.5rem;
 }
 
+.m075 {
+  margin: 0.75rem;
+}
+
 .m1 {
   margin: 1rem;
 }
 
+.m125 {
+  margin: 1.25rem;
+}
+
+.m15 {
+  margin: 1.5rem;
+}
+
+.m175 {
+  margin: 1.75rem;
+}
+
 .m2 {
   margin: 2rem;
+}
+
+.m25 {
+  margin: 2.5rem;
 }
 
 .m3 {

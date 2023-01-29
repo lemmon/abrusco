@@ -289,19 +289,40 @@ hr {
 
 .copy {
   --space: 2em;
-  --space-heading: var(--space);
+  --space-above: var(--space);
+  --space-below: var(--space);
+  --space-heading-above: var(--space-above);
+  --space-heading-below: var(--space-below);
 }
 
-.copy > :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
-  margin-top: var(--space-heading);
+.copy > :first-child {
+  margin-top: 0;
 }
 
-.copy > :is(p, ul, ol, dl, pre, figure, blockquote, div):not(:first-child) {
-  margin-top: var(--space);
+.copy > :last-child {
+  margin-bottom: 0;
 }
 
-.copy > :is(p, ul, ol, dl, pre, figure, blockquote, div):not(:last-child) {
-  margin-bottom: var(--space);
+.copy > h1,
+.copy > h2,
+.copy > h3,
+.copy > h4,
+.copy > h5,
+.copy > h6 {
+  margin-top: var(--space-heading-above);
+  margin-top: var(--space-heading-below);
+}
+
+.copy > p,
+.copy > ul,
+.copy > ol,
+.copy > dl,
+.copy > pre,
+.copy > figure,
+.copy > blockquote,
+.copy > div {
+  margin-top: var(--space-above);
+  margin-bottom: var(--space-below);
 }
 
 .div {

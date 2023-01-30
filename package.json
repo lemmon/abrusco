@@ -9,7 +9,7 @@
     "reset-css": "^5.0.1"
   },
   "devDependencies": {
-    "prettier": "2.5.1"
+    "prettier": "~2.8.0"
   },
   "scripts": {
     "build:css": "abrusco index.css -o css/abrusco.css",

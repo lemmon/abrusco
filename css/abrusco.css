@@ -318,6 +318,7 @@ hr {
 .copy > ol,
 .copy > dl,
 .copy > pre,
+.copy > table,
 .copy > figure,
 .copy > blockquote,
 .copy > div {

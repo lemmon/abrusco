@@ -1,9 +1,6 @@
 .copy {
   --space: 2em;
-  --space-above: var(--space);
-  --space-below: var(--space);
-  --space-heading-above: var(--space-above);
-  --space-heading-below: var(--space-below);
+  --hspace: var(--space);
   & > :first-child {
     margin-top: 0;
   }
@@ -16,8 +13,7 @@
   & > h4,
   & > h5,
   & > h6 {
-    margin-top: var(--space-heading-above);
-    margin-top: var(--space-heading-below);
+    margin-top: var(--hspace);
   }
   & > p,
   & > ul,
@@ -28,7 +24,6 @@
   & > figure,
   & > blockquote,
   & > div {
-    margin-top: var(--space-above);
-    margin-bottom: var(--space-below);
+    margin-top: var(--space);
   }
 }

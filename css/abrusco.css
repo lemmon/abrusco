@@ -321,6 +321,30 @@ hr {
   margin-top: var(--space);
 }
 
+.copy h1 {
+  font-size: var(--h1);
+}
+
+.copy h2 {
+  font-size: var(--h2);
+}
+
+.copy h3 {
+  font-size: var(--h3);
+}
+
+.copy h4 {
+  font-size: var(--h4);
+}
+
+.copy h5 {
+  font-size: var(--h5);
+}
+
+.copy h6 {
+  font-size: var(--h6);
+}
+
 .div {
   --border-width: var(--default-border-width);
   --border-color: var(--default-border-color);

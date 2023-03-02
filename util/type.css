@@ -41,6 +41,8 @@
 .rlh4 { line-height: var(--rlh4); }
 .rlh5 { line-height: var(--rlh5); }
 .rlh6 { line-height: var(--rlh6); }
+.rlh7 { line-height: var(--rlh7); }
+.rlh8 { line-height: var(--rlh8); }
 
 .lsh { letter-spacing: var(--lsh); }
 .lsd { letter-spacing: var(--lsd); }
@@ -145,6 +147,8 @@
   .sd\:rlh4 { line-height: var(--rlh4); }
   .sd\:rlh5 { line-height: var(--rlh5); }
   .sd\:rlh6 { line-height: var(--rlh6); }
+  .sd\:rlh7 { line-height: var(--rlh7); }
+  .sd\:rlh8 { line-height: var(--rlh8); }
 
 }
 
@@ -188,6 +192,8 @@
   .md\:rlh4 { line-height: var(--rlh4); }
   .md\:rlh5 { line-height: var(--rlh5); }
   .md\:rlh6 { line-height: var(--rlh6); }
+  .md\:rlh7 { line-height: var(--rlh7); }
+  .md\:rlh8 { line-height: var(--rlh8); }
 
 }
 
@@ -231,5 +237,7 @@
   .ld\:rlh4 { line-height: var(--rlh4); }
   .ld\:rlh5 { line-height: var(--rlh5); }
   .ld\:rlh6 { line-height: var(--rlh6); }
+  .ld\:rlh7 { line-height: var(--rlh7); }
+  .ld\:rlh8 { line-height: var(--rlh8); }
 
 }

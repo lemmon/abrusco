@@ -1,5 +1,13 @@
 # 0.24.0 (2023-??-??)
 
+  * (type) add rlh7, rlh8
+  * (type) update rlh variables (revert from 0.19.0 update), rlh inline with lh
+    rlh1 -> rlh2
+    rlh2 -> rlh4
+    rlh3 -> rlh5
+    rlh4 -> rlh6
+    rlh5 -> rlh7
+    rlh6 -> rlh8
   * (copy) update spacing
     https://github.com/lemmon/abrusco/commit/16252a5f9c3973ecc603d91bd21c43db020cfc2a
   * (copy) move --copy-space to :root
@@ -45,6 +53,7 @@
   * (border) br to border-radius
   * (type) update rlh variables
     https://github.com/lemmon/abrusco/commit/f1895f0d02dea6cbeb8fbf3c6c2c96606fd9115b
+    (reverted back in 0.24.0 update)
     rlh1 -> n/a
     rlh2 -> rlh1
     rlh3 -> n/a

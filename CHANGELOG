@@ -2,6 +2,7 @@
 
   * (type) add rlh7, rlh8
   * (type) update rlh variables (revert from 0.19.0 update), rlh inline with lh
+    https://github.com/lemmon/abrusco/commit/e44697c281f4f277583742a6aabd1cfa9f600074
     rlh1 -> rlh2
     rlh2 -> rlh4
     rlh3 -> rlh5

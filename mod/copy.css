@@ -1,6 +1,8 @@
+:root {
+  --copy-space: 2em;
+}
+
 .copy {
-  --space: 2em;
-  --hspace: var(--space);
   & > :first-child {
     margin-top: 0;
   }
@@ -13,7 +15,7 @@
   & > h4,
   & > h5,
   & > h6 {
-    margin-top: var(--hspace);
+    margin-top: var(--copy-space);
   }
   & > p,
   & > ul,
@@ -24,7 +26,8 @@
   & > figure,
   & > blockquote,
   & > div {
-    margin-top: var(--space);
+    margin-top: var(--copy-space);
+    margin-bottom: var(--copy-space);
   }
   & h1 {
     font-size: var(--h1);

@@ -277,6 +277,7 @@ html {
 
 a {
   color: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   background-color: transparent;
   outline: 0;
@@ -287,9 +288,8 @@ hr {
   border: 0;
 }
 
-.copy {
-  --space: 2em;
-  --hspace: var(--space);
+:root {
+  --copy-space: 2em;
 }
 
 .copy > :first-child {
@@ -306,7 +306,7 @@ hr {
 .copy > h4,
 .copy > h5,
 .copy > h6 {
-  margin-top: var(--hspace);
+  margin-top: var(--copy-space);
 }
 
 .copy > p,
@@ -318,7 +318,8 @@ hr {
 .copy > figure,
 .copy > blockquote,
 .copy > div {
-  margin-top: var(--space);
+  margin-top: var(--copy-space);
+  margin-bottom: var(--copy-space);
 }
 
 .copy h1 {
@@ -591,6 +592,7 @@ hr {
 .ul,
 .ul\:hover:hover,
 .anchor:hover .ul\:hover {
+  -webkit-text-decoration: underline;
   text-decoration: underline;
   text-decoration-color: var(--text-decoration-color);
   text-decoration-thickness: var(--text-decoration-thickness);
@@ -598,10 +600,12 @@ hr {
 }
 
 .ol {
+  -webkit-text-decoration: overline;
   text-decoration: overline;
 }
 
 .lt {
+  -webkit-text-decoration: line-through;
   text-decoration: line-through;
 }
 

@@ -1,7 +1,8 @@
 # 0.24.0 (2023-??-??)
 
   * (copy) update spacing
-    https://github.com/lemmon/abrusco/commit/6d57138f90c5f12343fe06aa31e826243491f6dc
+    https://github.com/lemmon/abrusco/commit/16252a5f9c3973ecc603d91bd21c43db020cfc2a
+  * (copy) move --copy-space to :root
   * (copy) add table
   * (copy) h1-h6 font-size
   * (margin) add more margins

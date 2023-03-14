@@ -620,8 +620,8 @@ hr {
 }
 
 .tabnums {
+  font-feature-settings: "tnum";
   font-variant-numeric: tabular-nums;
-  font-feature-settings: inherit, "tnum";
 }
 
 .va-inherit {

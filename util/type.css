@@ -75,7 +75,6 @@
 
 .tabnums {
   font-variant-numeric: tabular-nums;
-  font-feature-settings: inherit;
 }
 
 .va-inherit  { vertical-align: inherit; }

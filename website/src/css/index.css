@@ -1,0 +1,46 @@
+@import 'abrusco/base';
+@import 'abrusco/modules';
+
+@import 'copy.css';
+
+@import 'abrusco/util/type';
+@import 'abrusco/util/visibility';
+@import 'abrusco/util/overflow';
+@import 'abrusco/util/position';
+@import 'abrusco/util/grid';
+@import 'abrusco/util/margin';
+@import 'abrusco/util/padding';
+@import 'abrusco/util/border';
+@import 'abrusco/util/color';
+/* purgecss start ignore */
+@import 'abrusco/util/background';
+/* purgecss end ignore */
+@import 'abrusco/util/cursor';
+
+@import 'abrusco/debug';
+
+:root {
+  --text-decoration-thickness: 1px;
+  --border-width: 2px;
+}
+
+.button {
+  display: block;
+}
+
+.button__label {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.button--outlined:hover,
+.button--outlined:focus {
+  background-color: currentColor;
+}
+
+.button--outlined:not(:hover):not(:focus) .button__label {
+  color: inherit;
+}

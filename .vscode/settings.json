@@ -1,6 +1,12 @@
 {
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.vercel": true,
+    "**/.svelte-kit": true,
+    "**/package-lock.json": true,
+    "**/node_modules": true
+  },
   "search.exclude": {
-    "**/css/**": true
+    "packages/abrusco/css/**": true
   }
 }

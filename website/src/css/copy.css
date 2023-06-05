@@ -1,0 +1,88 @@
+/* purgecss start ignore */
+
+.copy {
+  --space-primary: 2rem;
+  --space-secondary: 2rem;
+}
+
+.copy > h2 {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  font-size: 2em;
+  line-height: var(--lh1);
+  letter-spacing: var(--lsh);
+}
+
+.copy > h3 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-size: 1.5em;
+  line-height: var(--lh1);
+  letter-spacing: var(--lsh);
+}
+
+.copy a {
+  text-decoration: underline;
+  text-decoration-style: var(--text-decoration-style, solid);
+  text-decoration-thickness: var(--text-decoration-thickness);
+  text-underline-offset: 2px;
+}
+
+.copy em {
+  font-style: italic;
+}
+
+.copy figcaption {
+  margin-top: var(--space-secondary);
+  font-family: var(--serif-font-family);
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.copy pre {
+  font-family: var(--code-font-family);
+  font-size: 14px;
+  line-height: 20px;
+  white-space: pre-wrap;
+  background-color: hsl(340 20% 30% / 5%);
+  padding: 1rem 2ch;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+.code:not(.lang-plain) .token--nam {
+  /* words */
+  /* color: #f26c0d; */
+}
+
+.code:not(.lang-plain) .token--num {
+  /* numbers */
+  color: #b8144b;
+}
+
+.code:not(.lang-plain) .token--str {
+  /* strings */
+  /* color: #195ee6; */
+}
+
+.code:not(.lang-plain) .token--rex {
+  /* regular expressions */
+  color: #b8144b;
+}
+
+.code:not(.lang-plain) .token--pct {
+  /* operators, punctation */
+  color: #888;
+}
+
+.code:not(.lang-plain) .token--key {
+  /* keywords */
+  color: #b8144b;
+}
+
+.code:not(.lang-plain) .token--com {
+  /* comments */
+  color: #888;
+}
+
+/* purgecss end ignore */

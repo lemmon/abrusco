@@ -1,0 +1,140 @@
+<script>
+import Logo from '$lib/Logo.svg.svelte'
+</script>
+
+## Getting Started
+
+```shell
+npm install abrusco --save-dev
+```
+
+Or use the [CDN Link](https://unpkg.com/abrusco/css/abrusco.min.css).
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/abrusco/css/abrusco.min.css">
+```
+
+*Please note that this link always points to the most recent version. It is better practice to either point to the exact version, download the library to your server, or build your custom configuration.*
+
+## Hacking Abrusco
+
+Many of the properties are set up as [CSS custom variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables). This is the secret sauce that allows abrusco to be your own library. Change colors and typography to align with your branding or change responsivity breakpoints that work for you. Low specificity selectors don't override your cascade. You can use full library or take only the parts that you want.
+
+```css
+.h1 { font-size: var(--h1); }
+.h2 { font-size: var(--h2); }
+.h3 { font-size: var(--h3); }
+.h4 { font-size: var(--h4); }
+.h5 { font-size: var(--h5); }
+.h6 { font-size: var(--h6); }
+
+:root {
+  --h1: 2.5rem;
+  --h2: 2.0rem;
+  --h3: 1.5rem;
+  --h4: 1.25rem;
+  --h5: 1.125rem;
+  --h6: 1.0625rem;
+}
+```
+
+*Example of typography headings scale.*
+
+## Customize
+
+If you wish to extend the library or create your own custom build -- you can do that; either with [postcss](https://postcss.org/) builder or the abrusco's command-line interface. There were no special plugins made for this library. Abrusco is trying to be as much standards compliant as possible.
+
+### CLI
+
+```shell
+npm install abrusco-cli
+```
+
+Depending on your preference, you can do either local or global install.
+
+```plain
+$ abrusco --help
+
+  CLI for Abrusco CSS.
+
+  Usage
+    $ abrusco <input.css>
+
+  Options
+    -o, --output Output file
+    -m, --minify Minify the output stylesheet
+    -w, --watch  Watch CSS source directory for changes
+    --novars     Do not preserve Custom Properties
+
+  Example
+    $ abrusco src/master.css -o dist/bundle.css
+    $ abrusco src/master.css -o dist/bundle.css --minify
+    $ abrusco src/master.css -o dist/bundle.css --watch
+```
+
+### Main Structure
+
+Start quickly, adjust as you grow.
+
+```css
+@import 'abrusco';
+
+/*
+
+  There you go!
+  ...you can add your own styles here
+  ...and overwrite abrusco's internal variables
+
+*/
+```
+
+or
+
+```css
+@import 'abrusco/base';
+@import 'abrusco/modules';
+
+/*
+
+  Best place to add your own components that
+  can be adjusted with the utility classes.
+
+*/
+
+@import 'abrusco/utils';
+@import 'abrusco/debug';
+
+/*
+
+  More utilities or styles of your own can be
+  placed here.
+
+*/
+```
+
+or
+
+```css
+@import 'reset-css';
+@import 'abrusco/variables';
+@import 'abrusco/normalize';
+@import 'abrusco/mod/copy';
+@import 'abrusco/mod/div';
+@import 'abrusco/mod/ellipsis';
+@import 'abrusco/mod/fit';
+@import 'abrusco/mod/inset';
+@import 'abrusco/util/type';
+@import 'abrusco/util/visibility';
+@import 'abrusco/util/overflow';
+@import 'abrusco/util/position';
+@import 'abrusco/util/grid';
+@import 'abrusco/util/margin';
+@import 'abrusco/util/padding';
+@import 'abrusco/util/border';
+@import 'abrusco/util/color';
+@import 'abrusco/util/background';
+@import 'abrusco/util/cursor';
+@import 'abrusco/debug';
+```
+
+Either grab them all or use only what you need. Don't let any framework force anything on you. Do your own thing. No special configuration files, no new language to learn. It's just CSS.

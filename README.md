@@ -1,40 +1,14 @@
 # Abrusco
 
-Hackable & Functional CSS toolbox. <https://abrusco.com>
+Utility-first CSS library that is not trying to be everything. Just a simple set of tools that you always bring with you. Responsive, lightweight, and customizable at its core.
 
-[![npm version](https://badge.fury.io/js/abrusco.svg)](https://badge.fury.io/js/abrusco)
+### Packages
 
-## Install
-
-```sh
-npm install abrusco --save-dev
-```
-
-### Use the CDN
-
-```html
-<link rel="stylesheet" href="https://unpkg.com/abrusco@0.24.1/css/abrusco.min.css">
-```
-
-## Features
-
-* Mobile first and responsive
-* Reusable and hackable
-* Functional
-* Works with plain html or framework of your choice
-* Built with Postcss
-* Inspired by Tachyons and Basscss
-
-## CLI
-
-To use CLI and to create your own Abrusco build install [`abrusco-cli`](https://github.com/lemmon/abrusco-cli) package.
-
-## Related
-
-- [`abrusco-cli`](https://github.com/lemmon/abrusco-cli)
-- [`tachyons`](https://github.com/tachyons-css/tachyons)
-- [`basscss`](https://github.com/basscss/basscss)
+| Package                             | Changelog                                      |
+| ----------------------------------- | ---------------------------------------------- |
+| [abrusco](packages/abrusco)         | [Changelog](packages/abrusco/CHANGELOG.md)     |
+| [abrusco-cli](packages/abrusco-cli) | [Changelog](packages/abrusco-cli/CHANGELOG.md) |
 
 ## License
 
-MIT
+[MIT](https://github.com/lemmon/abrusco/blob/master/LICENSE)

@@ -32,10 +32,8 @@
   "homepage": "https://abrusco.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lemmon/abrusco.git"
-  },
-  "bugs": {
-    "url": "https://github.com/lemmon/abrusco/issues"
+    "url": "https://github.com/lemmon/abrusco",
+    "directory": "packages/abrusco"
   },
   "keywords": [
     "css",

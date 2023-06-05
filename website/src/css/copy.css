@@ -1,8 +1,7 @@
 /* purgecss start ignore */
 
-.copy {
-  --space-primary: 2rem;
-  --space-secondary: 2rem;
+:root {
+  --copy-space: 2rem;
 }
 
 .copy > h2 {
@@ -33,7 +32,7 @@
 }
 
 .copy figcaption {
-  margin-top: var(--space-secondary);
+  margin-top: var(--copy-space);
   font-family: var(--serif-font-family);
   font-style: italic;
   opacity: 0.8;

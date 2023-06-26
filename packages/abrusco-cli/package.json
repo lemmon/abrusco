@@ -15,7 +15,7 @@
     "cssnano": "~5.1.0",
     "file-exists": "~5.0.0",
     "is-directory": "~0.3.0",
-    "meow": "~9.0.0",
+    "meow": "~12.0.1",
     "postcss": "~8.4.0",
     "postcss-assets": "~6.0.0",
     "postcss-discard-comments": "~5.1.0",

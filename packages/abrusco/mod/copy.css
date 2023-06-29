@@ -25,6 +25,8 @@
   & > table,
   & > figure,
   & > blockquote,
+  & > aside,
+  & > nav,
   & > div {
     margin-top: var(--copy-space);
     margin-bottom: var(--copy-space);

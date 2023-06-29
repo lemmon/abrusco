@@ -319,6 +319,8 @@ hr {
 .copy > table,
 .copy > figure,
 .copy > blockquote,
+.copy > aside,
+.copy > nav,
 .copy > div {
   margin-top: var(--copy-space);
   margin-bottom: var(--copy-space);

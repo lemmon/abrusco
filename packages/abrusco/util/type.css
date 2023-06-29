@@ -104,6 +104,43 @@
   .xs\:ar { text-align: right; }
   .xs\:ac { text-align: center; }
 
+  .xs\:h1 { font-size: var(--h1); }
+  .xs\:h2 { font-size: var(--h2); }
+  .xs\:h3 { font-size: var(--h3); }
+  .xs\:h4 { font-size: var(--h4); }
+  .xs\:h5 { font-size: var(--h5); }
+  .xs\:h6 { font-size: var(--h6); }
+
+  .xs\:d1 { font-size: var(--d1); }
+  .xs\:d2 { font-size: var(--d2); }
+  .xs\:d3 { font-size: var(--d3); }
+  .xs\:d4 { font-size: var(--d4); }
+  .xs\:d5 { font-size: var(--d5); }
+
+  .xs\:f0 { font-size: var(--f0); }
+  .xs\:f1 { font-size: var(--f1); }
+  .xs\:f2 { font-size: var(--f2); }
+  .xs\:f3 { font-size: var(--f3); }
+  .xs\:f4 { font-size: var(--f4); }
+
+  .xs\:lh0 { line-height: var(--lh0); }
+  .xs\:lh1 { line-height: var(--lh1); }
+  .xs\:lh2 { line-height: var(--lh2); }
+  .xs\:lh3 { line-height: var(--lh3); }
+  .xs\:lh4 { line-height: var(--lh4); }
+  .xs\:lh5 { line-height: var(--lh5); }
+  .xs\:lh6 { line-height: var(--lh6); }
+
+  .xs\:rlh0 { line-height: var(--rlh0); }
+  .xs\:rlh1 { line-height: var(--rlh1); }
+  .xs\:rlh2 { line-height: var(--rlh2); }
+  .xs\:rlh3 { line-height: var(--rlh3); }
+  .xs\:rlh4 { line-height: var(--rlh4); }
+  .xs\:rlh5 { line-height: var(--rlh5); }
+  .xs\:rlh6 { line-height: var(--rlh6); }
+  .xs\:rlh7 { line-height: var(--rlh7); }
+  .xs\:rlh8 { line-height: var(--rlh8); }
+
 }
 
 @media (--view-sd) {

@@ -1179,32 +1179,64 @@ hr {
   opacity: 0.9;
 }
 
+.o85 {
+  opacity: 0.85;
+}
+
 .o80 {
   opacity: 0.8;
+}
+
+.o75 {
+  opacity: 0.75;
 }
 
 .o70 {
   opacity: 0.7;
 }
 
+.o65 {
+  opacity: 0.65;
+}
+
 .o60 {
   opacity: 0.6;
+}
+
+.o55 {
+  opacity: 0.55;
 }
 
 .o50 {
   opacity: 0.5;
 }
 
+.o45 {
+  opacity: 0.45;
+}
+
 .o40 {
   opacity: 0.4;
+}
+
+.o35 {
+  opacity: 0.35;
 }
 
 .o30 {
   opacity: 0.3;
 }
 
+.o25 {
+  opacity: 0.25;
+}
+
 .o20 {
   opacity: 0.2;
+}
+
+.o15 {
+  opacity: 0.15;
 }
 
 .o10 {

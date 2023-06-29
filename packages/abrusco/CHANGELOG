@@ -2,6 +2,7 @@
 
   * (type) add xs: classes
   * (copy) add nav, aside
+  * (visibility) opacity steps by 5
 
 # 0.24.0 (2023-03-10)
 

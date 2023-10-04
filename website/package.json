@@ -9,7 +9,7 @@
     "cssnano": "~6.0.0",
     "lolight": "~1.4.0",
     "mdsvex": "~0.10.0",
-    "postcss": "~8.4.0",
+    "postcss": "~8.4.31",
     "postcss-apply-class": "^0.1.6",
     "postcss-import": "~15.1.0",
     "postcss-load-config": "~4.0.0",

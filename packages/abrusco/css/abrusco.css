@@ -196,6 +196,10 @@ table {
   --border-width2: 2px;
   --border-width3: 3px;
 
+  --outline-offset1: 1px;
+  --outline-offset2: 2px;
+  --outline-offset3: 3px;
+
   --border-radius1: 0.125rem;
   --border-radius2: 0.25rem;
   --border-radius3: 0.5rem;
@@ -4932,6 +4936,22 @@ hr {
 .border-radius100,
 .border-radius999 {
   border-radius: var(--border-radius);
+}
+
+.outline {
+  outline: var(--outline-width, var(--border-width)) var(--outline-style, var(--border-style)) var(--outline-color, var(--border-color));
+}
+
+.outline-offset1 {
+  outline-offset: var(--outline-offset1);
+}
+
+.outline-offset2 {
+  outline-offset: var(--outline-offset2);
+}
+
+.outline-offset3 {
+  outline-offset: var(--outline-offset3);
 }
 
 .color-current,

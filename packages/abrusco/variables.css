@@ -60,6 +60,10 @@
   --border-width2: 2px;
   --border-width3: 3px;
 
+  --outline-offset1: 1px;
+  --outline-offset2: 2px;
+  --outline-offset3: 3px;
+
   --border-radius1: 0.125rem;  /*  2 */
   --border-radius2: 0.25rem;   /*  4 */
   --border-radius3: 0.5rem;    /*  8 */

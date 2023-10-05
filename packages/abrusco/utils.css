@@ -6,6 +6,7 @@
 @import './util/margin';
 @import './util/padding';
 @import './util/border';
+@import './util/outline';
 @import './util/color';
 @import './util/background';
 @import './util/cursor';

@@ -1,0 +1,11 @@
+.outline {
+  outline:
+    var(--outline-width, var(--border-width))
+    var(--outline-style, var(--border-style))
+    var(--outline-color, var(--border-color))
+  ;
+}
+
+.outline-offset1 { outline-offset: var(--outline-offset1); }
+.outline-offset2 { outline-offset: var(--outline-offset2); }
+.outline-offset3 { outline-offset: var(--outline-offset3); }

@@ -1,20 +1,13 @@
 :root {
 
-  --default-font-size: 16px;
-  --default-font-family: var(--sansserif-font-family);
-  --default-bg-color: var(--white, hsl(var(--white-hue) var(--white-sat) var(--white-lum)));
-  --default-color: var(--black, hsl(var(--black-hue) var(--black-sat) var(--black-lum)));
-  --default-border-width: 1px;
-  --default-border-style: solid;
-  --default-border-color: currentColor;
+  --font-size: 16px;
+  --font-family: var(--sansserif-font-family);
+  --bg-color: var(--white, hsl(var(--white-hue) var(--white-sat) var(--white-lum)));
+  --color: var(--black, hsl(var(--black-hue) var(--black-sat) var(--black-lum)));
+  --border-width: 1px;
+  --border-style: solid;
+  --border-color: currentColor;
 
-  --font-size: var(--default-font-size);
-  --font-family: var(--default-font-family);
-  --bg-color: var(--default-bg-color);
-  --color: var(--default-color);
-  --border-width: var(--default-border-width);
-  --border-style: var(--default-border-style);
-  --border-color: var(--default-border-color);
   --text-decoration-color: currentColor;
   --text-decoration-thickness: auto;
   --text-underline-offset: auto;

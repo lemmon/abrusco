@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../packages/abrusco/css/abrusco.css" />
+    <style>
+      :root {
+        --bg-color: yellow;
+      }
+      #el__5x5 {
+        --black: #f00;
+      }
+    </style>
+  </head>
+  <body class="minvh col bg-orange">
+    <div id="app" class="ma p1"></div>
+
+    <script>
+      for (y = 0; y <= 10; y++) {
+        const row = h('div', {
+          class: 'row',
+        })
+        for (x = 0; x <= 10; x++) {
+          const el = h(
+            'div',
+            {
+              id: `el__${x}x${y}`,
+              class: `bg-black bg-alpha${x * 10} bg-lum${y * 10}`,
+            },
+            'X!'
+          )
+          row.appendChild(el)
+        }
+        app.appendChild(row)
+      }
+
+      function h(node, props, ...children) {
+        // props
+        const { class: $class, style: $style, ...$props } = props || {}
+        // create element
+        const el = document.createElement(node)
+        if (!el) return
+        // class
+        if ($class) {
+          el.classList.add(...(Array.isArray($class) ? $class.filter((x) => !!x) : $class.trim().split(/\s+/)))
+        }
+        // style
+        if (typeof $style === 'string') {
+          el.style = $style
+        } else if ($style) {
+          Object.assign(el.style, $style)
+        }
+        // props
+        if ($props) {
+          Object.entries($props).forEach(([key, val]) => {
+            if (key.charAt(0) === '$') {
+              el[key.substr(1)] = val
+            } else if (key.substr(0, 2) === 'on') {
+              el[key] = val
+            } else if (typeof val === 'boolean') {
+              el.toggleAttribute(key, val)
+            } else if (val && typeof val !== 'object' && typeof val !== 'function') {
+              el.setAttribute(key, val)
+            }
+          })
+        }
+        // children
+        children.flat().forEach((child) => {
+          if (!child && typeof child !== 'number') return
+          el.appendChild(typeof child === 'object' ? child : document.createTextNode(child))
+        })
+        // return element
+        return el
+      }
+    </script>
+  </body>
+</html>

@@ -21,7 +21,7 @@
     "readme": "npm run readme:update && npm run readme:cleanup",
     "version": "npm run build && npm run readme && git add -A css README.md",
     "postversion": "git push && git push --tags && npm publish",
-    "w": "abrusco index.css -o css/abrusco.css --watch"
+    "dev": "abrusco index.css -o css/abrusco.css --watch"
   },
   "files": [
     "css",

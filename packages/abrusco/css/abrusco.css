@@ -2935,6 +2935,11 @@ hr {
   margin-right: 0;
 }
 
+.mx0125 {
+  margin-left: 0.125rem;
+  margin-right: 0.125rem;
+}
+
 .mx025 {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
@@ -2943,6 +2948,11 @@ hr {
 .mx05 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+}
+
+.mx075 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .mx1 {
@@ -2965,6 +2975,11 @@ hr {
   margin-bottom: 0;
 }
 
+.my0125 {
+  margin-top: 0.125rem;
+  margin-bottom: 0.125rem;
+}
+
 .my025 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
@@ -2973,6 +2988,11 @@ hr {
 .my05 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.my075 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .my1 {

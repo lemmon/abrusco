@@ -140,7 +140,7 @@ table {
   --font-family: var(--sansserif-font-family);
   --bg-color: var(--white, hsl(var(--white-hue) var(--white-sat) var(--white-lum)));
   --color: var(--black, hsl(var(--black-hue) var(--black-sat) var(--black-lum)));
-  --border-width: 1px;
+  --border-width: var(--border-width1);
   --border-style: solid;
   --border-color: currentColor;
 
@@ -191,6 +191,10 @@ table {
 
   --lsh: -0.025em;
   --lsd: -0.05em;
+
+  --border-width1: 1px;
+  --border-width2: 2px;
+  --border-width3: 3px;
 
   --border-radius1: 0.125rem;
   --border-radius2: 0.25rem;
@@ -4580,6 +4584,18 @@ hr {
 
 .border-bottom {
   border-bottom: var(--border-width) var(--border-style) var(--border-color);
+}
+
+.border-width1 {
+  --border-width: var(--border-width1);
+}
+
+.border-width2 {
+  --border-width: var(--border-width2);
+}
+
+.border-width3 {
+  --border-width: var(--border-width3);
 }
 
 .border-solid {

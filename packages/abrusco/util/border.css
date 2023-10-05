@@ -4,6 +4,10 @@
 .border-top    { border-top:    var(--border-width) var(--border-style) var(--border-color); }
 .border-bottom { border-bottom: var(--border-width) var(--border-style) var(--border-color); }
 
+.border-width1 { --border-width: var(--border-width1); }
+.border-width2 { --border-width: var(--border-width2); }
+.border-width3 { --border-width: var(--border-width3); }
+
 .border-solid  { --border-style: solid; }
 .border-dotted { --border-style: dotted; }
 .border-dashed { --border-style: dashed; }

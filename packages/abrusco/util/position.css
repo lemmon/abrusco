@@ -8,6 +8,11 @@
 .top    { top:    0; }
 .bottom { bottom: 0; }
 
+.left100   { left:   100%; }
+.right100  { right:  100%; }
+.top100    { top:    100%; }
+.bottom100 { bottom: 100%; }
+
 .z0    { z-index: 0;    }
 .z1    { z-index: 1;    }
 .z2    { z-index: 2;    }

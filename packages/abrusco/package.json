@@ -20,7 +20,7 @@
     "readme:cleanup": "find . -type f -name '*.*~previous' | xargs rm",
     "readme": "npm run readme:update && npm run readme:cleanup",
     "version": "npm run build && npm run readme && git add -A css README.md",
-    "postversion": "git push && git push --tags && npm publish",
+    "postversion": "git push && git push --tags",
     "dev": "abrusco index.css -o css/abrusco.css --watch"
   },
   "files": [

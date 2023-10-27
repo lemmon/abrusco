@@ -1,7 +1,7 @@
 {
   "name": "abrusco-cli",
   "description": "CLI for Abrusco CSS.",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "author": "lemmon",
   "license": "MIT",
   "main": "index.js",

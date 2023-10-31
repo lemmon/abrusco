@@ -64,10 +64,19 @@
 .ul,
 .ul\:hover:hover,
 .anchor:hover .ul\:hover {
-  text-decoration: underline;
-  text-decoration-color:     var(--text-decoration-color);
-  text-decoration-thickness: var(--text-decoration-thickness);
-  text-underline-offset:     var(--text-underline-offset);
+  text-decoration: var(--underline);
+}
+
+.ol,
+.ol\:hover:hover,
+.anchor:hover .ol\:hover {
+  text-decoration: var(--overline);
+}
+
+.lt,
+.lt\:hover:hover,
+.anchor:hover .lt\:hover {
+  text-decoration: var(--linethrough);
 }
 
 .ol { text-decoration: overline; }

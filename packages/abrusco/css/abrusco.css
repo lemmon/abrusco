@@ -144,9 +144,9 @@ table {
   --border-style: solid;
   --border-color: currentColor;
 
-  --text-decoration-color: currentColor;
-  --text-decoration-thickness: auto;
-  --text-underline-offset: auto;
+  --underline: underline;
+  --overline: overline;
+  --linethrough: line-through;
 
   --serif-font-family: Georgia, 'Times New Roman', serif;
   --sansserif-font-family: system-ui;
@@ -602,11 +602,22 @@ hr {
 .ul,
 .ul\:hover:hover,
 .anchor:hover .ul\:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-  text-decoration-color: var(--text-decoration-color);
-  text-decoration-thickness: var(--text-decoration-thickness);
-  text-underline-offset: var(--text-underline-offset);
+  -webkit-text-decoration: var(--underline);
+  text-decoration: var(--underline);
+}
+
+.ol,
+.ol\:hover:hover,
+.anchor:hover .ol\:hover {
+  -webkit-text-decoration: var(--overline);
+  text-decoration: var(--overline);
+}
+
+.lt,
+.lt\:hover:hover,
+.anchor:hover .lt\:hover {
+  -webkit-text-decoration: var(--linethrough);
+  text-decoration: var(--linethrough);
 }
 
 .ol {

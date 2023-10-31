@@ -8,9 +8,9 @@
   --border-style: solid;
   --border-color: currentColor;
 
-  --text-decoration-color: currentColor;
-  --text-decoration-thickness: auto;
-  --text-underline-offset: auto;
+  --underline:   underline;
+  --overline:    overline;
+  --linethrough: line-through;
 
   --serif-font-family: Georgia, 'Times New Roman', serif;
   --sansserif-font-family: system-ui;

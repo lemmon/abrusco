@@ -21,10 +21,7 @@
 }
 
 .copy a {
-  text-decoration: underline;
-  text-decoration-style: var(--text-decoration-style, solid);
-  text-decoration-thickness: var(--text-decoration-thickness);
-  text-underline-offset: 2px;
+  text-decoration: var(--underline);
 }
 
 .copy em {

@@ -22,8 +22,10 @@
 :root {
   --code-font-family: JetBrains Mono, JetBrainsMono, Menlo, Consolas, Monaco, Lucida Console, monospace;
 
-  --text-decoration-thickness: 1px;
+  --underline: underline 1px;
   --border-width: 2px;
+
+  text-underline-offset: 2px;
 }
 
 .button {

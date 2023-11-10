@@ -1,7 +1,7 @@
 {
   "name": "abrusco",
   "description": "Hackable & Functional CSS toolbox.",
-  "version": "0.25.0",
+  "version": "0.26.0",
   "author": "lemmon",
   "license": "MIT",
   "style": "index.css",
@@ -19,7 +19,7 @@
     "readme:update": "sed -i ~previous -E 's/@[0-9]+\\.[0-9]+\\.[0-9]+/@'$npm_package_version'/g' README.md",
     "readme:cleanup": "find . -type f -name '*.*~previous' | xargs rm",
     "readme": "npm run readme:update && npm run readme:cleanup",
-    "version": "npm run build && npm run readme && git add -A css README.md",
+    "version": "npm run build && npm run readme && git add .",
     "postversion": "git push && git push --tags",
     "dev": "abrusco index.css -o css/abrusco.css --watch"
   },

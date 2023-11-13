@@ -1,9 +1,18 @@
-.block { display: block; }
-.inline { display: inline; }
+.block       { display: block;        }
+.inline      { display: inline;       }
 .inlineblock { display: inline-block; }
 
-.visible { visibility: visible; }
-.hidden { visibility: hidden; }
+.visible,
+.visible\:hover:hover,
+.anchor:hover .visible\:hover {
+  visibility: visible;
+}
+
+.hidden,
+.hidden\:hover:hover,
+.anchor:hover .hidden\:hover {
+  visibility: hidden;
+}
 
 .o100 { opacity: 1;    }
 .o95  { opacity: 0.95; }

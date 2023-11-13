@@ -1168,11 +1168,15 @@ hr {
   display: inline-block;
 }
 
-.visible {
+.visible,
+.visible\:hover:hover,
+.anchor:hover .visible\:hover {
   visibility: visible;
 }
 
-.hidden {
+.hidden,
+.hidden\:hover:hover,
+.anchor:hover .hidden\:hover {
   visibility: hidden;
 }
 

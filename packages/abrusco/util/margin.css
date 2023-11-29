@@ -19,6 +19,8 @@
 .mx05   { margin-left: 0.50rem;  margin-right: 0.50rem;  }
 .mx075  { margin-left: 0.75rem;  margin-right: 0.75rem;  }
 .mx1    { margin-left: 1.00rem;  margin-right: 1.00rem;  }
+.mx125  { margin-left: 1.25rem;  margin-right: 1.25rem;  }
+.mx15   { margin-left: 1.50rem;  margin-right: 1.50rem;  }
 .mx2    { margin-left: 2.00rem;  margin-right: 2.00rem;  }
 .mx     { margin-left: auto;     margin-right: auto;     }
 
@@ -28,29 +30,43 @@
 .my05   { margin-top: 0.50rem;  margin-bottom: 0.50rem;  }
 .my075  { margin-top: 0.75rem;  margin-bottom: 0.75rem;  }
 .my1    { margin-top: 1.00rem;  margin-bottom: 1.00rem;  }
+.my125  { margin-top: 1.25rem;  margin-bottom: 1.25rem;  }
+.my15   { margin-top: 1.50rem;  margin-bottom: 1.50rem;  }
 .my2    { margin-top: 2.00rem;  margin-bottom: 2.00rem;  }
 .my     { margin-top: auto;     margin-bottom: auto;     }
 
 .mt025  { margin-top: 0.25rem; }
 .mt05   { margin-top: 0.50rem; }
+.mt075  { margin-top: 0.75rem; }
 .mt1    { margin-top: 1.00rem; }
+.mt125  { margin-top: 1.25rem; }
+.mt15   { margin-top: 1.50rem; }
 .mt2    { margin-top: 2.00rem; }
 .mt     { margin-top: auto;    }
 
 .mb025  { margin-bottom: 0.25rem; }
 .mb05   { margin-bottom: 0.50rem; }
+.mb075  { margin-bottom: 0.75rem; }
 .mb1    { margin-bottom: 1.00rem; }
+.mb125  { margin-bottom: 1.25rem; }
+.mb15   { margin-bottom: 1.50rem; }
 .mb2    { margin-bottom: 2.00rem; }
 .mb     { margin-bottom: auto;    }
 
 .ml025  { margin-left: 0.25rem; }
 .ml05   { margin-left: 0.50rem; }
+.ml075  { margin-left: 0.75rem; }
 .ml1    { margin-left: 1.00rem; }
+.ml125  { margin-left: 1.25rem; }
+.ml15   { margin-left: 1.50rem; }
 .ml2    { margin-left: 2.00rem; }
 .ml     { margin-left: auto;    }
 
 .mr025  { margin-right: 0.25rem; }
 .mr05   { margin-right: 0.50rem; }
+.mr075  { margin-right: 0.75rem; }
 .mr1    { margin-right: 1.00rem; }
+.mr125  { margin-right: 1.25rem; }
+.mr15   { margin-right: 1.50rem; }
 .mr2    { margin-right: 2.00rem; }
 .mr     { margin-right: auto;    }

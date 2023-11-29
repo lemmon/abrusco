@@ -2,6 +2,7 @@
 
   * (visibility) visible, hidden hover states
   * (margin) more margins
+  * (grid) [dsl]vh100
 
 # 0.26.0 (2023-11-10)
 

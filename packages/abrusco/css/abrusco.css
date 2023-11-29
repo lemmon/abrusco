@@ -1668,6 +1668,18 @@ hr {
   height: 100vh;
 }
 
+.dvh100 {
+  height: 100dvh;
+}
+
+.svh100 {
+  height: 100svh;
+}
+
+.lvh100 {
+  height: 100lvh;
+}
+
 .minvw {
   min-width: 100vw;
 }

@@ -25,7 +25,7 @@
     "postcss-reporter": "~7.0.0"
   },
   "scripts": {
-    "version": "git add -A",
+    "version": "git add .",
     "postversion": "git push && git push --tags"
   },
   "homepage": "https://abrusco.com/",

@@ -16,7 +16,7 @@
     "postcss-preset-env": "~9.3.0",
     "svelte": "~4.2.0",
     "svelte-preprocess": "~5.0.0",
-    "vite": "~4.5.0"
+    "vite": "~4.5.1"
   },
   "scripts": {
     "dev": "vite dev",

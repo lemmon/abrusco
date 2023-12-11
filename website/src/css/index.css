@@ -1,7 +1,9 @@
 @import 'abrusco/base';
 @import 'abrusco/modules';
 
+/* purgecss start ignore */
 @import 'copy.css';
+/* purgecss end ignore */
 
 @import 'abrusco/util/type';
 @import 'abrusco/util/visibility';
@@ -19,6 +21,7 @@
 
 @import 'abrusco/debug';
 
+/* purgecss start ignore */
 :root {
   --code-font-family: JetBrains Mono, JetBrainsMono, Menlo, Consolas, Monaco, Lucida Console, monospace;
 
@@ -48,3 +51,4 @@
 .button--outlined:not(:hover):not(:focus) .button__label {
   color: inherit;
 }
+/* purgecss end ignore */

@@ -1,7 +1,3 @@
-<script>
-import Logo from '$lib/Logo.svg.svelte'
-</script>
-
 ## Getting Started
 
 ```shell

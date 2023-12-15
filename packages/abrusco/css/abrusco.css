@@ -5090,6 +5090,82 @@ hr {
   color: currentColor;
 }
 
+.color-current95 {
+  color: color-mix(in srgb, currentColor, transparent 5%);
+}
+
+.color-current90 {
+  color: color-mix(in srgb, currentColor, transparent 10%);
+}
+
+.color-current85 {
+  color: color-mix(in srgb, currentColor, transparent 15%);
+}
+
+.color-current80 {
+  color: color-mix(in srgb, currentColor, transparent 20%);
+}
+
+.color-current75 {
+  color: color-mix(in srgb, currentColor, transparent 25%);
+}
+
+.color-current70 {
+  color: color-mix(in srgb, currentColor, transparent 30%);
+}
+
+.color-current65 {
+  color: color-mix(in srgb, currentColor, transparent 35%);
+}
+
+.color-current60 {
+  color: color-mix(in srgb, currentColor, transparent 40%);
+}
+
+.color-current55 {
+  color: color-mix(in srgb, currentColor, transparent 45%);
+}
+
+.color-current50 {
+  color: color-mix(in srgb, currentColor, transparent 50%);
+}
+
+.color-current45 {
+  color: color-mix(in srgb, currentColor, transparent 55%);
+}
+
+.color-current40 {
+  color: color-mix(in srgb, currentColor, transparent 60%);
+}
+
+.color-current35 {
+  color: color-mix(in srgb, currentColor, transparent 65%);
+}
+
+.color-current30 {
+  color: color-mix(in srgb, currentColor, transparent 70%);
+}
+
+.color-current25 {
+  color: color-mix(in srgb, currentColor, transparent 75%);
+}
+
+.color-current20 {
+  color: color-mix(in srgb, currentColor, transparent 80%);
+}
+
+.color-current15 {
+  color: color-mix(in srgb, currentColor, transparent 85%);
+}
+
+.color-current10 {
+  color: color-mix(in srgb, currentColor, transparent 90%);
+}
+
+.color-current5 {
+  color: color-mix(in srgb, currentColor, transparent 95%);
+}
+
 .color-inherit,
 .color-inherit\:hover:hover,
 .anchor:hover .color-inherit\:hover {
@@ -5654,6 +5730,82 @@ hr {
 
 .bg-current {
   background-color: currentColor;
+}
+
+.bg-current95 {
+  background-color: color-mix(in srgb, currentColor, transparent 5%);
+}
+
+.bg-current90 {
+  background-color: color-mix(in srgb, currentColor, transparent 10%);
+}
+
+.bg-current85 {
+  background-color: color-mix(in srgb, currentColor, transparent 15%);
+}
+
+.bg-current80 {
+  background-color: color-mix(in srgb, currentColor, transparent 20%);
+}
+
+.bg-current75 {
+  background-color: color-mix(in srgb, currentColor, transparent 25%);
+}
+
+.bg-current70 {
+  background-color: color-mix(in srgb, currentColor, transparent 30%);
+}
+
+.bg-current65 {
+  background-color: color-mix(in srgb, currentColor, transparent 35%);
+}
+
+.bg-current60 {
+  background-color: color-mix(in srgb, currentColor, transparent 40%);
+}
+
+.bg-current55 {
+  background-color: color-mix(in srgb, currentColor, transparent 45%);
+}
+
+.bg-current50 {
+  background-color: color-mix(in srgb, currentColor, transparent 50%);
+}
+
+.bg-current45 {
+  background-color: color-mix(in srgb, currentColor, transparent 55%);
+}
+
+.bg-current40 {
+  background-color: color-mix(in srgb, currentColor, transparent 60%);
+}
+
+.bg-current35 {
+  background-color: color-mix(in srgb, currentColor, transparent 65%);
+}
+
+.bg-current30 {
+  background-color: color-mix(in srgb, currentColor, transparent 70%);
+}
+
+.bg-current25 {
+  background-color: color-mix(in srgb, currentColor, transparent 75%);
+}
+
+.bg-current20 {
+  background-color: color-mix(in srgb, currentColor, transparent 80%);
+}
+
+.bg-current15 {
+  background-color: color-mix(in srgb, currentColor, transparent 85%);
+}
+
+.bg-current10 {
+  background-color: color-mix(in srgb, currentColor, transparent 90%);
+}
+
+.bg-current5 {
+  background-color: color-mix(in srgb, currentColor, transparent 95%);
 }
 
 .bg-transparent,

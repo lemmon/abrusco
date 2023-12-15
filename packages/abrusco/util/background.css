@@ -1,23 +1,43 @@
-.bg-cover { background-size: cover; }
-.bg-contain { background-size: contain; }
+.bg-cover       { background-size: cover;            }
+.bg-contain     { background-size: contain;          }
 
-.bg-top { background-position: top; }
-.bg-bottom { background-position: bottom; }
-.bg-left { background-position: left; }
-.bg-right { background-position: right; }
-.bg-center { background-position: center; }
-.bg-topleft { background-position: top left; }
-.bg-topright { background-position: top right; }
-.bg-bottomleft { background-position: bottom left; }
+.bg-top         { background-position: top;          }
+.bg-bottom      { background-position: bottom;       }
+.bg-left        { background-position: left;         }
+.bg-right       { background-position: right;        }
+.bg-center      { background-position: center;       }
+.bg-topleft     { background-position: top left;     }
+.bg-topright    { background-position: top right;    }
+.bg-bottomleft  { background-position: bottom left;  }
 .bg-bottomright { background-position: bottom right; }
 
-.bg-repeatx { background-repeat: repeat-x; }
-.bg-repeaty { background-repeat: repeat-y; }
-.bg-norepeat { background-repeat: no-repeat; }
+.bg-repeatx     { background-repeat: repeat-x;       }
+.bg-repeaty     { background-repeat: repeat-y;       }
+.bg-norepeat    { background-repeat: no-repeat;      }
 
 .bg-current {
   background-color: currentColor;
 }
+
+.bg-current95 { background-color: color-mix(in srgb, currentColor, transparent  5%); }
+.bg-current90 { background-color: color-mix(in srgb, currentColor, transparent 10%); }
+.bg-current85 { background-color: color-mix(in srgb, currentColor, transparent 15%); }
+.bg-current80 { background-color: color-mix(in srgb, currentColor, transparent 20%); }
+.bg-current75 { background-color: color-mix(in srgb, currentColor, transparent 25%); }
+.bg-current70 { background-color: color-mix(in srgb, currentColor, transparent 30%); }
+.bg-current65 { background-color: color-mix(in srgb, currentColor, transparent 35%); }
+.bg-current60 { background-color: color-mix(in srgb, currentColor, transparent 40%); }
+.bg-current55 { background-color: color-mix(in srgb, currentColor, transparent 45%); }
+.bg-current50 { background-color: color-mix(in srgb, currentColor, transparent 50%); }
+.bg-current45 { background-color: color-mix(in srgb, currentColor, transparent 55%); }
+.bg-current40 { background-color: color-mix(in srgb, currentColor, transparent 60%); }
+.bg-current35 { background-color: color-mix(in srgb, currentColor, transparent 65%); }
+.bg-current30 { background-color: color-mix(in srgb, currentColor, transparent 70%); }
+.bg-current25 { background-color: color-mix(in srgb, currentColor, transparent 75%); }
+.bg-current20 { background-color: color-mix(in srgb, currentColor, transparent 80%); }
+.bg-current15 { background-color: color-mix(in srgb, currentColor, transparent 85%); }
+.bg-current10 { background-color: color-mix(in srgb, currentColor, transparent 90%); }
+.bg-current5  { background-color: color-mix(in srgb, currentColor, transparent 95%); }
 
 .bg-transparent,
 .bg-transparent\:hover:hover,

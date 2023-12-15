@@ -4,6 +4,26 @@
   color: currentColor;
 }
 
+.color-current95 { color: color-mix(in srgb, currentColor, transparent  5%); }
+.color-current90 { color: color-mix(in srgb, currentColor, transparent 10%); }
+.color-current85 { color: color-mix(in srgb, currentColor, transparent 15%); }
+.color-current80 { color: color-mix(in srgb, currentColor, transparent 20%); }
+.color-current75 { color: color-mix(in srgb, currentColor, transparent 25%); }
+.color-current70 { color: color-mix(in srgb, currentColor, transparent 30%); }
+.color-current65 { color: color-mix(in srgb, currentColor, transparent 35%); }
+.color-current60 { color: color-mix(in srgb, currentColor, transparent 40%); }
+.color-current55 { color: color-mix(in srgb, currentColor, transparent 45%); }
+.color-current50 { color: color-mix(in srgb, currentColor, transparent 50%); }
+.color-current45 { color: color-mix(in srgb, currentColor, transparent 55%); }
+.color-current40 { color: color-mix(in srgb, currentColor, transparent 60%); }
+.color-current35 { color: color-mix(in srgb, currentColor, transparent 65%); }
+.color-current30 { color: color-mix(in srgb, currentColor, transparent 70%); }
+.color-current25 { color: color-mix(in srgb, currentColor, transparent 75%); }
+.color-current20 { color: color-mix(in srgb, currentColor, transparent 80%); }
+.color-current15 { color: color-mix(in srgb, currentColor, transparent 85%); }
+.color-current10 { color: color-mix(in srgb, currentColor, transparent 90%); }
+.color-current5  { color: color-mix(in srgb, currentColor, transparent 95%); }
+
 .color-inherit,
 .color-inherit\:hover:hover,
 .anchor:hover .color-inherit\:hover {

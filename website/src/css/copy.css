@@ -35,8 +35,12 @@
   opacity: 0.8;
 }
 
-.copy pre {
+.copy pre,
+.copy code {
   font-family: var(--code-font-family);
+}
+
+.copy pre {
   font-size: 14px;
   line-height: 20px;
   white-space: pre-wrap;

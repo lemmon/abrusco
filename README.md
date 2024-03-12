@@ -1,6 +1,6 @@
 # Abrusco
 
-Utility-first CSS library that is not trying to be everything. Just a simple set of tools that you always bring with you. Responsive, lightweight, and customizable at its core.
+Utility-first CSS library that is not trying to be everything. Merely a set of tools that you always bring along. Responsive, lightweight, and customizable at its core.
 
 ### Packages
 

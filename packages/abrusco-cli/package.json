@@ -12,7 +12,7 @@
     "@fullhuman/postcss-purgecss": "~5.0.0",
     "chalk": "~4.1.0",
     "chokidar": "~3.5.0",
-    "cssnano": "~6.0.0",
+    "cssnano": "~6.1.0",
     "file-exists": "~5.0.0",
     "is-directory": "~0.3.0",
     "meow": "~9.0.0",
@@ -20,9 +20,9 @@
     "postcss-assets": "~6.0.0",
     "postcss-discard-comments": "~6.0.0",
     "postcss-discard-duplicates": "~6.0.0",
-    "postcss-import": "~15.1.0",
-    "postcss-preset-env": "~9.3.0",
-    "postcss-reporter": "~7.0.0"
+    "postcss-import": "~16.0.0",
+    "postcss-preset-env": "~9.5.0",
+    "postcss-reporter": "~7.1.0"
   },
   "scripts": {
     "version": "git add .",

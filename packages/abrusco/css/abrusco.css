@@ -631,6 +631,7 @@ hr {
 }
 
 .tabnums {
+  font-feature-settings: 'tnum';
   font-variant-numeric: tabular-nums;
 }
 
